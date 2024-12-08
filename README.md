@@ -122,7 +122,6 @@ Here’s an example of using both methods together:
 Feel free to fork the repository and submit pull requests. Feedback and suggestions are welcome!
 
 ---
-
 ### License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
