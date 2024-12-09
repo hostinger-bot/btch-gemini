@@ -7,7 +7,6 @@
  * - Retrieves the current project version from `package.json` to use in the version check.
  */
 
-const Api = require('./src/Api');
 const { versionControl } = require('./version');
 const version = require("./package.json").version; 
 versionControl(version);
