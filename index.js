@@ -9,7 +9,6 @@
 
 const { versionControl } = require('./version');
 const version = require("./package.json").version; 
-versionControl(version);
 
 module.exports = {
     gemini_chat: require('./src/main').gemini_chat,
