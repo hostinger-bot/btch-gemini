@@ -31,11 +31,6 @@
         "test": "test"
     },
     "devDependencies": {},
-    "files": [
-        "index.js",
-        "README.md",
-        "test"
-    ],
     "publishConfig": {
         "registry": "https://registry.npmjs.org/"
     },
