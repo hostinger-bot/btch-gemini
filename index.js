@@ -1,5 +1,5 @@
 /**
- * @file main.js
+ * @file index.js
  * @description The main module for importing functions from `src/main.js` and executing a version check from `version.js`.
  * @remarks
  * - Imports `gemini_chat` and `gemini_image` functions to make them available for use in other parts of the project.
@@ -8,9 +8,18 @@
  */
 
 const { versionControl } = require('./version');
-const version = require("./package.json").version; 
+const version = require("./package.json").version;
 
-module.exports = {
-    gemini_chat: require('./src/main').gemini_chat,
-    gemini_image: require('./src/main').gemini_image
-};
+const gemini_chat = require('./src/main').gemini_chat;
+const gemini_image = require('./src/main').gemini_image;
+
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+    // CommonJS environment
+    module.exports = {
+        gemini_chat,
+        gemini_image
+    };
+} else {
+    // ES Module environment
+    export { gemini_chat, gemini_image };
+}
