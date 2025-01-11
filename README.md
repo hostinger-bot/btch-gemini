@@ -32,6 +32,11 @@ npm install btch-gemini
 ```javascript
 const Gemini = require('btch-gemini');
 ```
+### ESM
+```
+import pkg from 'btch-gemini';
+const Gemini = pkg;
+```
 
 ### Chat Interaction
 
