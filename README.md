@@ -33,7 +33,7 @@ npm install btch-gemini
 const Gemini = require('btch-gemini');
 ```
 ### ESM
-```
+```javascript
 import pkg from 'btch-gemini';
 const Gemini = pkg;
 ```
