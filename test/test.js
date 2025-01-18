@@ -21,4 +21,48 @@ const Gemini = require('../index');
     } catch (error) {
         console.error('gemini_image Error:', error.message);
     }
+
+    // Test gemini_audio
+    try {
+        console.log('Testing gemini_audio...');
+        const audioUrl = "https://www.example.com/audio.mp3"; // URL AUDIO
+        const audio_response = await Gemini.gemini_audio(audioUrl);
+        console.log('gemini_audio Response:', audio_response);
+    } catch (error) {
+        console.error('gemini_audio Error:', error.message);
+    }
+
+    // Test gemini_video
+    try {
+        console.log('Testing gemini_video...');
+        const videoUrl = "https://www.example.com/video.mp4"; // URL VIDEO
+        const video_response = await Gemini.gemini_video(videoUrl);
+        console.log('gemini_video Response:', video_response);
+    } catch (error) {
+        console.error('gemini_video Error:', error.message);
+    }
+
+    // Test gemini_history
+    try {
+        console.log('Testing gemini_history...');
+        const messages = [
+            { role: "user", content: "Hello, assistant!" },
+            { role: "assistant", content: "Hello! How can I assist you today?" }
+        ];
+        const history_response = await Gemini.gemini_history(messages);
+        console.log('gemini_history Response:', history_response);
+    } catch (error) {
+        console.error('gemini_history Error:', error.message);
+    }
+
+    // Test gemini_prompt
+    try {
+        console.log('Testing gemini_prompt...');
+        const systemPrompt = "This is a system instruction";
+        const query = "What is the meaning of life?";
+        const prompt_response = await Gemini.gemini_prompt(systemPrompt, query);
+        console.log('gemini_prompt Response:', prompt_response);
+    } catch (error) {
+        console.error('gemini_prompt Error:', error.message);
+    }
 })();
