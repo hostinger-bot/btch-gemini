@@ -25,8 +25,9 @@ const Gemini = require('../index');
     // Test gemini_audio
     try {
         console.log('Testing gemini_audio...');
-        const audioUrl = "https://www.example.com/audio.mp3"; // URL AUDIO
-        const audio_response = await Gemini.gemini_audio(audioUrl);
+        const audioUrl = "https://files.catbox.moe/pj7g2g.opus"; // URL AUDIO
+        let prompt = "Please transcribe this audio"
+        const audio_response = await Gemini.gemini_audio(audioUrl, prompt);
         console.log('gemini_audio Response:', audio_response);
     } catch (error) {
         console.error('gemini_audio Error:', error.message);
@@ -35,8 +36,9 @@ const Gemini = require('../index');
     // Test gemini_video
     try {
         console.log('Testing gemini_video...');
-        const videoUrl = "https://www.example.com/video.mp4"; // URL VIDEO
-        const video_response = await Gemini.gemini_video(videoUrl);
+        const videoUrl = "https://files.catbox.moe/4fozd2.mp4"; // URL VIDEO
+        let prompt = "Please describe this video and transcribe the audio"
+        const video_response = await Gemini.gemini_video(videoUrl, prompt);
         console.log('gemini_video Response:', video_response);
     } catch (error) {
         console.error('gemini_video Error:', error.message);
@@ -46,8 +48,9 @@ const Gemini = require('../index');
     try {
         console.log('Testing gemini_history...');
         const messages = [
-            { role: "user", content: "Hello, assistant!" },
-            { role: "assistant", content: "Hello! How can I assist you today?" }
+            { role: "user", content: "Hai! Nama saya Tio" },
+            { role: "assistant", content: "Halo Tio, Senang bertemu dengan mu." },
+            { role: "user", content: "Siapa nama saya yah jelaskan arti nama saya" },
         ];
         const history_response = await Gemini.gemini_history(messages);
         console.log('gemini_history Response:', history_response);
