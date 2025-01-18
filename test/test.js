@@ -15,7 +15,7 @@ const Gemini = require('../index');
     try {
         console.log('Testing gemini_image...');
         const img_prompt = "What is this image about?";
-        const imageUrl = "https://pomf2.lain.la/f/zo78e4kd.jpg"; // URL IMAGE
+        const imageUrl = "https://files.catbox.moe/a13ppy.jpg"; // URL IMAGE
         const img_response = await Gemini.gemini_image(img_prompt, imageUrl);
         console.log('gemini_image Response:', img_response);
     } catch (error) {
