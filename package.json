@@ -11,12 +11,13 @@
         "gemini",
         "chat",
         "image-processing",
+        "video-processing",
+        "audio-processing",
         "api"
     ],
     "author": "BOTCAHX",
     "license": "MIT",
     "dependencies": {
-        "nyro": "^2.0.0",
         "axios": "^1.7.7"
     },
     "repository": {
