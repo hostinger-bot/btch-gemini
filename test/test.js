@@ -50,7 +50,7 @@ const Gemini = require('../index');
         const messages = [
             { role: "user", content: "Hai! Nama saya Tio" },
             { role: "assistant", content: "Halo Tio, Senang bertemu dengan mu." },
-            { role: "user", content: "Siapa nama saya yah jelaskan arti nama saya" },
+            { role: "user", content: "Siapa nama saya yah jelaskan arti nama saya" }
         ];
         const history_response = await Gemini.gemini_history(messages);
         console.log('gemini_history Response:', history_response);
