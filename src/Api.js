@@ -16,7 +16,7 @@ class GeminiService {
         this.headers = {
             'accept': 'application/json',
             'Content-Type': 'application/json',
-            'User-Agent': 'btch/3.0.1',
+            'User-Agent': 'btch/3.0.32',
         };
     }
 
@@ -30,10 +30,10 @@ class GeminiService {
      */
     async gemini_chat(prompt, method = 'POST') {
         try {
-            console.log('Processing chat request...');
+            //console.log('Processing chat request...');
             return await this._processRequest('/gemini/chat', method, { prompt }, { q: prompt });
         } catch (error) {
-            console.error('Chat processing error:', error);
+            //console.error('Chat processing error:', error);
             throw error;
         }
     }
@@ -49,12 +49,12 @@ class GeminiService {
      */
     async gemini_image(prompt, imageUrl, method = 'POST') {
         try {
-            console.log('Processing image request...');
+            //console.log('Processing image request...');
             const data = method === 'POST' ? { prompt, imgUrl: imageUrl } : null;
             const params = method === 'GET' ? { q: prompt, url: imageUrl } : null;
             return await this._processRequest('/gemini/image', method, data, params);
         } catch (error) {
-            console.error('Image processing error:', error);
+            //console.error('Image processing error:', error);
             throw error;
         }
     }
@@ -70,12 +70,12 @@ class GeminiService {
      */
     async gemini_audio(audioUrl, prompt = null, method = 'POST') {
         try {
-            console.log('Processing audio request...');
+            //console.log('Processing audio request...');
             const data = method === 'POST' ? { url: audioUrl, prompt } : null;
             const params = method === 'GET' ? { url: audioUrl, q: prompt } : null;
             return await this._processRequest('/gemini/audio', method, data, params);
         } catch (error) {
-            console.error('Audio processing error:', error);
+            //console.error('Audio processing error:', error);
             throw error;
         }
     }
@@ -91,12 +91,12 @@ class GeminiService {
      */
     async gemini_video(videoUrl, prompt = null, method = 'POST') {
         try {
-            console.log('Processing video request...');
+            //console.log('Processing video request...');
             const data = method === 'POST' ? { url: videoUrl, prompt } : null;
             const params = method === 'GET' ? { url: videoUrl, q: prompt } : null;
             return await this._processRequest('/gemini/video', method, data, params);
         } catch (error) {
-            console.error('Video processing error:', error);
+            //console.error('Video processing error:', error);
             throw error;
         }
     }
@@ -110,10 +110,10 @@ class GeminiService {
      */
     async gemini_history(messages) {
         try {
-            console.log('Processing history request...');
+            //console.log('Processing history request...');
             return await this._processRequest('/gemini/history', 'POST', { messages });
         } catch (error) {
-            console.error('History processing error:', error);
+            //console.error('History processing error:', error);
             throw error;
         }
     }
@@ -129,12 +129,12 @@ class GeminiService {
      */
     async gemini_prompt(systemPrompt, query, method = 'POST') {
         try {
-            console.log('Processing prompt request...');
+            //console.log('Processing prompt request...');
             const data = method === 'POST' ? { prompt: systemPrompt, q: query } : null;
             const params = method === 'GET' ? { prompt: systemPrompt, q: query } : null;
             return await this._processRequest('/prompt/gemini', method, data, params);
         } catch (error) {
-            console.error('Prompt processing error:', error);
+            //console.error('Prompt processing error:', error);
             throw error;
         }
     }
@@ -163,7 +163,7 @@ class GeminiService {
                 : await axios.get(url, config);
             return response.data;
         } catch (error) {
-            console.error(`Request to ${endpoint} failed:`, error);
+            //console.error(`Request to ${endpoint} failed:`, error);
             throw error;
         }
     }
