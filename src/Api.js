@@ -16,7 +16,7 @@ class GeminiService {
         this.headers = {
             'accept': 'application/json',
             'Content-Type': 'application/json',
-            'User-Agent': 'btch/3.0.32',
+            'User-Agent': 'btch/3.0.33',
         };
     }
 
