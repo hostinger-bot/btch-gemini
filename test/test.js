@@ -11,7 +11,18 @@ const Gemini = require('../index');
         console.error('gemini_chat Error:', error.message);
     }
 
-    // Test gemini_image
+    // Test gemini_imgedit
+    try {
+        console.log('Testing gemini_imgedit...');
+        const img_prompt = "Transform this into a watercolor painting";
+        const imageUrl = "https://files.catbox.moe/a13ppy.jpg"; // URL IMAGE EDIT
+        const img_response = await Gemini.gemini_imgedit(img_prompt, imageUrl);
+        console.log('gemini_image Response:', img_response);
+    } catch (error) {
+        console.error('gemini_imgedit', error.message);
+    }
+    
+   // Test gemini_image
     try {
         console.log('Testing gemini_image...');
         const img_prompt = "What is this image about?";
@@ -21,6 +32,7 @@ const Gemini = require('../index');
     } catch (error) {
         console.error('gemini_image Error:', error.message);
     }
+    
 
     // Test gemini_audio
     try {
