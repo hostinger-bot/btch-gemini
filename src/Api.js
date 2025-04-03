@@ -9,14 +9,15 @@
  */
 
 const axios = require('axios');
+const { version, config } = require('../package.json');
 
 class GeminiService {
     constructor() {
-        this.baseUrl = 'https://gemini-api.zone.id';
+        this.baseUrl = config.baseUrl;
         this.headers = {
             'accept': 'application/json',
             'Content-Type': 'application/json',
-            'User-Agent': 'btch/4.0.82',
+            'User-Agent': `btch/${version}`,
         };
     }
 
