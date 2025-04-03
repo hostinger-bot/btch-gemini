@@ -186,12 +186,12 @@ The package provides detailed error messages:
 
 ## API Endpoints
 
-- Chat API: `https://gemini-api-5k0h.onrender.com/gemini/chat`
-- Image API: `https://gemini-api-5k0h.onrender.com/gemini/image`
-- Audio API: `https://gemini-api-5k0h.onrender.com/gemini/audio`
-- Video API: `https://gemini-api-5k0h.onrender.com/gemini/video`
-- History API: `https://gemini-api-5k0h.onrender.com/gemini/history`
-- Prompt API: `https://gemini-api-5k0h.onrender.com/gemini/prompt`
+- Chat API: `https://gemini-api.zone.id/gemini/chat`
+- Image API: `https://gemini-api.zone.id/gemini/image`
+- Audio API: `https://gemini-api.zone.id/gemini/audio`
+- Video API: `https://gemini-api.zone.id/gemini/video`
+- History API: `https://gemini-api.zone.id/gemini/history`
+- Prompt API: `https://gemini-api.zone.id/gemini/prompt`
 
 ## Support
 
