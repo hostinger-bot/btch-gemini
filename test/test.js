@@ -17,7 +17,7 @@ const Gemini = require('../index');
         const img_prompt = "Transform this into a watercolor painting";
         const imageUrl = "https://files.catbox.moe/a13ppy.jpg"; // URL IMAGE EDIT
         const img_response = await Gemini.gemini_imgedit(img_prompt, imageUrl);
-        console.log('gemini_image Response:', img_response);
+        console.log('gemini_imgedit Response:', img_response);
     } catch (error) {
         console.error('gemini_imgedit', error.message);
     }
