@@ -209,4 +209,41 @@ module.exports = {
 
         return await Api.gemini_prompt(systemPrompt, query);
     }
+    
+    /**
+     * @method gemini_imgedit
+     * @description Validates the prompt and image URL, and calls the `gemini_imgedit` method from the `Api` module.
+     * @param {string} prompt - The transformation prompt.
+     * @param {string} imageUrl - The URL of the image to be edited.
+     * @param {string} [method='POST'] - HTTP method to use ('GET' or 'POST').
+     * @returns {Promise} - A promise that resolves with the response data from the `gemini_imgedit` method.
+     * @throws {Error} - Throws an error if inputs are invalid.
+     */
+    async gemini_imgedit(prompt, imageUrl) {
+        if (!prompt) {
+            throw new Error('Prompt cannot be empty');
+        }
+
+        if (typeof prompt !== 'string') {
+            throw new Error('Prompt must be a string');
+        }
+
+        if (prompt.trim().length === 0) {
+            throw new Error('Prompt cannot contain only spaces');
+        }
+
+        if (!imageUrl) {
+            throw new Error('Image URL cannot be empty');
+        }
+
+        if (typeof imageUrl !== 'string') {
+            throw new Error('Image URL must be a string');
+        }
+
+        if (imageUrl.trim().length === 0) {
+            throw new Error('Image URL cannot contain only spaces');
+        }
+
+        return await Api.gemini_imgedit(prompt, imageUrl, method);
+    }    
 };
