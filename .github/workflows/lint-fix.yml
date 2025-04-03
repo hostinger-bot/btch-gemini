@@ -18,6 +18,9 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
+      - name: Install ESLint and Prettier (if not already installed)
+        run: yarn add eslint prettier --dev
+
       - name: Run ESLint & Prettier
         run: |
           yarn eslint --fix .
