@@ -1,4 +1,4 @@
-# btch-gemini
+# btch-gemini Unofficial Module
 
 ## Description
 
@@ -22,6 +22,7 @@ npm install btch-gemini
 
 - 🤖 `gemini_chat`: Send text prompts to the Gemini chat API
 - 🖼️ `gemini_image`: Process image descriptions using text prompts and image URLs
+- 🎨 `gemini_imgedit`: Edit image descriptions using text prompts and image URLs
 - 🎵 `gemini_audio`: Process audio files from URLs
 - 🎥 `gemini_video`: Analyze video files from URLs
 - 🧠 `gemini_history`: Retrieve past interactions to continue conversations
@@ -70,6 +71,21 @@ async function imageExample() {
     }
 }
 ```
+### Image Edit
+
+```javascript
+async function imageeditExample() {
+    try {
+        const prompt = "Transform this into a watercolor painting";
+        const imageUrl = "https://files.catbox.moe/a13ppy.jpg";
+        const response = await Gemini.gemini_imgedit(prompt, imageUrl);
+        console.log(response);
+    } catch (error) {
+        console.error('Edit Image Error:', error.message);
+    }
+}
+```
+
 
 ### Audio Processing
 
@@ -134,44 +150,6 @@ async function promptExample() {
 }
 ```
 
-### Combined Usage
-
-```javascript
-async function combinedExample() {
-    try {
-        const chatResponse = await Gemini.gemini_chat("What can you do?");
-        console.log("Chat Response:", chatResponse);
-
-        const imageResponse = await Gemini.gemini_image(
-            "What is in this picture?", 
-            "https://files.catbox.moe/a13ppy.jpg"
-        );
-        console.log("Image Response:", imageResponse);
-
-        const audioResponse = await Gemini.gemini_audio("https://files.catbox.moe/pj7g2g.opus", "Please transcribe this audio");
-        console.log("Audio Response:", audioResponse);
-
-        const videoResponse = await Gemini.gemini_video("https://files.catbox.moe/4fozd2.mp4", "Please describe this video and transcribe the audio");
-        console.log("Video Response:", videoResponse);
-
-        const historyResponse = await Gemini.gemini_history([
-            { role: "user", content: "Hai! Nama saya Tio" },
-            { role: "assistant", content: "Halo Tio, Senang bertemu dengan mu." },
-            { role: "user", content: "Siapa nama saya yah jelaskan arti nama saya" }
-        ]);
-        console.log("History Response:", historyResponse);
-
-        const promptResponse = await Gemini.gemini_prompt(
-            "You are a helpful assistant.", 
-            "What is the capital of France?"
-        );
-        console.log("Prompt Response:", promptResponse);
-    } catch (error) {
-        console.error('Combined Example Error:', error.message);
-    }
-}
-```
-
 ## Error Handling
 
 The package provides detailed error messages:
@@ -183,6 +161,7 @@ The package provides detailed error messages:
 - `gemini_history`: Ensures valid message structure
 - `gemini_prompt`: Validates prompt and query
 - Errors are thrown for invalid inputs or API communication issues
+- `gemini_imgedit`: Validates both prompt and image URL
 
 ## API Endpoints
 
@@ -190,6 +169,7 @@ The package provides detailed error messages:
 - Image API: `https://gemini-api.zone.id/gemini/image`
 - Audio API: `https://gemini-api.zone.id/gemini/audio`
 - Video API: `https://gemini-api.zone.id/gemini/video`
+- Edit API: `https://gemini-api.zone.id/gemini/imgedit`
 - History API: `https://gemini-api.zone.id/gemini/history`
 - Prompt API: `https://gemini-api.zone.id/gemini/prompt`
 
