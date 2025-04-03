@@ -1,6 +1,6 @@
 {
     "name": "btch-gemini",
-    "version": "4.0.87",
+    "version": "4.0.88",
     "config": {
         "baseUrl": "https://gemini-api.zone.id",
         "description": "A package for communicating with the Gemini API for chat and image processing."
