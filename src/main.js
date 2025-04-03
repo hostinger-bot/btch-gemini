@@ -1,4 +1,4 @@
-/**
+ /**
  * @module main
  * @description This module validates input data and calls the corresponding methods from the `Api` module for all Gemini services.
  * @remarks
@@ -219,7 +219,7 @@ module.exports = {
      * @returns {Promise} - A promise that resolves with the response data from the `gemini_imgedit` method.
      * @throws {Error} - Throws an error if inputs are invalid.
      */
-    async gemini_imgedit(prompt, imageUrl) {
+    async gemini_imgedit(prompt, imageUrl, method = 'POST') {
         if (!prompt) {
             throw new Error('Prompt cannot be empty');
         }
@@ -245,5 +245,5 @@ module.exports = {
         }
 
         return await Api.gemini_imgedit(prompt, imageUrl, method);
-    }    
+    }
 };
