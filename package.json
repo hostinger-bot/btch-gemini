@@ -1,6 +1,6 @@
 {
     "name": "btch-gemini",
-    "version": "4.0.81",
+    "version": "4.0.82",
     "description": "A package for communicating with the Gemini API for chat and image processing.",
     "main": "index.js",
     "scripts": {
