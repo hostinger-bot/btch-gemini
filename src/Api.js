@@ -61,6 +61,27 @@ class GeminiService {
     }
 
     /**
+     * @method gemini_imgedit
+     * @description Edits an image using a given prompt.
+     * @param {string} prompt - The transformation prompt.
+     * @param {string} imageUrl - The URL of the image to be edited.
+     * @param {string} method - The HTTP method to use ('GET' or 'POST').
+     * @returns {Promise} - A promise that resolves with the edited image data.
+     * @throws {Error} - Throws an error if the request fails.
+     */
+    async gemini_imgedit(prompt, imageUrl, method = 'POST') {
+        try {
+            //console.log('Processing image edit request...');
+            const data = method === 'POST' ? { prompt, imgUrl: imageUrl } : null;
+            const params = method === 'GET' ? { q: prompt, url: imageUrl } : null;
+            return await this._processRequest('/gemini/imgedit', method, data, params);
+        } catch (error) {
+            //console.error('Image edit processing error:', error);
+            throw error;
+        }
+    }
+
+    /**
      * @method gemini_audio
      * @description Processes audio content from a provided URL.
      * @param {string} audioUrl - The URL of the audio to be processed.
@@ -169,27 +190,5 @@ class GeminiService {
         }
     }
 }
-
-/**
- * @method gemini_imgedit (hytamkan)
- * @description Edits an image using a given prompt.
- * @param {string} prompt - The transformation prompt.
- * @param {string} imageUrl - The URL of the image to be edited.
- * @param {string} method - The HTTP method to use ('GET' or 'POST').
- * @returns {Promise} - A promise that resolves with the edited image data.
- * @throws {Error} - Throws an error if the request fails.
- */
-async gemini_imgedit(prompt, imageUrl, method = 'POST') {
-    try {
-        //console.log('Processing image edit request...');
-        const data = method === 'POST' ? { prompt, imgUrl: imageUrl } : null;
-        const params = method === 'GET' ? { q: prompt, url: imageUrl } : null;
-        return await this._processRequest('/gemini/imgedit', method, data, params);
-    } catch (error) {
-        //console.error('Image edit processing error:', error);
-        throw error;
-    }
-}
-
 
 module.exports = new GeminiService();
