@@ -39,26 +39,26 @@ class GeminiService {
         }
     }
 
-    /**
-     * @method gemini_image
-     * @description Sends a prompt and image URL to the Gemini API for image processing.
-     * @param {string} prompt - The prompt text to be sent to the API.
-     * @param {string} imageUrl - The URL of the image to be processed.
-     * @param {string} method - The HTTP method to use ('GET' or 'POST').
-     * @returns {Promise} - A promise that resolves with the response data.
-     * @throws {Error} - Throws an error if the request fails.
-     */
-    async gemini_image(prompt, imageUrl, method = 'POST') {
-        try {
-            //console.log('Processing image request...');
-            const data = method === 'POST' ? { prompt, imgUrl: imageUrl } : null;
-            const params = method === 'GET' ? { q: prompt, url: imageUrl } : null;
-            return await this._processRequest('/gemini/image', method, data, params);
-        } catch (error) {
-            //console.error('Image processing error:', error);
-            throw error;
-        }
+/**
+ * @method gemini_imgedit
+ * @description Edits an image using a given prompt and returns image as buffer.
+ * @param {string} prompt - The transformation prompt.
+ * @param {string} imageUrl - The URL of the image to be edited.
+ * @param {string} method - The HTTP method to use ('GET' or 'POST').
+ * @returns {Promise<Buffer>} - A promise that resolves with the edited image as buffer.
+ * @throws {Error} - Throws an error if the request fails.
+ */
+async gemini_imgedit(prompt, imageUrl, method = 'POST') {
+    try {
+        //console.log('Processing image edit request...');
+        const data = method === 'POST' ? { prompt, imgUrl: imageUrl } : null;
+        const params = method === 'GET' ? { q: prompt, url: imageUrl } : null;
+        return await this._processRequest('/gemini/imgedit', method, data, params, true);
+    } catch (error) {
+        //console.error('Image edit processing error:', error);
+        throw error;
     }
+}
 
     /**
      * @method gemini_imgedit
@@ -161,34 +161,38 @@ class GeminiService {
         }
     }
 
-    /**
-     * @method _processRequest
-     * @description Private method that handles all HTTP requests to the Gemini API.
-     * @param {string} endpoint - The API endpoint to call.
-     * @param {string} method - The HTTP method to use ('GET' or 'POST').
-     * @param {Object} data - The request body for POST requests.
-     * @param {Object} params - The query parameters for GET requests.
-     * @returns {Promise} - A promise that resolves with the response data.
-     * @throws {Error} - Throws an error if the request fails.
-     * @private
-     */
-    async _processRequest(endpoint, method, data = null, params = null) {
-        const url = `${this.baseUrl}${endpoint}`;
-        const config = {
-            headers: this.headers,
-            params: method === 'GET' ? params : undefined
-        };
+/**
+* @method _processRequest
+/**
+ * @method _processRequest
+ * @description Private method that handles all HTTP requests to the Gemini API.
+ * @param {string} endpoint - The API endpoint to call.
+ * @param {string} method - The HTTP method to use ('GET' or 'POST').
+ * @param {Object} data - The request body for POST requests.
+ * @param {Object} params - The query parameters for GET requests.
+ * @param {boolean} [responseAsBuffer=false] - Whether to return response as buffer.
+ * @returns {Promise} - A promise that resolves with the response data.
+ * @throws {Error} - Throws an error if the request fails.
+ * @private
+ */
+async _processRequest(endpoint, method, data = null, params = null, responseAsBuffer = false) {
+    const url = `${this.baseUrl}${endpoint}`;
+    const config = {
+        headers: this.headers,
+        params: method === 'GET' ? params : undefined,
+        responseType: responseAsBuffer ? 'arraybuffer' : 'json'
+    };
 
-        try {
-            const response = method === 'POST' 
-                ? await axios.post(url, data, config)
-                : await axios.get(url, config);
-            return response.data;
-        } catch (error) {
-            //console.error(`Request to ${endpoint} failed:`, error);
-            throw error;
-        }
+    try {
+        const response = method === 'POST' 
+            ? await axios.post(url, data, config)
+            : await axios.get(url, config);
+        return response.data;
+    } catch (error) {
+        //console.error(`Request to ${endpoint} failed:`, error);
+        throw error;
     }
+ }
 }
 
 module.exports = new GeminiService();
