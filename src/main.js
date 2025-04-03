@@ -208,7 +208,7 @@ module.exports = {
         }
 
         return await Api.gemini_prompt(systemPrompt, query);
-    }
+    },
     
     /**
      * @method gemini_imgedit
