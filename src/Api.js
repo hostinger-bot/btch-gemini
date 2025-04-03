@@ -12,11 +12,11 @@ const axios = require('axios');
 
 class GeminiService {
     constructor() {
-        this.baseUrl = 'https://gemini-api-5k0h.onrender.com';
+        this.baseUrl = 'https://gemini-api.zone.id';
         this.headers = {
             'accept': 'application/json',
             'Content-Type': 'application/json',
-            'User-Agent': 'btch/3.0.33',
+            'User-Agent': 'btch/4.0.81',
         };
     }
 
