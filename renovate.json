@@ -1,0 +1,12 @@
+{
+  "extends": ["config:base"],
+  "schedule": ["every 1 minutes"],
+  "automerge": true,
+  "automergeType": "branch",
+  "packageRules": [
+    {
+      "matchDepTypes": ["dependencies", "devDependencies"],
+      "groupName": "all-dependencies"
+    }
+  ]
+}
