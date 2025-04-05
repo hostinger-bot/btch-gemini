@@ -1,7 +1,7 @@
 name: Save NPM Test Logs
 on:
   schedule:
-    - cron: "*/1 * * * *" 
+    - cron: "*/1 * * * *"
   workflow_dispatch:
 jobs:
   save-test-logs:
@@ -13,19 +13,25 @@ jobs:
         uses: actions/checkout@v3
       - name: Install dependencies
         run: npm install
+      - name: Update dependencies
+        run: |
+          npm update
+          npm install
       - name: Run tests and save logs
         run: |
           mkdir -p logs
           npm test > logs/test_logs.txt 2>&1
-      - name: Commit and push test logs
+      - name: Commit and push test logs and updates
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.name "hostinger-bot"
           git config --global user.email "hostingerbalance@gmail.com"
-          git add logs/test_logs.txt
-          git commit -m "chore: update test logs" || echo "No changes to commit"
+          git add logs/test_logs.txt package.json package-lock.json
+          git commit -m "chore: update test logs and dependencies" || echo "No changes to commit"
           # Set remote pakai token
           git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}
+          # Pull perubahan terbaru dari branch aktif sebelum push
+          git pull origin HEAD --rebase
           # Push ke branch aktif
           git push origin HEAD
