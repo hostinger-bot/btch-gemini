@@ -21,9 +21,12 @@ jobs:
           npm test > logs/test_logs.txt 2>&1
 
       - name: Commit and push test logs
+        env:
+          TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions@github.com"
           git add logs/test_logs.txt
           git commit -m "chore: update test logs" || echo "No changes to commit"
-          git push
+          git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
+          git push origin HEAD:${{ github.ref_name }}
