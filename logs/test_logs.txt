@@ -9,49 +9,47 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a8 00 00 04 00 08 02 00 00 00 a2 45 3c b2 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1054810 more bytes>
+gemini_imgedit Request failed with status code 500
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  It's a fairly standard portrait-style photograph, likely taken during an official visit or engagement.  There's nothing overtly specific in the image itself that tells a story beyond showing the president in a contemplative pose in a natural setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a distance at a lush green landscape.  The photo is likely a candid shot, not a formal portrait.  It conveys a sense of calm and contemplation.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahalazim! Astaghfirullahalazim! Kerja lembur bagai kuda.  Sape lupah urang tua?\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda, sampai lupa orang tua.\n'
 }
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio bergantung pada asalnya dan bagaimana ia ditulis.  Tidak ada satu arti yang pasti untuk nama Tio.  Kemungkinan arti dan asal usulnya antara lain:\n' +
+  content: 'Nama Anda adalah Tio.  Sayangnya, saya tidak dapat menjelaskan arti nama Tio secara pasti karena artinya bergantung pada asal-usul dan kebudayaan.  Tio bisa jadi:\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek:**  Tio bisa jadi singkatan dari nama lain, seperti  Teodoro,  Teofilo, atau nama lainnya yang berawalan "Tio".  Dalam kasus ini, arti nama Tio akan sama dengan arti nama yang disingkatnya.\n' +
+    '* **Singkatan atau kependekan:** dari nama lain yang lebih panjang.  Jika Anda mau memberitahu nama lengkap Anda, mungkin saya bisa membantu lebih lanjut.\n' +
+    '* **Nama panggilan:**  bisa saja Tio merupakan nama panggilan dari nama asli Anda.\n' +
+    '* **Nama dengan asal usul yang beragam:**  Nama Tio bisa berasal dari berbagai bahasa dan budaya, masing-masing dengan arti yang berbeda.  Misalnya, bisa saja berasal dari bahasa Indonesia, Tionghoa, atau bahasa lainnya.  Tanpa informasi lebih lanjut, saya tidak dapat memberikan arti yang tepat.\n' +
     '\n' +
-    '* **Asal Bahasa Tionghoa:**  Di beberapa budaya Tionghoa, Tio mungkin merupakan bagian dari nama keluarga atau nama panggilan yang memiliki arti spesifik dalam bahasa Mandarin atau dialek lainnya.  Tanpa konteks lebih lanjut, tidak mungkin untuk menentukan arti spesifiknya.\n' +
+    'Untuk mengetahui arti nama Tio, saya sarankan untuk:\n' +
     '\n' +
-    '* **Asal lain:**  Mungkin juga Tio berasal dari bahasa atau budaya lain yang tidak saya ketahui.\n' +
+    '* **Menanyakan kepada orang tua atau keluarga:** Mereka paling tahu asal usul dan arti nama Anda.\n' +
+    '* **Mencari di internet:**  Cari "arti nama Tio" di mesin pencari seperti Google. Anda mungkin akan menemukan berbagai kemungkinan arti dari berbagai budaya.  Perhatikan sumber informasi yang Anda gunakan, pastikan sumbernya terpercaya.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, perlu informasi tambahan seperti:\n' +
-    '\n' +
-    '* **Nama lengkapmu:**  Nama lengkap mungkin memberikan petunjuk tentang asal usul dan arti nama Tio.\n' +
-    '* **Asal budaya keluargamu:** Mengetahui asal-usul keluarga akan membantu dalam menentukan kemungkinan arti nama tersebut.\n' +
-    '\n' +
-    '\n' +
-    'Intinya, tanpa informasi tambahan,  sulit untuk memberikan arti yang tepat untuk nama Tio.\n'
+    'Berikan saya informasi tambahan jika Anda ingin saya mencoba membantu lebih lanjut!\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for centuries.  Different people find meaning in different things, including:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
     '\n' +
-    '* **Relationships:**  Love, family, and friendships provide a sense of belonging and purpose for many.\n' +
-    '* **Contribution:**  Making a difference in the world, whether through work, volunteering, or acts of kindness, can be a source of meaning.\n' +
-    '* **Creativity:**  Expressing oneself through art, music, writing, or other creative endeavors can be deeply fulfilling.\n' +
-    "* **Spiritual or Religious Beliefs:**  Faith and connection to a higher power often provide a framework for understanding life's purpose.\n" +
-    '* **Personal Growth:**  Continuously learning, growing, and striving to become a better version of oneself can be inherently meaningful.\n' +
-    '* **Experiences:**  Travel, adventure, and pursuing passions can create rich and meaningful lives.\n' +
+    'Different perspectives include:\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it. It's not something to be found, but something to be created.  It's a journey of self-discovery, and the answer may evolve throughout your life.\n"
+    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, a divine plan, or an afterlife.\n' +
+    '* **Humanism:** Focuses on human values, reason, ethics, and social justice as the basis for meaning and purpose.\n' +
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, goals, and experiences.  Some find meaning in relationships, others in contributing to society, and still others in personal growth and self-discovery.  There is no right or wrong answer.\n"
 }
