@@ -9,40 +9,46 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1218909 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1332476 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a picture of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a forested landscape.  It's likely a publicity or news photo, possibly taken during a visit to a location in Indonesia.  The context of where the photo was taken and when would provide further information about its meaning.\n"
+  content: "That's Joko Widodo, the President of Indonesia.  The image is a portrait-style photograph showing him in profile, looking out at a verdant landscape.  It likely depicts a moment during an official visit or event, showcasing him in a relaxed yet official manner.  The background emphasizes a natural, possibly forested, environment.\n"
 }
 Testing gemini_audio...
-gemini_audio Error: Request failed with status code 500
+gemini_audio Response: {
+  success: true,
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lu pa orang tua.\n'
+}
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, arti nama Tio tergantung dari asal dan bahasanya.  Tio bisa jadi singkatan, nama panggilan, atau berasal dari berbagai bahasa dan budaya.  Untuk menjelaskan arti namamu secara tepat, saya perlu tahu dari mana asal nama tersebut.  Apakah nama Tio itu:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke basis data yang menyimpan arti semua nama dari berbagai budaya.  Arti nama Tio bervariasi tergantung asal usulnya.  \n' +
     '\n' +
-    '* **Singkatan dari nama lain?** Jika iya, apa nama lengkapnya?\n' +
-    '* **Nama keluarga?**  Jika iya, dari daerah mana nama keluarga itu berasal?\n' +
-    '* **Nama yang umum digunakan dalam suatu budaya tertentu?**  Jika iya, budaya apa?\n' +
+    'Untuk mengetahui arti nama Tio, saya sarankan kamu untuk:\n' +
     '\n' +
-    'Dengan informasi tambahan itu, saya bisa mencoba mencari arti nama Tio untukmu.\n'
+    '* **Mencari di internet:** Gunakan mesin pencari seperti Google dengan kata kunci "arti nama Tio".  Kamu akan menemukan berbagai situs web yang membahas arti nama, dan mungkin menemukan beberapa kemungkinan arti sesuai dengan asal-usul namamu.\n' +
+    '* **Bertanya pada orangtuamu atau kerabat:** Mereka yang memberi nama padamu mungkin tahu arti yang dimaksudkan saat menamai kamu Tio.\n' +
+    '\n' +
+    'Semoga informasi ini membantu!\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning is often considered subjective and personal, shaped by individual beliefs, experiences, and values.\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often deeply personal and subjective, varying greatly from person to person.\n" +
     '\n' +
-    'Some perspectives include:\n' +
+    'Some common perspectives include:\n' +
     '\n' +
     '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that life is inherently meaningless, but that we create our own meaning through our choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a divine purpose, an afterlife, or service to a higher power.\n' +
-    '* **Humanism:**  Focuses on human values, reason, ethics, and social justice, finding meaning in human connection and contribution.\n' +
+    '* **Existentialism:** The belief that life is inherently meaningless, but we create our own meaning through our choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, yet we should embrace this absurdity.\n' +
+    '* **Religious and spiritual beliefs:** Many religions offer answers to the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
     '* **Hedonism:**  Finding meaning in pleasure and happiness.\n' +
+    '* **Purpose-driven life:** Finding meaning through pursuing a specific goal or purpose, contributing to something larger than oneself.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal discovery and ongoing reflection.  Instead of searching for a definitive answer, consider what brings you purpose, joy, and fulfillment.  What impact do you want to have on the world?  What kind of person do you want to be?  These are questions that can help you define your own meaning of life.\n"
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  Consider what brings you joy, fulfillment, and a sense of purpose.  Reflect on your values and what you want to contribute to the world.  The answer may evolve throughout your life.\n"
 }
