@@ -79,7 +79,7 @@ async function imageeditExample() {
         const prompt = "Transform this into a watercolor painting";
         const imageUrl = "https://files.catbox.moe/a13ppy.jpg";
         const response = await Gemini.gemini_imgedit(prompt, imageUrl);
-        console.log(response);
+        console.log(response); // image buffer 
     } catch (error) {
         console.error('Edit Image Error:', error.message);
     }
