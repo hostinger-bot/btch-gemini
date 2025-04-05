@@ -1,0 +1,50 @@
+
+> btch-gemini@4.0.88-alpha test
+> node test/test.js
+
+Testing gemini_chat...
+[38;5;119mYou are using the Latest Version (4.0.88-alpha) of btch-gemini.[0m
+gemini_chat Response: {
+  success: true,
+  content: 'I am doing well, thank you for asking!  How are you today?\n'
+}
+Testing gemini_imgedit...
+gemini_imgedit Request failed with status code 500
+Testing gemini_image...
+gemini_image Response: {
+  success: true,
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or candid shot, possibly intended to portray him in a relaxed and contemplative manner, possibly connected to an environmental or nature-related event or policy.\n"
+}
+Testing gemini_audio...
+gemini_audio Error: Request failed with status code 500
+Testing gemini_video...
+gemini_video Error: Request failed with status code 500
+Testing gemini_history...
+gemini_history Response: {
+  success: true,
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu secara pasti karena Tio bukanlah nama dengan etimologi yang terdokumentasi luas dan artinya bergantung pada konteks budaya dan bahasa.  \n' +
+    '\n' +
+    'Tio bisa menjadi:\n' +
+    '\n' +
+    '* **Singkatan atau kependekan:**  Mungkin Tio adalah singkatan dari nama lain yang lebih panjang.\n' +
+    '* **Nama panggilan:**  Bisa jadi Tio adalah nama panggilan (nickname) yang diberikan kepada seseorang.\n' +
+    '* **Nama dari suatu bahasa tertentu:**  Mungkin Tio berasal dari bahasa tertentu yang tidak saya ketahui.\n' +
+    '\n' +
+    'Jika kamu ingin tahu arti namamu, mungkin kamu perlu menanyakannya kepada orang tuamu atau mencari referensi dari budaya atau bahasa yang relevan dengan asal-usul namamu.  Apakah kamu tahu dari mana asal namamu?  Informasi tersebut dapat membantuku (atau kamu) mencari tahu artinya.\n'
+}
+Testing gemini_prompt...
+gemini_prompt Response: {
+  success: true,
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered to be a personal and subjective matter, shaped by individual experiences, beliefs, and values.\n" +
+    '\n' +
+    'Some common perspectives include:\n' +
+    '\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers to the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Hedonism:** The pursuit of pleasure and avoidance of pain as the primary purpose of life.\n' +
+    '* **Purpose-driven life:** Finding meaning through contributing to something larger than oneself, whether through work, relationships, or social causes.\n' +
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery, and there's no right or wrong answer.\n"
+}
