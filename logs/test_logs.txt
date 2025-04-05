@@ -13,39 +13,39 @@ gemini_imgedit Request failed with status code 500
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The setting appears to be outdoors, possibly in a forested area or park.  The photo likely depicts a moment during one of his official engagements or visits.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  It's likely a candid shot, perhaps taken during a visit to a location showcasing Indonesian natural beauty.  The focus is on Widodo himself, presenting him in a somewhat contemplative or reflective pose.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagi aku dah.  Sepahtu orang tua.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sapa elo paurang tua.\n'
 }
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu secara pasti karena Tio bisa memiliki beberapa asal dan arti yang berbeda tergantung budayanya.  Tio bisa menjadi:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio sendiri sebenarnya cukup beragam dan tergantung pada asal usulnya.  Tidak ada satu arti tunggal yang pasti.  Beberapa kemungkinan interpretasi meliputi:\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:**  Mungkin Tio adalah singkatan dari nama yang lebih panjang, seperti  Teodoro,  Atio, atau nama lainnya.  Tanpa tahu nama lengkapmu, saya tak bisa memastikan.\n' +
+    '* **Singkatan atau bentuk pendek:** Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama lain, seperti  Tiago,  Antonio,  atau  nama-nama lain yang diawali dengan "Tio".  Dalam konteks ini, arti nama akan bergantung pada nama lengkap yang disingkat.\n' +
     '\n' +
-    '* **Nama dengan asal usul yang beragam:**  Nama-nama pendek seperti Tio bisa muncul di berbagai budaya dan bahasa dengan arti yang berbeda-beda.  \n' +
+    '* **Asal Bahasa:**  Tanpa informasi lebih lanjut mengenai latar belakang keluargamu, sulit untuk menentukan asal bahasa pasti dari nama Tio.  Bisa jadi berasal dari bahasa Indonesia, Portugis, Spanyol, atau bahasa lain.\n' +
     '\n' +
-    'Untuk mengetahui arti sebenarnya dari namamu, sebaiknya kamu tanyakan kepada orang tuamu atau cari informasi lebih lanjut di sumber-sumber genealogi atau buku nama.\n'
+    '* **Arti kiasan:**  Secara kiasan, "Tio" dalam beberapa bahasa bisa berarti "paman" (dalam bahasa Spanyol misalnya), tetapi ini tidak mungkin menjadi arti nama dirimu.\n' +
+    '\n' +
+    'Untuk mengetahui arti nama Tio yang tepat,  kamu perlu mencari tahu asal-usul namamu dari keluargamu.  Mereka yang memberi nama padamu kemungkinan besar mengetahui makna dan alasan pemilihan nama tersebut.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning, if there is one, is often considered to be something personal and subjective, shaped by individual beliefs, experiences, and values.\n" +
-    '\n' +
-    'Some common perspectives include:\n' +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, and different individuals and cultures have vastly different perspectives.  Some common viewpoints include:\n" +
     '\n' +
     '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
-    '* **Religious and Spiritual Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:** Focuses on human values, reason, ethics, and social justice, finding meaning in contributing to human flourishing.\n' +
-    '* **Hedonism:**  Finding meaning in pleasure and happiness.\n' +
+    '* **Existentialism:**  The belief that life is inherently meaningless, but we create our own meaning through our choices and actions.\n' +
+    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but we should embrace that absurdity.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a purpose divinely ordained.  These answers vary widely depending on the specific religion.\n' +
+    '* **Hedonism:**  The belief that the meaning of life is to pursue pleasure and avoid pain.\n' +
+    '* **Humanism:**  The belief that human beings are capable of being ethical and moral without belief in God, and that the meaning of life is found in human relationships, creativity, and contributing to society.\n' +
     '\n' +
-    "Ultimately, the meaning of life is a question each person must answer for themselves.  It's a journey of self-discovery, and the answer may evolve throughout one's lifetime.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal reflection and exploration, and there's no right or wrong answer.  What gives your life meaning might be different from what gives someone else's life meaning.\n"
 }
