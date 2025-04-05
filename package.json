@@ -16,6 +16,7 @@
         "image-processing",
         "video-processing",
         "audio-processing",
+        "image-editing",
         "api"
     ],
     "author": "BOTCAHX",
