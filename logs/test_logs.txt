@@ -9,55 +9,52 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Request failed with status code 500
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 03 ba 00 00 04 00 08 02 00 00 00 40 90 b2 a7 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1086995 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off to the side at a verdant landscape.  The context suggests it might be a publicity or official photograph, possibly from a visit to a natural area or park in Indonesia.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant, forested landscape.  The context suggests a possibly informal or candid shot, perhaps taken during a visit to a natural area or while he was traveling.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur bagai kuda. Sapailu paurang duaa.\n'
+  content: 'Kosong.  Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagai kuda.  Sape lu paurang dua?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'This video depicts a segment of the music video for Rick Astley’s song “Never Gonna Give You Up.” The clip opens with a close-up of Astley’s face, before cutting to his shoes as he taps his feet. Next, the perspective pulls back to show Astley’s upper body and his microphone as he sings and sways along with the song. The video has a soft, pastel aesthetic and a slight, hazy effect.  The superimposed text “GET RICK ROLLED” appears across the top and center of the video from [00:00:01] to [00:00:06]. The song’s lyrics go as follows:\n' +
+  content: 'The video shows an excerpt from the music video for the Rick Astley song, “Never Gonna Give You Up." It begins with the words "GET RICK ROLLED" superimposed over the beginning. Then, the video continues with the original music video of Astley performing the song in a dark jacket, light pants, and a light and dark striped shirt.\n' +
     '\n' +
-    '[00:00:07] Never gonna give you up\n' +
-    '[00:00:09] Never gonna let you down\n' +
-    '[00:00:11] Never gonna run around and desert you\n' +
-    '[00:00:14] Never gonna make you cry\n' +
-    '[00:00:16] Never gonna say goodbye\n' +
-    '[00:00:18] Never gonna tell a lie and hurt you'
+    'The audio is the opening to “Never Gonna Give You Up” by Rick Astley. The first lyrics heard in the video are, “Never gonna give you up.”'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Sayangnya, saya tidak memiliki akses ke basis data yang berisi arti nama secara komprehensif. Arti nama Tio bisa beragam tergantung dari asal usul dan bahasanya.  \n' +
+  content: 'Nama Anda adalah Tio.  Arti nama Tio bergantung pada asalnya dan bagaimana ia dieja.  Tidak ada satu arti universal untuk nama Tio.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, saya sarankan Anda untuk:\n' +
+    'Beberapa kemungkinan asal dan arti meliputi:\n' +
     '\n' +
-    '* **Mencari di internet:**  Coba cari "arti nama Tio" di mesin pencari seperti Google, Bing, atau DuckDuckGo.  Anda akan menemukan berbagai sumber yang memberikan interpretasi berbeda dari nama tersebut.\n' +
-    '* **Menanyakan kepada keluarga:** Orang tua atau anggota keluarga Anda mungkin tahu asal usul nama Tio dan arti yang mereka maksudkan saat memberi Anda nama tersebut.  Ini adalah sumber informasi yang paling akurat.\n' +
+    '* **Singkatan atau bentuk pendek:**  Tio bisa menjadi bentuk pendek dari nama-nama seperti  Tiago (Portugis, berarti "penebusan Tuhan" atau "tuhan telah mengangkat"),  Mateo (Spanyol, berarti "karunia Tuhan"), atau nama-nama lain yang serupa.  Jika ini kasusnya, arti nama Tio akan sama dengan nama yang lebih panjang yang disingkatnya.\n' +
     '\n' +
-    'Beberapa kemungkinan arti yang mungkin Anda temukan online termasuk singkatan, variasi dari nama lain, atau arti yang terkait dengan bahasa tertentu.  Tanpa konteks lebih lanjut, saya tidak bisa memberikan arti yang spesifik.\n'
+    '* **Asal Tionghoa/Indonesia:**  Di beberapa budaya Asia,  Tio mungkin merupakan nama keluarga atau nama panggilan yang memiliki arti spesifik dalam konteks keluarga atau budaya tersebut.  Tanpa informasi lebih lanjut tentang latar belakang keluarga Anda, saya tidak dapat menentukan arti yang spesifik.\n' +
+    '\n' +
+    '* **Nama modern:**  Tio juga bisa menjadi nama yang dipilih tanpa referensi langsung ke arti tradisional.  Dalam kasus ini, arti nama tersebut adalah apa yang orang tua atau yang memberikan nama tersebut berikan kepadanya.\n' +
+    '\n' +
+    '\n' +
+    'Untuk mengetahui arti spesifik dari nama Tio yang Anda miliki, Anda perlu mencari informasi lebih lanjut mengenai asal usul nama tersebut dalam keluarga Anda.  Anda bisa bertanya kepada orang tua atau anggota keluarga lainnya.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    'Different perspectives include:\n' +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.  Finding meaning despite this conflict is key.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, a divine plan, or an afterlife.  These meanings often center around serving God, following religious principles, and achieving spiritual enlightenment.\n' +
-    '* **Hedonism:** The pursuit of pleasure and avoidance of pain as the primary goal in life.\n' +
-    '* **Humanism:**  Focusing on human values, reason, ethics, and social justice.  Meaning is found in contributing to human flourishing.\n' +
-    '* **Purpose-driven:**  Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, yet we must continue to search.\n' +
+    '* **Religious and Spiritual Beliefs:** Many religions offer answers about the meaning of life, often involving a divine plan, serving a higher power, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, contributions to society, and personal growth.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  What brings you joy, fulfillment, and a sense of purpose?  That might be a starting point in defining your own meaning.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  What brings you joy, fulfillment, and a sense of purpose?  That might be your answer.\n"
 }
