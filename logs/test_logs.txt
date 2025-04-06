@@ -9,11 +9,11 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1281652 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1576597 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  The focus is on him, but the background suggests a location that's likely natural and possibly in Indonesia.  It's a fairly informal portrait, not a posed official photograph.\n"
+  content: "That's Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's a posed photograph, likely taken for publicity or a news article, rather than a candid snapshot.  The setting suggests a natural, possibly rural or forested area in Indonesia.\n"
 }
 Testing gemini_audio...
 gemini_audio Error: Request failed with status code 500
@@ -22,29 +22,38 @@ gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio beragam tergantung asalnya dan bagaimana ia digunakan.  Tidak ada satu arti yang pasti.  Berikut beberapa kemungkinan:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio secara pasti karena Tio bukanlah nama dengan asal-usul yang jelas dan mapan seperti misalnya nama-nama dari bahasa Yunani atau Latin.  \n' +
     '\n' +
-    '* **Sebagai singkatan:** Tio bisa menjadi singkatan dari nama-nama yang lebih panjang, misalnya  di Indonesia mungkin singkatan dari Teguh, Tiopan,  atau nama lain yang diawali dengan "Ti".  Untuk mengetahui arti sebenarnya, perlu diketahui nama lengkapnya.\n' +
+    'Tio mungkin:\n' +
     '\n' +
-    '* **Sebagai nama panggilan:**  Tio bisa jadi hanyalah nama panggilan yang mudah diingat dan diucapkan, tanpa arti khusus yang melekat padanya.\n' +
+    '* **Singkatan atau kependekan:** dari nama lain yang lebih panjang.  \n' +
+    '* **Nama panggilan:** yang diberikan kepada seseorang.\n' +
+    '* **Nama yang unik:**  dibuat atau dipilih secara khusus, tanpa arti khusus dalam bahasa tertentu.\n' +
     '\n' +
-    '* **Asal usul asing:** Kemungkinan juga Tio berasal dari bahasa lain, meskipun tidak umum.  Tanpa konteks asal usul keluarga, sulit untuk menentukan artinya secara pasti.\n' +
-    '\n' +
-    'Intinya, tanpa informasi lebih lanjut tentang asal-usul nama Tio yang kamu gunakan,  sulit untuk memberikan arti yang tepat.  Jika kamu ingin tahu arti yang lebih spesifik, coba tanyakan kepada orang tuamu atau kerabat yang memberi nama padamu.\n'
+    'Jika kamu tahu dari mana asal namamu atau ada cerita di baliknya,  beritahu saya dan mungkin saya bisa membantu lebih lanjut.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be subjective and personal, shaped by individual experiences, beliefs, and values.\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    'Different perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    "* **Existentialism:**  The emphasis on individual freedom and responsibility in creating one's own meaning.\n" +
-    '* **Absurdism:** The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human connection, creativity, and contributing to society.\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for inherent meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Religious and spiritual beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human connection, contribution, and personal growth.\n' +
     '* **Hedonism:**  Finding meaning in pleasure and happiness.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question to explore personally through reflection, experience, and interaction with the world around you.\n"
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a definitive answer, many find fulfillment by focusing on:\n" +
+    '\n' +
+    '* **Relationships:** Connecting with loved ones and building meaningful bonds.\n' +
+    '* **Contribution:** Making a positive impact on the world, however small.\n' +
+    "* **Personal growth:** Continuously learning, developing skills, and expanding one's horizons.\n" +
+    "* **Experiences:**  Embracing life's adventures and creating memories.\n" +
+    '\n' +
+    '\n' +
+    'The journey of discovering your own meaning of life is often more significant than finding a single, definitive answer.\n'
 }
