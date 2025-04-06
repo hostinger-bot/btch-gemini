@@ -6,48 +6,48 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking!  How are you today?\n'
+  content: "I'm doing well, thank you for asking!  How are you today?\n"
 }
 Testing gemini_imgedit...
 gemini_imgedit Request failed with status code 500
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photograph of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a candid shot, rather than a formal portrait.  The setting appears to be outdoors, possibly a park or forested area.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo, possibly intended to project a sense of calm and connection to nature.  There's no specific event or context readily apparent from just the image itself.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda.  Sape lupah orang tua?\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lupah urang tua?\n'
 }
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu dengan pasti.  Arti nama Tio bergantung pada asal-usulnya dan bisa memiliki beberapa makna yang berbeda.  \n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan bahasanya.  Tidak ada satu arti yang pasti.  Berikut beberapa kemungkinan:\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, kita perlu tahu:\n' +
+    '* **Sebagai kependekan:** Tio bisa menjadi kependekan dari nama-nama seperti  Tiodorus,  Tiofanes,  atau nama-nama lain yang diawali dengan "Tio".  Dalam hal ini, arti namanya akan bergantung pada nama lengkapnya.\n' +
     '\n' +
-    '* **Asal usul nama Tio:** Apakah nama Tio berasal dari bahasa Indonesia, Tionghoa, Portugis, atau bahasa lain?  Asal usulnya akan sangat membantu menentukan artinya.\n' +
-    '* **Ejaan nama Tio:**  Apakah ejaan yang tepat benar-benar Tio, atau ada tambahan huruf atau variasi ejaan lainnya?\n' +
+    '* **Dalam bahasa Tionghoa:**  Meskipun jarang, Tio mungkin merupakan transliterasi dari nama Tionghoa yang memiliki arti tersendiri.  Untuk mengetahui artinya yang spesifik dalam konteks ini, dibutuhkan informasi lebih lanjut tentang ejaan Tionghoanya.\n' +
     '\n' +
-    'Jika kamu bisa memberitahu saya informasi tambahan ini, saya mungkin bisa membantu mencari arti namanya.  Atau, kamu bisa mencoba mencari arti nama Tio di internet menggunakan mesin pencari seperti Google.  Coba masukkan "arti nama Tio" beserta detail tambahan yang kamu ketahui.\n'
+    '* **Sebagai nama panggilan:**  Mungkin saja Tio hanyalah nama panggilan yang dipilih karena kesukaan pribadi atau alasan lain, tanpa memiliki arti khusus.\n' +
+    '\n' +
+    '\n' +
+    'Singkatnya, tanpa konteks lebih lanjut tentang asal usul nama Tio, sulit untuk memberikan arti yang pasti.  Apakah kamu tahu asal usul namamu?  Informasi tambahan itu akan sangat membantu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning is often considered subjective and personal, varying greatly depending on individual beliefs, experiences, and values.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is philosophical and deeply personal.  Different people and cultures find meaning in various things, including:\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    '* **Relationships:**  Love, connection, and belonging with family, friends, and community.\n' +
+    '* **Contribution:** Making a positive impact on the world, helping others, leaving a legacy.\n' +
+    '* **Experiences:**  Seeking knowledge, adventure, and personal growth through travel, learning, and new challenges.\n' +
+    '* **Spirituality or Religion:** Finding meaning and purpose through faith and connection to something greater than oneself.\n' +
+    '* **Creativity:** Expressing oneself through art, music, writing, or other creative pursuits.\n' +
+    "* **Self-discovery:**  Understanding oneself, one's values, and one's place in the world.\n" +
+    '* **Purpose:** Identifying a driving force or goal that gives life direction.\n' +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
-    '* **Spiritual/Religious beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine plan.\n' +
-    '* **Hedonism:** The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
-    '* **Humanism:**  Focusing on human values, reason, and ethics, emphasizing the importance of human flourishing and social justice.\n' +
-    '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal discovery and reflection, rather than a simple answer.  What brings you fulfillment, joy, and a sense of purpose?  That might be a good starting point in your own exploration of this fundamental question.\n"
+    "Ultimately, the meaning of life is what you make it. It's a question you must answer for yourself through reflection, experience, and exploration.  There's no right or wrong answer.\n"
 }
