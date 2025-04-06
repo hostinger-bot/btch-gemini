@@ -13,49 +13,57 @@ gemini_imgedit Request failed with status code 500
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's a fairly typical posed portrait of a political figure, likely intended to project a sense of calm, contemplation, or connection with nature.  There's no specific event or context evident from the image alone.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's a fairly informal portrait, likely taken during a visit to a location in Indonesia.  There's no specific event or context revealed in the image itself.\n"
 }
 Testing gemini_audio...
-gemini_audio Response: {
-  success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda.  Sape lupah urang tua?\n'
-}
+gemini_audio Error: Request failed with status code 500
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'This is a classic “Rickroll” video. The visuals feature Rick Astley singing and dancing, with overlaid text that reads "GET RICKROLLED". \n' +
+  content: 'This video is a short clip from Rick Astley’s song “Never Gonna Give You Up.” It’s a common internet meme to “rickroll” someone, which means sending them a link that appears to be about something else, but which actually leads to this music video.\n' +
     '\n' +
-    'The audio begins with the introductory drumbeats of his song “Never Gonna Give You Up”. No other lyrics are included in the short clip.'
+    '\n' +
+    '[Intro]\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio secara pasti karena arti nama Tio bergantung pada asal-usulnya dan konteks budaya.  Tio bisa menjadi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, arti nama Tio bergantung pada asalnya dan tidak ada arti tunggal yang universal.  Tio bisa menjadi:\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:**  Ini adalah kemungkinan yang sangat umum.  Tio bisa menjadi singkatan dari nama-nama seperti  Tiarani,  Tiodorus,  atau nama lainnya. Tanpa informasi lebih lanjut, saya tidak bisa memastikannya.\n' +
+    '* **Singkatan atau bentuk pendek:**  Mungkin merupakan bentuk pendek dari nama lain, seperti  Christian,  Antonio,  atau  nama lain yang diawali dengan "Ti-".  Untuk mengetahui arti sebenarnya, perlu mengetahui nama lengkapnya.\n' +
     '\n' +
-    '* **Nama sendiri:**  Di beberapa budaya, Tio mungkin merupakan nama yang berdiri sendiri, namun tanpa konteks budaya atau asal-usulnya, sulit untuk menentukan artinya.\n' +
+    '* **Nama dalam suatu bahasa tertentu:** Tio bisa saja menjadi nama dalam bahasa tertentu yang memiliki arti khusus.  Namun, tanpa informasi tambahan tentang asal-usul nama tersebut, sulit untuk menentukan artinya.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, Anda perlu memberikan informasi tambahan seperti:\n' +
-    '\n' +
-    '* **Asal usul nama:** Apakah nama ini dari Indonesia, China, Spanyol, atau budaya lain?\n' +
-    '* **Nama lengkap:** Jika Tio adalah singkatan, nama lengkap Anda akan membantu.\n' +
+    '* **Nama panggilan:** Bisa saja Tio hanyalah nama panggilan atau julukan yang tidak memiliki arti khusus.\n' +
     '\n' +
     '\n' +
-    'Dengan informasi tambahan ini, saya mungkin bisa membantu Anda menemukan arti nama Tio.\n'
+    'Untuk mengetahui arti nama Tio, saya membutuhkan informasi tambahan, seperti:\n' +
+    '\n' +
+    '* **Asal usul nama:** Apakah nama Tio berasal dari bahasa tertentu (misalnya, Indonesia, Cina, Spanyol, dll.)?\n' +
+    '* **Nama lengkap:**  Jika Tio adalah singkatan, mengetahui nama lengkapnya akan membantu menentukan arti.\n' +
+    '\n' +
+    '\n' +
+    'Berikan saya informasi tambahan agar saya dapat membantu menemukan arti nama Tio.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for centuries.  Different individuals and cultures have vastly different perspectives.  Some common approaches include:\n" +
+  content: "The meaning of life is a question that has been pondered by philosophers, theologians, and individuals for centuries. There's no single, universally accepted answer.  The meaning is often considered deeply personal and subjective, varying greatly from person to person and culture to culture.\n" +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:**  The belief that life is inherently meaningless, but we create our own meaning through our choices and actions.\n' +
-    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but we should embrace this absurdity.\n' +
+    'Some common perspectives include:\n' +
+    '\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
     '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine purpose.\n' +
-    '* **Hedonism:**  The belief that the meaning of life is to pursue pleasure and avoid pain.\n' +
-    '* **Humanism:**  The belief that human values and reason are central to understanding the world and creating a meaningful life.\n' +
-    "* **Purpose-driven life:** Defining meaning through contributing to something larger than oneself, whether it's a cause, community, or family.\n" +
+    '* **Humanism:** Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
+    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  There's no right or wrong answer.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question you must answer for yourself through reflection, experience, and the values you choose to prioritize.\n"
 }
