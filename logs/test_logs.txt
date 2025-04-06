@@ -6,27 +6,30 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking! How are you today?\n'
+  content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1302406 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 d9 00 00 04 00 08 02 00 00 00 bb ce d2 14 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 722292 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  It's likely a publicity or official photo, possibly taken during a visit to a forested area or park in Indonesia.  The image conveys a sense of calm and contemplation.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile view, looking out at a lush, green landscape.  It's a fairly informal portrait, likely taken outside during an event or visit.  The image itself doesn't convey a specific message beyond showing the president in a relaxed setting.\n"
 }
 Testing gemini_audio...
-gemini_audio Error: Request failed with status code 500
+gemini_audio Response: {
+  success: true,
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sape lu pak orang tua?\n'
+}
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: "Sure, here's the video and audio transcription:\n" +
+  content: 'This video shows a Rick Astley music video. The caption, "Get Rick Rolled" is overlaid on the video.\n' +
     '\n' +
-    `The video features singer Rick Astley performing his 1987 hit song "Never Gonna Give You Up." It's a classic Rickroll. This meme involves tricking someone into watching the music video.\n` +
+    'Rick Astley sings the song "Never Gonna Give You Up" in his characteristic style. He’s wearing a blazer, a horizontally striped shirt, light pants, and dark shoes. His hair is slicked back.\n' +
     '\n' +
-    'The lyrics transcribed are:\n' +
+    'Rick Astley does a small dance while singing into a microphone, his moves slightly reminiscent of a boxer at times. Behind him is a glass pane effect backdrop with what look like the outlines of trees on it. \n' +
     '\n' +
-    '(Music begins)\n' +
+    'He sings the following:\n' +
     'Never gonna give you up\n' +
     'Never gonna let you down\n' +
     'Never gonna run around and desert you\n' +
@@ -37,36 +40,29 @@ gemini_video Response: {
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu dengan pasti.  Arti nama Tio bergantung pada asal-usulnya.  Tio bisa menjadi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio secara pasti karena Tio bukanlah nama dengan etimologi tunggal yang jelas.  Artinya bisa bergantung pada bahasa dan budaya asalnya.  \n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:**  Ini adalah kemungkinan yang paling umum.  Tio bisa menjadi singkatan dari nama-nama seperti  Christian, Timothy,  Antonio, atau nama-nama lain yang memiliki "tio" di dalamnya.  Untuk mengetahui arti sebenarnya, kita perlu tahu nama lengkap yang disingkat menjadi Tio.\n' +
+    'Beberapa kemungkinan:\n' +
     '\n' +
-    '* **Nama dengan asal-usul tertentu:** Ada kemungkinan Tio merupakan nama dengan asal-usul daerah tertentu yang tidak saya ketahui.  Beberapa nama memiliki arti yang berbeda di berbagai budaya dan bahasa.\n' +
+    '* **Singkatan/Pendek dari nama lain:** Tio mungkin merupakan bentuk pendek dari nama-nama seperti  Teodoro,  Amadeo,  atau nama-nama lain yang diawali dengan "Ti-" atau "Te-".\n' +
+    '* **Asal bahasa Indonesia:**  Di Indonesia, Tio bisa dianggap sebagai nama panggilan yang pendek dan mudah diingat, tanpa arti khusus yang tertanam.\n' +
+    '* **Asal bahasa lain:**  Mungkin juga Tio berasal dari bahasa lain,  dan artinya bergantung pada bahasa tersebut.  Untuk mengetahui artinya yang tepat, perlu diketahui asal-usul nama tersebut.\n' +
     '\n' +
-    '* **Nama unik yang diberikan:**  Ada kemungkinan Tio adalah nama yang unik yang diberikan orang tuamu tanpa arti khusus yang melekat padanya.\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio, kamu bisa mencoba mencari di internet dengan menambahkan informasi tambahan seperti:\n' +
-    '\n' +
-    '* **Asal usul keluarga:** Apakah keluarga Anda memiliki asal usul tertentu (misalnya, Tionghoa, Spanyol, Portugis, Indonesia)?\n' +
-    '* **Nama lengkap:** Jika Tio adalah kependekan, apa nama lengkapnya?\n' +
-    '\n' +
-    'Dengan informasi tambahan tersebut, saya atau kamu bisa menemukan arti nama Tio dengan lebih akurat.\n'
+    'Jika kamu bisa memberi tahu saya asal-usul namamu atau nama lengkapmu, mungkin saya bisa memberikan informasi yang lebih spesifik tentang arti namanya.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning is often considered deeply personal and subjective, varying greatly from person to person.\n" +
     '\n' +
-    'Different perspectives include:\n' +
+    'Some perspectives include:\n' +
     '\n' +
     '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that life is inherently meaningless, but that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that embracing this absurdity is a way to find meaning.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a divine purpose, serving a higher power, or achieving enlightenment or salvation.\n' +
-    '* **Humanism:**  Focuses on human values, reason, ethics, and social justice as the basis for meaning and purpose.\n' +
-    '* **Hedonism:**  Defines meaning as the pursuit of pleasure and avoidance of pain.\n' +
-    '* **Purpose-driven life:** Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
+    '* **Existentialism:** The belief that life is inherently meaningless, but we create our own meaning through our choices and actions.\n' +
+    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but we should embrace this absurdity.\n' +
+    '* **Spiritual or Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, purpose, and afterlife.  These meanings vary widely across different faiths.\n' +
+    '* **Hedonism:** The belief that the meaning of life is to pursue pleasure and avoid pain.\n' +
+    '* **Purpose-driven life:**  Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
     '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  There's no right or wrong answer, only the answer that resonates most deeply with you.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  Consider what brings you joy, fulfillment, and a sense of purpose.  Reflect on your values and what you want to leave behind in the world.  The answer may evolve and change throughout your life.\n"
 }
