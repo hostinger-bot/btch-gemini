@@ -9,47 +9,42 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 897370 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1281652 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  The context suggests it's a candid shot, possibly taken during a visit to a natural area or park.  There's no specific event or activity explicitly depicted beyond the president observing a natural setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  The focus is on him, but the background suggests a location that's likely natural and possibly in Indonesia.  It's a fairly informal portrait, not a posed official photograph.\n"
 }
 Testing gemini_audio...
-gemini_audio Response: {
-  success: true,
-  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda. Sape lu paurang duit.\n'
-}
+gemini_audio Error: Request failed with status code 500
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sendiri sebenarnya tergantung pada asal usulnya.  Karena Tio bukanlah nama yang punya arti tunggal dan universal seperti misalnya "Maria" atau "John,"  artinya bisa bervariasi.\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio beragam tergantung asalnya dan bagaimana ia digunakan.  Tidak ada satu arti yang pasti.  Berikut beberapa kemungkinan:\n' +
     '\n' +
-    'Beberapa kemungkinan:\n' +
+    '* **Sebagai singkatan:** Tio bisa menjadi singkatan dari nama-nama yang lebih panjang, misalnya  di Indonesia mungkin singkatan dari Teguh, Tiopan,  atau nama lain yang diawali dengan "Ti".  Untuk mengetahui arti sebenarnya, perlu diketahui nama lengkapnya.\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek:** Tio mungkin merupakan singkatan atau bentuk pendek dari nama lain, seperti  "Tiodorus," "Teodoro," atau nama lain yang diawali dengan "Ti-".  Jika ini kasusnya, arti nama tersebut akan tergantung dari nama panjangnya.\n' +
+    '* **Sebagai nama panggilan:**  Tio bisa jadi hanyalah nama panggilan yang mudah diingat dan diucapkan, tanpa arti khusus yang melekat padanya.\n' +
     '\n' +
-    '* **Nama panggilan:** Bisa juga Tio merupakan nama panggilan yang diberikan tanpa makna spesifik di baliknya,  hanya sekedar panggilan yang mudah diingat dan disukai.\n' +
+    '* **Asal usul asing:** Kemungkinan juga Tio berasal dari bahasa lain, meskipun tidak umum.  Tanpa konteks asal usul keluarga, sulit untuk menentukan artinya secara pasti.\n' +
     '\n' +
-    '* **Asal bahasa:** Untuk mencari arti yang lebih spesifik, kita perlu tahu asal bahasa nama Tio. Apakah dari bahasa Indonesia, Mandarin, Spanyol, atau bahasa lainnya?  Mengetahui asal bahasanya akan membantu kita menemukan arti yang lebih tepat.\n' +
-    '\n' +
-    'Untuk mendapatkan arti nama Tio yang tepat,  tolong beritahu saya dari mana asal nama tersebut atau apa nama lengkap yang disingkat menjadi Tio.\n'
+    'Intinya, tanpa informasi lebih lanjut tentang asal-usul nama Tio yang kamu gunakan,  sulit untuk memberikan arti yang tepat.  Jika kamu ingin tahu arti yang lebih spesifik, coba tanyakan kepada orang tuamu atau kerabat yang memberi nama padamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be something personal and subjective, shaped by individual experiences, beliefs, and values.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be subjective and personal, shaped by individual experiences, beliefs, and values.\n" +
     '\n' +
     'Some common perspectives include:\n' +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual or Religious Beliefs:** Many religions offer answers to the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:**  Focuses on human values and potential, emphasizing reason, ethics, and social justice.  Meaning is found in human connection and contribution.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
+    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    "* **Existentialism:**  The emphasis on individual freedom and responsibility in creating one's own meaning.\n" +
+    '* **Absurdism:** The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human connection, creativity, and contributing to society.\n' +
+    '* **Hedonism:**  Finding meaning in pleasure and happiness.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  Instead of searching for a definitive answer, consider what brings you joy, fulfillment, and a sense of purpose.  What impact do you want to have on the world? What legacy do you want to leave behind?  These are questions that can help you define your own meaning of life.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question to explore personally through reflection, experience, and interaction with the world around you.\n"
 }
