@@ -6,56 +6,68 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: "I'm doing well, thank you for asking!  How are you today?\n"
+  content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1575641 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1569338 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photograph, possibly from a visit to a location showcasing Indonesia's natural beauty.  The image focuses on him and his contemplative pose against a backdrop of trees.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or candid photo, possibly taken during a visit to a location of environmental or natural significance.  The context is missing, so it's impossible to say definitively what the specific occasion was.\n"
 }
 Testing gemini_audio...
-gemini_audio Error: Request failed with status code 500
+gemini_audio Response: {
+  success: true,
+  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagai kuda. Sape lu paurang tua?\n'
+}
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video is a short clip from the music video of “Never Gonna Give You Up,” a song by Rick Astley. The words "GET RICK ROLLED" appear in the video.  The audio begins with an electric guitar riff. Then the music begins and Rick Astley begins singing. He sings:\n' +
+  content: `Okay. This short video is the well-known “Rick Roll” meme. This prank involves tricking someone into clicking a link that leads to the music video for Rick Astley's 1987 hit song, "Never Gonna Give You Up."\n` +
     '\n' +
-    'Never gonna give you up\n' +
+    'The lyrics heard in the video are:\n' +
+    '\n' +
+    '“Never gonna give you up\n' +
     'Never gonna let you down\n' +
     'Never gonna run around and desert you\n' +
     'Never gonna make you cry\n' +
     'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    'Never gonna tell a lie and hurt you”'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sebenarnya bergantung pada asal-usulnya dan bagaimana nama itu diberikan kepadamu.  Tidak ada satu arti tunggal yang pasti untuk nama Tio.\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, arti nama Tio tergantung pada asal usul dan bahasanya.  Nama Tio bisa berasal dari berbagai bahasa dan memiliki arti yang berbeda-beda.  Beberapa kemungkinan termasuk:\n' +
     '\n' +
-    'Beberapa kemungkinan arti atau asal-usul nama Tio antara lain:\n' +
+    '* **Singkatan atau bentuk pendek:** Tio bisa menjadi singkatan dari nama-nama lain, seperti  Tiara,  Antonio, atau  sejenisnya.  Jika ini kasusnya, arti nama akan bergantung pada nama lengkapnya.\n' +
     '\n' +
-    '* **Singkatan atau kependekan:** Tio bisa menjadi singkatan dari nama yang lebih panjang, seperti  Tiodorus,  Teodoro, atau nama-nama lain yang dimulai dengan Tio-.  Dalam kasus ini, artinya akan bergantung pada nama lengkapnya.\n' +
-    '* **Nama panggilan:** Tio bisa juga merupakan nama panggilan yang diberikan kepada seseorang dan tidak memiliki arti tersendiri.\n' +
-    '* **Asal bahasa:**  Bisa jadi berasal dari bahasa tertentu, namun tanpa konteks lebih lanjut (seperti bahasa mana yang menjadi asal usul nama Tio dalam keluargamu),  sulit untuk menentukan artinya.  Beberapa bahasa mungkin memiliki nama yang mirip dengan Tio, tetapi dengan ejaan dan arti yang berbeda.\n' +
+    '* **Bahasa Tionghoa:** Di beberapa dialek Tionghoa, mungkin ada nama-nama yang berbunyi mirip "Tio" yang memiliki arti tertentu, namun tanpa mengetahui penulisan Hanzi (karakter Tionghoa) nya,  mustahil untuk menentukan artinya.\n' +
     '\n' +
+    '* **Bahasa lain:** Ada kemungkinan Tio berasal dari bahasa lain yang tidak saya ketahui.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat,  kamu perlu bertanya kepada orang tuamu atau kerabat dekat yang memberimu nama tersebut. Mereka akan dapat memberikan informasi yang paling akurat mengenai asal-usul dan arti nama Tio bagimu.\n'
+    'Untuk mengetahui arti nama Tio yang tepat, kamu perlu memberitahu saya asal usul namamu atau ejaan lengkap nama tersebut jika Tio merupakan singkatan.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "The meaning of life is a question that has been pondered by philosophers, theologians, and individuals for centuries.  There's no single, universally accepted answer.  The meaning is often considered subjective and personal, varying greatly depending on individual beliefs, experiences, and values.\n" +
+  content: "The meaning of life is a question that has been pondered by philosophers, theologians, and individuals for centuries. There's no single, universally accepted answer.  The meaning is often considered to be subjective and personal, varying greatly from person to person and culture to culture.\n" +
     '\n' +
     'Some common perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The acceptance of the inherent conflict between the human search for meaning and the meaningless universe.\n' +
-    '* **Religious and Spiritual Beliefs:** Many religions and spiritual practices offer answers about the meaning of life, often involving a higher power, an afterlife, or a divine plan.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the primary purpose of life.\n' +
-    '* **Purpose-Driven Life:**  Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
+    '* **Nihilism:** This philosophy asserts that life is inherently meaningless.  There is no objective purpose or value.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  Consider what brings you joy, fulfillment, and a sense of purpose.  Reflect on your values and what you want to contribute to the world.  The answer may evolve over time as you grow and change.\n"
+    '* **Existentialism:** This emphasizes individual freedom and responsibility.  Meaning is not inherent but created through choices and actions. We are free to define our own meaning.\n' +
+    '\n' +
+    '* **Absurdism:** This acknowledges the inherent conflict between the human search for meaning and the meaningless universe.  Finding meaning involves embracing this absurdity.\n' +
+    '\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divinely ordained purpose.\n' +
+    '\n' +
+    '* **Hedonism:** This philosophy focuses on pleasure and happiness as the ultimate goals in life.\n' +
+    '\n' +
+    '* **Humanism:** This emphasizes human reason, ethics, and social justice.  Meaning is found in contributing to human flourishing and well-being.\n' +
+    '\n' +
+    '* **Purpose-driven life:**  This approach suggests finding meaning through setting goals, contributing to something larger than oneself, and pursuing passions.\n' +
+    '\n' +
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  There's no right or wrong answer, only your own individual interpretation.\n"
 }
