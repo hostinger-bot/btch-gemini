@@ -9,60 +9,60 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 fc 00 00 04 00 08 02 00 00 00 12 ba 1a 80 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1119312 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1048800 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photograph of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  The context suggests it might be a candid shot taken during a visit or event, perhaps showcasing him in a relaxed, contemplative moment in a natural setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant, forested landscape.  The context suggests it might be a publicity photo, possibly related to an environmental initiative or a visit to a natural area within Indonesia.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong.  Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagi aku dah.  Sepi luang waktu.\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda.  Sape lu paurang duit.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'This video is a classic Rickroll, featuring the singer Rick Astley performing his iconic song, "Never Gonna Give You Up".\n' +
+  content: "The video is from the Rick Astley song, Never Gonna Give You Up. This is the video used in the Rickroll prank. It's from the early 1980s and shows Rick Astley singing while dancing, with a microphone on a stand. \n" +
     '\n' +
-    'The video is overlaid with the words "GET RICK ROLLED".\n' +
+    'The audio transcription is as follows:\n' +
     '\n' +
-    'The song starts with a few instrumental beats, setting the stage for Rick Astley to begin singing. The lyrics he begins with are:\n' +
-    '[00:00:06] Never gonna give you up\n' +
-    '[00:00:08] Never gonna let you down\n' +
-    '[00:00:10] Never gonna run around and desert you\n' +
-    '[00:00:13] Never gonna make you cry\n' +
-    '[00:00:15] Never gonna say goodbye\n' +
-    '[00:00:17] Never gonna tell a lie and hurt you'
+    '(Music)\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Arti nama Tio bervariasi tergantung asal dan bahasanya.  Tidak ada satu arti yang pasti untuk nama Tio.  Namun, beberapa kemungkinan interpretasinya antara lain:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio sendiri agak rumit karena tergantung dari asalnya dan bagaimana ia digunakan.  Tidak ada satu arti yang pasti.  Ia bisa menjadi:\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek:** Tio bisa menjadi singkatan dari nama-nama yang lebih panjang, misalnya Teodoro,  Dionisius, atau nama-nama lain yang diawali dengan "Ti".  Dalam konteks ini, arti namanya akan mengikuti arti nama panjang asalnya.\n' +
+    '* **Singkatan atau bentuk pendek:**  Mungkin Tio adalah singkatan dari nama yang lebih panjang, seperti  Dionisius,  Christian,  atau nama lain yang diawali dengan "Ti-".  Tanpa mengetahui nama lengkapnya, sulit untuk memastikan.\n' +
     '\n' +
-    '* **Asal dari bahasa Tionghoa:**  Dalam beberapa konteks, Tio bisa menjadi nama keluarga atau bagian dari nama Tionghoa.  Arti spesifiknya bergantung pada karakter Hanzi yang digunakan untuk menulisnya.\n' +
+    '* **Nama panggilan:** Tio juga bisa menjadi nama panggilan yang dipilih karena kesukaan orangtua atau karena terdengar bagus.\n' +
     '\n' +
-    '* **Nama panggilan:** Tio juga bisa menjadi nama panggilan yang dipilih karena kependekan, kemudahan pengucapan, atau alasan personal lainnya.  Dalam kasus ini, tidak ada arti khusus yang melekat.\n' +
+    '* **Nama dengan akar bahasa tertentu:** Kemungkinan Tio berasal dari bahasa tertentu,  tapi tanpa informasi lebih lanjut (misalnya, asal-usul keluarga)  mustahil untuk menentukan arti spesifiknya dari suatu bahasa.  Beberapa bahasa mungkin memiliki nama yang mirip dengan ejaan "Tio," tetapi artinya bisa sangat berbeda.\n' +
     '\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat bagi Anda,  Anda perlu mengetahui asal-usul nama tersebut dari keluarga Anda.  Apakah ada nama panjang yang disingkat menjadi Tio?  Atau, apakah nama Tio memiliki makna khusus dalam keluarga atau budaya Anda?\n'
+    'Intinya, tanpa konteks lebih lanjut,  tidak mungkin menjelaskan arti nama Tio secara pasti.  Jika kamu ingin mengetahui arti yang dimaksud orangtuamu saat memberimu nama Tio,  tanya saja mereka langsung!\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself is deeply philosophical and personal, and the answer varies greatly depending on individual beliefs, experiences, and perspectives.\n" +
+  content: "The meaning of life is a question that has been pondered by philosophers, theologians, and individuals for centuries.  There's no single, universally accepted answer.  The meaning is often considered to be subjective and personal, varying greatly from individual to individual and across cultures.\n" +
     '\n' +
     'Some common perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:**  The belief that life is meaningless unless we create our own meaning through our choices and actions.\n' +
-    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Hedonism:** The belief that the pursuit of pleasure and avoidance of pain is the ultimate goal in life.\n' +
-    '* **Purpose-driven:** Finding meaning in contributing to something larger than oneself, such as a cause, community, or family.\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, yet we must continue to search.\n' +
+    '* **Spiritual or Religious Beliefs:** Many religions provide answers about the meaning of life, often involving serving a higher power, achieving enlightenment, or fulfilling a divine plan.\n' +
+    '* **Hedonism:** The belief that the purpose of life is to maximize pleasure and minimize pain.\n' +
+    '* **Humanism:** Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
     '\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it. It's a question you must answer for yourself through reflection, experience, and exploration of your values and beliefs.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal reflection and discovery, and the answer may evolve throughout your life.  Instead of searching for a definitive answer, consider what brings you joy, fulfillment, and a sense of purpose.  What impact do you want to have on the world? What kind of person do you want to be? These questions may help you define your own personal meaning.\n"
 }
