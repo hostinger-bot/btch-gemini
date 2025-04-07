@@ -9,57 +9,59 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a9 00 00 04 00 08 02 00 00 00 4d 87 57 8c 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 878913 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a8 00 00 04 00 08 02 00 00 00 a2 45 3c b2 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1167482 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off to the side at a lush green landscape.  It's likely a publicity or official photo, perhaps taken during a visit to a location showcasing Indonesia's natural beauty.  The context is missing, so further details about the specific event or purpose of the photograph are unavailable.\n"
+  content: "That's a picture of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  It's likely a candid shot, perhaps taken during a visit to a location with significant forestry or natural beauty.  The image doesn't convey a specific message beyond showing the President in a relatively informal setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagai kuda. Sape lu pah orang tua?\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur bagai kuda. Sape lu pa orang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video features Rick Astley singing his hit 1987 song “Never Gonna Give You Up.” He’s wearing a striped shirt, tan pants, and a black suit jacket. His hair is styled in a pompadour, and he’s dancing and lip-syncing to the song. The video has a blurry, VHS-like quality and uses faded purple and grey colors.\n' +
+  content: 'This video shows a man in a dark jacket, light-colored horizontally-striped shirt, and light-colored pants singing and dancing in front of a microphone. The background appears light and features what appears to be a stained-glass design. Text superimposed upon the video reads “GET RICK ROLLED”. \n' +
     '\n' +
-    'The screen reads, “GET RICK ROLLED.”\n' +
-    '\n' +
-    'Here’s the song snippet:\n' +
-    '\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    'The audio consists of an instrumental introduction to Rick Astley’s song, “Never Gonna Give You Up”.'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio tidak tunggal dan  tergantung pada asal-usul dan bahasanya.  Tio bisa menjadi:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio sendiri sebenarnya bergantung pada asalnya dan bagaimana nama itu diberikan.  Tidak ada arti baku tunggal untuk nama Tio.  Namun, beberapa kemungkinan interpretasinya adalah:\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek:**  Bisa jadi singkatan dari nama lain yang lebih panjang, seperti  Teodoro,  Kristiyanto,  atau nama lainnya.  Untuk mengetahui arti sebenarnya,  kita perlu tahu nama lengkapnya.\n' +
+    '* **Singkatan atau kependekan:** Tio bisa menjadi singkatan dari nama yang lebih panjang, misalnya  Tiodorus,  Tiago,  atau  sebuah nama lain.  Jika ini kasusnya, arti namanya akan bergantung pada nama lengkapnya.\n' +
     '\n' +
-    '* **Nama dalam berbagai bahasa:** Di beberapa bahasa, Tio mungkin  mempunyai arti tersendiri.  Namun,  tanpa mengetahui latar belakang nama tersebut,  sulit untuk menentukan arti yang tepat.\n' +
+    '* **Nama panggilan:** Tio mungkin sebuah nama panggilan yang diberikan berdasarkan kepribadian, sifat, atau karakteristik tertentu.  Tanpa konteks lebih lanjut, sulit untuk menentukan arti yang dimaksud.\n' +
     '\n' +
-    'Untuk bisa menjelaskan arti nama Tio, tolong beri tahu saya dari mana nama tersebut berasal atau apa nama lengkap yang disingkat menjadi Tio.\n'
+    '* **Asal Bahasa:**  Tio mungkin berasal dari bahasa tertentu, tetapi tanpa mengetahui asal-usulnya, sulit untuk menentukan arti yang tepat.  Mungkin berasal dari bahasa Indonesia, Portugis, Spanyol, atau bahasa lain.\n' +
+    '\n' +
+    'Untuk mengetahui arti nama Tio secara pasti, kamu perlu mengetahui bagaimana nama tersebut diberikan dan konteksnya.  Apakah orang tuamu memberikan nama itu dengan arti tertentu?  Apakah itu singkatan dari nama lain? Mencari tahu asal-usul pemberian nama akan membantu menemukan arti yang paling tepat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning is often considered to be subjective and personal, shaped by individual experiences, beliefs, and values.\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered to be a deeply personal and subjective matter.\n" +
     '\n' +
-    'Some perspectives include:\n' +
+    'Different perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
     '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The recognition of the inherent conflict between the human search for meaning and the meaninglessness of the universe, and the embrace of that conflict.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine purpose.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, contributions to society, and personal growth.\n' +
-    '* **Hedonism:**  Defines meaning as the pursuit of pleasure and avoidance of pain.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, achieving enlightenment, or fulfilling a divine purpose.\n' +
+    '* **Hedonism:** The belief that pleasure and happiness are the ultimate goals of life.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human connection and contribution to society.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question to be explored and answered personally, rather than definitively resolved.\n"
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a definitive answer, many find fulfillment by:\n" +
+    '\n' +
+    '* **Building meaningful relationships:** Connecting with loved ones and contributing to your community.\n' +
+    '* **Pursuing personal growth:** Learning new things, developing skills, and challenging yourself.\n' +
+    '* **Contributing to something larger than yourself:**  Making a difference in the world through volunteering, activism, or creative endeavors.\n' +
+    '* **Finding joy and purpose in everyday life:**  Appreciating the small things and finding meaning in your daily experiences.\n' +
+    '\n' +
+    '\n' +
+    'The journey of discovering the meaning of life is often more important than arriving at a specific answer.\n'
 }
