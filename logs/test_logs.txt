@@ -9,51 +9,54 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1215123 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1922089 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a candid shot, possibly taken during a visit to a location showcasing Indonesia's natural beauty or environmental initiatives.  The context is missing, but the image itself focuses on the President in a contemplative, relaxed pose amidst nature.\n"
+  content: "That's a photograph of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's likely a publicity or official photo, possibly taken during a visit to a location in Indonesia.  The context is missing, so it's difficult to say more precisely what the image is *about* beyond simply showing the president.\n"
 }
 Testing gemini_audio...
 gemini_audio Error: Request failed with status code 500
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video appears to be the beginning of the music video for Rick Astley’s "Never Gonna Give You Up" and has the words "GET RICK ROLLED" superimposed over the video. \n' +
+  content: 'The video shows someone getting Rickrolled. “Rickrolling” is an internet meme where an unsuspecting person is tricked into clicking a disguised hyperlink that takes them to a music video of Rick Astley’s 1987 hit song “Never Gonna Give You Up”. The video shows the beginning of the song, complete with the singer and music. \n' +
     '\n' +
-    'The audio is the beginning of the song and the only lyrics are:\n' +
-    '[music]\n' +
-    'Never gonna give you up.\n' +
-    'Never gonna let you down.\n' +
-    'Never gonna run around and desert you.\n' +
-    'Never gonna make you cry.\n' +
-    'Never gonna say goodbye.\n' +
-    'Never gonna tell a lie and hurt you.'
+    'The words “GET RICK ROLLED” are superimposed over the beginning of the video, in large, white sans serif letters.\n' +
+    '\n' +
+    'The audio is the beginning of the song “Never Gonna Give You Up” by Rick Astley.  The song starts at the beginning, as follows:\n' +
+    '\n' +
+    '(Music)\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak punya akses ke database yang berisi arti semua nama, dan arti nama Tio sendiri bisa bervariasi tergantung budaya dan bahasa asalnya.  \n' +
+  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asalnya dan tidak ada satu arti yang pasti.  Tio bisa menjadi:\n' +
     '\n' +
-    'Tio bisa menjadi:\n' +
+    '* **Singkatan atau kependekan:**  Mungkin Tio merupakan singkatan dari nama yang lebih panjang.  Jika kamu bisa memberi tahu saya nama lengkapmu, saya mungkin bisa membantu menjelaskan artinya.\n' +
+    '* **Nama panggilan:** Tio bisa jadi nama panggilan yang sayang atau akrab.\n' +
+    '* **Nama dengan asal-usul yang beragam:**  Nama-nama yang pendek seperti Tio seringkali memiliki asal-usul yang beragam dan makna yang berbeda-beda bergantung pada budaya.  Tanpa tahu asal-usulnya, sulit untuk memberikan makna yang akurat.\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:**  Mungkin Tio adalah singkatan dari nama yang lebih panjang.\n' +
-    '* **Nama dengan asal usul tertentu:**  Asal usulnya bisa dari bahasa Indonesia, Cina, atau bahasa lainnya.  Tanpa mengetahui latar belakang keluarga, sulit untuk memastikan asal usulnya dan artinya.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, aku sarankan kamu mencari informasi lebih lanjut di internet dengan mengetik "arti nama Tio" pada mesin pencari seperti Google, atau menanyakan kepada orangtuamu. Mereka pasti akan tahu asal usul dan arti nama yang mereka berikan padamu!\n'
+    'Untuk mengetahui arti nama Tio yang tepat,  beritahukan saya lebih banyak informasi tentang asal usul nama tersebut atau nama lengkapmu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself is deeply philosophical and has been pondered by humans for millennia.  Different people and cultures find meaning in various things:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if there is one, is often considered to be personal and subjective.  Different people find meaning in different things, such as:\n" +
     '\n' +
-    "* **Relationships:**  Love, family, and friendships are central to many people's sense of purpose.\n" +
-    '* **Contribution:**  Making a difference in the world, whether through work, volunteering, or creative pursuits, provides meaning for many.\n' +
-    '* **Personal Growth:**  Continuously learning, developing skills, and overcoming challenges can be a source of fulfillment.\n' +
-    "* **Spiritual Beliefs:**  Religion and spirituality offer frameworks for understanding life's purpose and finding meaning.\n" +
-    '* **Experiences:**  Travel, adventure, and pursuing passions can bring joy and a sense of purpose.\n' +
-    '* **Creativity:**  Expressing oneself through art, music, writing, or other creative outlets.\n' +
+    '* **Relationships:**  Love, family, and friendships can provide a profound sense of purpose and belonging.\n' +
+    '* **Contribution:** Making a positive impact on the world, whether through work, volunteering, or creative pursuits, can give life meaning.\n' +
+    '* **Spiritual or religious beliefs:**  Many find meaning through faith, worship, and a connection to something greater than themselves.\n' +
+    '* **Personal growth:**  The pursuit of knowledge, skills, and self-improvement can be a powerful source of meaning.\n' +
+    '* **Experiences:** Travel, adventure, and the pursuit of new experiences can enrich life and provide a sense of fulfillment.\n' +
+    '* **Creativity:** Expressing oneself through art, music, writing, or other creative outlets can be deeply meaningful.\n' +
     '\n' +
-    "Ultimately, the meaning of life is subjective. It's not something to be discovered, but rather something to be created and defined by each individual.  What gives your life meaning might be entirely different from what gives someone else's meaning.  The search for meaning itself can be a rewarding journey.\n"
+    "Ultimately, the meaning of life is not something to be discovered, but rather something to be created.  It's a question of what you choose to value and how you choose to live your life.  There's no right or wrong answer; the meaning is what you make it.\n"
 }
