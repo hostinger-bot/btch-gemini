@@ -9,54 +9,42 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1922089 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1006968 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photograph of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's likely a publicity or official photo, possibly taken during a visit to a location in Indonesia.  The context is missing, so it's difficult to say more precisely what the image is *about* beyond simply showing the president.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  It's likely a candid shot, not a formal portrait.  The context is missing, so it's impossible to say exactly *what* is happening in the image beyond showing the president in a relaxed setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Error: Request failed with status code 500
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video shows someone getting Rickrolled. “Rickrolling” is an internet meme where an unsuspecting person is tricked into clicking a disguised hyperlink that takes them to a music video of Rick Astley’s 1987 hit song “Never Gonna Give You Up”. The video shows the beginning of the song, complete with the singer and music. \n' +
+  content: "The video begins with the artist's face before transitioning to the phrase, “GET RICK ROLLED,” which appears on the screen. Rick Astley sings the song, “Never Gonna Give You Up.” He is wearing a dark gray jacket, a horizontally striped shirt, and light gray dress pants with black shoes. The background behind the artist resembles window panes and is in various shades of purple/blue. He taps his foot rhythmically in time with the music, and sways back and forth.\n" +
     '\n' +
-    'The words “GET RICK ROLLED” are superimposed over the beginning of the video, in large, white sans serif letters.\n' +
-    '\n' +
-    'The audio is the beginning of the song “Never Gonna Give You Up” by Rick Astley.  The song starts at the beginning, as follows:\n' +
-    '\n' +
-    '(Music)\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    'The song begins, “Never gonna give you up, never gonna let you down, never gonna run around and desert you. Never gonna make you cry, never gonna say goodbye, never gonna tell a lie and hurt you.”'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asalnya dan tidak ada satu arti yang pasti.  Tio bisa menjadi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke basis data nama dan artinya yang komprehensif.  Arti nama Tio bergantung pada asal-usulnya.  Nama Tio bisa berasal dari beberapa bahasa dan budaya, dan artinya bisa berbeda-beda.\n' +
     '\n' +
-    '* **Singkatan atau kependekan:**  Mungkin Tio merupakan singkatan dari nama yang lebih panjang.  Jika kamu bisa memberi tahu saya nama lengkapmu, saya mungkin bisa membantu menjelaskan artinya.\n' +
-    '* **Nama panggilan:** Tio bisa jadi nama panggilan yang sayang atau akrab.\n' +
-    '* **Nama dengan asal-usul yang beragam:**  Nama-nama yang pendek seperti Tio seringkali memiliki asal-usul yang beragam dan makna yang berbeda-beda bergantung pada budaya.  Tanpa tahu asal-usulnya, sulit untuk memberikan makna yang akurat.\n' +
-    '\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat,  beritahukan saya lebih banyak informasi tentang asal usul nama tersebut atau nama lengkapmu.\n'
+    'Untuk mengetahui arti nama Tio,  saya sarankan kamu mencari informasi lebih lanjut di internet dengan mengetik "arti nama Tio" di mesin pencari favoritmu.  Kamu mungkin akan menemukan beberapa kemungkinan arti, tergantung dari asal-usul nama tersebut (misalnya, Tionghoa, Indonesia, atau lainnya).\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if there is one, is often considered to be personal and subjective.  Different people find meaning in different things, such as:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if any, is often considered to be:\n" +
     '\n' +
-    '* **Relationships:**  Love, family, and friendships can provide a profound sense of purpose and belonging.\n' +
-    '* **Contribution:** Making a positive impact on the world, whether through work, volunteering, or creative pursuits, can give life meaning.\n' +
-    '* **Spiritual or religious beliefs:**  Many find meaning through faith, worship, and a connection to something greater than themselves.\n' +
-    '* **Personal growth:**  The pursuit of knowledge, skills, and self-improvement can be a powerful source of meaning.\n' +
-    '* **Experiences:** Travel, adventure, and the pursuit of new experiences can enrich life and provide a sense of fulfillment.\n' +
-    '* **Creativity:** Expressing oneself through art, music, writing, or other creative outlets can be deeply meaningful.\n' +
+    "* **Subjective:**  What gives life meaning is often deeply personal and varies greatly from person to person.  It's shaped by individual experiences, beliefs, values, and goals.  One person might find meaning in raising a family, another in pursuing scientific discovery, and another in serving their community.\n" +
     '\n' +
-    "Ultimately, the meaning of life is not something to be discovered, but rather something to be created.  It's a question of what you choose to value and how you choose to live your life.  There's no right or wrong answer; the meaning is what you make it.\n"
+    "* **Created, not discovered:**  Many believe that meaning isn't something to be found, but rather something to be created.  We actively shape our own lives and give them meaning through our choices and actions.\n" +
+    '\n' +
+    "* **Existential:** Some philosophers argue that life itself is inherently meaningless, and it's up to each individual to create their own meaning and purpose.  This can be a daunting but also liberating perspective.\n" +
+    '\n' +
+    '* **Spiritual/Religious:** Many religious and spiritual traditions offer answers to the meaning of life, often involving a higher power, a divine plan, or an afterlife.  These answers provide comfort and guidance for many.\n' +
+    '\n' +
+    '* **Evolving:**  The meaning of life can also change over time as our circumstances and perspectives evolve.  What was meaningful in one stage of life might be less so in another.\n' +
+    '\n' +
+    "In short, there's no right or wrong answer.  The search for meaning is a personal journey, and the answer, if there is one, is likely unique to each individual.\n"
 }
