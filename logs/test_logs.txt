@@ -13,20 +13,17 @@ gemini_imgedit Request failed with status code 500
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The setting appears to be outdoors, possibly a park or forested area.  The focus is on Widodo, and the background is slightly blurred, drawing attention to him.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  It's likely a publicity or official photo intended to portray him in a relaxed yet authoritative manner, possibly emphasizing his connection to the Indonesian natural environment.\n"
 }
 Testing gemini_audio...
-gemini_audio Response: {
-  success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lu pa orang tua?\n'
-}
+gemini_audio Error: Request failed with status code 500
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'This is a Rickroll video. The singer, Rick Astley, in a music video, sings and dances to the song "Never Gonna Give You Up." The words "Get Rickrolled" appear on the screen from [00:00:01 to 00:00:02] and again at [00:00:03]. The song is iconic for being part of an internet bait and switch.\n' +
+  content: 'The video begins with a close-up of Rick Astley singing "Never Gonna Give You Up" and shows various shots of him singing and dancing during the song. The audio is a portion of the 1987 Rick Astley song “Never Gonna Give You Up.” \n' +
     '\n' +
-    'The transcribed lyrics are:\n' +
     '\n' +
+    '[Music intro]\n' +
     'Never gonna give you up\n' +
     'Never gonna let you down\n' +
     'Never gonna run around and desert you\n' +
@@ -37,29 +34,33 @@ gemini_video Response: {
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan konteksnya.  Tidak ada satu arti yang pasti.  Beberapa kemungkinan artinya meliputi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio secara pasti karena Tio bisa memiliki beberapa asal dan arti yang berbeda tergantung budaya dan bahasa.  \n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek:** Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama lain, seperti Teodoro,  Tiodorus, atau nama-nama lain yang diawali dengan "Tio".  Jika ini kasusnya, arti namamu tergantung pada nama lengkap yang disingkat.\n' +
+    'Tio bisa jadi:\n' +
     '\n' +
-    '* **Arti dalam bahasa tertentu:**  Beberapa bahasa mungkin memiliki kata "Tio" dengan arti tertentu, namun tanpa konteks lebih lanjut tentang asal-usul namamu, sulit untuk menentukannya.  \n' +
+    '* **Singkatan atau bentuk pendek dari nama lain:**  Ini adalah kemungkinan yang paling umum.  Tio bisa menjadi singkatan dari nama-nama seperti  Teodoro,  Christian Tio,  atau bahkan nama-nama lainnya tergantung pada latar belakang keluarga.\n' +
     '\n' +
-    '* **Arti simbolis atau pribadi:**  Orang tua mungkin memilih nama Tio karena terdengar bagus, atau karena memiliki arti pribadi yang khusus bagi keluarga.\n' +
+    '* **Nama dengan asal-usul yang tidak umum atau spesifik untuk wilayah tertentu:**  Mungkin Tio merupakan nama yang unik atau hanya populer di daerah atau keluarga tertentu, dan artinya tidak tercatat secara luas.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat untukmu,  kamu perlu bertanya kepada orangtuamu atau keluarga terdekat yang memberikan nama tersebut kepadamu.  Mereka kemungkinan besar mengetahui asal-usul dan arti yang dimaksudkan.\n'
+    'Untuk mengetahui arti sebenarnya dari nama Tio, yang terbaik adalah:\n' +
+    '\n' +
+    '* **Bertanya kepada orang tuamu atau keluarga terdekat:** Mereka adalah yang paling tahu asal usul dan arti nama yang diberikan padamu.\n' +
+    '* **Mencari di sumber-sumber genealogi atau buku nama:**  Beberapa sumber mungkin mencantumkan variasi nama dan arti yang kurang umum.\n' +
+    '\n' +
+    'Tanpa informasi lebih lanjut, saya tidak dapat memberikan penjelasan yang akurat tentang arti nama Tio.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is philosophical, and different people and cultures have vastly different perspectives.  Some common viewpoints include:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, and different people find meaning in different things.  Some possibilities include:\n" +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that life is inherently meaningless, but that we create our own meaning through our choices and actions.\n' +
-    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual or Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a purpose dictated by divine will.  These meanings vary widely across different faiths.\n' +
-    '* **Hedonism:**  The belief that the meaning of life is to maximize pleasure and minimize pain.\n' +
-    '* **Humanism:**  Focuses on human values and potential, emphasizing reason, ethics, and social justice.  Meaning is found in contributing to human flourishing.\n' +
-    '* **Purpose-driven life:**  Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
+    '* **Relationships:**  Finding meaning through connection with others, building strong bonds with family, friends, and community.\n' +
+    '* **Contribution:** Making a positive impact on the world, through work, volunteering, or acts of kindness.\n' +
+    '* **Growth and learning:**  Continuously developing oneself intellectually, emotionally, and spiritually.\n' +
+    '* **Experiences:**  Seeking out new adventures, challenges, and opportunities for personal growth.\n' +
+    '* **Spiritual beliefs:**  Finding meaning and purpose through faith and connection with a higher power.\n' +
+    '* **Creativity and self-expression:**  Expressing oneself through art, music, writing, or other creative pursuits.\n' +
+    "* **Purpose-driven work:**  Finding fulfillment in work that aligns with one's values and passions.\n" +
     '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is a personal question.  What gives *your* life meaning is something you must discover for yourself through reflection, experience, and exploration of different perspectives.  There's no right or wrong answer.\n"
+    "Ultimately, the meaning of life is subjective and what gives *your* life meaning is something you must discover for yourself. It's a journey, not a destination.\n"
 }
