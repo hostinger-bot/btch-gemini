@@ -13,51 +13,41 @@ gemini_imgedit Request failed with status code 500
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photograph of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a forested landscape.  It's likely a candid shot, perhaps taken during a visit to a location in Indonesia.  The image doesn't convey any specific event or message beyond simply showing the president in a natural setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape, likely a forest or park.  The context suggests it might be a publicity photo, possibly depicting him in a relaxed or contemplative setting, perhaps showcasing Indonesia's natural beauty.\n"
 }
 Testing gemini_audio...
-gemini_audio Error: Request failed with status code 500
-Testing gemini_video...
-gemini_video Response: {
+gemini_audio Response: {
   success: true,
-  content: 'This video is a short clip of the music video for “Never Gonna Give You Up”, a 1987 song performed by the British singer and songwriter Rick Astley. The clip is an example of a popular internet meme known as “rickrolling.” The term has been in use since 2007. It refers to an online bait-and-switch prank in which a user posts a hyperlink that appears to link to something completely unrelated, but instead links to the music video for Rick Astley’s “Never Gonna Give You Up.”\n' +
-    '\n' +
-    'The audio is:\n' +
-    '\n' +
-    '(Music)\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerja lembur bagai kuda.  Separuh faal orang tua.\n'
 }
+Testing gemini_video...
+gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke basis data yang mencatat arti nama di seluruh budaya.  Arti nama Tio bervariasi tergantung budaya dan bahasa asalnya.  \n' +
+  content: 'Namamu adalah Tio.  Sayangnya, arti nama Tio bergantung pada asal-usulnya dan tidak ada arti universal yang disepakati.  Tio bisa berasal dari berbagai bahasa dan budaya, dan artinya bisa berbeda-beda.  \n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio,  saya sarankan untuk mencari informasi lebih lanjut melalui:\n' +
-    '\n' +
-    '* **Cari di internet:** Ketik "arti nama Tio" di mesin pencari seperti Google, Bing, atau DuckDuckGo. Anda akan menemukan berbagai sumber yang menjelaskan kemungkinan arti nama Tio dalam berbagai bahasa dan budaya.\n' +
-    '* **Konsultasi buku nama:** Buku-buku tentang arti nama seringkali tersedia di toko buku atau perpustakaan.\n' +
-    '* **Tanyakan pada keluarga:** Orang tua atau anggota keluarga lain mungkin tahu asal-usul nama Tio dan arti yang mereka maksudkan ketika memberi nama kepadamu.\n' +
-    '\n' +
-    'Semoga informasi ini membantu!\n'
+    'Untuk mengetahui arti nama Tio yang tepat, kita perlu mengetahui asal-usulnya. Apakah nama Tio berasal dari bahasa Indonesia, Tionghoa, Portugis, atau bahasa lain?  Jika kamu bisa memberi tahu saya asal-usul nama Tio-mu, saya bisa mencoba mencari artinya yang lebih spesifik.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself has been pondered by philosophers, theologians, and individuals for millennia.  Different perspectives include:\n" +
     '\n' +
-    'Some perspectives include:\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that this absurdity should be embraced.\n' +
+    '* **Religious and Spiritual Beliefs:** Many religions offer answers about the meaning of life, often involving a divine plan, service to a higher power, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
+    '* **Hedonism:**  The belief that pleasure and happiness are the ultimate goals in life.\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that life is inherently meaningless, but that we create our own meaning through our choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Hedonism:** The belief that the meaning of life is to pursue pleasure and avoid pain.\n' +
-    '* **Purpose-Driven Life:** Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
+    'Ultimately, the meaning of life is a deeply personal question.  What gives your life meaning is something you must determine for yourself.  It might involve:\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  There's no right or wrong answer.\n"
+    '* **Relationships:**  Connecting with loved ones and building meaningful relationships.\n' +
+    "* **Purpose:**  Finding something you're passionate about and contributing to something larger than yourself.\n" +
+    '* **Growth:**  Continuously learning, developing, and challenging yourself.\n' +
+    '* **Experiences:**  Exploring the world and creating memories.\n' +
+    '* **Legacy:**  Leaving a positive impact on the world.\n' +
+    '\n' +
+    'The meaning of life is not a destination but a journey of self-discovery.\n'
 }
