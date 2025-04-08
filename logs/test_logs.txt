@@ -9,47 +9,41 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 03 3d 08 02 00 00 00 8d 3c 96 29 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1439208 more bytes>
+gemini_imgedit Request failed with status code 500
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's Joko Widodo, the President of Indonesia.  The image is a portrait-style photograph of him, likely taken outdoors in a natural setting (a forest or park).  It shows him in profile view, looking off into the distance, with a somewhat contemplative expression.  The image focuses on him, with the background blurred to emphasize the president.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a distance at a verdant, forested landscape.  The context suggests it's likely a publicity or official photo, possibly taken during a visit to a location emphasizing Indonesia's natural resources or environment.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagi aku dah sampai lupa urang tua.\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagi aku dah.  Sepahtu orang tua.\n'
 }
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio beragam dan bergantung pada asal dan konteksnya.  Tidak ada satu arti yang universal.  Beberapa kemungkinan arti termasuk:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asal-usulnya dan tidak ada satu arti yang pasti.  Tio bisa jadi singkatan, kependekan dari nama lain, atau nama yang berasal dari berbagai bahasa dan budaya.  Untuk mengetahui arti yang tepat, kita perlu informasi tambahan, misalnya:\n' +
     '\n' +
-    '* **Singkatan/Pendek dari nama lain:** Tio bisa menjadi singkatan dari nama-nama seperti  Teodoro,  Tiodorus,  atau nama lain yang diawali dengan "Tio".  Ini sangat umum dan mungkin asal usul namamu.\n' +
+    '* **Dari bahasa apa nama Tio berasal?**  (misalnya, Indonesia, Tionghoa, Spanyol, dll.)\n' +
+    '* **Apakah Tio adalah nama lengkap atau panggilan?** Jika panggilan, nama lengkapmu apa?\n' +
     '\n' +
-    '* **Dalam beberapa budaya, Tio bisa berarti "paman"** dalam bahasa Spanyol dan Portugis.  Meskipun mungkin bukan arti yang diberikan orangtuamu, itu tetap menjadi kemungkinan asosiasi.\n' +
-    '\n' +
-    '* **Arti lain yang mungkin:**  Tanpa konteks budaya atau keluarga, sulit untuk menentukan arti spesifik lainnya.  Apakah ada budaya atau bahasa tertentu yang berhubungan dengan keluargamu yang bisa memberikan petunjuk tentang arti nama Tio?\n' +
-    '\n' +
-    '\n' +
-    'Intinya, tanpa informasi tambahan,  arti nama Tio  tergantung pada konteks asal-usul nama tersebut.\n'
+    'Dengan informasi tersebut, saya bisa mencoba mencari arti yang lebih spesifik untuk namamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if any, is often considered to be something each person must discover for themselves.\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    'Different perspectives include:\n' +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers to the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Hedonism:** The belief that pleasure and happiness are the ultimate goals in life.\n' +
-    '* **Purpose-driven life:**  Finding meaning through contributing to something larger than oneself, whether through work, relationships, or social causes.\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Religious/Spiritual beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, emphasizing the importance of human flourishing and contributing to society.\n' +
     '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Rather than searching for a definitive answer, many find it more fruitful to explore their own values and create a life that is meaningful and fulfilling to them.\n"
+    "Ultimately, the meaning of life is subjective and personal.  It's a question of what gives your life purpose and significance.  This could be relationships, contributing to something larger than yourself, pursuing personal growth, experiencing joy and connection, or simply appreciating the beauty and wonder of existence.\n"
 }
