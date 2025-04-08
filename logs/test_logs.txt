@@ -9,54 +9,44 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 03 22 00 00 04 00 08 02 00 00 00 92 ec 7a ba 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1254191 more bytes>
+gemini_imgedit Request failed with status code 500
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape that appears to be a forested area.  The picture likely depicts a moment from a public appearance or visit to a location within Indonesia.  It's a fairly standard portrait-style image of a political figure.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a lush green landscape.  It's likely a publicity or candid shot, possibly intended to portray him in a relaxed and contemplative setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lu paurang duit.\n'
+  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagai kuda, sampai lupa orang tua.\n'
 }
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sendiri sebenarnya bergantung pada asal-usul dan bahasa yang menjadi sumbernya.  Tidak ada satu arti yang pasti untuk nama Tio.  Berikut beberapa kemungkinan:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asal dan bahasanya.  Tio bisa berasal dari berbagai bahasa dan memiliki arti yang berbeda-beda.  Beberapa kemungkinan antara lain:\n' +
     '\n' +
-    '* **Singkatan/Pendek dari nama lain:** Tio bisa menjadi bentuk pendek dari nama-nama seperti  Tiago,  Teodoro,  atau  nama-nama lain yang diawali dengan "Ti".  Dalam hal ini, arti nama Tio akan bergantung pada nama panjangnya.\n' +
+    '* **Singkatan atau variasi nama:** Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama seperti  Teodoro,  Tiago,  atau nama lainnya.  Jika demikian, arti namanya akan tergantung pada nama aslinya.\n' +
     '\n' +
-    '* **Asal Bahasa Tionghoa:**  Dalam beberapa konteks,  "Tio" mungkin memiliki asal dari bahasa Tionghoa,  tetapi tanpa informasi lebih lanjut mengenai karakter Hanzi-nya,  sulit untuk menentukan artinya.\n' +
+    '* **Bahasa Indonesia:** Dalam beberapa konteks Indonesia, Tio mungkin digunakan sebagai nama panggilan atau nama yang simpel tanpa arti khusus yang terikat.\n' +
     '\n' +
-    '* **Arti bebas/modern:** Di era modern, banyak orang memilih nama yang terdengar bagus tanpa memiliki arti khusus yang terikat pada bahasa atau budaya tertentu.  Dalam hal ini, Tio bisa dianggap sebagai nama yang memiliki arti yang diciptakan oleh orang tua atau pemilik nama tersebut.\n' +
+    '* **Bahasa lain:**  Mungkin ada bahasa lain yang menggunakan Tio sebagai nama dengan arti spesifik.  Untuk mengetahui arti yang tepat, perlu diketahui asal-usul nama Tio yang digunakan untukmu.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, perlu diketahui asal-usulnya.  Apakah kamu tahu dari mana nama Tio berasal?  Informasi itu akan membantu menentukan artinya.\n'
+    'Jadi, untuk mengetahui arti nama Tio yang tepat untuk dirimu, perlu informasi tambahan tentang asal usulnya.  Apakah ada nama lengkapmu yang lebih panjang? Atau informasi lain mengenai asal usul namamu?\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning is often considered to be:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for millennia.  Different people and cultures find meaning in various things, including:\n" +
     '\n' +
-    "* **Subjective:**  What gives *your* life meaning is unique to you.  It's shaped by your experiences, values, beliefs, and relationships.  What's meaningful to one person might be meaningless to another.\n" +
+    '* **Relationships:**  Love, family, and friendships provide a sense of belonging and purpose for many.\n' +
+    '* **Contribution:**  Making a positive impact on the world, whether through work, volunteering, or creative pursuits, can give life meaning.\n' +
+    '* **Experiences:**  Travel, learning, and personal growth can enrich life and provide a sense of fulfillment.\n' +
+    '* **Spirituality:**  Faith and religious beliefs offer many people a sense of purpose and connection to something greater than themselves.\n' +
+    '* **Self-discovery:**  The journey of self-understanding and personal growth can be a lifelong pursuit with inherent meaning.\n' +
+    '* **Creativity:**  Expressing oneself through art, music, writing, or other creative endeavors can be deeply fulfilling.\n' +
     '\n' +
-    "* **Personal and evolving:**  Your understanding of life's meaning can change over time as you grow and learn.  What felt important in your youth might shift in importance as you age and encounter new experiences.\n" +
     '\n' +
-    "* **Created, not discovered:**  Many believe that life's meaning isn't something to be found but something to be created.  It's about the choices you make, the impact you have on the world, and the legacy you leave behind.\n" +
-    '\n' +
-    'Some common perspectives on meaning include:\n' +
-    '\n' +
-    '* **Spiritual or religious beliefs:**  Many find meaning through faith, connection to a higher power, and adherence to religious principles.\n' +
-    '\n' +
-    '* **Relationships and love:**  Connecting with others, building strong relationships, and experiencing love are significant sources of meaning for many.\n' +
-    '\n' +
-    '* **Contribution and purpose:**  Finding purpose in work, volunteering, or contributing to something larger than oneself often brings a sense of meaning.\n' +
-    '\n' +
-    "* **Personal growth and self-discovery:**  The journey of self-improvement, learning, and exploring one's potential can be deeply meaningful.\n" +
-    '\n' +
-    "* **Experiences and enjoyment:**  Appreciating life's simple pleasures and pursuing activities that bring joy and fulfillment can contribute to a meaningful life.\n" +
-    '\n' +
-    'Ultimately, the meaning of life is a question you must answer for yourself.  Consider your values, passions, and what brings you joy and fulfillment.  The journey of seeking meaning is often as important as finding it.\n'
+    "Ultimately, the meaning of life is what you make it. It's not something to be found, but something to be created and defined by your own values, experiences, and choices.\n"
 }
