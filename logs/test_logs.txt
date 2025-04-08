@@ -6,57 +6,43 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking! How are you today?\n'
+  content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
 gemini_imgedit Request failed with status code 500
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  It's likely a candid shot, possibly taken during a visit to a forested area or park in Indonesia.  The image doesn't convey any specific event or message beyond showcasing the President in a relaxed, contemplative pose in a natural setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a verdant landscape.  It's likely a publicity or official photo, possibly intended to convey a sense of calm, contemplation, or connection to the Indonesian environment.\n"
 }
 Testing gemini_audio...
 gemini_audio Error: Request failed with status code 500
 Testing gemini_video...
-gemini_video Response: {
-  success: true,
-  content: 'The video starts with a close-up of the singer Rick Astley, then rapidly cuts to a shot of his foot as he taps it, before showing him performing “Never Gonna Give You Up.” Over the top of the video are the words “GET RICK ROLLED.”\n' +
-    '\n' +
-    'The audio includes these lyrics from the song:\n' +
-    '\n' +
-    '[Music]\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you\n' +
-    '[Music]'
-}
+gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan bahasanya.  Tidak ada satu arti yang pasti untuk nama Tio.  Berikut beberapa kemungkinan:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio dengan pasti karena artinya bergantung pada asal usul dan bahasa tempat nama itu berasal.  Nama Tio bisa berasal dari berbagai bahasa dan memiliki arti yang berbeda-beda.  \n' +
     '\n' +
-    '* **Singkatan:** Tio bisa menjadi singkatan dari nama lain yang lebih panjang.  Contohnya,  di Indonesia mungkin singkatan dari nama-nama seperti  Tiopan, Teofilus,  atau nama lainnya yang diawali dengan "Tio".\n' +
+    'Untuk mengetahui arti nama Tio, saya butuh informasi tambahan.  Apakah kamu tahu:\n' +
     '\n' +
-    '* **Bahasa Tionghoa:**  Dalam bahasa Tionghoa,  nama-nama yang mirip dengan "Tio" mungkin ada dan memiliki arti berbeda-beda tergantung pada karakter Hanzi yang digunakan.  Tanpa mengetahui penulisan karakternya, sulit untuk menentukan artinya.\n' +
+    '* **Dari bahasa apa nama Tio berasal?** (misalnya, Indonesia, Cina, Spanyol, dll.)\n' +
+    '* **Apakah ada ejaan lain dari namamu?** (kadang ejaan yang sedikit berbeda bisa mengubah artinya)\n' +
+    '* **Apakah nama Tio merupakan kependekan dari nama lain?**\n' +
     '\n' +
-    '* **Nama panggilan:** Tio mungkin juga merupakan nama panggilan (nickname) yang lebih pendek dari nama lengkap.\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat,  kamu perlu mengetahui asal-usul nama tersebut atau nama lengkap darimana Tio berasal.\n'
+    'Dengan informasi tambahan ini, saya mungkin bisa membantu mencari arti namamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and has been pondered by humans for millennia.  Different individuals and cultures find meaning in various things, including:\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself is deeply philosophical and has been pondered by humans for millennia.  Different individuals and cultures find meaning in different things:\n" +
     '\n' +
-    '* **Relationships:**  Love, family, friendship, and community provide a sense of belonging and purpose for many.\n' +
-    '* **Contribution:**  Making a difference in the world, whether through work, volunteering, or creative expression, can give life meaning.\n' +
-    "* **Growth and learning:**  Continuously expanding one's knowledge, skills, and understanding can be a fulfilling pursuit.\n" +
-    '* **Spiritual or religious beliefs:**  Faith and connection to something greater than oneself provide meaning and guidance for many.\n' +
-    '* **Experiences:**  Travel, adventure, and pursuing passions can bring joy and a sense of fulfillment.\n' +
-    "* **Self-discovery:**  Understanding oneself, one's values, and one's place in the world is a lifelong journey that can be inherently meaningful.\n" +
+    '* **Relationships:**  Love, family, friendship, and community can provide a profound sense of purpose and belonging.\n' +
+    '* **Contribution:**  Making a difference in the world, whether through work, volunteering, or creative expression, can give life meaning for many.\n' +
+    '* **Personal Growth:**  Continuously learning, developing skills, and striving for self-improvement can be a source of meaning.\n' +
+    '* **Spiritual Beliefs:**  Religion and spirituality often offer answers about the meaning of life, providing frameworks for understanding existence and purpose.\n' +
+    '* **Experiences:**  Travel, adventure, and pursuing passions can create rich and meaningful memories.\n' +
+    '* **Creativity and Self-Expression:**  Artistic endeavors, writing, music, and other forms of creative expression can give life significance.\n' +
     '\n' +
-    "Ultimately, the meaning of life is subjective and personal.  It's not something to be found, but rather something to be created and defined by each individual based on their own values, experiences, and beliefs.\n"
+    "Ultimately, the meaning of life is subjective and personal. It's not something to be found, but rather something to be created and defined by each individual based on their values, beliefs, and experiences.  There is no right or wrong answer.\n"
 }
