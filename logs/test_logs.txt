@@ -9,22 +9,24 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a8 00 00 04 00 08 02 00 00 00 a2 45 3c b2 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 571614 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a6 08 02 00 00 00 5c ea 7b 1d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 926366 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photograph of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant, forested landscape.  The picture likely depicts a moment during one of his official engagements or visits.  It's a posed photograph, not a candid snapshot.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a forested landscape.  It's a fairly informal portrait, likely taken during a visit to a location in Indonesia.  The focus is on the President himself, with the background serving as a serene and natural backdrop.\n"
 }
 Testing gemini_audio...
 gemini_audio Error: Request failed with status code 500
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'This video features a classic Rickroll. The video starts with Rick Astley singing, followed by the words “GET RICK ROLLED” appearing on the screen. It then continues with Rick singing the lyrics to his hit song “Never Gonna Give You Up”. \n' +
+  content: 'The video opens with a close-up of a singer, Rick Astley, at the beginning of the music video of his hit 1987 single "Never Gonna Give You Up."  Text saying "GET RICK ROLLED" appears in a white sans-serif font on the screen.\n' +
     '\n' +
-    'The song begins at [00:00:06] and is transcribed as follows:\n' +
     '\n' +
-    '[Verse 1]\n' +
+    'The lyrics heard at the beginning of the song are:\n' +
+    '\n' +
+    '\n' +
+    '(Music begins)\n' +
     'Never gonna give you up\n' +
     'Never gonna let you down\n' +
     'Never gonna run around and desert you\n' +
@@ -35,28 +37,30 @@ gemini_video Response: {
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Sayangnya, saya tidak dapat menjelaskan arti nama Tio karena artinya bergantung pada asal-usul dan bahasa nama tersebut.  Tio bisa berasal dari berbagai bahasa dan memiliki arti yang berbeda-beda.\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, arti nama Tio bergantung pada asal-usulnya dan tidak ada satu arti yang universal.  Tio bisa menjadi:\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, saya sarankan Anda:\n' +
+    '* **Singkatan atau bentuk pendek:**  Bisa jadi singkatan dari nama yang lebih panjang, seperti  Teodoro,  Timothy,  atau nama-nama lainnya.  Dalam hal ini, arti nama tergantung pada nama lengkapnya.\n' +
     '\n' +
-    '* **Mencari di internet:** Coba cari "arti nama Tio" di Google atau mesin pencari lainnya.  Anda mungkin akan menemukan berbagai sumber yang memberikan kemungkinan arti dari nama tersebut, termasuk asal usulnya (misalnya, Tionghoa, Indonesia, Spanyol, dll.).\n' +
-    '* **Bertanya pada keluarga:** Orang tua atau kerabat Anda mungkin tahu asal usul dan arti dari nama Tio.\n' +
+    '* **Nama sendiri:** Di beberapa budaya, Tio mungkin merupakan nama yang berdiri sendiri.  Namun, tanpa konteks budaya atau bahasa tertentu, sulit untuk menentukan artinya.  Ada kemungkinan arti yang berbeda di berbagai wilayah atau negara.\n' +
     '\n' +
-    'Tanpa informasi lebih lanjut tentang asal usul nama Tio Anda, saya tidak dapat memberikan arti yang akurat.\n'
+    '* **Nama panggilan:** Mungkin saja Tio adalah nama panggilan, bukan nama resmi.\n' +
+    '\n' +
+    'Untuk mengetahui arti nama Tio secara akurat, kita perlu informasi lebih lanjut tentang asal-usul nama tersebut (misalnya, asal negara atau keluarga).\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered subjective and personal, varying from person to person based on their beliefs, values, experiences, and goals.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if there is one, is often considered to be:\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    "* **Subjective:**  The meaning of life is often believed to be what you make it.  Your values, beliefs, experiences, and relationships shape your personal understanding of its purpose.  What gives your life meaning might be different from what gives someone else's meaning.\n" +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual or Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine plan.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, contributions to society, and personal growth.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the primary purpose of life.\n' +
+    "* **Existential:** Some believe there's no inherent meaning, and it's up to each individual to create their own. This perspective emphasizes freedom and responsibility.\n" +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question you must answer for yourself through reflection, experience, and the choices you make.\n"
+    '* **Spiritual or Religious:** Many religions and spiritual traditions offer answers to the meaning of life, often centered around serving a higher power, achieving enlightenment, or fulfilling a divine purpose.\n' +
+    '\n' +
+    "* **Purpose-Driven:** For some, meaning comes from pursuing a purpose, whether it's contributing to society, achieving a specific goal, or leaving a legacy.\n" +
+    '\n' +
+    '* **Relationship-Focused:**  The meaning of life for many is found in loving and being loved, forming strong connections with others, and building meaningful relationships.\n' +
+    '\n' +
+    "Ultimately, the meaning of life is a deeply personal question with no right or wrong answer.  It's a journey of self-discovery, and the answer may evolve throughout your life.\n"
 }
