@@ -9,62 +9,55 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1515368 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a8 00 00 04 00 08 02 00 00 00 a2 45 3c b2 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1168164 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  It's likely a candid shot, possibly taken during a visit to a natural area or during a break in his official duties.  The image focuses on him, presenting a somewhat contemplative or relaxed mood.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo, possibly meant to convey a sense of calm, reflection, or connection to nature.  There's no specific event or context readily apparent from the image itself.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagai kuda, sampai lupa waktu.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sepe lu paurang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video depicts someone getting Rickrolled. The video starts with a close-up shot of Rick Astley. Then, the frame cuts to a downward-pointing angle, revealing Astley’s black dress shoes. Next, the video shows Astley singing and dancing with a microphone stand. The background of the frame is a light purple lattice print. The text in the upper center of the frame says, “Get Rick Rolled.”\n' +
+  content: 'This video is a classic “Rickroll.” Rickrolling is a prank or meme that involves unexpectedly showing someone the music video for the 1987 song "Never Gonna Give You Up" by Rick Astley. \n' +
     '\n' +
-    'At [00:00:06], the following music begins playing:\n' +
-    '\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    "In this particular video, after the text “GET RICK ROLLED” is shown, a short excerpt of the song's music video is shown. The audio is instrumental."
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio  sedikit rumit karena tergantung pada asal usulnya.  Tio bukanlah nama yang memiliki arti tunggal yang universal.  Kemungkinan arti dan asal usulnya meliputi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, asal usul dan arti nama Tio agak ambigu karena bisa memiliki beberapa arti tergantung pada bahasa dan budaya.  Beberapa kemungkinan:\n' +
     '\n' +
-    '* **Singkatan/Panggilan:**  Mungkin Tio adalah singkatan atau bentuk panggilan dari nama yang lebih panjang, seperti  Tiodorus,  Kristianto,  atau nama-nama lain yang dimulai dengan "Tio".  Tanpa mengetahui nama lengkapmu, sulit untuk menentukan arti yang tepat berdasarkan ini.\n' +
+    '* **Singkatan atau bentuk pendek:**  Tio bisa menjadi bentuk pendek dari nama-nama seperti  Teodoro,  Antonio,  atau nama-nama lain yang diawali dengan "Ti-".  Dalam kasus ini, arti namanya akan bergantung pada nama lengkapnya.\n' +
     '\n' +
-    '* **Asal Bahasa:**  Nama Tio bisa berasal dari berbagai bahasa.  Beberapa kemungkinan meliputi:\n' +
+    '* **Bahasa Indonesia:**  Di Indonesia, Tio mungkin hanya sebuah nama panggilan yang umum digunakan dan tidak memiliki arti khusus yang terikat padanya.\n' +
     '\n' +
-    '    * **Indonesia:**  Dalam konteks Indonesia, Tio sering digunakan sebagai nama panggilan yang pendek dan mudah diingat, tanpa makna khusus yang melekat padanya.\n' +
+    '* **Bahasa lain:**  Mungkin juga Tio berasal dari bahasa lain dan memiliki arti tertentu di dalamnya, tetapi tanpa konteks tambahan, sulit untuk memastikannya.\n' +
     '\n' +
-    '    * **China:**  Ada kemungkinan nama Tio berasal dari nama keluarga atau nama pribadi dalam bahasa Mandarin, meskipun perlu konfirmasi lebih lanjut mengenai penulisan karakternya.\n' +
+    'Untuk mengetahui arti nama Tio secara pasti, perlu informasi tambahan seperti:\n' +
     '\n' +
-    '    * **Lainnya:** Ada kemungkinan juga dari bahasa lain, namun tanpa informasi lebih lanjut sulit untuk dipastikan.\n' +
+    '* **Asal usul nama:**  Dari mana nama Tio berasal?  Siapa yang memberimu nama ini?\n' +
+    '* **Nama lengkap:**  Apakah Tio adalah nama panggilan dari nama lengkap yang lebih panjang?\n' +
     '\n' +
-    '\n' +
-    'Singkatnya, tanpa informasi tambahan tentang asal usul namamu atau nama lengkapmu, tidak mungkin memberikan arti nama Tio yang pasti dan akurat.\n'
+    'Dengan informasi tambahan ini, saya bisa mencoba membantu menentukan arti namamu dengan lebih akurat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be subjective and personal, varying greatly from person to person.\n" +
     '\n' +
-    'Different perspectives include:\n' +
+    'Some common perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
     '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that embracing this absurdity is key to finding meaning.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment or salvation.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, emphasizing the importance of human flourishing and contributing to society.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the primary goals of life.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Spiritual/Religious beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment or salvation.\n' +
+    '* **Humanism:** Focusing on human values, reason, ethics, and social justice, finding meaning in contributing to human flourishing.\n' +
+    '* **Hedonism:** Finding meaning in pleasure and happiness.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it. It's a question of personal values, beliefs, and experiences.  What brings you joy, fulfillment, and a sense of purpose?  That could be considered *your* meaning of life.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery, and the answer may evolve throughout your life.  Instead of searching for a definitive answer, many find it more fulfilling to focus on living a meaningful life, defined by their own values and goals.\n"
 }
