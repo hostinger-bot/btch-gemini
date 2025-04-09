@@ -9,45 +9,56 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1589347 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1343827 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a candid shot, rather than a formal portrait.  The context is missing, so it's impossible to say more about the specific situation depicted.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of lush green trees.  It's likely a publicity or official photo, possibly intended to portray him in a relaxed and thoughtful manner, connected to Indonesia's natural environment.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerja lembur bagai kuda.  Sape lupah urang tua.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagi aku dah. Separuh badan tu dah.\n'
 }
 Testing gemini_video...
-gemini_video Error: Request failed with status code 500
+gemini_video Response: {
+  success: true,
+  content: 'This video is a humorous clip of the music video for the song "Never Gonna Give You Up" by Rick Astley. This video is widely known as a prank called "Rickrolling." It involves sending someone a link that they believe will be to something else and instead it leads to this song. \n' +
+    '\n' +
+    'The audio is as follows: \n' +
+    '(Music begins)\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you.'
+}
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu dengan pasti karena asal-usul dan artinya bergantung pada bahasa dan budaya.  Tio bisa menjadi nama pendek dari berbagai nama, atau mungkin nama tersendiri dalam beberapa bahasa.\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio beragam tergantung dari asal usul dan bahasanya.  Tidak ada satu arti yang pasti untuk nama Tio.  Namun, beberapa kemungkinan artinya antara lain:\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, aku butuh informasi lebih lanjut. Misalnya:\n' +
+    '* **Singkatan/Panggilan:** Tio bisa menjadi singkatan atau panggilan sayang dari nama lain yang lebih panjang, seperti  Teodoro,  Atio,  sebagainya.  Untuk mengetahui arti yang tepat, perlu diketahui nama lengkapmu.\n' +
     '\n' +
-    '* **Dari bahasa apa nama Tio berasal?** (Contoh: Indonesia, Tionghoa, Spanyol, dll.)\n' +
-    '* **Apakah Tio merupakan singkatan atau kependekan dari nama lain?**\n' +
+    '* **Asal Bahasa Tionghoa:**  Dalam beberapa konteks, Tio bisa menjadi bagian dari nama keluarga atau nama pribadi dalam bahasa Tionghoa, namun tanpa konteks lebih lanjut, sulit untuk menentukan arti spesifiknya.\n' +
     '\n' +
-    'Jika kamu bisa memberikan informasi tambahan ini, mungkin aku bisa membantumu menemukan arti nama Tio.\n'
+    '* **Arti Lain:**  Mungkin juga Tio merupakan nama yang dipilih karena bunyinya yang indah atau memiliki arti personal bagi orang tuamu yang tidak tercantum dalam kamus nama.\n' +
+    '\n' +
+    'Jadi, untuk mengetahui arti sebenarnya dari namamu, sebaiknya tanyakan kepada orang tuamu atau anggota keluargamu yang memberi nama padamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, with different perspectives offered by religion, philosophy, science, and individual experience.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for centuries.  Different people find meaning in different things, including:\n" +
     '\n' +
-    'Some common viewpoints include:\n' +
+    '* **Relationships:**  Love, connection, and belonging with family, friends, and community.\n' +
+    '* **Contribution:** Making a positive impact on the world, helping others, and leaving a legacy.\n' +
+    "* **Growth and learning:** Continuously expanding one's knowledge, skills, and understanding of the world.\n" +
+    '* **Experiences:**  Seeking out adventures, exploring new things, and creating memories.\n' +
+    '* **Spirituality:** Finding purpose and meaning through faith, religion, or connection to something greater than oneself.\n' +
+    '* **Creativity:** Expressing oneself through art, music, writing, or other creative pursuits.\n' +
+    "* **Self-discovery:**  Understanding oneself, one's values, and one's place in the world.\n" +
     '\n' +
-    '* **Religious perspectives:** Many religions provide answers centered around a divine purpose, often involving serving a god or achieving spiritual enlightenment or salvation.  Specific meanings vary widely depending on the religion.\n' +
-    '\n' +
-    '* **Philosophical perspectives:** Philosophers have pondered this question for centuries, offering diverse interpretations.  Some focus on finding meaning through reason and ethics (e.g., Stoicism), while others emphasize self-discovery and personal fulfillment (e.g., Existentialism).  Nihilism, on the other hand, posits that life is inherently meaningless.\n' +
-    '\n' +
-    "* **Scientific perspectives:** Science doesn't directly address the meaning of life, as it focuses on observable phenomena. However, evolutionary biology suggests a meaning related to survival and reproduction.\n" +
-    '\n' +
-    '* **Personal perspectives:** Ultimately, the meaning of life is often a personal creation.  Individuals might find meaning in relationships, contributing to society, pursuing passions, or experiencing personal growth.\n' +
-    '\n' +
-    "In short, the meaning of life is not something to be discovered but rather something to be created and defined by each individual.  It's a journey of self-discovery and ongoing exploration.\n"
+    "Ultimately, the meaning of life is what *you* make it. It's not something to be found, but something to be created and defined through your own experiences, values, and choices.  The search for meaning is often a lifelong journey of self-discovery and exploration.\n"
 }
