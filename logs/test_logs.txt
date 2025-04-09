@@ -9,67 +9,50 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Request failed with status code 500
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1467959 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo intended to portray him in a positive and approachable light, possibly emphasizing his connection to the Indonesian environment or countryside.\n"
+  content: "That's Joko Widodo, the President of Indonesia.  The image is a portrait-style photograph of him, likely taken outdoors in a natural setting (a forested area).  It shows him in profile view, looking off into the distance.  The image focuses on him and doesn't depict any specific event or activity.  It's the kind of photo often used in news articles or official publications to represent him.\n"
 }
 Testing gemini_audio...
-gemini_audio Response: {
-  success: true,
-  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda, sampai lupa orang tua.\n'
-}
+gemini_audio Error: Request failed with status code 500
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video begins with a shot of singer Rick Astley’s face as he gets ready to sing. The words “GET RICK ROLLED” then appear on the screen as clips from Rick Astley’s “Never Gonna Give You Up” music video play. \n' +
+  content: `This video is a "Rickroll," or an internet meme and prank that involves tricking someone into clicking on a disguised hyperlink that redirects them to the music video for Rick Astley's 1987 hit song "Never Gonna Give You Up." \n` +
     '\n' +
-    'The lyrics playing are:\n' +
+    `The video starts with a close-up of Rick Astley's face as he is about to start singing.  Then, it cuts to various short clips of him singing and dancing. It displays the caption: "GET RICKROLLED" throughout the video. \n` +
     '\n' +
-    '(Music)\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    'There is no audio with this video. '
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio secara pasti karena asal-usul dan artinya bergantung pada budaya dan bahasa.  "Tio" bisa menjadi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke basis data yang dapat memberikan arti nama secara pasti. Arti nama Tio bisa bervariasi tergantung budaya dan asal usulnya.  \n' +
     '\n' +
-    '* **Nama pendek:**  Mungkin merupakan kependekan dari nama yang lebih panjang, seperti  Tiodorus,  Teodoro,  atau nama-nama lain yang dimulai dengan "Tio".  Untuk mengetahui artinya yang tepat, kita perlu tahu nama lengkap Anda atau asal-usul nama "Tio" dalam keluarga Anda.\n' +
+    'Beberapa kemungkinan arti nama Tio, tergantung konteks dan bahasa, antara lain:\n' +
     '\n' +
-    '* **Nama panggilan:**  Bisa jadi "Tio" adalah nama panggilan yang diberikan kepada Anda, dan tidak memiliki arti khusus selain menjadi sapaan akrab.\n' +
+    '* **Singkatan atau bentuk pendek dari nama lain:** Tio bisa menjadi bentuk pendek dari nama-nama seperti  Teodoro,  Tiago,  atau nama-nama lain yang dimulai dengan "Ti".\n' +
     '\n' +
-    '* **Nama dengan asal-usul berbeda:**  Bisa saja "Tio" berasal dari bahasa yang berbeda dan memiliki arti yang spesifik dalam bahasa tersebut.  Jika Anda tahu asal-usul etnis keluarga Anda, itu dapat membantu dalam menelusuri arti nama tersebut.\n' +
+    '* **Arti dalam bahasa tertentu:**  Mungkin ada arti spesifik dalam bahasa tertentu yang tidak saya ketahui.  Jika Anda tahu asal usul nama Anda (misalnya, bahasa Indonesia, Spanyol, Portugis, dll.),  informasi tersebut akan membantu mencari arti yang lebih akurat.\n' +
     '\n' +
+    '* **Arti simbolik/pribadi:**  Kadang-kadang, nama memiliki arti yang diberikan oleh keluarga atau orang tua,  berkaitan dengan nilai-nilai atau harapan tertentu yang mereka miliki untuk si pemilik nama.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, saya sarankan Anda mencari informasi lebih lanjut melalui sumber-sumber seperti:\n' +
-    '\n' +
-    '* **Buku-buku tentang arti nama:** Banyak buku yang mencantumkan arti dan asal-usul berbagai nama.\n' +
-    '* **Website yang membahas arti nama:**  Cari di internet dengan kata kunci "arti nama Tio" atau "origin of the name Tio".\n' +
-    '* **Tanyakan kepada keluarga:**  Keluarga Anda mungkin tahu asal usul dan arti nama Tio dalam konteks keluarga Anda.\n' +
-    '\n' +
-    '\n' +
-    'Semoga informasi ini membantu!\n'
+    'Untuk mengetahui arti nama Tio yang paling tepat, sebaiknya Anda bertanya kepada orang tua atau keluarga Anda.  Mereka biasanya tahu asal usul dan arti nama yang mereka berikan kepada Anda.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, and the answer often depends on individual beliefs, values, and experiences.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and has been pondered by thinkers and individuals for millennia.  Different perspectives include:\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    '* **Existentialism:** The belief that life is inherently meaningless, but that we create our own meaning through our choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Religious/Spiritual beliefs:** Many religions and spiritual practices offer answers based on faith, divine purpose, or connection to something larger than oneself.  These meanings often involve serving a higher power, following a moral code, or achieving enlightenment.\n' +
+    '* **Hedonism:** The belief that the meaning of life is to pursue pleasure and avoid pain.\n' +
+    '* **Humanism:** The belief that human values and reason are central, emphasizing human flourishing, compassion, and social justice.\n' +
+    '* **Purpose-driven life:** Finding meaning through contributing to something larger than oneself, whether through work, relationships, or social causes.\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, achieving enlightenment, or following a divine plan.\n' +
-    '* **Humanism:**  Focuses on human values and reason, emphasizing ethical behavior and contributing to the well-being of humanity.\n' +
-    '* **Hedonism:**  The belief that pleasure and happiness are the ultimate goals in life.\n' +
-    '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question you must answer for yourself through reflection, experience, and the choices you make.  Instead of seeking a definitive answer, consider what brings you fulfillment, purpose, and joy.\n"
+    "Ultimately, the meaning of life is subjective and personal.  It's a question each individual must answer for themselves.  What gives your life meaning might be different from what gives someone else's life meaning.\n"
 }
