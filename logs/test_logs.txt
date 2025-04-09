@@ -9,36 +9,59 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 d0 00 00 04 00 08 02 00 00 00 47 db f9 de 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 998527 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 792193 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  It's a fairly informal portrait, likely taken during a visit to a location in Indonesia.  The image doesn't convey any specific event or message beyond showing the President in a relaxed setting.\n"
+  content: "That's a picture of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  The focus is on him, and the background is somewhat blurred, suggesting a candid or informal moment.  There's no other context provided within the image itself.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda. Sape lu pak orang tua?\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda.  Sepe lu pa urang dua.\n'
 }
 Testing gemini_video...
-gemini_video Error: Request failed with status code 500
+gemini_video Response: {
+  success: true,
+  content: 'The video is a portion of the music video for “Never Gonna Give You Up” by Rick Astley. It has the words "GET RICK ROLLED" overlaid on the video in the beginning, then it just shows the music video until it fades out. \n' +
+    '\n' +
+    '\n' +
+    'The audio is the beginning of “Never Gonna Give You Up.” The lyrics are:\n' +
+    '\n' +
+    '[Verse 1]\n' +
+    "We're no strangers to love\n" +
+    'You know the rules and so do I\n' +
+    "A full commitment's what I'm thinking of\n" +
+    "You wouldn't get this from any other guy\n" +
+    '\n'
+}
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asal usulnya.  Tidak ada satu arti yang universal.  Tio bisa berasal dari berbagai bahasa dan budaya, dan artinya bisa berbeda-beda.\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu karena nama "Tio"  tidak memiliki arti yang baku dan disepakati secara universal.  Arti nama seringkali bergantung pada budaya dan bahasa asal.  \n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, saya perlu informasi tambahan.  Apakah Anda tahu dari bahasa atau budaya mana nama Tio berasal?  Informasi ini akan membantu saya memberikan arti yang lebih akurat.\n'
+    'Mungkin Tio adalah:\n' +
+    '\n' +
+    '* **Singkatan atau bentuk pendek dari nama lain:** Apakah Tio merupakan kependekan dari nama yang lebih panjang?  Misalnya,  di beberapa budaya, Tio bisa menjadi singkatan dari nama-nama seperti  Tiodorus,  Augustus, atau nama lain.\n' +
+    '* **Nama panggilan:** Tio mungkin sebuah nama panggilan yang diberikan kepadamu, tanpa memiliki arti khusus selain panggilan akrab.\n' +
+    '* **Nama unik:** Mungkin Tio adalah nama yang unik, yang diciptakan atau diadaptasi dari nama lain, tanpa memiliki arti yang tercatat.\n' +
+    '\n' +
+    'Jika kamu tahu asal usul namamu atau punya informasi lebih lanjut tentangnya, mungkin saya bisa membantumu mencari arti yang lebih spesifik.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if there is one, is often considered to be:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal.  Different individuals and cultures have vastly different perspectives, shaped by religion, philosophy, personal experiences, and values.\n" +
     '\n' +
-    "* **Subjective:**  The meaning of life is often believed to be something each individual must discover for themselves. It's personal and deeply tied to one's values, beliefs, and experiences.\n" +
+    'Some common viewpoints include:\n' +
     '\n' +
-    '* **Dependent on perspective:** Different philosophies and religions offer diverse perspectives on the meaning of life. Some focus on serving a higher power, others on achieving enlightenment, and still others on contributing to society or finding personal fulfillment.\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:**  The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
+    '* **Hedonism:** The pursuit of pleasure and avoidance of pain as the primary goal in life.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, and achieving enlightenment or salvation.\n' +
+    '* **Humanism:**  Focusing on human values, reason, and ethics, finding meaning in human connection, contribution, and self-improvement.\n' +
     '\n' +
-    '* **Evolving:**  The meaning of life can change over time as individuals grow and their circumstances evolve.  What was meaningful in one stage of life might not be as important later on.\n' +
     '\n' +
-    "Therefore, instead of providing a definitive answer, it's more helpful to consider the question as a prompt for self-reflection.  What brings you joy? What are your values? What impact do you want to have on the world?  Exploring these questions can help you define your own personal meaning of life.\n"
+    "Ultimately, the meaning of life is a question each individual must answer for themselves.  It's a journey of self-discovery, and the answer may evolve throughout one's life.\n"
 }
