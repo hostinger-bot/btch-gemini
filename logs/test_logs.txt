@@ -9,44 +9,55 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 e0 08 02 00 00 00 85 eb 92 6c 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1046526 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 fd 08 02 00 00 00 3a a3 83 29 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1356191 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo intended to portray him in a contemplative or statesmanlike manner, possibly connected to environmental issues or a visit to a natural area.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape, likely a forest or plantation.  The context suggests it might be a publicity or official photo intended to portray him in a thoughtful or contemplative mood, possibly connected to environmental issues or rural development given the background.\n"
 }
 Testing gemini_audio...
-gemini_audio Error: Request failed with status code 500
+gemini_audio Response: {
+  success: true,
+  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda. Sape lu pa orang tua.\n'
+}
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'Sure. This is the "Never Gonna Give You Up" music video by Rick Astley. It has been manipulated to say "Get Rick Rolled" at the beginning. "Rickrolling" is an internet meme that has been around since 2007. The intent is to bait viewers into clicking a link to this video, either under false pretenses or simply as a prank.\n' +
+  content: `This video shows a portion of the music video for Rick Astley's song "Never Gonna Give You Up" from his album "Whenever You Need Somebody". The audio starts playing immediately and can be transcribed as follows:\n` +
     '\n' +
-    'The video starts by showing a young Rick Astley about to sing. Text appears saying "GET RICK ROLLED." \n' +
-    "The video has a hazy, almost dreamy quality, with Rick Astley performing in a suit jacket and light colored pants. Rick Astley's singing cannot be heard because the volume has been muted in the video."
+    '(Music)\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio tidak tunggal dan pasti karena Tio bisa berasal dari berbagai bahasa dan budaya, serta bisa menjadi singkatan atau bentuk pendek dari nama lain.\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu secara pasti tanpa lebih banyak informasi.  Arti nama Tio bisa berbeda-beda tergantung asal usulnya (bahasa apa, budaya apa).\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat,  saya perlu tahu asal usulnya.  Apakah Tio adalah nama keluarga, nama panggilan, atau nama depan?  Apakah kamu tahu dari bahasa mana nama itu berasal?\n' +
+    'Tio bisa menjadi:\n' +
     '\n' +
-    'Jika kamu memberikan lebih banyak informasi, saya mungkin bisa memberikan arti yang lebih akurat.\n'
+    '* **Singkatan atau kependekan:**  Mungkin Tio adalah singkatan dari nama yang lebih panjang.  Jika kamu mau memberitahu nama panjangmu, saya mungkin bisa membantu mencari artinya.\n' +
+    '* **Nama dari berbagai bahasa:**  Banyak bahasa yang memiliki nama yang mirip dengan Tio, dan artinya pun bisa bervariasi.  Apakah kamu tahu asal-usul namamu (misalnya, Indonesia, Tionghoa, Spanyol, dll.)?  Mengetahui hal ini akan sangat membantu.\n' +
+    '* **Nama tanpa arti khusus yang tercatat:**  Beberapa nama tidak memiliki arti yang  terdokumentasi secara luas, dan mungkin hanya dipilih karena bunyinya yang bagus atau alasan pribadi lainnya.\n' +
+    '\n' +
+    'Tolong beri saya lebih banyak konteks tentang namamu agar saya bisa mencoba membantu menemukan artinya.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered subjective and personal, varying greatly from person to person and culture to culture.\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself is philosophical and has been pondered by humans for millennia.  Different people and cultures find meaning in various ways, including:\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    '* **Relationships:**  Love, family, and community connections provide a sense of belonging and purpose for many.\n' +
+    '* **Contribution:**  Making a positive impact on the world, whether through work, volunteering, or creative expression, can imbue life with meaning.\n' +
+    '* **Personal Growth:**  The pursuit of knowledge, skills, and self-improvement can be a source of fulfillment.\n' +
+    '* **Spiritual Beliefs:**  Many find meaning through faith, religion, and a connection to something larger than themselves.\n' +
+    '* **Experiences:**  Travel, adventure, and the pursuit of new experiences can create lasting memories and a sense of wonder.\n' +
+    '* **Creativity:**  Expressing oneself through art, music, writing, or other creative endeavors can be deeply meaningful.\n' +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual or Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, a divine plan, or an afterlife.\n' +
-    '* **Hedonism:** The belief that the meaning of life is to pursue pleasure and avoid pain.\n' +
-    '* **Purpose-driven life:** Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it. It's a question of personal exploration and discovery.  Instead of searching for a definitive answer, consider what brings you joy, fulfillment, and a sense of purpose.  What values are important to you?  What impact do you want to have on the world?  The answers to these questions might help you define your own meaning of life.\n"
+    "Ultimately, the meaning of life is subjective and personal.  It's not something to be found, but rather something to be created and defined by each individual.  Instead of searching for a definitive answer, consider what brings you joy, fulfillment, and a sense of purpose.  That might be a good starting point for defining your own meaning of life.\n"
 }
