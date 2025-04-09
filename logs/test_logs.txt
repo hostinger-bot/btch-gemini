@@ -6,49 +6,54 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: "I'm doing well, thank you for asking!  How are you today?\n"
+  content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1320147 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 03 0c 00 00 04 00 08 02 00 00 00 c3 78 49 d9 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1280520 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a lush, green landscape.  It's likely a candid shot, perhaps taken during a visit to a park or natural area.  The image doesn't convey any specific event or message beyond showing the president in a relatively informal setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's a fairly standard portrait-style photograph, likely taken during an official visit or event.  The context is missing, so it's impossible to say more definitively what the image is *about* beyond showing the President in a contemplative moment.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda, sampai lupa waktu.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda.  Sapa lu pa orang tua.\n'
 }
 Testing gemini_video...
-gemini_video Error: Request failed with status code 500
+gemini_video Response: {
+  success: true,
+  content: 'This video shows Rick Astley performing his song “Never Gonna Give You Up.” The clip appears to have been digitally altered by the addition of a filter. The title “GET RICK ROLLED” appears in the first few seconds.\n' +
+    '\n' +
+    'The audio contains the following lyrics:\n' +
+    '\n' +
+    '(Music)\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
+}
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke database yang berisi arti nama-nama di seluruh budaya dan bahasa. Arti nama Tio bisa bervariasi tergantung pada asal-usulnya (bahasa apa yang digunakan).  \n' +
+  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asal-usulnya dan tidak ada satu arti yang pasti.  Tio bisa berasal dari berbagai bahasa dan budaya, dan masing-masing bisa memiliki arti yang berbeda.\n' +
     '\n' +
-    'Beberapa kemungkinan arti, tergantung pada bahasa dan konteksnya, termasuk:\n' +
-    '\n' +
-    '* **Singkatan atau kependekan:** Tio bisa jadi kependekan dari nama lain, seperti  Tiodorus,  Teodoro,  atau nama-nama lain yang dimulai dengan "Tio".\n' +
-    '* **Nama panggilan:** Mungkin Tio adalah nama panggilan yang diberikan kepada Anda.\n' +
-    '* **Arti dalam bahasa tertentu:**  Jika Anda mengetahui asal-usul nama Tio dalam keluarga Anda,  memberitahu saya asal bahasanya akan membantu saya mencarikan artinya.\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, Anda perlu menanyakan kepada orangtua atau keluarga Anda yang memberimu nama tersebut.  Mereka akan dapat memberikan informasi yang paling akurat.\n'
+    'Untuk memberikan arti yang akurat, saya perlu tahu asal usul nama Tio-mu. Apakah nama Tio merupakan singkatan?  Apakah ada nama lengkap yang lebih panjang darinya?  Informasi tambahan ini akan sangat membantu untuk menelusuri arti namamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for millennia.  Different individuals and cultures find meaning in various things, including:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for centuries.  Different people find meaning in different things, including:\n" +
     '\n' +
-    '* **Relationships:**  Connecting with others, building strong bonds with family and friends, and contributing to a community.\n' +
-    "* **Purpose:**  Finding a vocation or passion that aligns with one's values and contributes to something larger than oneself.\n" +
-    "* **Growth and learning:**  Continuously seeking knowledge, developing skills, and expanding one's understanding of the world.\n" +
-    '* **Experiences:**  Embracing new challenges, exploring different cultures, and creating meaningful memories.\n' +
-    '* **Spirituality or religion:**  Finding meaning and purpose through faith and connection to a higher power.\n' +
-    '* **Creativity and self-expression:**  Expressing oneself through art, music, writing, or other creative endeavors.\n' +
-    '* **Contribution to society:**  Making a positive impact on the world through volunteering, activism, or other forms of service.\n' +
-    '* **Happiness and well-being:**  Focusing on personal happiness, health, and overall well-being.\n' +
+    '* **Relationships:**  Love, family, and friendships provide a sense of belonging and purpose for many.\n' +
+    '* **Contribution:** Making a positive impact on the world, whether through work, volunteering, or acts of kindness.\n' +
+    "* **Growth and learning:** Continuously seeking knowledge, developing skills, and expanding one's understanding of the world.\n" +
+    '* **Experiences:**  Traveling, exploring, and engaging in activities that bring joy and fulfillment.\n' +
+    '* **Spirituality or religion:**  Finding meaning and purpose through faith and connection to something greater than oneself.\n' +
+    '* **Creativity:**  Expressing oneself through art, music, writing, or other creative pursuits.\n' +
+    "* **Self-discovery:**  Understanding oneself, one's values, and one's place in the world.\n" +
     '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it. It's a question of personal discovery and continuous exploration.  There's no right or wrong answer, only the answer that resonates most deeply with you.\n"
+    "Ultimately, the meaning of life is what you make it. It's a question you must answer for yourself through reflection, experience, and exploration. There's no right or wrong answer.\n"
 }
