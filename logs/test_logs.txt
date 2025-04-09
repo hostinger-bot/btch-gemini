@@ -9,52 +9,45 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a3 08 02 00 00 00 0c 27 ea ae 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1051520 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1419446 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a candid shot, possibly taken during a visit to a forested area or park in Indonesia.  The context of the image would need to be provided for further details about the specific event.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile view, looking out at a lush green landscape.  It's likely a candid shot, possibly taken during a visit to a location showcasing Indonesia's natural beauty or a project related to environmental conservation.  The specific context would need more information to determine definitively.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerjaan lembur bagai kuda. Sape lu paurang dua.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lu pak orang tua.\n'
 }
 Testing gemini_video...
-gemini_video Response: {
-  success: true,
-  content: "This video shows the introduction to a music video by Rick Astley. He's dressed in a black blazer, light-colored collared shirt with horizontal black stripes and white pants. \n" +
-    '\n' +
-    'The words "GET RICK ROLLED" appear on-screen. He dances and sings into a microphone.\n' +
-    '\n' +
-    'There is no audio other than the introduction to the song "Never Gonna Give You Up."'
-}
+gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio karena artinya bergantung pada asal-usul dan bahasa nama tersebut.  Nama Tio bisa berasal dari berbagai bahasa dan budaya, dan masing-masing memiliki arti yang berbeda.\n' +
+  content: 'Nama Anda adalah Tio.  Sayangnya, saya tidak memiliki akses ke informasi tentang asal-usul nama dan arti nama secara komprehensif.  Arti nama Tio bisa bervariasi tergantung kebudayaan dan bahasa.  \n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, aku perlu tahu lebih banyak informasi.  Bisakah kamu memberi tahu saya:\n' +
-    '\n' +
-    '* **Dari bahasa apa nama Tio berasal?** (Contoh: Indonesia, Tionghoa, Spanyol, dll.)\n' +
-    '* **Apakah ada ejaan lain dari namamu?** (Kadang ejaan yang sedikit berbeda bisa menunjukkan asal-usul yang berbeda)\n' +
-    '\n' +
-    'Dengan informasi tambahan tersebut, saya mungkin bisa membantu menjelaskan arti namamu.\n'
+    'Untuk mengetahui arti nama Tio, Anda mungkin perlu mencari informasi lebih lanjut di internet (misalnya, dengan mengetik "arti nama Tio" di mesin pencari) atau mencari di buku-buku tentang arti nama.  Beberapa sumber mungkin mengkaitkannya dengan variasi dari nama-nama lain atau mungkin berasal dari julukan atau nama panggilan.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, and the answer varies greatly depending on individual beliefs, values, and experiences.\n" +
-    '\n' +
-    'Some common perspectives include:\n' +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself is philosophical, and the answer depends heavily on individual beliefs, values, and experiences.  Some common perspectives include:\n" +
     '\n' +
     '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:**  The belief that life is inherently meaningless, but individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, yet we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers to the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human connection, contribution to society, and personal growth.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the ultimate goal in life.\n' +
+    '\n' +
+    "* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.  There's no pre-ordained meaning; we are free to define it.\n" +
+    '\n' +
+    "* **Absurdism:**  Acknowledging the inherent conflict between humanity's search for meaning and the universe's apparent lack of it.  Finding meaning lies in embracing this absurdity.\n" +
+    '\n' +
+    '* **Religious and Spiritual Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.  These meanings vary widely across different faiths.\n' +
+    '\n' +
+    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
+    '\n' +
+    '* **Utilitarianism:**  Focusing on actions that maximize happiness and well-being for the greatest number of people.\n' +
+    '\n' +
+    "* **Purpose-driven life:**  Finding meaning through contributing to something larger than oneself, whether it's a cause, a community, or a creative endeavor.\n" +
     '\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery, not one with a definitive right or wrong answer.  Consider what brings you joy, fulfillment, and a sense of purpose, and those may be clues to your own personal meaning.\n"
+    "Ultimately, the meaning of life is a personal question.  It's something you must explore and define for yourself.  There's no right or wrong answer, only the answer that resonates most deeply with you.\n"
 }
