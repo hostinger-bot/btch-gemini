@@ -9,50 +9,51 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a8 00 00 04 00 08 02 00 00 00 a2 45 3c b2 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 993886 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1519725 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's a posed, publicity-style photograph, likely intended to project an image of calm contemplation and connection to the Indonesian environment.\n"
+  content: "That's Joko Widodo, the President of Indonesia.  The image is a portrait-style photograph of him, likely taken outdoors in a natural setting (a forested area).  It shows him in profile, looking away from the camera, with a contemplative or thoughtful expression.  The image focuses on him, with the background blurred to emphasize him as the subject.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Separuh barang dua.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lu pa orang tua?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: `The video opens with a person from the neck up looking down as they begin to sing the opening lines of Rick Astley's "Never Gonna Give You Up," then pans down to their shoes to show the words "GET RICK ROLLED" as the music begins. Then, it zooms out to show the singer, who appears to be Rick Astley. The rest of the video shows the singer performing the song, focusing on his movements as he sings. \n` +
+  content: 'The video is a Rick Astley "Never Gonna Give You Up" meme. The words "GET RICKROLLED" are displayed in white and overlaid on the video. The video also has a light purple filter. The audio is the beginning of the song "Never Gonna Give You Up" by Rick Astley:\n' +
     '\n' +
-    '\n' +
-    'The audio is the beginning of the song "Never Gonna Give You Up" by Rick Astley.'
+    '(Music)\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio bergantung pada asal usul dan bahasanya.  Sayangnya, "Tio" bukanlah nama yang memiliki arti yang secara universal disepakati.  Itu bisa menjadi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asal-usulnya.  Tio bisa berasal dari berbagai bahasa dan memiliki arti yang berbeda-beda.  \n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:**  Bisa jadi Tio adalah kependekan dari nama yang lebih panjang, seperti  Tiodorus,  Tiago (bentuk Portugis dari James), atau bahkan sebuah nama lain yang menggunakan "Tio" sebagai panggilan akrab.\n' +
+    'Untuk memberikan arti yang tepat, saya perlu tahu asal usul nama Tio-mu. Apakah nama Tio berasal dari bahasa Indonesia, Tionghoa, atau bahasa lainnya?  \n' +
     '\n' +
-    '* **Nama panggilan:** Tio mungkin juga hanya sekedar nama panggilan yang diberikan kepadamu.\n' +
-    '\n' +
-    '* **Nama dengan asal usul tertentu:**  Mungkin saja nama Tio berasal dari suatu bahasa atau budaya tertentu yang belum saya ketahui.  Untuk mengetahui arti yang tepat, kita perlu tahu asal usul keluarga atau latar belakang pemberian nama tersebut.\n' +
-    '\n' +
-    'Jika kamu bisa memberikan informasi tambahan tentang asal usul namamu, saya mungkin bisa memberikan penjelasan yang lebih akurat.\n'
+    'Jika Anda bisa memberitahu saya asal-usulnya, saya dapat mencoba mencari arti yang paling tepat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning, if there is one, is often considered deeply personal and subjective.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is philosophical and has been pondered by people across cultures and throughout history.  Different individuals and groups find meaning in various things, including:\n" +
     '\n' +
-    'Different perspectives include:\n' +
+    '* **Relationships:**  Love, family, friendship, and community provide a sense of belonging and purpose for many.\n' +
+    '* **Contribution:** Making a difference in the world, whether through work, volunteering, or creative endeavors, can give life meaning.\n' +
+    '* **Spiritual or Religious Beliefs:**  Many find meaning in their faith, their connection to a higher power, and the teachings of their religion.\n' +
+    '* **Personal Growth:**  The pursuit of knowledge, self-improvement, and overcoming challenges can be deeply fulfilling.\n' +
+    '* **Experiences:**  Travel, adventure, and the pursuit of new experiences can enrich life and provide a sense of purpose.\n' +
+    '* **Creativity:**  Expressing oneself through art, music, writing, or other creative outlets can be a source of meaning.\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Religious and spiritual beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, suggesting that meaning comes from contributing to human well-being and flourishing.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  What brings you joy, fulfillment, and a sense of purpose?  That might be a good starting point for your own exploration of this fundamental question.\n"
+    "Ultimately, the meaning of life is subjective and personal. It's not something to be discovered but rather something to be created and defined by each individual based on their values, beliefs, and experiences.  There is no right or wrong answer.\n"
 }
