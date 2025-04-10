@@ -6,66 +6,64 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: "I'm doing well, thank you for asking!  How are you today?\n"
+  content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 03 41 00 00 04 00 08 02 00 00 00 a8 3c c5 c9 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1390764 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 988584 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a forested landscape.  It's likely a publicity or official photograph, possibly taken during a visit to a natural area or environmental project.  The context is missing to know for sure, but the image aims to portray him in a relaxed yet thoughtful manner within a natural setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  The context of the photo is likely to be a public appearance or official event, given his attire and the setting.  Without more information, it's impossible to say more about the specific occasion.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerjaan lembur bagai kuda. Sape lu pak orang tua?\n'
+  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerjaan lembur bagai kuda. Sape lu pa urang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'This video is the original "Never Gonna Give You Up" music video by Rick Astley which is used for the "Rick Roll" internet prank.\n' +
+  content: "This video is an excerpt from Rick Astley's “Never Gonna Give You Up,” a song released on July 27, 1987. It is also called a “rickroll,” a meme in which unsuspecting internet users are tricked into viewing the music video. The meme is frequently used in unexpected places on the internet, such as a bait-and-switch video or hyperlink.\n" +
     '\n' +
-    'The audio transcribes as:\n' +
+    'The man, wearing a black jacket with gold buttons and a striped shirt underneath, sings the song while dancing.  White text flashes on the screen reading “GET RICK ROLLED.” \n' +
     '\n' +
-    `"We're no strangers to love\n` +
-    'You know the rules and so do I\n' +
-    "A full commitment's what I'm thinking of\n" +
-    "You wouldn't get this from any other guy\n" +
-    '\n' +
-    "I just wanna tell you how I'm feeling\n" +
-    'Gotta make you understand\n' +
-    '\n' +
-    'Never gonna give you up\n' +
+    '[Music] “Never gonna give you up\n' +
     'Never gonna let you down\n' +
     'Never gonna run around and desert you\n' +
     'Never gonna make you cry\n' +
     'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you"'
+    'Never gonna tell a lie and hurt you”\n' +
+    '\n'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Sayangnya, saya tidak dapat menjelaskan arti nama Tio secara pasti karena artinya bergantung pada asal-usul dan budaya.  Nama Tio bisa berasal dari berbagai bahasa dan memiliki arti yang berbeda-beda.  \n' +
+  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asal dan bahasanya.  Tio bukanlah nama yang memiliki arti baku yang secara universal diterima.  Bisa jadi:\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio Anda, saya perlu informasi tambahan seperti:\n' +
+    '* **Singkatan atau kependekan:** Tio mungkin merupakan kependekan dari nama lain yang lebih panjang.\n' +
+    '* **Nama keluarga yang digunakan sebagai nama depan:** Di beberapa budaya, nama keluarga digunakan sebagai nama depan.\n' +
+    '* **Nama dengan asal-usul regional:**  Mungkin nama Tio memiliki arti khusus di suatu daerah atau budaya tertentu, tetapi tidak tercatat secara luas.\n' +
     '\n' +
-    '* **Asal budaya/bahasa dari nama Tio:** Apakah Tio berasal dari bahasa Indonesia, Tionghoa, Spanyol, atau bahasa lainnya?  Mengetahui asal-usulnya akan membantu menemukan arti yang tepat.\n' +
-    '* **Penulisan nama Tio:**  Apakah ada variasi penulisan?  Misalnya,  Tio, Theo, atau bentuk lain.\n' +
+    'Untuk mengetahui arti nama Tio, perlu informasi lebih lanjut seperti:\n' +
     '\n' +
-    'Dengan informasi tambahan ini, saya mungkin bisa membantu menemukan arti nama Tio Anda.\n'
+    '* **Asal usul keluarga:**  Dari mana asal keluarga Anda? Informasi ini bisa membantu menentukan asal usul nama tersebut.\n' +
+    '* **Ejaan alternatif:** Apakah ada ejaan lain dari nama Tio yang Anda ketahui? (misalnya, Theo, Tyo)  Ejaan yang sedikit berbeda dapat memiliki arti yang berbeda.\n' +
+    '\n' +
+    'Jika Anda dapat memberikan informasi tambahan ini, mungkin saya bisa membantu mencari arti nama Anda.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for centuries.  Different individuals and cultures find meaning in various things, including:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
     '\n' +
-    '* **Relationships:**  Love, family, and friendships provide a sense of belonging and purpose for many.\n' +
-    '* **Contribution:** Making a positive impact on the world, whether through work, volunteering, or creative expression, can give life meaning.\n' +
-    "* **Spiritual beliefs:** Religion and spirituality often provide answers about life's purpose and meaning.\n" +
-    "* **Personal growth:**  Continuously learning, growing, and developing one's potential can be a source of meaning.\n" +
-    '* **Experiences:** Travel, adventure, and pursuing passions can create a sense of fulfillment.\n' +
-    '* **Creativity:**  Expressing oneself through art, music, writing, or other creative endeavors can be deeply meaningful.\n' +
+    'Different perspectives include:\n' +
     '\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:**  The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
+    '* **Religious and Spiritual Beliefs:** Many religions and spiritual practices offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the primary goals in life.\n' +
+    '* **Humanism:**  Focusing on human values, reason, and ethics, finding meaning in human connection and contribution to society.\n' +
     '\n' +
-    "Ultimately, the meaning of life is not something to be discovered, but something to be *created*.  It's a question each individual must answer for themselves based on their own values, beliefs, and experiences.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a single definitive answer, consider what brings you joy, fulfillment, and a sense of purpose.  What impact do you want to have on the world?  What kind of life do you want to live?  The answers to these questions may help you define your own meaning of life.\n"
 }
