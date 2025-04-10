@@ -6,60 +6,53 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking!  How are you today?\n'
+  content: 'I am doing well, thank you for asking! How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a1 00 00 04 00 08 02 00 00 00 5e 50 17 78 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 997994 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a4 00 00 04 00 08 02 00 00 00 b8 79 dc 3c 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1056096 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  It's a fairly informal portrait, likely taken during a visit to a location of natural beauty in Indonesia.  The focus is on Widodo himself, but the background emphasizes his connection to the environment or a natural setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo intended to project a certain image – perhaps one of calm contemplation, connection to nature, or leadership in a natural setting.  Without more context (where the photo was taken, when it was released, etc.), it's difficult to be more precise.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda.  Sape lu pak orang tua?\n'
+  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda.  Sapa elok orang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video starts with the words "GET RICK ROLLED" displayed in white letters on a light background. It transitions to a short clip from the music video for the song "Never Gonna Give You Up" by Rick Astley. The singer stands before a retro-style microphone, wearing a striped shirt, white undershirt, blazer, and light khaki pants. He smiles and dances as he begins to sing.\n' +
+  content: 'This video is a brief clip of Rick Astley singing “Never Gonna Give You Up” in his 1987 music video for the song. It’s overlaid with the words "GET RICK ROLLED".\n' +
     '\n' +
-    'The audio lyrics are:\n' +
-    '\n' +
-    '"Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you"'
+    'The audio is a very short, distorted snippet of the beginning of the song: [synth intro] “Never gonna give you up…”'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan bahasanya.  Tidak ada satu arti yang pasti.  Berikut beberapa kemungkinan:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio sebenarnya bergantung pada asal-usul dan bahasa tempat nama itu berasal.  Tidak ada satu arti pasti untuk nama Tio.  Berikut beberapa kemungkinan:\n' +
     '\n' +
-    '* **Singkatan/Pendek dari nama lain:** Tio bisa menjadi singkatan dari nama-nama seperti  Teodoro,  Timothy,  atau nama lain yang diawali dengan "Tio".  Jika ini kasusnya, arti namamu tergantung pada nama lengkapnya.\n' +
+    '* **Singkatan atau bentuk pendek:** Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama lain, seperti  Tiodorus,  Tiopan, atau nama-nama lain yang diawali dengan "Tio".  Jika demikian, arti nama Tio akan sama dengan arti nama asalnya.\n' +
     '\n' +
-    '* **Asal Tionghoa:**  Dalam beberapa budaya Tionghoa, Tio mungkin merupakan bagian dari nama keluarga atau nama panggilan yang memiliki arti tersendiri, tetapi tanpa konteks lebih lanjut, sulit untuk menentukan artinya.\n' +
+    '* **Asal Bahasa Indonesia:** Dalam konteks Indonesia, Tio sering digunakan sebagai nama panggilan yang sederhana dan populer, tanpa arti khusus yang terikat.\n' +
     '\n' +
-    '* **Asal lain:**  Kemungkinan juga ada asal usul dari bahasa lain yang tidak dikenal tanpa informasi tambahan.\n' +
+    '* **Asal Bahasa Lain:**  Tio mungkin berasal dari bahasa lain, seperti Tionghoa atau bahasa-bahasa Eropa lainnya, namun tanpa konteks tambahan, sulit untuk menentukan arti pastinya.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, perlu informasi tambahan seperti asal usul keluarga atau bahasa yang digunakan untuk memberimu nama.\n'
+    '\n' +
+    'Untuk mengetahui arti nama Tio yang tepat,  kamu perlu mengetahui asal-usul nama tersebut dari keluargamu.  Tanyakan kepada orangtuamu atau anggota keluarga yang lebih tua mengenai asal-usul dan makna nama Tio yang mereka berikan padamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be subjective and personal, varying from person to person based on individual beliefs, values, experiences, and perspectives.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is philosophical and has been pondered by thinkers and individuals for centuries.  Different perspectives include:\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    '* **Existentialism:**  The belief that life is inherently meaningless, but that we create our own meaning and purpose through our choices and actions.\n' +
+    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers to the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.  These meanings vary widely depending on the specific faith.\n' +
+    '* **Hedonism:** The belief that the meaning of life is to pursue pleasure and avoid pain.\n' +
+    '* **Purpose-driven:** Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that this absurdity should be embraced.\n' +
-    '* **Spiritual or Religious Beliefs:** Many religions offer answers to the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:**  Focusing on human values, reason, and ethics, finding meaning in human connection, creativity, and contribution to society.\n' +
-    '* **Hedonism:**  Finding meaning in pleasure and happiness.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  Instead of searching for a definitive answer, consider what brings you fulfillment, joy, and a sense of purpose.  What impact do you want to have on the world?  What values guide your choices?  Reflecting on these questions can help you define your own meaning of life.\n"
+    "Ultimately, the meaning of life is subjective and personal.  What gives your life meaning might be different from what gives someone else's life meaning.  It's a question you must answer for yourself through reflection, experience, and exploration of your values and beliefs.\n"
 }
