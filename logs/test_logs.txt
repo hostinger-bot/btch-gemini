@@ -6,66 +6,56 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking! How are you today?\n'
+  content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1653162 more bytes>
+gemini_imgedit Request failed with status code 500
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  It's likely a candid shot, possibly taken during a visit to a natural area or park.  The image focuses on him, with the background serving to emphasize the setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant, forested landscape.  The context suggests it might be a publicity photo or a still from a video showcasing his connection to nature or his engagement with environmental issues, or simply a candid shot during an official visit to a forested area.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagai kuda.  Sape lupah urang tuwa?\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda, sampai lupa ngarang dua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: `The video shows clips from Rick Astley's "Never Gonna Give You Up" music video. The words “GET RICK ROLLED” appear on the screen in the first few seconds.\n` +
+  content: 'The video begins with a vintage clip of singer Rick Astley, most famously known for the song “Never Gonna Give You Up” from his 1987 album, “Whenever You Need Somebody”. This particular clip is from the music video for that song, which has become an internet phenomenon associated with the prank called “Rick Rolling.”\n' +
     '\n' +
-    'The audio begins with the beginning of the song. It fades slightly as Rick Astley appears on the screen and starts singing:\n' +
+    'The screen goes white as the words “GET RICK ROLLED” flash across the screen in large, all-caps, white letters. Then, the clip resumes. \n' +
     '\n' +
-    '“Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry”'
+    '\n' +
+    'The only audio is the beginning of the song:\n' +
+    '[Instrumental intro to "Never Gonna Give You Up"]'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sendiri cukup beragam dan bergantung pada asal dan konteksnya.  Tidak ada satu arti yang pasti.  Beberapa kemungkinan arti  Tio, antara lain:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio bergantung pada asal dan bahasa dari mana nama itu berasal.  Sayangnya, "Tio" bukanlah nama dengan arti yang secara universal diakui.  Bisa jadi:\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:** Tio bisa jadi singkatan dari nama-nama seperti  Teodoro,  Antonio,  atau  nama-nama lain yang diawali dengan "Ti".\n' +
+    '* **Singkatan atau kependekan:** Tio bisa menjadi kependekan dari nama yang lebih panjang.  Untuk mengetahui artinya, kita perlu tahu nama lengkapnya.\n' +
+    '* **Nama panggilan:** Tio bisa menjadi nama panggilan sayang.\n' +
+    '* **Asal bahasa tertentu:**  Mungkin nama Tio berasal dari bahasa tertentu yang tidak umum diketahui.  Jika kamu bisa memberikan informasi tambahan tentang asal usul keluarga atau budaya, mungkin kita bisa menelusuri artinya lebih jauh.\n' +
     '\n' +
-    '* **Nama panggilan:**  Bisa juga Tio merupakan nama panggilan yang diberikan, tanpa arti khusus yang terikat padanya.\n' +
-    '\n' +
-    '* **Asal bahasa Tionghoa:**  Meskipun jarang,  mungkin ada nama Tionghoa yang berbunyi mirip "Tio" dan memiliki arti tertentu. Namun perlu konteks lebih lanjut untuk memastikan.\n' +
-    '\n' +
-    '* **Arti berdasarkan bunyi:**  Beberapa orang mungkin menafsirkan arti nama berdasarkan bunyi dan asosiasinya. Misalnya, jika dibaca dengan pelafalan tertentu, bisa dihubungkan dengan kata-kata yang memiliki arti tertentu dalam bahasa tertentu.  Namun, ini sangat subjektif.\n' +
-    '\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, dibutuhkan informasi lebih lanjut tentang asal usul nama tersebut.  Apakah ada nama lengkap yang lebih panjang?  Dari mana asal keluarga? Informasi tersebut akan membantu menentukan arti yang paling tepat.\n'
+    'Tanpa informasi tambahan, sulit untuk menjelaskan arti nama Tio.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if there is one, is often considered to be:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered deeply personal and subjective.\n" +
     '\n' +
-    '* **Subjective:**  What gives your life meaning is largely determined by your own values, beliefs, and experiences.  What is meaningful to one person might be meaningless to another.\n' +
+    'Some common perspectives include:\n' +
     '\n' +
-    "* **Personal:**  The meaning of life is often found in personal connections, relationships, contributions to society, pursuing passions, and finding purpose in one's actions.\n" +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Hedonism:** The pursuit of pleasure and avoidance of pain as the primary goal in life.\n' +
+    '* **Humanism:**  Focusing on human values, reason, and ethics, often emphasizing contributing to society and improving the human condition.\n' +
     '\n' +
-    '* **Evolving:**  The meaning of life can change over time as your priorities and experiences shift.  What was meaningful in your youth might not be as important later in life.\n' +
     '\n' +
-    'Different perspectives offer various answers:\n' +
-    '\n' +
-    '* **Nihilism:**  Believes life is inherently meaningless.\n' +
-    "* **Existentialism:**  Emphasizes individual freedom and responsibility in creating one's own meaning.\n" +
-    '* **Absurdism:**  Acknowledges the inherent conflict between the human search for meaning and the meaninglessness of the universe, suggesting we should embrace this absurdity.\n' +
-    "* **Spiritual and Religious Beliefs:**  Often provide a framework for understanding life's meaning through faith, a higher power, and an afterlife.\n" +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships and contributions to society.\n' +
-    '\n' +
-    "Ultimately, the meaning of life is a question you must answer for yourself.  It's a journey of self-discovery, exploration, and reflection.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a definitive answer, many find it more fulfilling to focus on creating a meaningful life for themselves and contributing positively to the world around them.\n"
 }
