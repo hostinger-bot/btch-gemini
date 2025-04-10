@@ -4,50 +4,46 @@
 
 Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
-gemini_chat Response: {
-  success: true,
-  content: 'I am doing well, thank you for asking!  How are you today?\n'
-}
+gemini_chat Error: Request failed with status code 503
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1455087 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1680682 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo, possibly taken during a visit to a natural area or a government-related event.  The setting suggests a focus on environmental themes or Indonesian natural beauty, possibly to convey a message about conservation or ecotourism.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off to the side at a lush green landscape.  It's a fairly informal portrait, likely taken during a visit to a location of some natural beauty.  The focus is on the President himself, but the background suggests a setting that might be related to environmental issues or perhaps a state visit related to natural resources or conservation.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sapa lu paurang dua.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda.  Sape lu pak orang tua?\n'
 }
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sendiri sebenarnya  bergantung pada asal-usul dan konteksnya.  Tidak ada arti baku untuk nama Tio.  Ini bisa menjadi:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan bahasanya.  Tidak ada satu arti yang pasti.  Beberapa kemungkinan arti nama Tio antara lain:\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:**  Mungkin Tio adalah kependekan dari nama seperti  Tiodorus,  Tristian,  atau nama lain yang diawali dengan "Tio".\n' +
+    '* **Singkatan/Panggilan:**  Tio bisa jadi singkatan atau panggilan dari nama yang lebih panjang, seperti  Teodoro,  Tiodorus,  atau nama-nama lainnya.  Dalam hal ini, arti namanya akan bergantung pada nama lengkapnya.\n' +
     '\n' +
-    '* **Nama panggilan:**  Bisa jadi Tio adalah nama panggilan yang diberikan oleh keluarga atau teman-teman.\n' +
+    '* **Dari bahasa Indonesia:**  Di Indonesia, Tio sering digunakan sebagai nama panggilan yang sederhana dan mudah diingat, tanpa arti khusus yang melekat padanya.\n' +
     '\n' +
-    '* **Nama dengan arti dalam bahasa tertentu:**  Mungkin Tio memiliki arti khusus dalam suatu bahasa tertentu,  tapi tanpa mengetahui asal usul nama tersebut, sulit untuk memastikannya.\n' +
+    '* **Dari bahasa lain:**  Kemungkinan juga Tio berasal dari bahasa lain, namun tanpa konteks lebih lanjut sulit untuk menentukan asal dan artinya dengan pasti.\n' +
     '\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, kamu perlu menanyakan orang tua atau keluarga yang memberi namamu. Mereka yang paling tahu asal usul dan makna di balik nama Tio untukmu.\n'
+    'Untuk mengetahui arti nama Tio yang tepat,  kita perlu tahu asal-usul nama tersebut. Apakah nama tersebut berasal dari keluarga,  diberikan dengan maksud tertentu, atau hanya sekadar pilihan nama yang disukai?  Lebih banyak informasi akan membantu menentukan arti yang paling akurat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered to be a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
     '\n' +
     'Different perspectives include:\n' +
     '\n' +
     '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
     '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Absurdism:** The recognition that the search for inherent meaning in a meaningless universe is inherently absurd, yet we should embrace this absurdity.\n' +
     '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
     '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question you must answer for yourself through your experiences, values, and beliefs.  Instead of searching for a definitive answer, consider exploring what brings you joy, fulfillment, and purpose.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Some find meaning in relationships, others in their work, others in creative pursuits, and still others in service to others.  There's no right or wrong answer.\n"
 }
