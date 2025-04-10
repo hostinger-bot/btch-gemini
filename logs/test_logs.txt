@@ -9,55 +9,49 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 ad 00 00 04 00 08 02 00 00 00 44 6c f7 f6 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 791970 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a8 00 00 04 00 08 02 00 00 00 a2 45 3c b2 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 588746 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant, forested landscape.  It's likely a candid shot, possibly taken during a visit to a forested area in Indonesia.  The image itself doesn't convey any specific message beyond showing the President in a relaxed, contemplative pose amidst nature.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo, perhaps taken during a visit to a forested area in Indonesia.  The image emphasizes his relaxed posture and the natural setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda.  Sepahtu orang tua.\n'
+  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerja lembur bagai kuda. Sape lu pak orang tua?\n'
 }
 Testing gemini_video...
-gemini_video Response: {
-  success: true,
-  content: 'This video is a “Rickroll.” It features the 1987 song "Never Gonna Give You Up" by Rick Astley. The words “Get Rick Rolled” flash on the screen along with short clips from the official video. The audio features an instrumental introduction to “Never Gonna Give You Up”.\n' +
-    '\n' +
-    'The lyrics heard are:\n' +
-    "We're no strangers to love\n" +
-    'You know the rules and so do I\n' +
-    "A full commitment's what I'm thinking of\n" +
-    "You wouldn't get this from any other guy\n" +
-    "I just wanna tell you how I'm feeling\n" +
-    'Gotta make you understand'
-}
+gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio  bergantung pada asal-usul dan bahasa  dari mana nama itu berasal.  Tio bisa jadi singkatan atau bentuk pendek dari nama lain, atau  nama yang berdiri sendiri dengan beragam kemungkinan arti.  \n' +
+  content: 'Nama Anda adalah Tio.  Sayangnya, saya tidak memiliki akses ke database yang berisi arti nama-nama di seluruh dunia dan berbagai budaya.  Arti nama Tio bisa bervariasi tergantung asal usulnya.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat,  saya butuh informasi lebih lanjut. Misalnya:\n' +
+    'Untuk mengetahui arti nama Tio, saya sarankan Anda mencari informasi di internet, misalnya dengan mengetikkan "arti nama Tio" di mesin pencari seperti Google.  Anda juga bisa mencoba mencari informasi di situs web yang khusus membahas arti nama.\n' +
     '\n' +
-    '* **Dari bahasa apa nama Tio berasal?** (Contoh: Indonesia, Cina, Spanyol, dll.)\n' +
-    '* **Apakah Tio adalah singkatan dari nama lain?**  Jika iya, nama apa?\n' +
+    'Beberapa kemungkinan asal usul dan arti nama Tio meliputi:\n' +
     '\n' +
-    'Dengan informasi tambahan tersebut, saya bisa mencoba mencari arti nama Tio yang akurat untukmu.\n'
+    '* **Singkatan atau kependekan:** Tio bisa menjadi kependekan dari nama lain yang lebih panjang.\n' +
+    '* **Asal Bahasa:**  Tio bisa berasal dari berbagai bahasa, dan artinya akan berbeda-beda.\n' +
+    '\n' +
+    '\n' +
+    'Jadi, untuk mengetahui arti nama *Anda* Tio secara tepat,  pencarian online lebih lanjut diperlukan.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "The meaning of life is a question that has been pondered by philosophers, theologians, and individuals for centuries.  There's no single, universally accepted answer.  The meaning is often considered to be subjective and personal, varying greatly from person to person.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for millennia.  Different people, cultures, and philosophies offer vastly different perspectives.\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    'Some common approaches to understanding the meaning of life include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual or Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    '* **Existentialism:**  The belief that life is inherently meaningless, but we create our own meaning through our choices and actions.\n' +
+    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but we should embrace this absurdity.\n' +
     '* **Hedonism:**  The belief that the meaning of life is to maximize pleasure and minimize pain.\n' +
-    '* **Humanism:**  The belief that human beings are capable of being ethical and finding meaning in their relationships and contributions to society.\n' +
+    '* **Spiritual/Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, emphasizing the importance of human relationships and contributions to society.\n' +
+    '* **Purpose-Driven:** Defining meaning through achieving specific goals, contributing to something larger than oneself, or leaving a legacy.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal reflection and discovery, and the answer may evolve throughout your life.  Instead of searching for a definitive answer, many find fulfillment in focusing on values like love, connection, growth, contribution, and experiencing the world around them.\n"
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal reflection and discovery.  There is no right or wrong answer.\n"
 }
