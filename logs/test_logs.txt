@@ -6,47 +6,63 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking! How are you today?\n'
+  content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 03 1a 08 02 00 00 00 97 95 a3 a7 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1672883 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 03 12 00 00 04 00 08 02 00 00 00 fa 1f f8 82 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 559512 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photograph of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The photo likely depicts a moment during an official visit or event, given his attire and the setting.  It's a fairly standard portrait-style image often used in news coverage or official presidential materials.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's likely a publicity or official photo, possibly taken during a visit to a location of environmental or natural importance.  The image emphasizes his relaxed yet thoughtful demeanor.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagai kuda. Sape lu paurang tua?\n'
+  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerjaan lembur bagai kuda. Sapaelu paurang dua.\n'
 }
 Testing gemini_video...
-gemini_video Error: Request failed with status code 500
+gemini_video Response: {
+  success: true,
+  content: 'The video shows what is known online as a "rickroll". The singer and songwriter Rick Astley is shown singing and dancing, though the audio is slightly slowed from the original recording. At the beginning, the text “GET RICK ROLLED” is overlaid onto the video in white serif font.\n' +
+    '\n' +
+    '\n' +
+    'The song being performed and sampled in the video is the 1987 hit single, "Never Gonna Give You Up".\n' +
+    '\n' +
+    '\n' +
+    'The audio in this short excerpt contains the following lyrics:\n' +
+    '[Vocalizing]\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
+}
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio secara pasti karena arti nama tersebut bergantung pada asal-usul dan konteksnya.  Tio bisa saja merupakan:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio sendiri bergantung pada asalnya dan bagaimana ia digunakan.  Tidak ada arti baku yang universal untuk nama Tio.  Namun, beberapa kemungkinan interpretasi meliputi:\n' +
     '\n' +
-    '* **Singkatan atau kependekan:** dari nama yang lebih panjang.  Jika kamu mau berbagi nama lengkapmu, mungkin saya bisa membantu mencari arti nama lengkapnya.\n' +
-    '* **Nama dari suatu budaya tertentu:**  Arti nama Tio dapat bervariasi tergantung bahasa dan budaya.  Beberapa bahasa mungkin memiliki nama yang mirip dengan Tio dengan arti yang berbeda.\n' +
-    '* **Nama yang dibuat-buat atau unik:**  Banyak orang menciptakan nama-nama unik yang tidak memiliki arti tradisional yang tercatat.\n' +
+    '* **Singkatan atau kependekan:**  Tio mungkin merupakan kependekan dari nama yang lebih panjang, seperti  Antonio, Sebastian,  atau nama lain yang diawali dengan "Ti".  Tanpa mengetahui nama lengkapnya, tidak mungkin untuk menentukan ini.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, aku butuh informasi lebih lanjut. Apakah kamu bisa memberitahu saya asal usul namamu atau nama lengkapmu?\n'
+    '* **Nama panggilan:** Tio bisa juga merupakan nama panggilan yang diberikan kepada seseorang, tanpa memiliki arti spesifik sendiri.\n' +
+    '\n' +
+    '* **Arti dalam bahasa tertentu:**  Meskipun tidak umum sebagai nama mandiri dalam banyak bahasa, mungkin ada bahasa tertentu di mana Tio memiliki arti spesifik.  Untuk mengetahui arti yang mungkin, perlu diketahui asal-usul penggunaan nama tersebut.\n' +
+    '\n' +
+    '\n' +
+    'Singkatnya,  tanpa informasi lebih lanjut tentang asal usul nama Tio yang kamu gunakan, tidak mungkin menjelaskan artinya secara pasti.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and has been pondered by people for millennia.  Different individuals and cultures find meaning in various aspects of life, including:\n" +
     '\n' +
-    'Different perspectives include:\n' +
+    '* **Relationships:**  Love, family, friendship, and community provide a sense of belonging and purpose for many.\n' +
+    '* **Contribution:** Making a difference in the world, whether through work, volunteering, or creative expression, can imbue life with meaning.\n' +
+    "* **Personal Growth:**  Learning, exploring, and developing one's skills and talents can lead to a fulfilling life.\n" +
+    '* **Spiritual Beliefs:**  Many find meaning and purpose through religious or spiritual practices and beliefs.\n' +
+    '* **Experiences:**  Travel, adventure, and pursuing passions can create lasting memories and a sense of fulfillment.\n' +
+    '* **Creativity:**  Expressing oneself through art, music, writing, or other creative outlets can be deeply meaningful.\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Religious and spiritual beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, achieving enlightenment, or following a divine plan.\n' +
-    '* **Humanism:** Focuses on human values, reason, and ethics, emphasizing the importance of human flourishing and contributing to society.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
-    '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question you must answer for yourself through your experiences, values, and relationships.  There's no right or wrong answer.\n"
+    "Ultimately, the meaning of life is subjective and personal.  It's not something to be discovered, but rather something to be created and defined by each individual based on their own values, beliefs, and experiences.  Instead of searching for a pre-defined answer, consider what brings you joy, fulfillment, and a sense of purpose.  That is likely a significant part of *your* meaning of life.\n"
 }
