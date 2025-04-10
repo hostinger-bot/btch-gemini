@@ -9,57 +9,52 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1307192 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a4 08 02 00 00 00 11 22 da 16 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1407034 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's a fairly informal, candid shot, not a posed official portrait.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant, forested landscape.  The context suggests it might be from a visit to a natural area or during an official event related to environmental issues or rural development in Indonesia.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sape lupah urang tuwa?\n'
+  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagai kuda. Sape lupah urang tuaa?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'This video starts with a Rickroll. Rick Astley is singing his famous song “Never Gonna Give You Up”. Then, text appears that reads, "GET RICK ROLLED".  The audio goes as follows:\n' +
+  content: `This video shows the beginning of the music video for Rick Astley's song "Never Gonna Give You Up". The video depicts Astley dancing while wearing a jacket, striped shirt, tan slacks, and dark shoes. Text at the beginning of the video says “GET RICK ROLLED”.\n` +
     '\n' +
-    '(Music)\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    'The only audio in the video is the opening drumbeat of the song.'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asal-usul dan bahasanya.  Nama Tio bisa berasal dari beberapa bahasa dan budaya, dan masing-masing memiliki arti yang berbeda.  Beberapa kemungkinan meliputi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio secara pasti karena arti nama itu bergantung pada asal-usul dan budayanya.  Tio bisa jadi:\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:**  Tio bisa menjadi singkatan dari nama-nama seperti  Christian, Antonio,  atau nama-nama lain yang  berawalan dengan "Ti".  Dalam kasus ini, arti nama Tio akan bergantung pada nama lengkapnya.\n' +
+    '* **Singkatan atau bentuk pendek dari nama lain:**  Ini sangat mungkin,  banyak nama memiliki bentuk panggilan yang lebih pendek.  Jika kamu bisa memberitahu saya asal usul namamu (misalnya, keluarga dari daerah mana, atau nama panjangnya jika ada), saya mungkin bisa membantu menemukan artinya.\n' +
     '\n' +
-    '* **Asal dari bahasa Tionghoa:**  Dalam beberapa dialek Tionghoa, mungkin ada nama yang diucapkan mirip "Tio" dengan arti tertentu, namun dibutuhkan informasi lebih lanjut untuk memastikannya.\n' +
+    '* **Nama dengan arti berbeda tergantung budaya:** Nama yang terdengar sama bisa memiliki arti yang berbeda di berbagai bahasa dan budaya.\n' +
     '\n' +
-    '* **Nama dengan asal usul lain:** Mungkin saja Tio adalah nama dengan asal usul yang tidak umum atau bahkan nama yang diciptakan.\n' +
+    '* **Nama tanpa arti yang jelas:** Beberapa nama mungkin muncul sebagai variasi fonetik atau pilihan pribadi tanpa arti yang tertanam di dalamnya.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat,  saya perlu informasi tambahan tentang asal-usul atau bahasa dari mana nama tersebut berasal.  Apakah kamu tahu darimana nama Tio berasal?  Jika kamu bisa memberi informasi lebih lanjut, mungkin saya bisa membantu menentukan arti yang lebih akurat.\n'
+    'Untuk menemukan arti nama Tio, aku sarankan kamu melakukan pencarian online menggunakan "arti nama Tio" beserta informasi tambahan seperti kebangsaan atau asal-usul keluargamu.  Informasi tambahan akan sangat membantu untuk menemukan arti yang paling akurat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning is often considered to be subjective and personal, shaped by individual experiences, beliefs, and values.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, and the answer varies greatly depending on individual beliefs, values, and experiences.\n" +
     '\n' +
     'Some common perspectives include:\n' +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that life is meaningless unless we create our own meaning through our choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, and achieving spiritual enlightenment or salvation.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
+    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    '* **Existentialism:** The belief that life is inherently meaningless, but that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that embracing this absurdity is key to finding fulfillment.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment or salvation.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human connection, compassion, and contributing to society.\n' +
+    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the primary goals in life.\n' +
+    '* **Purpose-driven life:** Finding meaning in contributing to something larger than oneself, through work, relationships, or service to others.\n' +
     '\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal discovery and ongoing reflection.  Instead of searching for a definitive answer, consider what brings you purpose, joy, and fulfillment.  What impact do you want to have on the world?  What values guide your decisions?  These are all potential avenues to explore in your own search for meaning.\n"
+    "Ultimately, the meaning of life is what *you* make it.  It's a question of personal exploration and discovery.  Consider what brings you joy, what values you hold dear, and what impact you want to have on the world.  The answer may evolve over time as you grow and change.\n"
 }
