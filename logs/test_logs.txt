@@ -9,59 +9,54 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 ce 08 02 00 00 00 b8 4d f6 2a 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1539807 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a6 00 00 04 00 08 02 00 00 00 bc 8c 0c 01 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 800390 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photograph, possibly intended to project a sense of calm and connection to the Indonesian environment.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile view, standing outdoors in a lush, green environment that appears to be a forest or park.  He's dressed in a simple white long-sleeved shirt.  The image likely depicts him during a visit to a location in Indonesia, possibly for an official event or personal time.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sape lu paurang tua?\n'
+  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda. Sape lu fa orang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: `The video begins with the top of a man's head, quickly followed by the word's "Get Rick Rolled." Rick Astley is then seen singing and dancing to his iconic song "Never Gonna Give You Up."\n` +
+  content: 'The video is a Rickroll. It begins with a vintage look of the vocalist Rick Astley singing into a vintage microphone. Text appears on the screen in white block letters that reads, “GET RICK ROLLED.” The background fades to reveal a faux stained glass window. As the music begins, Rick starts swaying and moving to the beat while singing. The audio, from the song “Never Gonna Give You Up,” is the following:\n' +
     '\n' +
-    '\n' +
-    '[Music starts]\n' +
-    '[Rick sings:] Never gonna give you up.\n' +
-    'Never gonna let you down.\n' +
-    'Never gonna run around and desert you.\n' +
-    'Never gonna make you cry.\n' +
-    'Never gonna say goodbye.\n' +
-    'Never gonna tell a lie and hurt you.'
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Sayangnya,  arti nama Tio bervariasi tergantung dari asal dan bahasanya.  Tidak ada satu arti yang pasti.  Berikut beberapa kemungkinan:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke basis data yang bisa menjelaskan arti nama secara definitif. Arti nama sangat bervariasi tergantung budaya dan bahasa asalnya.\n' +
     '\n' +
-    '* **Dalam bahasa Indonesia:** Tio bisa menjadi bentuk pendek dari nama-nama seperti Teguh, Triono, atau nama-nama lain yang diawali dengan "Ti".  Dalam konteks ini, artinya tergantung pada nama lengkapnya.  Misalnya, jika Tio adalah kependekan dari Teguh, maka artinya bisa mengacu pada arti Teguh, yang berarti kuat, kokoh, atau tegar.\n' +
+    'Tio bisa jadi:\n' +
     '\n' +
-    '* **Dalam bahasa Tionghoa:**  Tio bisa menjadi bagian dari nama Tionghoa, dan artinya akan bergantung pada karakter Hanzi yang digunakan. Tanpa mengetahui karakter Hanzi-nya, mustahil untuk menentukan artinya.\n' +
+    '* **Singkatan atau bentuk pendek dari nama lain:**  Ini adalah kemungkinan yang sangat umum.  Jika Tio adalah singkatan, kita perlu mengetahui nama lengkapnya untuk memahami artinya.  Misalnya, Tio bisa menjadi singkatan dari  Teodoro,  Santiago, atau nama lainnya.\n' +
+    '* **Nama dengan asal usul yang tidak umum atau spesifik:**  Beberapa nama memiliki asal usul yang tidak tercatat secara luas dalam database nama.\n' +
+    '* **Nama modern atau buatan:** Nama-nama baru terus diciptakan, dan mungkin Tio termasuk di dalamnya, tanpa arti yang sudah mapan.\n' +
     '\n' +
-    '* **Bahasa lain:**  Tio juga mungkin berasal dari bahasa lain, dan artinya akan bergantung pada bahasa tersebut.\n' +
-    '\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio Anda secara pasti, Anda perlu memberikan informasi lebih lanjut tentang asal-usul nama tersebut.  Apakah nama tersebut berasal dari keluarga, pilihan pribadi, atau dari budaya tertentu?  Informasi tambahan akan sangat membantu.\n'
+    'Untuk mengetahui arti nama Tio, aku sarankan kamu mencari informasi di internet (misalnya di Google atau Wikipedia), menanyakan kepada orang tuamu, atau meneliti kamus nama.  Memberikan informasi lebih lanjut tentang latar belakang keluarga mungkin membantu menemukan arti yang lebih spesifik.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered subjective and personal, varying greatly depending on individual beliefs, experiences, and values.\n" +
     '\n' +
-    'Different perspectives include:\n' +
+    'Some perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that life is inherently meaningless, but that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that embracing this absurdity is key to finding meaning.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, contributing to society, and personal growth.\n' +
-    '* **Hedonism:**  Finding meaning in pleasure and avoiding pain.\n' +
+    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, yet we must continue to search nonetheless.\n' +
+    '* **Religious and spiritual beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, suggesting meaning is found in human relationships, contributions to society, and personal growth.\n' +
     '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a definitive answer, many find it more fulfilling to focus on living a meaningful life, however they define that for themselves.  This might involve pursuing passions, building relationships, contributing to something larger than oneself, or simply experiencing the joy and wonder of existence.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question to be explored and answered personally through reflection, experience, and the values you choose to live by.\n"
 }
