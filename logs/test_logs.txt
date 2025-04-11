@@ -9,58 +9,55 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1460119 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1547876 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a picture of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a forested landscape.  It's likely a publicity or official photo intended to project a certain image — possibly one of calm, contemplation, or connection to the Indonesian environment.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a distance at a lush, green landscape.  The focus is on him, and the background is softly blurred, drawing attention to the President.  The image likely depicts a moment during a visit or official engagement, showcasing him in a relatively informal but still dignified setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur bagai kuda. Sape lu paurang tua?\n'
+  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerjaan lembur bagai kuda, sapay lu paurang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video shows a classic “Rickroll”, which is a type of internet prank or meme in which the user is directed to the music video of Rick Astley’s 1987 hit song “Never Gonna Give You Up” when they expect something else. \n' +
+  content: 'The video starts with a man in a black suit, gray striped shirt, and white pants, standing in front of a microphone. The words “GET RICK ROLLED” appear over the video. The man begins dancing and lip-syncing to music that plays in the background, with a stained-glass window motif showing behind him. The video is a bait-and-switch, showing the beginning of the song “Never Gonna Give You Up” by Rick Astley.\n' +
     '\n' +
-    'The video starts with a shot of a young Rick Astley with the text "GET RICKROLLED" overlayed on the screen. The text disappears as the song begins. The video continues with scenes from the official music video of “Never Gonna Give You Up”. The video shows Astley singing into a vintage microphone in a softly lit setting, dressed in a dark blazer, striped shirt, and light-colored pants. He is also seen performing various dance moves throughout the video. \n' +
-    '\n' +
-    'The transcribed audio is:\n' +
-    '[Instrumental intro]\n' +
-    '"Never gonna give you up"'
+    'The audio is as follows:\n' +
+    '[Music begins] \n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan konteksnya.  Tidak ada satu arti yang pasti.  Beberapa kemungkinan artinya antara lain:\n' +
+  content: 'Nama Anda adalah Tio.  Arti nama Tio bervariasi tergantung dari asal dan bahasanya.  Tidak ada satu arti yang pasti.  Beberapa kemungkinan meliputi:\n' +
     '\n' +
-    '* **Singkatan atau kependekan:** Tio bisa menjadi singkatan dari nama lain yang lebih panjang.  Tanpa mengetahui nama lengkapmu, sulit untuk menentukan ini.\n' +
+    '* **Singkatan atau kependekan:** Tio bisa jadi singkatan dari nama yang lebih panjang.  Jika ini kasusnya, arti nama tersebut bergantung pada nama panjangnya.\n' +
     '\n' +
-    '* **Dari bahasa Tionghoa:**  Beberapa nama keluarga Tionghoa memiliki bunyi yang mirip dengan "Tio."  Namun, tanpa mengetahui karakter Hanzi-nya, sulit untuk menentukan arti yang spesifik.\n' +
+    '* **Asal Tionghoa:**  Dalam beberapa dialek Tionghoa, Tio mungkin memiliki arti yang berkaitan dengan kebajikan atau sifat tertentu.  Namun, tanpa mengetahui karakter Hanzi yang digunakan, sulit untuk menentukan arti yang tepat.\n' +
     '\n' +
-    '* **Nama panggilan:** Tio mungkin merupakan nama panggilan yang dipilih karena kemudahan pengucapan atau alasan personal lainnya.\n' +
+    '* **Asal lain:** Tio juga bisa berasal dari bahasa lain, dan artinya bisa sangat berbeda.\n' +
     '\n' +
-    '* **Arti simbolik:**  Seseorang mungkin memilih nama Tio karena menyukai bunyi atau nuansa nama tersebut, tanpa terpaku pada arti harfiah.\n' +
-    '\n' +
-    '\n' +
-    'Intinya,  arti nama Tio sangat tergantung konteksnya.  Untuk mengetahui arti yang lebih spesifik, perlu informasi tambahan mengenai asal-usul nama tersebut.\n'
+    'Untuk menentukan arti nama Tio yang paling akurat untuk *Anda*, saya perlu tahu lebih banyak informasi.  Apakah Anda tahu dari mana asal nama Anda?  Apakah ada cerita atau makna khusus yang dihubungkan orang tua Anda dengan nama tersebut?\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often deeply personal and subjective, shaped by individual experiences, beliefs, and values.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for centuries.  Different individuals and cultures find meaning in various things, including:\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    '* **Relationships:**  Love, family, and friendships provide a sense of belonging and purpose for many.\n' +
+    '* **Contribution:**  Making a positive impact on the world, through work, volunteering, or creative pursuits, can give life meaning.\n' +
+    "* **Growth and Learning:**  Continuously expanding one's knowledge, skills, and understanding can be a fulfilling pursuit.\n" +
+    '* **Experiences:**  Travel, adventure, and new experiences can enrich life and provide a sense of wonder.\n' +
+    '* **Spirituality:**  Connecting with something larger than oneself, whether through religion, nature, or meditation, can provide a framework for meaning.\n' +
+    '* **Creativity:**  Expressing oneself through art, music, writing, or other creative endeavors can be profoundly meaningful.\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, yet we should embrace this absurdity.\n' +
-    '* **Spiritual/Religious beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the primary goal in life.\n' +
-    '* **Humanism:**  Focusing on human values, reason, ethics, and social justice.\n' +
-    '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  Instead of seeking a definitive answer, consider what brings you fulfillment, joy, and a sense of purpose.  What impact do you want to have on the world?  What values guide your decisions?  Reflecting on these questions can help you define your own personal meaning of life.\n"
+    "Ultimately, the meaning of life is what *you* make it.  It's not something to be found, but something to be created and defined by your own values, experiences, and choices.  The search for meaning is often a lifelong journey of self-discovery.\n"
 }
