@@ -6,58 +6,52 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking! How are you today?\n'
+  content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1252580 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1472461 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  It's likely a publicity or candid shot, possibly meant to convey a sense of calm or contemplation, or to associate him with Indonesia's natural beauty.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo, possibly intended to convey a sense of calm, contemplation, or connection to nature.  The specific context (where and when the photo was taken) would need more information to be determined.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerja lembur bagai kuda.  Sape lupah urang tua?\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Separuh badan tu dah.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video shows the beginning of the famous "Never Gonna Give You Up" by Rick Astley. The man in the video is wearing a dark jacket over a striped shirt with light-colored trousers and shoes. In the background, there are geometric shapes that look like the frame of a large window, possibly stained glass. Text on the screen at the beginning of the video says "GET RICK ROLLED" and fades away after a couple of seconds.\n' +
+  content: `The video shows a man, wearing a suit jacket, striped shirt, and light-colored pants, getting ready to sing. He taps his foot near the base of the microphone stand, adjusts his jacket, and gets into position in front of the microphone. The background consists of a slightly blurry stained-glass window that seems to have a leafy design.  The words “GET RICK ROLLED” appear in a sans-serif typeface in the center of the screen. The video is a classic example of “rickrolling”, where people are unexpectedly led to Rick Astley's song "Never Gonna Give You Up".\n` +
     '\n' +
-    'The audio in the video is:\n' +
-    '(music)\n' +
-    'Never gonna give you up.\n' +
-    'Never gonna let you down.\n' +
-    'Never gonna run around and desert you.\n' +
-    'Never gonna make you cry.\n' +
-    'Never gonna say goodbye.\n' +
-    'Never gonna tell a lie and hurt you.'
+    'No audio is played other than the brief intro music.'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sendiri sebenarnya bergantung pada asal usul dan bahasanya.  Tidak ada arti tunggal yang universal.  Berikut beberapa kemungkinan:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio  bergantung pada asal-usulnya dan tidak ada arti yang tunggal dan universal.  Tio bisa jadi:\n' +
     '\n' +
-    '* **Tio dalam bahasa Tionghoa:**  Bisa jadi merupakan bagian dari nama yang lebih panjang, atau sebuah nama panggilan (disederhanakan).  Tanpa konteks lebih lanjut, sulit untuk menentukan arti spesifiknya dalam bahasa Tionghoa.\n' +
+    '* **Singkatan atau bentuk pendek dari nama lain:**  Ini adalah kemungkinan yang paling umum. Tio bisa menjadi singkatan dari nama-nama seperti  Teodoro,  Aurelio,  atau  nama lainnya.  Jika demikian, arti nama akan bergantung pada nama lengkap yang disingkat.\n' +
     '\n' +
-    '* **Tio sebagai nama pendek:**  Banyak nama yang disingkat menjadi Tio.  Ini bisa jadi singkatan dari nama yang lebih panjang, seperti  Teodoro, Antonio, atau nama-nama lain yang memiliki awalan "Ti-".\n' +
+    '* **Nama dalam bahasa tertentu:**  Tio mungkin nama yang memiliki arti tertentu dalam suatu bahasa, tetapi tanpa informasi lebih lanjut tentang asal-usul namamu, sulit untuk menentukannya.\n' +
     '\n' +
-    '* **Tio sebagai nama modern:**  Di beberapa budaya, nama Tio bisa digunakan sebagai nama modern yang unik, tanpa arti khusus yang sudah terdefinisi.\n' +
+    '* **Nama yang diciptakan:**  Mungkin juga Tio adalah nama yang dipilih  secara khusus dan tidak memiliki arti tradisional.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat,  kamu perlu memberitahu asal-usul namamu (dari keluarga, budaya, atau bahasa apa).  Dengan informasi tambahan tersebut, saya mungkin bisa memberikan penjelasan yang lebih akurat.\n'
+    'Untuk mengetahui arti nama Tio-mu,  kamu perlu menanyakan kepada orang tuamu atau keluarga terdekatmu bagaimana mereka memilih nama tersebut dan apa yang mereka maksudkan.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for millennia.  Different people find meaning in different things, including:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if there is one, is often considered to be something deeply personal and subjective.\n" +
     '\n' +
-    '* **Relationships:**  Love, family, and friendships provide a sense of belonging and purpose for many.\n' +
-    '* **Contribution:**  Making a positive impact on the world, through work, volunteering, or creative expression, can be profoundly meaningful.\n' +
-    '* **Personal Growth:**  Continuously learning, developing skills, and overcoming challenges can give life a sense of direction and accomplishment.\n' +
-    '* **Spiritual Beliefs:**  Many find meaning through religious faith, spirituality, or a connection to something larger than themselves.\n' +
-    '* **Experiences:**  Travel, adventure, and pursuing passions can create rich and fulfilling lives.\n' +
-    '* **Creativity:**  Expressing oneself through art, music, writing, or other creative endeavors can be deeply satisfying.\n' +
+    'Different perspectives include:\n' +
     '\n' +
-    "Ultimately, the meaning of life is not something to be discovered, but something to be *created*.  It's a journey of self-discovery, where you define your values, pursue your passions, and build a life that feels authentic and fulfilling to you.  There is no right or wrong answer; the meaning of life is what you make it.\n"
+    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Religious and spiritual beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, a divine plan, or an afterlife.  These meanings often involve serving God, following a specific moral code, or striving for spiritual enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery, and the answer may evolve throughout your life.\n"
 }
