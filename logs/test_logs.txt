@@ -9,65 +9,58 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a4 08 02 00 00 00 11 22 da 16 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1261862 more bytes>
+gemini_imgedit Request failed with status code 500
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a forested landscape.  The picture likely depicts a moment during one of his official engagements or visits, showcasing him in a relatively informal setting.  It doesn't convey any specific event or message beyond showing the president in a natural environment.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The context suggests it's a candid shot, possibly taken during a visit to a natural area or a park.  It doesn't show him engaging in any specific activity beyond looking at the scenery.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lu paurang tua.\n'
+  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerjaan lembur bagai kuda. Sape lu paurang duit?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: `The video shows Rick Astley performing his 1987 hit "Never Gonna Give You Up". He's wearing a black suit jacket, white shirt with black horizontal stripes, and light-colored pants. The background appears to be a white backdrop with a pattern projected onto it. He dances and lip-syncs while singing into a microphone. Text appears onscreen in white font stating "GET RICK ROLLED." \n` +
+  content: 'The video begins with the title card “Get Rick Rolled.” We see Rick Astley, a white man with ginger hair, wearing a black jacket over a striped t-shirt and khaki pants, with black dress shoes. He is standing in front of a frosted stained-glass window, which is partially obscured. There is a microphone in front of him. He gestures with his hand and nods along to the music.\n' +
     '\n' +
-    'The audio is the opening lyrics from the song "Never Gonna Give You Up":\n' +
-    '[music intro]\n' +
+    'The audio is an excerpt from the beginning of Rick Astley’s song, “Never Gonna Give You Up”:\n' +
+    '\n' +
     'Never gonna give you up\n' +
     'Never gonna let you down\n' +
-    'Never gonna run around\n' +
-    'And desert you\n' +
+    'Never gonna run around and desert you\n' +
     'Never gonna make you cry\n' +
     'Never gonna say goodbye\n' +
-    'Never gonna tell a lie\n' +
-    'And hurt you'
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan konteksnya.  Tidak ada satu arti tunggal yang pasti.  Namun, beberapa kemungkinan artinya meliputi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, arti nama Tio bergantung pada asal-usulnya dan tidak ada satu arti yang pasti.  Tio bisa menjadi:\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:**  Tio bisa menjadi bentuk pendek dari nama-nama seperti  Teodoro,  Timothy,  atau nama-nama lain yang diawali dengan "Ti".  Dalam hal ini, arti nama Tio akan bergantung pada nama panjangnya.\n' +
+    '* **Singkatan atau kependekan:**  Mungkin Tio adalah kependekan dari nama yang lebih panjang, seperti  Tiodorus, Teodoro,  atau nama lainnya.  Jika kamu tahu nama lengkapmu, arti nama lengkapmu mungkin bisa dijelaskan.\n' +
     '\n' +
-    '* **Asal Tionghoa:**  Dalam beberapa budaya Tionghoa, Tio bisa menjadi bagian dari nama keluarga atau nama panggilan, namun arti spesifiknya akan bergantung pada karakter Hanzi yang digunakan.\n' +
+    '* **Nama panggilan:** Tio bisa juga merupakan nama panggilan yang diberikan kepadamu, tanpa makna spesifik yang melekat.\n' +
     '\n' +
-    '* **Nama modern dan unik:** Dalam beberapa kasus, Tio bisa menjadi nama yang dipilih karena bunyinya yang modern, unik, dan mudah diingat, tanpa arti khusus yang melekat padanya.\n' +
+    '* **Nama dari suatu bahasa tertentu:**  Kemungkinan Tio berasal dari suatu bahasa tertentu yang aku tidak ketahui.  Jika kamu bisa memberitahu asal-usul namamu (misalnya, bahasa Indonesia, Tionghoa, Spanyol, dll.), aku mungkin bisa mencarinya.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang paling tepat untuk *kamu*, perlu diketahui asal usul nama tersebut dan konteks pemberian nama.  Apakah ada seseorang dalam keluargamu yang memberimu nama ini?  Mereka mungkin bisa memberi tahu asal usul dan arti nama Tio yang dimaksud.\n'
+    'Untuk mengetahui arti nama Tio, aku perlu informasi tambahan.  Bisakah kamu memberitahu asal usul namamu atau nama lengkapmu?\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, and different individuals and cultures have offered a wide range of perspectives.  Some common approaches include:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered to be a deeply personal and subjective matter.\n" +
     '\n' +
-    "* **Nihilism:** This viewpoint suggests that life is inherently meaningless. There's no objective purpose or value.\n" +
+    'Some people find meaning in:\n' +
     '\n' +
-    "* **Existentialism:** This philosophy emphasizes individual freedom and responsibility.  Meaning isn't inherent; it's something we create through our choices and actions.\n" +
+    '* **Relationships:**  Connecting with others, building community, and experiencing love.\n' +
+    '* **Contribution:** Making a positive impact on the world, helping others, or leaving a legacy.\n' +
+    '* **Purpose:** Pursuing a passion, achieving goals, or dedicating oneself to a cause.\n' +
+    '* **Spiritual beliefs:** Finding meaning in faith, religion, or a connection to something greater than oneself.\n' +
+    '* **Experiences:**  Embracing new challenges, exploring the world, and creating memories.\n' +
+    '* **Self-discovery:** Understanding oneself, growing personally, and striving for self-actualization.\n' +
+    '* **Creativity:** Expressing oneself through art, music, writing, or other creative endeavors.\n' +
     '\n' +
-    '* **Absurdism:** This perspective acknowledges the conflict between our search for meaning and the meaningless nature of the universe.  Finding meaning lies in embracing this absurdity.\n' +
-    '\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions provide answers about the meaning of life, often involving a higher power, an afterlife, and a divine purpose.  These meanings vary widely depending on the specific belief system.\n' +
-    '\n' +
-    '* **Hedonism:** This philosophy prioritizes pleasure and happiness as the ultimate goals in life.\n' +
-    '\n' +
-    '* **Utilitarianism:** This ethical framework suggests that the meaning of life lies in maximizing happiness and well-being for the greatest number of people.\n' +
-    '\n' +
-    '* **Personal Meaning:**  Many people find meaning in their relationships, their work, their contributions to society, their personal growth, or their pursuit of knowledge and understanding.\n' +
-    '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is a question each individual must answer for themselves.  There is no right or wrong answer; it's a deeply personal and evolving understanding.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a journey of discovery, and the answer may evolve throughout your lifetime.  There's no right or wrong answer; the most important thing is to find what resonates with you and gives your life purpose and fulfillment.\n"
 }
