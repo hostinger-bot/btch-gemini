@@ -9,51 +9,40 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a8 00 00 04 00 08 02 00 00 00 a2 45 3c b2 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1020221 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 df 00 00 04 00 08 02 00 00 00 b6 d0 a2 53 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 820627 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's Joko Widodo, the President of Indonesia.  The image shows him in profile, appearing to be looking out at a landscape of trees.  It's a relatively informal portrait, not a staged official photograph.  The context is missing, so it's impossible to say for certain what the image is *about* in terms of a specific event or message.  It could be part of a news article, a social media post, or simply a stock photo.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant, forested landscape.  The context suggests it's likely a publicity or official photo, possibly taken during a visit to a natural area or environmental project.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda, sampai lupa orang tua.\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sape lupah urang tua.\n'
 }
 Testing gemini_video...
-gemini_video Response: {
-  success: true,
-  content: 'This video features a clip from the beginning of the song "Never Gonna Give You Up," by Rick Astley. The words “Get Rick Rolled” appear on the screen in white letters. \n' +
-    '\n' +
-    'The video starts with a close up of Rick Astley’s head and shoulders. The view cuts to a shot of one of his feet, which is tapping on the ground. He wears shiny black shoes and white pants. The camera pans back up to show him standing with his arms moving to the music. He wears a black blazer and a horizontally striped, white and dark gray shirt. He sings into a retro microphone. \n' +
-    '\n' +
-    '\n' +
-    'The audio features the opening guitar riff of “Never Gonna Give You Up,” followed by the words "Never gonna give you up.”'
-}
+gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Sayangnya, saya tidak memiliki akses ke basis data yang berisi arti nama secara komprehensif.  Arti nama Tio bisa bervariasi tergantung pada asal-usulnya (bahasa, budaya).  \n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke database yang menyimpan arti nama-nama dari berbagai bahasa dan budaya. Arti nama Tio bisa bervariasi tergantung dari asal-usulnya.  \n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, saya sarankan Anda untuk:\n' +
-    '\n' +
-    '* **Mencari di internet:** Gunakan mesin pencari seperti Google dengan kata kunci "arti nama Tio".  Anda mungkin menemukan beberapa hasil yang menjelaskan arti nama Tio dari berbagai perspektif.\n' +
-    '* **Bertanya pada orang tua atau keluarga:** Mereka yang memberi Anda nama kemungkinan besar tahu arti dan alasan di balik pemilihan nama tersebut.\n' +
-    '\n' +
-    'Semoga informasi ini membantu!\n'
+    'Untuk mengetahui arti nama Tio, saya sarankan kamu mencarinya di internet melalui mesin pencari seperti Google, atau mencari di situs-situs yang khusus membahas arti nama.  Kamu bisa mencoba mengetik "arti nama Tio" di Google.  Hasil pencarian akan menunjukkan berbagai kemungkinan arti dan asal-usul nama tersebut.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be subjective and personal, shaped by individual beliefs, experiences, and values.\n" +
     '\n' +
-    'Different perspectives include:\n' +
+    'Some common perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
+    '* **Nihilism:** The belief that life is inherently meaningless.\n' +
+    '* **Existentialism:** The belief that life is meaningless unless we create our own meaning through our choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but we should embrace this absurdity.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, purpose, and afterlife.  These meanings vary widely depending on the specific religion.\n' +
+    '* **Hedonism:** The belief that the meaning of life is to pursue pleasure and avoid pain.\n' +
+    '* **Humanism:** The belief that the meaning of life lies in human relationships, compassion, and contributing to society.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a definitive answer, many find meaning in pursuing goals, building relationships, contributing to something larger than themselves, and experiencing the richness of life.\n"
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question you must answer for yourself through reflection, experience, and the choices you make.\n"
 }
