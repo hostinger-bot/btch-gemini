@@ -6,63 +6,53 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking!  How are you today?\n'
+  content: "I'm doing well, thank you for asking! How are you today?\n"
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1287628 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1545469 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a candid shot, possibly taken during a visit to a natural area or part of a nature reserve.  The image doesn't convey any specific event or message beyond showing the President in a relaxed, contemplative pose in a natural setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The context suggests it's likely a candid shot, perhaps taken during a visit to a forested area or park in Indonesia.  There's no specific event or action depicted, just a portrayal of the President in a relaxed, contemplative pose amidst nature.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong.  Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda.  Sape lu paurang duaa.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur bagai kuda.  Sapa eluh paurang duwa.\n'
 }
 Testing gemini_video...
-gemini_video Response: {
-  success: true,
-  content: `The video shows a snippet from the official music video of Rick Astley's 1987 hit song "Never Gonna Give You Up." It starts with a close-up shot of Astley and pans down to show a closeup of his shiny black shoes. Then, he appears in a dark blazer, white polo with thin, black horizontal stripes and a pair of khaki-colored pants. He smiles and sways to the music.\n` +
-    '\n' +
-    `The caption on the video reads "GET RICK ROLLED," which is the name of the Internet meme associated with Astley's iconic music video.\n` +
-    '\n' +
-    "Here's a transcription of the lyrics:\n" +
-    '\n' +
-    '"Never gonna give you up\n' +
-    'Never gonna let you down"'
-}
+gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu secara pasti.  Arti nama Tio bergantung pada asal-usulnya dan bisa bervariasi.  Tio bisa menjadi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu dengan pasti karena Tio bisa memiliki beberapa asal dan arti yang berbeda, tergantung latar belakang budaya.  \n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:**  Ini adalah kemungkinan yang paling umum.  Tio bisa menjadi singkatan dari nama-nama seperti Teodoro,  Tiodorus,  atau bahkan nama-nama lain yang memiliki unsur "tio" di dalamnya.  Tanpa mengetahui asal-usul lengkap namamu, mustahil untuk memastikannya.\n' +
+    'Beberapa kemungkinan:\n' +
     '\n' +
-    '* **Nama dengan asal-usul tertentu:** Ada kemungkinan Tio merupakan nama dengan asal-usul tertentu (misalnya, dari bahasa tertentu) yang artinya tidak umum atau tidak tercatat di database nama yang saya akses.\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, aku menyarankanmu untuk:\n' +
-    '\n' +
-    '* **Bertanya kepada orang tuamu atau keluarga:** Mereka adalah orang yang paling tahu asal usul dan arti namamu.\n' +
-    '* **Mencari di internet:** Cobalah mencari "arti nama Tio" di mesin pencari seperti Google.  Meskipun mungkin ada beberapa hasil yang berbeda, ini dapat memberimu beberapa petunjuk.\n' +
-    '* **Mencari dalam buku-buku tentang arti nama:**  Buku-buku tentang onomastika (ilmu tentang nama) mungkin mengandung informasi lebih lanjut.\n' +
+    '* **Singkatan:** Tio bisa menjadi singkatan dari nama lain yang lebih panjang.\n' +
+    '* **Nama panggilan:** Tio mungkin merupakan nama panggilan yang disingkat dari nama yang lebih panjang.\n' +
+    '* **Asal-usul Tionghoa:**  Dalam budaya Tionghoa, banyak nama yang memiliki arti spesifik.  Tanpa mengetahui karakter Hanzi (huruf Cina) yang membentuk nama Tio,  sulit untuk memastikan artinya.\n' +
+    '* **Asal-usul lainnya:**  Tio juga mungkin memiliki asal-usul dari bahasa atau budaya lain.\n' +
     '\n' +
     '\n' +
-    'Semoga ini membantu!\n'
+    'Untuk mengetahui arti namamu yang sebenarnya, sebaiknya kamu tanyakan kepada orang tuamu atau kerabatmu yang memberimu nama itu.  Mereka akan dapat memberimu informasi paling akurat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be subjective and personal, shaped by individual beliefs, experiences, and values.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, and different individuals and cultures have vastly different perspectives.  Some common approaches include:\n" +
     '\n' +
-    'Some perspectives include:\n' +
+    '* **Nihilism:** This philosophy asserts that life is inherently meaningless.  There is no objective purpose or value.\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers to the meaning of life, often involving serving a higher power, following divine commandments, and striving for enlightenment or salvation.\n' +
-    '* **Humanism:**  Focuses on human values, reason, ethics, and social justice, finding meaning in contributing to human flourishing.\n' +
-    '* **Hedonism:**  Finding meaning in pleasure and happiness.\n' +
+    "* **Existentialism:** This emphasizes individual freedom and responsibility.  Meaning isn't inherent; it's created through choices and actions.  We are free to define our own meaning.\n" +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  Consider what brings you joy, fulfillment, and a sense of purpose.  What impact do you want to have on the world?  These are all questions that can help you define your own meaning of life.\n"
+    '* **Absurdism:**  This acknowledges the conflict between the human search for meaning and the meaningless universe.  Finding meaning involves embracing this absurdity.\n' +
+    '\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, a divine plan, or an afterlife.  These meanings often center around serving God, following a moral code, and achieving spiritual enlightenment.\n' +
+    '\n' +
+    '* **Hedonism:** This focuses on pleasure and happiness as the ultimate goals in life.\n' +
+    '\n' +
+    '* **Purpose-driven approaches:**  Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.  This can involve altruism, creativity, or pursuing a fulfilling career.\n' +
+    '\n' +
+    "Ultimately, the meaning of life is what you make it. It's a question of personal exploration and discovery.  There is no right or wrong answer.\n"
 }
