@@ -9,52 +9,67 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1115870 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 877086 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The context of the photo is unknown without further information, but it likely depicts him during a visit to a location in Indonesia, possibly for a public appearance or official event.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  It's likely a publicity or official photo meant to portray him in a positive light, perhaps emphasizing his connection to nature or Indonesian landscapes.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagai kuda. Sape lupah urang dua?\n'
+  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda. Sape lu faham orang tua?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: `The video begins with a close-up of a man's head, then pans down to his shoes and back up again.  The words "GET RICK ROLLED" appear on screen.\n` +
+  content: 'The video shows a man singing and dancing in front of a microphone. He appears to be wearing a dark jacket, striped undershirt, light-colored pants, and dark dress shoes. The words “GET RICK ROLLED” are overlaid onto the video.\n' +
     '\n' +
-    'The man in the video is singing into a microphone. The background is a cloudy, ethereal scene with faint lattice-work patterns.  \n' +
+    'The audio contains the beginning of Rick Astley’s “Never Gonna Give You Up”. The audio transcript is as follows:\n' +
     '\n' +
-    'The audio is the first few notes of Rick Astley’s 1987 hit song “Never Gonna Give You Up”. \n'
+    '“Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you”'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio bergantung pada asal-usulnya karena Tio bisa berasal dari berbagai bahasa dan memiliki arti yang berbeda-beda.  Beberapa kemungkinan artinya antara lain:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio beragam tergantung dari asal dan konteksnya.  Tidak ada satu arti pasti yang universal.  Berikut beberapa kemungkinan:\n' +
     '\n' +
-    '* **Singkatan/Panggilan:** Tio mungkin merupakan singkatan atau panggilan dari nama yang lebih panjang, seperti  Tiodorus,  Teodoro,  atau nama-nama lainnya yang diawali dengan "Tio".  Jika demikian, arti sebenarnya bergantung pada nama panjangnya.\n' +
+    '* **Singkatan/Pendek dari nama lain:** Tio bisa menjadi singkatan dari nama-nama seperti Teodoro,  Tiodorus,  atau nama lainnya yang diawali dengan "Tio".  Jika ini kasusnya, arti nama tersebut tergantung dari nama aslinya.\n' +
     '\n' +
-    '* **Bahasa Tionghoa:** Dalam beberapa dialek Tionghoa, nama-nama yang terdengar seperti "Tio" mungkin ada dan memiliki arti yang spesifik, tetapi tanpa mengetahui karakter Hanzi (huruf Tionghoa) yang tepat, sulit untuk memberikan arti yang akurat.\n' +
+    '* **Nama panggilan:** Tio juga bisa menjadi nama panggilan yang umum digunakan, tanpa arti khusus yang melekat.  Dalam konteks ini, arti namanya tergantung pada bagaimana keluarga dan teman-temanmu menggunakannya, dan bagaimana perasaanmu terhadap nama tersebut.\n' +
     '\n' +
-    '* **Bahasa Indonesia/Jawa:**  Dalam bahasa Indonesia, "Tio" mungkin tidak memiliki arti yang baku. Di Jawa, mungkin saja merupakan variasi dari nama lain atau bahkan nama panggilan yang umum digunakan tanpa arti khusus.\n' +
+    '* **Asal bahasa:**  Tanpa informasi lebih lanjut tentang latar belakang namamu, sulit untuk menentukan asal bahasanya dan arti yang spesifik.  Mungkin saja berasal dari bahasa Indonesia, Tionghoa, atau bahasa lainnya.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, perlu informasi lebih lanjut tentang asal-usul nama tersebut dan apakah Tio merupakan nama lengkap atau singkatan.\n'
+    'Untuk mengetahui arti nama Tio secara lebih akurat, kamu perlu memberikan informasi lebih lanjut, seperti:\n' +
+    '\n' +
+    '* **Nama lengkapmu:**  Ini dapat membantu dalam menentukan apakah Tio merupakan singkatan atau nama panggilan.\n' +
+    '* **Asal keluarga:**  Mengetahui asal-usul keluargamu dapat membantu dalam menentukan asal dan arti nama Tio.\n' +
+    '\n' +
+    'Dengan informasi tambahan tersebut, saya dapat memberikan penjelasan yang lebih tepat tentang arti nama Tio bagimu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    'Different perspectives include:\n' +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.  Finding meaning despite this conflict is key.\n' +
-    '* **Spiritual or Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment or salvation.\n' +
-    '* **Hedonism:** The pursuit of pleasure and avoidance of pain as the primary goal in life.\n' +
-    '* **Purpose-driven life:** Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Religious/Spiritual beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, achieving enlightenment, or following a divine plan.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, emphasizing the importance of human flourishing and contributing to society.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a definitive answer, many find it more fruitful to explore their own values and what brings them fulfillment and purpose.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a definitive answer, many find fulfillment by focusing on:\n" +
+    '\n' +
+    '* **Relationships:** Connecting with loved ones and building meaningful connections.\n' +
+    '* **Purposeful work:** Contributing to something larger than oneself.\n' +
+    '* **Personal growth:** Continuously learning, developing, and challenging oneself.\n' +
+    '* **Experiencing the world:**  Exploring, traveling, and engaging with different cultures and perspectives.\n' +
+    '* **Leaving a positive legacy:** Making a difference in the world and impacting future generations.\n' +
+    '\n' +
+    '\n' +
+    'The meaning of life is not a destination, but a journey of self-discovery.\n'
 }
