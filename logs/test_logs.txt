@@ -9,52 +9,61 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 940968 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 03 04 00 00 04 00 08 02 00 00 00 d0 af 09 2d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1340032 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape that appears to be a forested area.  It's a fairly informal portrait; he's dressed in a simple white shirt.  The image likely depicts a moment during an official visit or informal engagement.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape that appears to be a forested area.  The focus is on him, with the background slightly blurred.  It's likely a publicity or candid shot, possibly intended to portray him in a relaxed or contemplative setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur bagai kuda.  Sapa elu paurang duit.\n'
+  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda. Cepat lupa orang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video begins with Rick Astley and his song “Never Gonna Give You Up.”\n' +
+  content: 'This video is a Rickroll meme. It begins with a close-up of a man about to sing, then displays the words, “GET RICKROLLED” on the screen. The next shot shows the man, Rick Astley, dancing and performing his hit song, “Never Gonna Give You Up.”\n' +
     '\n' +
-    'The audio is:\n' +
-    '[Music]'
+    '[Music intro]\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you\n'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Arti nama Tio bergantung pada asal-usulnya.  Karena Tio merupakan nama yang cukup umum dan digunakan di beberapa budaya, tidak ada satu arti yang pasti.  Berikut beberapa kemungkinan:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan bahasanya.  Tidak ada satu arti yang pasti dan universal.  Berikut beberapa kemungkinan:\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek:** Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama yang lebih panjang, seperti  Teodoro,  Antonio,  atau nama-nama lain yang diawali dengan "Ti".  Dalam kasus ini, arti nama Tio akan tergantung pada nama lengkap yang disingkat.\n' +
+    '* **Singkatan atau kependekan:**  Tio mungkin merupakan singkatan dari nama yang lebih panjang, seperti  Tiodorus,  Sebastian Tio,  atau nama lainnya.  Jika ini kasusnya, arti nama tergantung pada nama lengkapnya.\n' +
     '\n' +
-    '* **Asal bahasa Indonesia:**  Di Indonesia, Tio mungkin digunakan sebagai nama tanpa arti khusus yang terikat pada akar bahasa tertentu.  Dalam konteks ini, arti nama Tio lebih kepada  kesan yang ditimbulkan,  yaitu  nama yang pendek, mudah diingat, dan modern.\n' +
+    '* **Asal Tionghoa:**  Di beberapa budaya Tionghoa, Tio bisa menjadi bagian dari nama keluarga atau nama panggilan yang memiliki arti tertentu bergantung pada karakter Hanzi yang digunakan. Tanpa mengetahui karakter tersebut, tidak mungkin untuk memberikan arti yang spesifik.\n' +
     '\n' +
-    '* **Asal bahasa lain:**  Kemungkinan juga nama Tio berasal dari bahasa lain yang tidak saya ketahui.\n' +
+    '* **Asal Portugis/Spanyol:**  Nama Tio  bisa menjadi bentuk panggilan sayang atau informal untuk paman (uncle) dalam bahasa Portugis dan Spanyol.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat untuk Anda, perlu diketahui asal-usul dan kemungkinan nama lengkap yang disingkat menjadi Tio.\n'
+    '* **Asal lain:**  Mungkin juga Tio berasal dari bahasa atau budaya lain yang belum disebutkan di sini.\n' +
+    '\n' +
+    'Untuk mengetahui arti nama Tio yang tepat, perlu informasi tambahan seperti:\n' +
+    '\n' +
+    '* **Nama lengkapmu:**  Jika namamu lebih dari sekadar "Tio."\n' +
+    '* **Asal usul namamu:**  Dari mana nama itu berasal (keluarga, budaya, dll.)\n' +
+    '\n' +
+    'Dengan informasi lebih lanjut, saya mungkin bisa memberikan penjelasan arti namamu yang lebih akurat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning, if any, is often considered subjective and personal.\n" +
-    '\n' +
-    'Different perspectives include:\n' +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself has been pondered by philosophers, theologians, and individuals for millennia.  Different perspectives include:\n" +
     '\n' +
     '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Religious and Spiritual Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine purpose.\n' +
-    '* **Humanism:**  Focuses on human values, reason, ethics, and social justice, finding meaning in human connection and contribution.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The recognition of the conflict between the human search for meaning and the meaninglessness of the universe, embracing the absurdity.\n' +
+    '* **Hedonism:** The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers centered around serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focusing on human values, reason, and ethics, finding meaning in human connection and contribution to society.\n' +
     '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal reflection and discovery.  What brings you fulfillment? What values do you hold dear? What impact do you want to have on the world?  These are questions that can help you define your own meaning.\n"
+    'Ultimately, the meaning of life is a deeply personal question.  What gives *your* life meaning is something you must discover for yourself through reflection, experience, and your own values.  It might be found in relationships, creative pursuits, contributing to something larger than yourself, or simply experiencing the beauty and wonder of the world.\n'
 }
