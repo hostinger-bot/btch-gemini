@@ -9,56 +9,56 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1083722 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1421437 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a picture of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a forested landscape.  It's likely a publicity or official photo, perhaps taken during a visit to a location of environmental or natural significance.  The context surrounding the image would help determine the precise meaning.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  It's likely a publicity or official photograph, possibly taken during a visit to a natural area or park in Indonesia.  The context is missing, so more specifics can't be determined without further information.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagai kuda.  Sape lupah urang tua?\n'
+  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda. Sape lupah urang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video displays the intro to a Rick Astley music video, the bait for a classic "Rickroll".\n' +
+  content: `This video appears to be a brief portion of Rick Astley's music video for "Never Gonna Give You Up." The video opens with a shot of the singer’s face as he begins to sing, followed by the words "GET RICK ROLLED" which flash across the screen. The music video then begins, and the camera pans out to show Astley's entire body, from the waist up. He's wearing a black jacket, a striped shirt underneath, and light-colored pants. He's standing in what appears to be a room with a large window, possibly a church, behind him. He's dancing and singing into a microphone.\n` +
     '\n' +
-    `The video opens with a shot of the singer's face as he begins to sing. The words, "GET RICK ROLLED" appear on the screen, along with a transition to the singer's feet. The singer is wearing dark brown shoes, light-colored pants and a dark blazer. He is dancing in front of a lit background, possibly a large window. His movements are light, with small hops, shoulder shrugs, and other small movements. He is holding a microphone as if singing.\n` +
-    '\n' +
-    `The song begins, and it's "Never Gonna Give You Up", as expected.\n` +
-    '\n' +
-    '[Music begins]\n' +
+    'Audio transcript:\n' +
+    '[Instrumental introduction]\n' +
     'Never gonna give you up\n' +
-    'Never gonna let you down…\n'
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sendiri  agak kompleks karena tergantung dari asal usul dan konteksnya.  Tidak ada satu arti baku untuk nama Tio.  Namun, beberapa kemungkinan arti dan asal usulnya meliputi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, arti nama Tio bergantung pada asalnya dan konteksnya.  Tio bukanlah nama yang memiliki arti tunggal yang diterima secara universal.  \n' +
     '\n' +
-    '* **Singkatan/Pendek dari nama lain:**  Tio bisa jadi singkatan dari nama yang lebih panjang, seperti  Tiodorus,  Tristian, atau nama lain yang diawali dengan "Ti-".  Dalam hal ini, arti nama Tio akan bergantung pada nama panjangnya.\n' +
+    'Mungkin Tio adalah:\n' +
     '\n' +
-    '* **Nama panggilan/Sayang:** Tio bisa merupakan nama panggilan yang diberikan karena kemudahan pengucapan atau kedekatan.  Artinya, dalam konteks ini, tidak ada arti khusus selain kasih sayang.\n' +
+    '* **Singkatan atau kependekan:** dari nama lain yang lebih panjang.  Jika ini kasusnya, saya perlu informasi lebih lanjut tentang nama lengkapmu untuk bisa menjelaskan artinya.\n' +
+    '* **Nama panggilan:**  bentuk pendek dari nama lain.  Sekali lagi, informasi tambahan dibutuhkan.\n' +
+    '* **Nama dari bahasa tertentu:**  Bisa jadi Tio berasal dari bahasa tertentu (misalnya, bahasa Indonesia, Tionghoa, atau bahasa lainnya) dan memiliki arti spesifik dalam bahasa tersebut.  Jika kamu bisa memberitahu saya asal usul namamu, saya bisa mencoba mencari artinya.\n' +
     '\n' +
-    '* **Asal bahasa tertentu (mungkin):**  Meskipun tidak ada arti baku yang umum diketahui dalam bahasa-bahasa besar seperti Inggris, Spanyol, atau Perancis, Tio *mungkin*  berasal dari bahasa atau budaya tertentu yang tidak saya ketahui.\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio yang paling tepat untuk *kamu*,  akan lebih baik jika kamu bertanya kepada orangtuamu atau kerabat dekat yang memberi namamu.  Mereka akan bisa memberikan konteks dan informasi yang lebih akurat.\n'
+    'Tolong beri saya informasi tambahan agar saya bisa membantu menjelaskan arti namamu dengan lebih akurat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "The meaning of life is a question that has been pondered by philosophers, theologians, and individuals for centuries. There's no single, universally accepted answer.  The meaning is often considered to be subjective and personal, varying greatly depending on individual beliefs, experiences, and values.\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if there is one, is often considered subjective and personal.\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    'Different perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
     '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions provide answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:** Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
-    '* **Hedonism:**  Finding meaning in pleasure and happiness.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment or salvation.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal discovery and reflection.  What brings you joy? What values guide your actions? What impact do you want to have on the world?  These are questions that can help you define your own personal meaning.\n"
+    "Ultimately, the meaning of life is what you make it. It's a question of personal reflection and discovery, not a problem with a single solution.  What brings you fulfillment, joy, and a sense of purpose?  That might be a good starting point for your own exploration of this question.\n"
 }
