@@ -6,56 +6,52 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking!  How are you today?\n'
+  content: "I'm doing well, thank you for asking!  How are you today?\n"
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1159439 more bytes>
+gemini_imgedit Request failed with status code 500
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The context suggests it's likely a publicity or official photo, perhaps from a visit to a forested area or nature reserve in Indonesia.  There's nothing overtly conveying a specific event or message beyond a portrait of the president in a natural setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a distance at a lush green landscape.  It's likely a candid shot, perhaps taken during a visit to a natural area or a moment of reflection.  The context is missing, so there's no specific event or message definitively conveyed.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagi aku dah. Cepat lupa orang tua.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagi kudang. Sapa lu paurang duah.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: `The video shows a classic "Rickroll," featuring the beginning of the music video for Rick Astley's 1987 hit song "Never Gonna Give You Up." \n` +
-    '\n' +
-    '\n' +
-    'The edited video adds text that reads, "GET RICK ROLLED" over shots of Astley singing and dancing into a vintage microphone.\n' +
-    '\n' +
-    '\n' +
-    'The audio plays the opening notes of "Never Gonna Give You Up," followed by Astley singing: "Never gonna give you up / Never gonna let you down / Never gonna run around and desert you / Never gonna make you cry / Never gonna say goodbye / Never gonna tell a lie and hurt you"'
+  content: `The video shows a close up of a man singing into a vintage microphone. The words "Get Rick Rolled" are superimposed over the image. It's a "rickroll", referring to the internet prank where a hyperlink or thumbnail misleads a user to a video of singer Rick Astley’s hit song “Never Gonna Give You Up” (1987). The song begins with a drum intro but there is no singing in the video. `
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Arti nama Tio sendiri sebenarnya bergantung pada asal-usul dan bahasanya.  Tidak ada arti tunggal yang universal untuk nama Tio.  Namun, beberapa kemungkinan interpretasinya antara lain:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio sebenarnya bergantung pada asal-usul dan bahasanya.  Tidak ada arti tunggal yang universal untuk nama Tio.  Namun, beberapa kemungkinan artinya meliputi:\n' +
     '\n' +
-    '* **Singkatan atau kependekan:** Tio bisa menjadi bentuk singkat dari nama-nama yang lebih panjang, seperti  Tiodorus,  Tiofanus,  atau nama-nama lain yang memiliki awalan "Tio".  Dalam hal ini, arti nama tersebut akan bergantung pada nama lengkapnya.\n' +
+    '* **Singkatan atau kependekan:**  Tio bisa menjadi bentuk pendek dari nama-nama lain, seperti  Teodoro,  Atio,  atau  nama-nama lainnya yang dimulai dengan "Ti".  Dalam hal ini, arti nama Tio akan bergantung pada nama aslinya yang lebih panjang.\n' +
     '\n' +
-    '* **Bahasa Indonesia:** Dalam bahasa Indonesia, "Tio" mungkin tidak memiliki arti khusus yang baku sebagai sebuah nama.  Mungkin saja nama ini dipilih karena bunyinya yang mudah diingat dan diucapkan.\n' +
+    '* **Asal Tionghoa:**  Ada beberapa nama keluarga Tionghoa yang diucapkan mirip dengan "Tio".  Namun, tanpa konteks lebih lanjut, sulit untuk menentukan artinya.\n' +
     '\n' +
-    '* **Bahasa lain:**  Kemungkinan juga nama Tio berasal dari bahasa lain, dan artinya bergantung pada bahasa asalnya.  Untuk mengetahui arti yang tepat, diperlukan informasi lebih lanjut mengenai asal-usul nama tersebut.\n' +
+    '* **Asal lain:**  Tio bisa juga berasal dari berbagai bahasa dan budaya lain, dan artinya bisa bervariasi.\n' +
     '\n' +
-    'Jadi, untuk mengetahui arti nama Tio yang sebenarnya, Anda perlu menanyakan kepada orang tua atau keluarga Anda tentang asal-usul dan pilihan nama tersebut.\n'
+    'Untuk mengetahui arti nama Tio yang tepat,  kamu perlu memberi tahu saya lebih banyak informasi tentang asal-usul namamu.  Apakah nama Tio diberikan oleh keluargamu?  Apakah ada kisah atau makna khusus yang terkait dengan nama tersebut?  Informasi ini akan membantu saya menjelaskan arti namamu dengan lebih akurat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be deeply personal and subjective, shaped by individual experiences, beliefs, and values.\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be subjective and personal, varying greatly depending on individual beliefs, values, and experiences.\n" +
     '\n' +
-    'Some perspectives include:\n' +
+    'Some common perspectives include:\n' +
     '\n' +
     '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human connection, contribution, and self-improvement.\n' +
+    '* **Existentialism:** The belief that life is inherently meaningless, but that we create our own meaning through our choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Religious/Spiritual Beliefs:** Many religions and spiritual traditions offer answers about the meaning of life, often involving a higher power, purpose, or afterlife.  These meanings often involve serving a greater good, following divine commandments, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values and reason, emphasizing ethics, social justice, and personal fulfillment in this life.  Meaning is found in relationships, contributing to society, and personal growth.\n' +
+    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the ultimate goal of life.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal discovery and ongoing reflection.  Rather than searching for a definitive answer, many find it more fruitful to focus on living a meaningful life, driven by their own values and goals.\n"
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  Consider what brings you joy, fulfillment, and a sense of purpose.  What impact do you want to have on the world?  These are questions that can help you define your own meaning of life.\n"
 }
