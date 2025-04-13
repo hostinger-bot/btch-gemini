@@ -9,52 +9,49 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 03 32 00 00 04 00 08 02 00 00 00 b5 42 fb 52 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 858890 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 fe 08 02 00 00 00 bc 37 f1 87 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 814387 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  It's likely a candid shot, possibly taken during a visit to a natural area or a public appearance.  The context is missing, so more specific details about the *occasion* of the photo are impossible to determine.\n"
+  content: "That's Joko Widodo, the President of Indonesia.  The image is a portrait-style photograph of him, likely taken outdoors in a natural setting (possibly a park or forested area).  It shows him in profile, looking off into the distance, wearing a white long-sleeved shirt.  The background is blurred, focusing attention on the president.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lupah urang tua.\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sape lu pa orang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video is a Rickroll, a popular bait-and-switch internet prank. The viewer anticipates a different video, only to be unexpectedly directed to Rick Astley’s 1987 music video, “Never Gonna Give You Up.” The beginning of the video shows a clip of Rick Astley singing into a microphone, and there is text superimposed that reads “GET RICKROLLED.” He is wearing a blazer and what appears to be a striped collared shirt.\n' +
+  content: `The video features footage from Rick Astley's 1987 hit music video for "Never Gonna Give You Up." The overlaid text and the audio of the song are used to perform a "Rick Roll" on the viewer.\n` +
     '\n' +
-    'The audio is from “Never Gonna Give You Up,” specifically the lyrics “Never gonna give you up, never gonna let you down.”'
+    '[Music begins, with distinct beat of the song.]\n' +
+    'GET RICK ROLLED\n' +
+    '[Audio continues throughout rest of video.]'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak dapat menjelaskan arti nama Tio secara pasti karena artinya bergantung pada asal-usul dan konteksnya.  Nama Tio bisa berasal dari berbagai bahasa dan budaya, dan masing-masing bisa memiliki arti yang berbeda.\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke database nama dan artinya yang komprehensif.  Arti nama Tio bisa bervariasi tergantung asal usul dan bahasa.  \n' +
     '\n' +
-    'Untuk menemukan arti nama Tio yang tepat, saya perlu informasi tambahan.  Misalnya, dari bahasa mana nama Tio berasal?  Atau, apakah ada makna khusus yang diberikan oleh orang tuamu ketika memberimu nama tersebut?\n' +
-    '\n' +
-    'Jika kamu bisa memberikan informasi lebih lanjut, saya mungkin bisa membantumu menemukan arti namanya.\n'
+    'Untuk mengetahui arti nama Tio, saya sarankan kamu melakukan pencarian online.  Coba cari "arti nama Tio" di mesin pencari seperti Google, Bing, atau lainnya.  Kamu mungkin menemukan beberapa kemungkinan arti, tergantung apakah Tio adalah kependekan dari nama lain, atau memiliki akar budaya tertentu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, and different individuals and cultures have developed a wide range of perspectives.  Some common approaches include:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself has been pondered by philosophers, theologians, and individuals for millennia.  Different perspectives offer various interpretations:\n" +
     '\n' +
-    '* **Nihilism:** This viewpoint asserts that life is inherently meaningless.  There is no objective purpose or value.\n' +
+    '* **Nihilism:** This philosophy asserts that life is inherently meaningless.  There is no objective purpose or value.\n' +
     '\n' +
-    "* **Existentialism:** This philosophy emphasizes individual freedom and responsibility.  Meaning isn't inherent; it's created through choices and actions.  We are free to define our own purpose.\n" +
+    "* **Existentialism:** This perspective emphasizes individual freedom and responsibility.  Meaning isn't inherent; it's created through choices and actions.  We are free to define our own meaning.\n" +
     '\n' +
-    "* **Absurdism:** This perspective acknowledges the conflict between humanity's search for meaning and the universe's apparent lack of inherent meaning.  The meaning of life is found in embracing this absurdity.\n" +
+    "* **Absurdism:**  This acknowledges the conflict between humanity's search for meaning and the universe's apparent lack of inherent purpose.  Finding meaning lies in embracing this absurdity.\n" +
     '\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions provide answers about the meaning of life, often involving a divine creator, an afterlife, and a prescribed path to follow.  These beliefs provide structure, purpose, and community for many.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions provide answers, often involving a divine creator, an afterlife, and a preordained purpose.  These meanings vary widely depending on the specific belief system.\n' +
     '\n' +
-    '* **Hedonism:** This approach focuses on maximizing pleasure and minimizing pain as the primary goal in life.\n' +
+    '* **Humanism:** This emphasizes human reason, ethics, and social justice.  Meaning is found in contributing to human flourishing and well-being.\n' +
     '\n' +
-    '* **Utilitarianism:** This ethical framework suggests that the meaning of life is to maximize overall happiness and well-being for the greatest number of people.\n' +
+    '* **Hedonism:** This prioritizes pleasure and happiness as the ultimate goals in life.\n' +
     '\n' +
-    "* **Personal Meaning:**  Many find meaning in relationships, creativity, contributing to society, pursuing knowledge, experiencing beauty, or simply enjoying life's moments.  This is often a subjective and evolving understanding.\n" +
-    '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery, not one with a single right answer.\n"
+    "Ultimately, the meaning of life is a deeply personal question.  What gives your life meaning is something you must discover for yourself.  It might be found in relationships, work, creativity, contributing to society, personal growth, or a combination of factors.  There's no right or wrong answer.\n"
 }
