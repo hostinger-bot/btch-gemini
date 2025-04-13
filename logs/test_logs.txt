@@ -9,63 +9,52 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1167109 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 03 32 00 00 04 00 08 02 00 00 00 b5 42 fb 52 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 858890 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a candid shot, possibly taken during a visit to a forested area or park in Indonesia.  The image conveys a sense of calm and contemplation.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  It's likely a candid shot, possibly taken during a visit to a natural area or a public appearance.  The context is missing, so more specific details about the *occasion* of the photo are impossible to determine.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda, sampai lupa waktu.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lupah urang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: `This video is a classic example of a "Rickroll." It displays scenes from the music video for Rick Astley's 1987 hit song "Never Gonna Give You Up."  It begins with a close-up of Astley’s face, then cuts to different shots of him singing and dancing.  The words "GET RICK ROLLED" appear superimposed on the screen.  The music clip used in the video is the beginning of the song, with the following lyrics:\n` +
+  content: 'The video is a Rickroll, a popular bait-and-switch internet prank. The viewer anticipates a different video, only to be unexpectedly directed to Rick Astley’s 1987 music video, “Never Gonna Give You Up.” The beginning of the video shows a clip of Rick Astley singing into a microphone, and there is text superimposed that reads “GET RICKROLLED.” He is wearing a blazer and what appears to be a striped collared shirt.\n' +
     '\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    'The audio is from “Never Gonna Give You Up,” specifically the lyrics “Never gonna give you up, never gonna let you down.”'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sendiri tidak memiliki arti yang baku dan tetap dalam satu bahasa tertentu.  Asalnya bisa dari berbagai sumber dan tergantung konteksnya.  Beberapa kemungkinan:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak dapat menjelaskan arti nama Tio secara pasti karena artinya bergantung pada asal-usul dan konteksnya.  Nama Tio bisa berasal dari berbagai bahasa dan budaya, dan masing-masing bisa memiliki arti yang berbeda.\n' +
     '\n' +
-    '* **Singkatan/Pendek dari nama lain:** Tio bisa jadi singkatan dari nama yang lebih panjang, seperti  Tiodorus,  Christian Tio, atau nama lainnya.  Jika ini kasusnya, arti namamu tergantung pada nama panjangnya.\n' +
+    'Untuk menemukan arti nama Tio yang tepat, saya perlu informasi tambahan.  Misalnya, dari bahasa mana nama Tio berasal?  Atau, apakah ada makna khusus yang diberikan oleh orang tuamu ketika memberimu nama tersebut?\n' +
     '\n' +
-    '* **Nama panggilan:** Tio bisa jadi nama panggilan yang diberikan berdasarkan kepribadian atau karakteristik tertentu.  Tanpa konteks lebih lanjut, sulit untuk menentukan arti spesifiknya.\n' +
-    '\n' +
-    '* **Nama dari bahasa tertentu (belum diketahui):**  Mungkin Tio berasal dari bahasa tertentu yang belum saya ketahui.\n' +
-    '\n' +
-    '\n' +
-    'Untuk mendapatkan arti nama Tio yang tepat, perlu informasi lebih lanjut, misalnya:\n' +
-    '\n' +
-    '* **Nama lengkapmu:**  Nama lengkapmu mungkin memberi petunjuk asal dan arti nama Tio.\n' +
-    '* **Asal usul keluarga:**  Asal usul keluarga mungkin memberikan informasi mengenai tradisi penamaan yang digunakan.\n' +
-    '* **Bahasa asal nama:**  Jika kamu tahu dari bahasa mana nama Tio berasal, saya dapat mencoba mencarinya.\n' +
-    '\n' +
-    '\n' +
-    'Singkatnya, tanpa informasi tambahan,  mustahil untuk menjelaskan arti nama Tio secara pasti.\n'
+    'Jika kamu bisa memberikan informasi lebih lanjut, saya mungkin bisa membantumu menemukan arti namanya.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be subjective and personal, varying greatly depending on individual beliefs, experiences, and values.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, and different individuals and cultures have developed a wide range of perspectives.  Some common approaches include:\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    '* **Nihilism:** This viewpoint asserts that life is inherently meaningless.  There is no objective purpose or value.\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The acceptance of the inherent conflict between the human search for meaning and the meaningless universe.\n' +
-    '* **Religious and Spiritual Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, emphasizing the importance of human flourishing and contributing to society.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the primary goals in life.\n' +
+    "* **Existentialism:** This philosophy emphasizes individual freedom and responsibility.  Meaning isn't inherent; it's created through choices and actions.  We are free to define our own purpose.\n" +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery, and the answer may evolve throughout your life.\n"
+    "* **Absurdism:** This perspective acknowledges the conflict between humanity's search for meaning and the universe's apparent lack of inherent meaning.  The meaning of life is found in embracing this absurdity.\n" +
+    '\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions provide answers about the meaning of life, often involving a divine creator, an afterlife, and a prescribed path to follow.  These beliefs provide structure, purpose, and community for many.\n' +
+    '\n' +
+    '* **Hedonism:** This approach focuses on maximizing pleasure and minimizing pain as the primary goal in life.\n' +
+    '\n' +
+    '* **Utilitarianism:** This ethical framework suggests that the meaning of life is to maximize overall happiness and well-being for the greatest number of people.\n' +
+    '\n' +
+    "* **Personal Meaning:**  Many find meaning in relationships, creativity, contributing to society, pursuing knowledge, experiencing beauty, or simply enjoying life's moments.  This is often a subjective and evolving understanding.\n" +
+    '\n' +
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery, not one with a single right answer.\n"
 }
