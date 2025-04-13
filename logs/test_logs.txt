@@ -9,54 +9,69 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a0 08 02 00 00 00 8a b3 98 00 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1336669 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1126170 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a picture of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The context is missing, so it's impossible to say exactly *what* the image is about beyond showing the President in a seemingly contemplative moment in a natural setting.  It could be from a news article, a personal photo, or part of a larger collection of images.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile view, looking out at a landscape of trees.  The focus is on him, and the background is blurred, suggesting a candid or informal moment.  There's nothing else overtly depicted in the image to provide more context beyond that.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerja lembur bagai kuda. Separuh faal orang tua.\n'
+  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda. Sape lupah urang tua?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: "Sure, here's a description and transcript.\n" +
+  content: `This video features a man dressed in a striped shirt, light-colored pants, and a suit jacket while lip-syncing to Rick Astley's "Never Gonna Give You Up". The opening seconds show the words, "Get Rick Rolled," displayed on the screen.\n` +
     '\n' +
-    'This video shows the opening scene of Rick Astley’s “Never Gonna Give You Up” music video.  It begins with a close-up of his face, followed by a shot of his foot tapping to the music. Then, it shows Astley singing and dancing in a room with frosted windows. The words “GET RICK ROLLED” appear superimposed over the video.\n' +
+    'The audio is a clip from the opening lines of "Never Gonna Give You Up" by Rick Astley:\n' +
     '\n' +
-    'Transcript: [Music begins] '
+    '(Music)\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke database yang menyimpan arti nama-nama di seluruh dunia.  Arti nama Tio sendiri bisa bervariasi tergantung budaya dan bahasa asalnya.  \n' +
+  content: 'Nama Anda adalah Tio.  Sayangnya, saya tidak memiliki akses ke database yang berisi arti nama dari berbagai budaya dan bahasa.  Arti nama Tio bergantung pada asalnya dan bisa memiliki beberapa arti yang berbeda.  \n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, saya sarankan kamu untuk:\n' +
+    'Untuk mengetahui arti nama Tio, saya sarankan Anda:\n' +
     '\n' +
-    '* **Mencari di internet:**  Coba cari "arti nama Tio" di mesin pencari seperti Google.  Kamu akan menemukan berbagai sumber yang mungkin memberikan penjelasan berbeda,  jadi pertimbangkan untuk melihat beberapa sumber untuk mendapatkan gambaran yang lebih komprehensif.\n' +
-    '* **Bertanya kepada keluarga:**  Orang tuamu atau anggota keluargamu yang lain mungkin tahu asal usul nama Tio dan apa arti yang mereka berikan padanya saat memberimu nama tersebut.  Ini adalah sumber yang paling akurat.\n' +
+    '* **Mencari di internet:** Lakukan pencarian online seperti "arti nama Tio"  di mesin pencari favorit Anda. Anda akan menemukan berbagai situs web dan forum yang membahas arti nama, termasuk kemungkinan asal-usulnya (misalnya, Tionghoa, Spanyol, dll.).\n' +
+    '* **Menanyakan kepada keluarga:** Orang tua atau kerabat Anda mungkin tahu asal usul dan arti nama Tio yang diberikan kepada Anda.\n' +
     '\n' +
-    '\n' +
-    'Semoga kamu menemukan arti nama Tio yang memuaskan!\n'
+    'Semoga Anda berhasil menemukan arti nama Anda!\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be something deeply personal and subjective, shaped by individual experiences, beliefs, and values.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal.  Different individuals, cultures, and religions offer diverse perspectives:\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    '* **Nihilism:** This philosophy asserts that life is inherently meaningless.\n' +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that life is inherently meaningless, but we create our own meaning through our choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but we should embrace this absurdity.\n' +
-    '* **Spiritual/Religious Beliefs:** Many religions provide answers about the meaning of life, often involving a higher power, purpose, and an afterlife.  These meanings vary widely depending on the specific religion.\n' +
-    '* **Hedonism:** The belief that the meaning of life is to pursue pleasure and avoid pain.\n' +
-    '* **Humanism:** The belief that humans are capable of self-improvement and creating a better world, and that this is a source of meaning.\n' +
-    '* **Purpose-driven life:** Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
+    "* **Existentialism:** This perspective emphasizes individual freedom and responsibility.  Meaning isn't inherent but is created through choices and actions.\n" +
+    '\n' +
+    "* **Absurdism:**  This view acknowledges the inherent conflict between humanity's search for meaning and the universe's apparent lack of it.  Meaning is found in embracing this absurdity.\n" +
+    '\n' +
+    '* **Religious perspectives:** Many religions offer answers centered around a divine purpose, often involving serving a higher power, following specific doctrines, and achieving spiritual enlightenment or salvation.\n' +
+    '\n' +
+    '* **Humanism:** This emphasizes human reason, ethics, and social justice.  Meaning is found in contributing to human well-being and creating a better world.\n' +
+    '\n' +
+    '* **Hedonism:** This focuses on pleasure and happiness as the ultimate goals.\n' +
+    '\n' +
+    "Ultimately, the meaning of life is what you make it. It's a question of personal values, beliefs, and experiences.  Instead of searching for a definitive answer, many find fulfillment by:\n" +
+    '\n' +
+    '* **Pursuing passions and interests:**  Engaging in activities that bring joy and purpose.\n' +
+    '* **Building meaningful relationships:** Connecting with others and fostering love and support.\n' +
+    '* **Contributing to something larger than oneself:**  Making a positive impact on the world.\n' +
+    '* **Continuously learning and growing:**  Expanding knowledge and understanding.\n' +
+    '* **Experiencing life fully:**  Embracing challenges, appreciating beauty, and finding joy in the present moment.\n' +
     '\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question to explore throughout your life, and your answer may evolve over time.\n"
+    'The search for meaning is a lifelong journey, and the answer may evolve over time.\n'
 }
