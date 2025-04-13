@@ -9,65 +9,60 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1877406 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1646205 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The context is missing, so it's impossible to say definitively what the photo is *about* beyond being a portrait of the president in a natural setting.  It could be from a news story, a campaign, or simply a personal photograph.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a distance at a lush, green landscape.  It's likely a candid shot, possibly taken during a visit to a location in Indonesia.  The overall impression is one of contemplation or observation.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lupah urang tua?\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda.  Sepahtu orang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video starts with a close-up of Rick Astley’s face as he sings into a microphone. \n' +
+  content: 'The video is the famous "Never Gonna Give You Up" by Rick Astley. The singer, dressed in a blazer and striped shirt, performs the song, dancing and gesturing as he sings. The words "Get Rick Rolled" flash on the screen.\n' +
     '\n' +
-    'Next, the view pans out slightly, and superimposed onscreen, the words “GET RICKROLLED” appear while the beginning of the 1987 song "Never Gonna Give You Up" begins to play. The footage changes slightly as Astley can be seen singing and swaying. \n' +
-    '\n' +
-    '\n' +
-    'The audio includes the words “GET RICKROLLED” displayed in a stylized text font, along with the beginning of the song “Never Gonna Give You Up” by Rick Astley:\n' +
-    '\n' +
-    '(Music begins)\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down \n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye \n' +
-    'Never gonna tell a lie and hurt you'
+    'The audio is not transcribed, but the song begins with, "Never gonna give you up."'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio karena artinya bergantung pada asal-usul dan bahasa nama tersebut.  Tio bisa jadi singkatan, panggilan, atau nama dengan asal-usul yang berbeda (misalnya, dari bahasa Indonesia, Tionghoa, atau bahasa lain).  \n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio secara pasti karena artinya bergantung pada asal usul dan bahasa dari nama tersebut.  Tio bisa berasal dari berbagai bahasa dan budaya, dan masing-masing mungkin memiliki arti yang berbeda.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, saya sarankan kamu:\n' +
+    'Untuk mengetahui arti nama Tio, saya sarankan kamu mencari informasi lebih lanjut melalui:\n' +
     '\n' +
-    '* **Bertanya kepada orang tuamu atau keluarga:** Mereka yang memberi nama padamu pasti tahu arti dan alasan di baliknya.\n' +
-    '* **Mencari di internet:** Cari "arti nama Tio" di mesin pencari seperti Google.  Pastikan untuk menyertakan informasi tambahan jika kamu tahu asal usul nama tersebut (misalnya, "arti nama Tio Indonesia").\n' +
-    '* **Mencari di situs web yang khusus menafsirkan nama:** Ada banyak situs web yang mengumpulkan arti nama dari berbagai budaya dan bahasa.\n' +
-    '\n' +
+    '* **Pencarian online:** Cari "arti nama Tio" di mesin pencari seperti Google, Bing, atau lainnya.  Pastikan untuk mencantumkan kemungkinan asal bahasa (misalnya, "arti nama Tio bahasa Indonesia", "arti nama Tio bahasa Cina", dll.) jika kamu mengetahuinya.\n' +
+    '* **Buku tentang arti nama:**  Ada banyak buku yang membahas arti nama dari berbagai bahasa dan budaya.\n' +
+    '* **Orang tua atau keluarga:** Mereka mungkin tahu asal usul namamu dan artinya.\n' +
     '\n' +
     'Semoga informasi ini membantu!\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself has been pondered by philosophers, theologians, and individuals for centuries.  Different perspectives offer varying interpretations:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is philosophical and deeply personal.  Different people, cultures, and belief systems offer various perspectives:\n" +
     '\n' +
-    '* **Nihilism:** This viewpoint asserts that life is inherently meaningless.  There is no objective purpose or value.\n' +
+    '* **Nihilism:**  This philosophy asserts that life is inherently without meaning or purpose.\n' +
     '\n' +
-    "* **Existentialism:**  This philosophy emphasizes individual freedom and responsibility.  Meaning isn't inherent; it's created by individuals through their choices and actions.\n" +
+    "* **Existentialism:** This philosophy emphasizes individual freedom and responsibility.  Meaning isn't inherent; it's created through choices and actions.\n" +
     '\n' +
-    "* **Absurdism:** This perspective acknowledges the inherent conflict between humanity's search for meaning and the meaninglessness of the universe.  Finding meaning lies in embracing this absurdity.\n" +
+    "* **Absurdism:** This perspective acknowledges the inherent conflict between humanity's search for meaning and the universe's apparent lack of it.  Finding meaning lies in embracing this absurdity.\n" +
     '\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions provide answers centered around a divine purpose, often involving serving a higher power, following specific doctrines, or achieving enlightenment.\n' +
+    '* **Religious and Spiritual Beliefs:** Many religions provide answers centered around a divine purpose, serving a higher power, or achieving enlightenment.\n' +
     '\n' +
-    '* **Humanism:** This emphasizes human reason, ethics, and social justice.  Meaning is found in contributing to human flourishing and well-being.\n' +
+    '* **Humanism:** This emphasizes human values, reason, and ethics as the basis for meaning.  Meaning is found in human connection, creativity, and contributing to society.\n' +
     '\n' +
-    '* **Hedonism:** This focuses on pleasure and happiness as the ultimate goals in life.\n' +
+    '* **Hedonism:** This focuses on pleasure and happiness as the ultimate goals.\n' +
     '\n' +
-    'Ultimately, the meaning of life is a deeply personal question.  What gives *your* life meaning is something you must determine for yourself.  It might be found in relationships, work, creativity, service to others, personal growth, or a combination of these and other factors.\n'
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a definitive answer, many find it more fulfilling to focus on living a meaningful life by:\n" +
+    '\n' +
+    '* **Pursuing your passions:**  What activities bring you joy and fulfillment?\n' +
+    '* **Building relationships:**  Connecting with others and fostering meaningful connections.\n' +
+    '* **Contributing to something larger than yourself:**  Volunteering, creating art, or pursuing a career that makes a positive impact.\n' +
+    '* **Continuously learning and growing:**  Expanding your knowledge, skills, and understanding of the world.\n' +
+    '\n' +
+    'The journey of discovering your own meaning is often more important than finding a definitive answer.\n'
 }
