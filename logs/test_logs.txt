@@ -9,45 +9,45 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1054446 more bytes>
+gemini_imgedit Request failed with status code 500
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant, forested landscape.  The focus is on him, but the background suggests a setting that might be related to environmental issues,  nature conservation, or a visit to a rural area.\n"
+  content: "That's a picture of Joko Widodo, the President of Indonesia.  The image shows him in profile, appearing contemplative,  with a lush green forested background.  The photo likely depicts a moment during an official visit or event, showcasing him in a relaxed but still somewhat formal setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong.  Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda, sampai lupa waktu.\n'
+  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerjaan lembur bagai kuda. Sapailu paurang tua.\n'
 }
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio dengan pasti karena Tio bukanlah nama yang memiliki arti yang secara umum diterima dalam satu budaya atau bahasa tertentu.  \n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan konteksnya.  Tidak ada satu arti yang pasti dan universal.  Beberapa kemungkinan arti termasuk:\n' +
     '\n' +
-    'Tio bisa jadi:\n' +
+    '* **Singkatan atau bentuk pendek:** Tio bisa menjadi singkatan dari nama-nama yang lebih panjang, seperti  "Tiodorus",  "Timotius", atau nama-nama lain yang dimulai dengan "Tio".  Dalam hal ini, arti nama tersebut bergantung pada nama panjangnya.\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:**  Mungkin Tio adalah kependekan dari nama yang lebih panjang, seperti  Teodoro,  Sebastian, atau nama lainnya.\n' +
-    '* **Nama keluarga yang digunakan sebagai nama depan:** Di beberapa budaya, nama keluarga bisa digunakan sebagai nama depan.\n' +
-    '* **Nama unik yang diberikan oleh orang tua:** Orang tua terkadang menciptakan nama-nama unik untuk anak-anak mereka.\n' +
+    '* **Nama panggilan:**  Tio bisa juga hanya nama panggilan yang dipilih secara informal, tanpa arti khusus yang melekat padanya.\n' +
     '\n' +
-    'Untuk mengetahui arti sebenarnya dari namamu, yang terbaik adalah bertanya kepada orangtuamu atau menelusuri silsilah keluargamu.\n'
+    '* **Asal bahasa:**  Tanpa informasi lebih lanjut tentang asal-usul namamu, sulit untuk menentukan arti spesifiknya.  Jika kamu tahu asal bahasa nama Tio-mu (misalnya, Indonesia, Tionghoa, Spanyol, dll.),  informasi itu akan membantu menentukan artinya.\n' +
+    '\n' +
+    'Untuk mendapatkan penjelasan arti nama Tio yang paling akurat, sebaiknya kamu tanyakan pada orang tuamu atau kerabat dekat yang memberi nama padamu. Mereka akan mengetahui asal-usul dan maksud pemberian nama tersebut.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered subjective and personal, shaped by individual beliefs, experiences, and values.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning is often considered to be subjective and personal, shaped by individual experiences, beliefs, and values.\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    'Some perspectives include:\n' +
     '\n' +
     '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
     '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The recognition of the inherent conflict between the human search for meaning and the meaningless universe, embracing the absurdity.\n' +
-    '* **Spiritual or Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine plan.\n' +
-    '* **Humanism:**  Focuses on human values, reason, ethics, and social justice, finding meaning in human relationships and contributions to society.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
+    '* **Absurdism:** The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine plan.\n' +
+    '* **Humanism:** Focuses on human values, reason, ethics, and social justice, finding meaning in human relationships and contributions to society.\n' +
+    '* **Hedonism:** Finding meaning in pleasure and happiness.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of self-discovery and ongoing exploration.  Instead of searching for a definitive answer, consider what brings you joy, fulfillment, and a sense of purpose.  What impact do you want to have on the world? What values guide your choices?  These reflections can help you define your own personal meaning of life.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  What brings you joy? What impact do you want to have on the world?  These are questions that can help you define your own meaning.\n"
 }
