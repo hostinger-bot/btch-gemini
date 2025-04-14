@@ -9,49 +9,60 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Request failed with status code 500
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1704885 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The background suggests a forested or park-like area.  The photo is likely a candid shot, not a formal portrait.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a verdant landscape.  It's likely a publicity or official photo, possibly taken during a visit to a natural area or park in Indonesia.  The focus is on him and his contemplative expression against the backdrop of nature.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerja lembur bagi aku dah. Sepahtu orang tua.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagi aku dah sampai lupa orang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video is a Rickroll. It is a popular internet prank or meme involving an unexpected appearance of the music video for the 1987 Rick Astley song "Never Gonna Give You Up".\n' +
+  content: 'The video shows a man performing what is known as a Rickroll, a bait-and-switch prank using the music video for the 1987 Rick Astley song "Never Gonna Give You Up".\n' +
     '\n' +
-    'The clip starts with an image of the singer Rick Astley. White text on the screen reads "GET RICKROLLED." The song starts playing and Rick Astley sings the line "Never gonna give you up..." as he stands in front of a light-colored backdrop with faint tree branch designs on it. He is wearing a dark blazer, light-colored pants, and a striped shirt. He holds a microphone and sways as he sings.'
+    '[Intro - Instrumental]\n' +
+    '\n' +
+    '[Verse 1]\n' +
+    "We're no strangers to love\n" +
+    'You know the rules and so do I\n' +
+    "A full commitment's what I'm thinking of\n" +
+    "You wouldn't get this from any other guy\n" +
+    '\n' +
+    '[Pre-Chorus]\n' +
+    "I just wanna tell you how I'm feeling\n" +
+    'Gotta make you understand\n' +
+    '\n' +
+    '[Chorus]\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio secara pasti karena artinya bergantung pada asal-usul dan bahasanya.  Tio bisa berasal dari berbagai bahasa dan budaya, dan setiap budaya mungkin memiliki arti yang berbeda.\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke basis data nama dan artinya.  Arti nama Tio bergantung pada asal usulnya.  Bisa jadi nama Tio berasal dari berbagai bahasa dan budaya, masing-masing dengan arti yang berbeda.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, kita perlu tahu lebih banyak informasi.  Misalnya:\n' +
-    '\n' +
-    '* **Asal bahasa nama Tio:** Apakah Tio berasal dari bahasa Indonesia, Tionghoa, Spanyol, Portugis, atau bahasa lainnya?  \n' +
-    '* **Konteks pemberian nama:** Apakah ada alasan khusus orang tua memberikan nama Tio kepadamu?  \n' +
-    '\n' +
-    'Dengan informasi tambahan ini, saya mungkin bisa membantu mencari arti nama Tio yang lebih tepat.\n'
+    'Untuk mengetahui arti nama Tio, saya sarankan kamu mencarinya di internet melalui mesin pencari seperti Google.  Ketik "arti nama Tio" dan kamu akan menemukan berbagai sumber yang mungkin bisa menjelaskan asal usul dan arti namamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be something personal and subjective, shaped by individual experiences, beliefs, and values.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, and its answer depends heavily on individual beliefs, values, and experiences.  Some perspectives include:\n" +
     '\n' +
-    'Some common perspectives include:\n' +
-    '\n' +
-    '* **Nihilism:** The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, yet we should embrace this absurdity.\n' +
     '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Hedonism:** The belief that pleasure and happiness are the ultimate goals in life.\n' +
-    '* **Purpose-Driven Life:** Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
+    '* **Hedonism:**  The belief that the meaning of life is to pursue pleasure and avoid pain.\n' +
+    '* **Humanism:**  A focus on human values, reason, ethics, and social justice, finding meaning in contributing to human flourishing.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  What brings you fulfillment, joy, and a sense of purpose?  That's likely a significant part of your own answer.\n"
+    "Ultimately, the meaning of life is not something to be discovered, but something to be *created*.  It's a question each individual must grapple with and answer for themselves.  What brings you fulfillment? What makes you feel a sense of purpose?  These are questions that can help you define your own meaning of life.\n"
 }
