@@ -9,57 +9,45 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1156481 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1404722 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a forested landscape.  It's a fairly standard portrait-style photo, likely taken during an official event or visit to a location with natural scenery.  The image doesn't convey a specific event or message beyond showcasing the president in a calm, contemplative setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's a posed photograph, likely taken for a news article or official record, rather than a candid snapshot.  The background suggests he might be visiting a forested area or park in Indonesia.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda.  Sepe lu pa urang tua.\n'
+  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerjaan lembur bagai kuda. Sape lu pa orang tua.\n'
 }
 Testing gemini_video...
-gemini_video Response: {
-  success: true,
-  content: `This short video shows a snippet from the music video for Rick Astley's 1987 song "Never Gonna Give You Up". The clip shows Astley singing while wearing a dark-colored blazer over a striped shirt and light pants. He’s also wearing dark-colored shoes. The text “GET RICK ROLLED” is superimposed over part of the image. \n` +
-    '\n' +
-    "The audio snippet is just the song's opening synth beats."
-}
+gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan konteksnya.  Tidak ada arti tunggal yang pasti.  Beberapa kemungkinan arti meliputi:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan bahasanya.  Tidak ada satu arti yang pasti.  Berikut beberapa kemungkinan:\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:** Tio bisa menjadi singkatan dari nama-nama seperti  Teodoro,  Dionisius,  atau nama-nama lain yang dimulai dengan "Ti".\n' +
+    '* **Singkatan atau bentuk pendek:** Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama lain, seperti  Tiodorus,  Timothy,  atau  nama-nama lain yang diawali dengan "Tio".  Dalam konteks ini, arti nama Tio akan bergantung pada nama lengkap yang disingkat.\n' +
     '\n' +
-    '* **Asal Bahasa Tionghoa:**  Dalam bahasa Tionghoa,  ada beberapa karakter yang mungkin diucapkan "Tio" dan memiliki arti yang berbeda-beda, tergantung karakternya.  Untuk mengetahui arti spesifiknya, kita perlu tahu penulisan karakternya dalam aksara Tionghoa.\n' +
+    '* **Asal Bahasa Tionghoa:** Dalam beberapa budaya Tionghoa, nama-nama seringkali memiliki arti yang bermakna. Namun, tanpa mengetahui karakter Hanzi yang membentuk nama Tio, sulit untuk menentukan arti yang tepat.\n' +
     '\n' +
-    '* **Arti modern:**  Dalam konteks modern, Tio mungkin hanya dianggap sebagai nama yang indah dan mudah diingat, tanpa arti khusus yang melekat.\n' +
+    '* **Nama unik:**  Mungkin Tio adalah nama unik yang dipilih orangtua tanpa arti khusus dalam bahasa tertentu.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang paling tepat untuk dirimu,  mungkin perlu bertanya kepada orang tuamu atau kerabat yang memberi nama padamu. Mereka akan tahu asal usul dan maksud dari nama tersebut.\n'
+    'Untuk mengetahui arti nama Tio yang tepat, kamu perlu menanyakan kepada orangtuamu bagaimana mereka memilih nama tersebut dan apa maknanya bagi mereka.  Mereka mungkin memiliki alasan khusus atau arti pribadi yang melekat pada nama Tio.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if any, is often considered to be:\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
     '\n' +
-    '* **Subjective:**  What gives life meaning is different for each person.  For some, it might be relationships, for others, it might be contributing to society, achieving personal goals, spiritual beliefs, or simply experiencing the world.\n' +
+    'Different perspectives include:\n' +
     '\n' +
-    "* **Self-defined:**  The meaning of life isn't something to be discovered; it's something to be created.  You define your own purpose and values, and that shapes your understanding of meaning.\n" +
+    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, emphasizing the importance of human flourishing and contributing to society.\n' +
+    '* **Hedonism:**  The belief that pleasure and happiness are the ultimate goals in life.\n' +
     '\n' +
-    '* **Evolving:**  Your understanding of the meaning of life might change over time as you grow, learn, and experience different things.\n' +
-    '\n' +
-    'Instead of searching for a definitive answer, many find it more fruitful to:\n' +
-    '\n' +
-    "* **Focus on values:** Identify what's truly important to you – compassion, creativity, knowledge, etc.  Living in accordance with your values can provide a sense of purpose.\n" +
-    '\n' +
-    "* **Live authentically:**  Be true to yourself and pursue what resonates with you, even if it's unconventional.\n" +
-    '\n' +
-    '* **Contribute to something larger than yourself:**  Finding ways to make a positive impact on the world, however small, can be incredibly meaningful.\n' +
-    '\n' +
-    '* **Embrace the journey:**  Life is a process, not a destination.  Focus on enjoying the present moment and appreciating the experiences along the way.\n' +
-    '\n' +
-    'Ultimately, the meaning of life is what you make it.\n'
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Many find meaning in relationships, contributing to something larger than themselves, pursuing personal growth, or experiencing joy and wonder.  There's no right or wrong answer.\n"
 }
