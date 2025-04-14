@@ -9,52 +9,57 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 bf 00 00 04 00 08 02 00 00 00 67 37 a6 23 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1322073 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1156481 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo, possibly intended to portray him in a thoughtful or contemplative mood, perhaps connected to environmental issues or national development given the background of trees.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a forested landscape.  It's a fairly standard portrait-style photo, likely taken during an official event or visit to a location with natural scenery.  The image doesn't convey a specific event or message beyond showcasing the president in a calm, contemplative setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sape lu paurang tua?\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda.  Sepe lu pa urang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video is a brief clip of the popular song, Never Gonna Give You Up, sung by Rick Astley. The text superimposed on the screen reads “Get Rick Rolled."\n' +
+  content: `This short video shows a snippet from the music video for Rick Astley's 1987 song "Never Gonna Give You Up". The clip shows Astley singing while wearing a dark-colored blazer over a striped shirt and light pants. He’s also wearing dark-colored shoes. The text “GET RICK ROLLED” is superimposed over part of the image. \n` +
     '\n' +
-    'There is no audio, the music begins at [00:00:00].'
+    "The audio snippet is just the song's opening synth beats."
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Arti nama Tio bervariasi tergantung dari asal dan konteksnya.  Tidak ada satu arti tunggal yang pasti.  Berikut beberapa kemungkinan:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan konteksnya.  Tidak ada arti tunggal yang pasti.  Beberapa kemungkinan arti meliputi:\n' +
     '\n' +
-    '* **Singkatan/Panggilan:** Tio mungkin merupakan singkatan atau bentuk panggilan dari nama yang lebih panjang, seperti  Teodoro,  Tiodorus,  atau  nama-nama lainnya.  Dalam hal ini, arti namanya akan tergantung pada nama lengkapnya.\n' +
+    '* **Singkatan atau bentuk pendek dari nama lain:** Tio bisa menjadi singkatan dari nama-nama seperti  Teodoro,  Dionisius,  atau nama-nama lain yang dimulai dengan "Ti".\n' +
     '\n' +
-    '* **Asal Tionghoa:** Dalam beberapa konteks Tionghoa, nama yang terdengar seperti "Tio" mungkin memiliki arti yang berhubungan dengan keberuntungan, kekayaan, atau kebijaksanaan,  tetapi ini sangat tergantung pada penulisan karakter Tionghoa yang sebenarnya.  Tanpa mengetahui penulisan karakternya, sulit untuk menentukan arti yang tepat.\n' +
+    '* **Asal Bahasa Tionghoa:**  Dalam bahasa Tionghoa,  ada beberapa karakter yang mungkin diucapkan "Tio" dan memiliki arti yang berbeda-beda, tergantung karakternya.  Untuk mengetahui arti spesifiknya, kita perlu tahu penulisan karakternya dalam aksara Tionghoa.\n' +
     '\n' +
-    '* **Asal Bahasa Lain:**  Kemungkinan juga Tio berasal dari bahasa lain dan memiliki arti yang spesifik dalam bahasa tersebut.  Untuk mengetahui arti yang tepat, perlu diketahui asal usul nama tersebut.\n' +
+    '* **Arti modern:**  Dalam konteks modern, Tio mungkin hanya dianggap sebagai nama yang indah dan mudah diingat, tanpa arti khusus yang melekat.\n' +
     '\n' +
-    '**Kesimpulannya:** Untuk mengetahui arti pasti nama Tio,  Anda perlu memberikan informasi lebih lanjut tentang asal usul nama tersebut atau nama lengkap yang disingkat menjadi Tio.\n'
+    'Untuk mengetahui arti nama Tio yang paling tepat untuk dirimu,  mungkin perlu bertanya kepada orang tuamu atau kerabat yang memberi nama padamu. Mereka akan tahu asal usul dan maksud dari nama tersebut.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if any, is often considered to be:\n" +
     '\n' +
-    'Some perspectives include:\n' +
+    '* **Subjective:**  What gives life meaning is different for each person.  For some, it might be relationships, for others, it might be contributing to society, achieving personal goals, spiritual beliefs, or simply experiencing the world.\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual or Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Hedonism:**  The belief that pleasure and happiness are the ultimate goals in life.\n' +
-    '* **Utilitarianism:** The belief that the best action is the one that maximizes overall happiness and well-being.\n' +
-    '* **Purpose-driven life:**  Finding meaning through contributing to something larger than oneself, whether through family, community, or a chosen cause.\n' +
+    "* **Self-defined:**  The meaning of life isn't something to be discovered; it's something to be created.  You define your own purpose and values, and that shapes your understanding of meaning.\n" +
     '\n' +
+    '* **Evolving:**  Your understanding of the meaning of life might change over time as you grow, learn, and experience different things.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  It's a journey of self-discovery, not a destination with a single, definitive answer.\n"
+    'Instead of searching for a definitive answer, many find it more fruitful to:\n' +
+    '\n' +
+    "* **Focus on values:** Identify what's truly important to you – compassion, creativity, knowledge, etc.  Living in accordance with your values can provide a sense of purpose.\n" +
+    '\n' +
+    "* **Live authentically:**  Be true to yourself and pursue what resonates with you, even if it's unconventional.\n" +
+    '\n' +
+    '* **Contribute to something larger than yourself:**  Finding ways to make a positive impact on the world, however small, can be incredibly meaningful.\n' +
+    '\n' +
+    '* **Embrace the journey:**  Life is a process, not a destination.  Focus on enjoying the present moment and appreciating the experiences along the way.\n' +
+    '\n' +
+    'Ultimately, the meaning of life is what you make it.\n'
 }
