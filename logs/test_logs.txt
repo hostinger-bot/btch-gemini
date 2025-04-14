@@ -9,60 +9,37 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1291540 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1786926 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The setting appears to be outdoors, possibly in a park or forested area.  The photo likely depicts a moment during one of his public appearances or visits.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  It's likely a publicity or official photo intended to portray him in a contemplative or statesmanlike manner, possibly connected to environmental issues or a visit to a natural area.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda, sampai lupa urang tua.\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda. Sape lu pa orang tua?\n'
 }
 Testing gemini_video...
-gemini_video Response: {
-  success: true,
-  content: "The video is a Rickroll, which means a bait and switch prank using the music video for the 1987 Rick Astley song “Never Gonna Give You Up.”  It starts by showing a close-up of Rick Astley's face, then quickly transitions to the words “GET RICKROLLED,” which flash on the screen as the music starts. The rest of the video shows Astley performing the song.\n" +
-    '\n' +
-    'The audio is from the beginning of the song, “Never Gonna Give You Up.” \n' +
-    '\n' +
-    '[Music starts]\n' +
-    '\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
-}
+gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Arti nama Tio bervariasi tergantung asal dan bahasanya.  Tidak ada satu arti yang pasti.  Beberapa kemungkinan arti termasuk:\n' +
+  content: 'Nama Anda adalah Tio.  Sayangnya,  saya tidak bisa menjelaskan arti nama Tio secara pasti karena arti nama tersebut bergantung pada asal-usul dan bahasanya.  Nama Tio bisa berasal dari berbagai bahasa dan budaya, dan masing-masing memiliki arti yang berbeda.  \n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek:** Tio bisa menjadi bentuk pendek dari nama-nama seperti Teodoro, Antonio, atau nama-nama lain yang dimulai dengan "Ti".  Dalam konteks ini, arti namanya akan tergantung pada nama lengkap yang disingkat.\n' +
-    '\n' +
-    '* **Dari bahasa Indonesia:**  Di Indonesia, Tio mungkin digunakan sebagai nama panggilan atau nama yang sederhana dan mudah diingat, tanpa arti khusus yang melekat.\n' +
-    '\n' +
-    '* **Dari bahasa lain:**  Kemungkinan juga Tio berasal dari bahasa lain dan memiliki arti spesifik di dalam bahasa tersebut, tetapi tanpa konteks lebih lanjut, sulit untuk menentukannya.\n' +
-    '\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio secara pasti, Anda perlu mengetahui asal usul nama tersebut dari keluarga Anda.  Tanyakan kepada orang tua atau kerabat Anda mengenai asal-usul nama Tio.\n'
+    'Untuk mengetahui arti nama Tio, Anda perlu memberi tahu saya asal-usul nama Anda (misalnya, dari bahasa Indonesia, Tionghoa, Spanyol, dll).  Dengan informasi tersebut, saya mungkin bisa mencari tahu arti yang tepat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning of life is often considered to be a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for millennia.  Different people find meaning in different things, including:\n" +
     '\n' +
-    'Different perspectives include:\n' +
+    '* **Relationships:** Love, family, and friendships provide a sense of belonging and purpose for many.\n' +
+    '* **Contribution:** Making a positive impact on the world, whether through work, volunteering, or creative endeavors, can be a significant source of meaning.\n' +
+    '* **Personal Growth:**  Continuously learning, developing new skills, and striving for self-improvement can give life a sense of direction.\n' +
+    '* **Spiritual Beliefs:**  Many find meaning through their faith and connection to something larger than themselves.\n' +
+    '* **Experiences:** Travel, adventure, and pursuing passions can create lasting memories and a sense of fulfillment.\n' +
+    '* **Creativity:** Expressing oneself through art, music, writing, or other creative outlets can be incredibly meaningful.\n' +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, yet we must continue to search nonetheless.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment or salvation.\n' +
-    '* **Hedonism:** The belief that the meaning of life is to maximize pleasure and minimize pain.\n' +
-    '* **Purpose-driven approaches:**  Finding meaning through contributing to something larger than oneself, such as family, community, or a cause.\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it. It's a question of personal reflection and discovery.  What brings you joy, fulfillment, and a sense of purpose?  That's a significant part of your answer.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal discovery and ongoing exploration.  There's no right or wrong answer, only the answer that resonates with you.\n"
 }
