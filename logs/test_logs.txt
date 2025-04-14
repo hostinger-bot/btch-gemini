@@ -9,49 +9,44 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Request failed with status code 500
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a6 00 00 04 00 08 02 00 00 00 bc 8c 0c 01 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1211242 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a picture of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo, possibly taken during a visit to a forested area or park in Indonesia.  The context is missing to be more precise about the specific event or occasion.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  The setting appears to be outdoors, possibly in a park or forested area.  The photo is likely a candid shot, not a formal portrait.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagi aku dah. Separuh pagar tu dah...\n'
+  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerja lembur bagai kuda. Sape lu pa orang tua?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video features Rick Astley performing his iconic 1987 song, "Never Gonna Give You Up," in a studio setting.  He sings into a vintage microphone with a visible stand, dressed in a black blazer, a striped shirt, and light-colored trousers.  His hair is neatly styled, with a slight pompadour.  The backdrop features a soft-focus effect, giving the scene a hazy, dreamlike quality.  The overall visual aesthetic harkens back to the late 1980s. \n' +
+  content: 'This video is the opening few seconds of Rick Astley’s “Never Gonna Give You Up” music video. The words “Get Rick Rolled” are superimposed across the screen.\n' +
     '\n' +
-    `The video opens with the words "Get Rick Rolled" overlaid in a white, sans-serif font. The song's opening lyrics are obscured by the music, so a transcription cannot be provided. `
+    'There is no dialogue in this segment, only music. '
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Arti nama Tio bervariasi tergantung dari asal dan bahasanya.  Tidak ada satu arti yang pasti untuk nama Tio.  Berikut beberapa kemungkinan:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke database yang menyimpan arti nama dari seluruh budaya dan bahasa.  Arti nama Tio bisa bervariasi tergantung dari asal-usulnya.  \n' +
     '\n' +
-    '* **Dalam bahasa Indonesia:** Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama lain, seperti  Teguh, Trianto, atau nama-nama lain yang dimulai dengan "Ti".  Tidak memiliki arti khusus dalam bahasa Indonesia sendiri.\n' +
-    '\n' +
-    '* **Dalam bahasa Tionghoa:**  Tio bisa menjadi transliterasi dari beberapa nama keluarga atau nama depan Tionghoa, dan artinya akan bergantung pada karakter Hanzi yang digunakan.  Tanpa mengetahui penulisan Hanzi-nya, tidak mungkin untuk menentukan artinya.\n' +
-    '\n' +
-    '* **Dalam bahasa lain:**  Kemungkinan Tio juga berasal dari bahasa lain dan memiliki arti yang berbeda.\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, Anda perlu memberikan informasi lebih lanjut tentang asal usul nama Anda.  Apakah nama tersebut berasal dari keluarga, dari budaya tertentu, atau diberikan dengan maksud tertentu?\n'
+    'Untuk mengetahui arti nama Tio, saya sarankan kamu mencari informasi di internet, misalnya dengan mengetik "arti nama Tio" di mesin pencari Google atau situs web yang khusus membahas arti nama.  Kamu mungkin akan menemukan beberapa kemungkinan arti, tergantung apakah nama Tio berasal dari bahasa Indonesia, Tionghoa, Spanyol, atau bahasa lainnya.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered subjective and personal, shaped by individual beliefs, experiences, and values.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
     '\n' +
-    'Some perspectives include:\n' +
+    'Different perspectives include:\n' +
     '\n' +
     '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
     '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine plan.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human connection, creativity, and contribution to society.\n' +
+    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that this absurdity should be embraced.\n' +
+    '* **Religious beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values, reason, ethics, and social justice as the basis for meaning and purpose.\n' +
+    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the primary goals in life.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question to explore through your own experiences, reflections, and interactions with the world.  There's no right or wrong answer, only your own personal understanding.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Some find meaning in relationships, others in creativity, and still others in contributing to society or achieving personal goals.  There is no right or wrong answer.\n"
 }
