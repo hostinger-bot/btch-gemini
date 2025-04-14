@@ -9,54 +9,49 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 ae 08 02 00 00 00 b0 b9 f9 70 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 959824 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 898015 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape, likely a forested area.  The image likely depicts him during a visit or inspection somewhere in Indonesia.  There's no specific context given beyond that; it's a portrait-style shot emphasizing the President in a natural setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape that appears to be a forested area.  The focus is on him, with the background slightly blurred.  It's likely a publicity or official photo, possibly intended to convey a sense of calm, contemplation, or connection to nature.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagai kuda, sampai lupa ngandang tua.\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sape lupah urang tua.\n'
 }
 Testing gemini_video...
-gemini_video Response: {
-  success: true,
-  content: 'The video begins with the phrase “Get Rick Rolled” written on the screen. The background consists of what seems to be large panes of glass. There is a man standing in the center of the frame, dressed in dress shoes, khaki pants, a striped polo shirt, and a blazer. He appears to be performing a song into an old-fashioned microphone while moving to the music.\n' +
-    '\n' +
-    'At the 0:06 mark, a few notes of music are played.'
-}
+gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sebenarnya bergantung pada asal-usul dan bahasa yang menjadi rujukannya.  Tidak ada satu arti yang pasti untuk nama Tio.  Namun, beberapa kemungkinan artinya antara lain:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio agak kompleks karena tergantung dari asal dan bagaimana nama itu diberikan.  Tidak ada satu arti tunggal yang universal.  Beberapa kemungkinan interpretasinya:\n' +
     '\n' +
-    '* **Sebagai singkatan/bentuk pendek:** Tio bisa jadi singkatan dari nama-nama lain yang lebih panjang, seperti  Tiodorus,  Teodoro,  atau nama-nama lainnya yang diawali dengan "Tio".  Dalam hal ini, arti namanya akan bergantung pada nama lengkap yang disingkat.\n' +
+    '* **Singkatan/Pendek dari nama lain:**  Tio bisa menjadi singkatan dari nama yang lebih panjang, seperti  Tiarani,  Tiodorus,  atau nama lain yang berawalan "Tio".  Jika ini kasusnya, arti namamu akan bergantung pada nama lengkapnya.\n' +
     '\n' +
-    '* **Dalam bahasa Tionghoa:**  Meskipun penulisannya mungkin berbeda, beberapa nama Tionghoa bisa berbunyi seperti "Tio" dan memiliki arti yang beragam, tergantung pada karakter Hanzi yang digunakan.  Tanpa mengetahui penulisan karakternya, mustahil untuk menentukan artinya.\n' +
+    '* **Nama panggilan:**  Mungkin Tio hanyalah nama panggilan yang diberikan kepadamu, tanpa arti khusus yang melekat padanya.\n' +
     '\n' +
-    '* **Sebagai nama panggilan:**  Mungkin saja Tio adalah nama panggilan yang diberikan, dan tidak memiliki arti khusus selain sebagai nama yang mudah diingat dan dipanggil.\n' +
+    '* **Asal Bahasa:**  Tanpa mengetahui latar belakang keluarga atau asal usul pemberian nama, sulit untuk menentukan asal bahasa dan arti yang tepat.  Beberapa kemungkinan (meski spekulatif):\n' +
     '\n' +
-    '* **Arti simbolis:**  Dalam beberapa budaya, nama-nama dapat memiliki arti simbolis atau makna yang terkait dengan sifat-sifat tertentu.  Namun, tanpa konteks budaya atau bahasa tertentu, sulit untuk menentukan artinya.\n' +
+    '    * **Indonesia:**  Di Indonesia, Tio mungkin digunakan sebagai nama panggilan yang umum dan tidak memiliki arti khusus yang terdefinisi.\n' +
+    '    * **Cina:**  Dalam beberapa dialek Cina, mungkin ada nama yang mirip dengan Tio dan memiliki arti. Namun, tanpa karakter Cina yang tepat, ini hanya spekulasi.\n' +
+    '    * **Portugis/Spanyol:**  Mungkin memiliki asal-usul dari bahasa tersebut, meskipun memerlukan konfirmasi lebih lanjut.\n' +
     '\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, kamu perlu menanyakan kepada orang tuamu atau kerabat dekat yang memberimu nama tersebut.  Mereka akan dapat memberimu informasi yang paling akurat.\n'
+    '**Kesimpulannya:** Untuk mengetahui arti nama Tio yang sebenarnya, kamu perlu menanyakan orangtuamu atau keluarga terdekatmu tentang asal usul pemberian nama tersebut.  Mereka akan bisa memberimu informasi yang paling akurat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, and the answer often depends on an individual's beliefs, values, and experiences.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, and the answer often depends on an individual's worldview, beliefs, and experiences.\n" +
     '\n' +
     'Some common perspectives include:\n' +
     '\n' +
-    '* **Nihilism:** This viewpoint asserts that life is inherently meaningless.\n' +
-    '* **Existentialism:** This philosophy emphasizes individual freedom and responsibility, suggesting that we create our own meaning through our choices and actions.\n' +
-    '* **Absurdism:** This perspective acknowledges the conflict between our search for meaning and the inherent meaninglessness of the universe, suggesting we should embrace the absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:** This emphasizes human reason, ethics, and social justice, suggesting that meaning is found in contributing to human flourishing.\n' +
-    '* **Hedonism:** This focuses on pleasure and happiness as the ultimate goals in life.\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, yet we must continue to search.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine plan.\n' +
+    '* **Hedonism:**  The belief that pleasure and happiness are the ultimate goals of life.\n' +
+    '* **Purpose-Driven Life:**  Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
     '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question that requires personal reflection and exploration.  Consider what gives your life purpose and what values are important to you.  These reflections can help you define your own meaning.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question to explore and grapple with throughout your life, and the answer may evolve and change over time.\n"
 }
