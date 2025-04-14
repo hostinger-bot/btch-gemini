@@ -9,64 +9,56 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1511983 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1020439 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  It's likely a publicity or official photo, showcasing him in a calm and contemplative setting.  There's no specific event or context indicated by the image alone.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a forested landscape.  It's likely a publicity or official photo, possibly taken during a visit to a location within Indonesia.  The context is missing, so it's impossible to say more definitively what the specific occasion or purpose of the photograph was.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong.  Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda. Sape lu paurang tua?\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sapa lu paurang duit.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'Certainly! This is the well-known internet meme known as "Rickrolling." The video depicts the singer Rick Astley performing his 1987 hit song "Never Gonna Give You Up."\n' +
+  content: 'Certainly. This video shows the singer, Rick Astley, lip-syncing the first few lines of his hit song "Never Gonna Give You Up". The title card, "GET RICK ROLLED", appears for the first three seconds of the video.\n' +
     '\n' +
-    'The audio from the video includes the beginning of this song.\n' +
+    'The audio is:\n' +
     '\n' +
-    'Never gonna give you up, never gonna let you down,\n' +
-    'Never gonna run around and desert you.\n' +
-    'Never gonna make you cry, never gonna say goodbye.\n' +
-    'Never gonna tell a lie and hurt you.'
+    '[Music]\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you\n' +
+    '[Music fades]'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke basis data nama dan artinya yang komprehensif untuk memberikan arti yang pasti dan akurat dari nama Tio.  Arti nama Tio bergantung pada asal-usulnya dan bisa beragam.\n' +
+  content: 'Nama Anda adalah Tio.  Arti nama Tio bervariasi tergantung asal dan konteksnya.  Tidak ada satu arti yang pasti. Beberapa kemungkinan meliputi:\n' +
     '\n' +
-    'Beberapa kemungkinan:\n' +
+    '* **Singkatan atau kependekan:** Tio bisa menjadi singkatan dari nama yang lebih panjang.  Tanpa mengetahui nama lengkap Anda, sulit untuk memastikan.\n' +
     '\n' +
-    '* **Tio bisa merupakan kependekan atau variasi dari nama lain:**  Ada banyak nama yang bisa disingkat menjadi Tio, misalnya:  Teodoro,  Dionisius,  Timothy,  dan sebagainya.  Arti namanya akan bergantung pada nama aslinya.\n' +
+    '* **Asal Tionghoa:**  Dalam beberapa budaya Tionghoa,  Tio mungkin merupakan bagian dari nama keluarga atau nama panggilan. Artinya dapat bervariasi tergantung pada karakter Hanzi yang digunakan.\n' +
     '\n' +
-    '* **Tio bisa menjadi nama panggilan:**  Ini mungkin tidak memiliki arti tersendiri selain sebagai panggilan sayang atau nama informal.\n' +
+    '* **Asal lain:**  Di beberapa budaya lain, Tio mungkin memiliki arti yang berbeda pula.  Tanpa konteks lebih lanjut, sulit untuk menentukan artinya.\n' +
     '\n' +
-    '* **Tio bisa memiliki arti dalam bahasa tertentu:**  Jika kamu tahu asal-usul namamu (misalnya, bahasa Indonesia, Tionghoa, Spanyol, dll.),  itu akan membantu dalam mencari arti yang lebih spesifik.\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio, aku sarankan kamu untuk:\n' +
-    '\n' +
-    '* **Bertanya kepada orang tuamu atau keluarga:** Mereka mungkin tahu asal-usul namamu dan apa artinya bagi mereka.\n' +
-    '* **Mencari di internet:** Gunakan mesin pencari seperti Google untuk mencari "arti nama Tio" dan tambahkan informasi tambahan seperti bahasa asal jika kamu mengetahuinya.  Perhatikan bahwa hasil pencarian mungkin bervariasi.\n' +
-    '\n' +
-    'Semoga ini membantu!\n'
+    'Untuk mengetahui arti nama Tio secara pasti, Anda perlu memberikan informasi lebih lanjut tentang asal usul nama Anda atau nama lengkap Anda.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if there is one, is often considered to be:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if there is one, is often considered subjective and personal.  Different people find meaning in different things:\n" +
     '\n' +
-    "* **Subjective:**  The meaning of life is often what you make it.  Your experiences, values, beliefs, and relationships shape your personal understanding of its purpose.  What gives your life meaning might be different from what gives someone else's life meaning.\n" +
+    '* **Relationships:**  Love, family, and friendships can provide a profound sense of purpose and belonging.\n' +
+    '* **Contribution:**  Making a difference in the world, whether through work, volunteering, or creative endeavors, can imbue life with meaning.\n' +
+    "* **Spiritual beliefs:**  Religion and spirituality offer frameworks for understanding life's purpose and finding meaning in a higher power.\n" +
+    '* **Personal growth:**  The pursuit of knowledge, skills, and self-improvement can be a source of meaning.\n' +
+    '* **Experiences:**  Travel, adventure, and exploring the world can provide a sense of wonder and fulfillment.\n' +
     '\n' +
-    "* **Existential:** Some believe life inherently lacks inherent meaning, and it's up to each individual to create their own. This perspective emphasizes personal responsibility and freedom to define one's own path.\n" +
-    '\n' +
-    '* **Spiritual or Religious:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment or salvation.\n' +
-    '\n' +
-    '* **Purpose-driven:** For some, the meaning of life lies in finding and fulfilling a purpose – contributing to something larger than oneself, making a difference in the world, or leaving a legacy.  This could involve pursuing a career, raising a family, engaging in activism, or pursuing creative endeavors.\n' +
-    '\n' +
-    "* **Experiential:**  The meaning of life might be found in the experiences themselves – the joys, sorrows, challenges, and triumphs that shape our journey.  It's about living fully and appreciating the present moment.\n" +
-    '\n' +
-    '\n' +
-    'Ultimately, the meaning of life is a deeply personal question. There is no right or wrong answer.  The search for meaning itself can be a significant part of the journey.\n'
+    "Ultimately, the meaning of life is what you make it.  It's a journey of self-discovery, and the answer may evolve throughout your lifetime.  Instead of searching for a definitive answer, consider what brings you joy, fulfillment, and a sense of purpose.  That may be a good starting point in defining your own meaning.\n"
 }
