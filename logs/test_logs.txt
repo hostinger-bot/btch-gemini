@@ -9,55 +9,64 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 e1 00 00 04 00 08 02 00 00 00 c0 ea 10 d8 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1230327 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1511983 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's likely a publicity or official photo, showcasing him in a relaxed but still somewhat formal setting.  The context is missing, so there's no way to know the exact purpose of the photograph without more information.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  It's likely a publicity or official photo, showcasing him in a calm and contemplative setting.  There's no specific event or context indicated by the image alone.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagi aku dah. Separuh orang tua.\n'
+  content: 'Kosong.  Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda. Sape lu paurang tua?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video displays a short clip of the music video for Rick Astley’s song “Never Gonna Give You Up”. The audio is an instrumental version of the song, playing only in the background of the clip. The clip is from the beginning of the official music video and is used in a popular online meme called “rickrolling.” At the beginning of the clip, the words “GET RICK ROLLED” are superimposed on the video.\n' +
+  content: 'Certainly! This is the well-known internet meme known as "Rickrolling." The video depicts the singer Rick Astley performing his 1987 hit song "Never Gonna Give You Up."\n' +
     '\n' +
-    'The lyrics are as follows:\n' +
+    'The audio from the video includes the beginning of this song.\n' +
     '\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    'Never gonna give you up, never gonna let you down,\n' +
+    'Never gonna run around and desert you.\n' +
+    'Never gonna make you cry, never gonna say goodbye.\n' +
+    'Never gonna tell a lie and hurt you.'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak dapat menjelaskan arti namamu dengan pasti karena  "Tio" bukanlah nama yang memiliki arti baku atau etimologi yang umum diketahui secara luas.  Arti nama seringkali bergantung pada asal-usulnya dan budaya yang menggunakannya.  \n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke basis data nama dan artinya yang komprehensif untuk memberikan arti yang pasti dan akurat dari nama Tio.  Arti nama Tio bergantung pada asal-usulnya dan bisa beragam.\n' +
     '\n' +
-    'Kemungkinan:\n' +
+    'Beberapa kemungkinan:\n' +
     '\n' +
-    '* **Tio mungkin merupakan singkatan atau bentuk pendek dari nama lain.**  Apakah ada nama lengkap yang lebih panjang yang disingkat menjadi Tio?  Jika ada, arti nama lengkap tersebut mungkin memberikan petunjuk.\n' +
-    '* **Tio mungkin sebuah nama keluarga yang kemudian digunakan sebagai nama depan.**  Dalam beberapa budaya, nama keluarga bisa diadopsi sebagai nama depan.\n' +
-    '* **Tio mungkin sebuah nama unik yang diberikan orang tua dengan arti pribadi.**  Orang tua seringkali memilih nama berdasarkan makna personal atau kenangan.\n' +
+    '* **Tio bisa merupakan kependekan atau variasi dari nama lain:**  Ada banyak nama yang bisa disingkat menjadi Tio, misalnya:  Teodoro,  Dionisius,  Timothy,  dan sebagainya.  Arti namanya akan bergantung pada nama aslinya.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, cara terbaik adalah menanyakan kepada orang tuamu atau kerabat dekat yang mengetahui asal usul nama tersebut.\n'
+    '* **Tio bisa menjadi nama panggilan:**  Ini mungkin tidak memiliki arti tersendiri selain sebagai panggilan sayang atau nama informal.\n' +
+    '\n' +
+    '* **Tio bisa memiliki arti dalam bahasa tertentu:**  Jika kamu tahu asal-usul namamu (misalnya, bahasa Indonesia, Tionghoa, Spanyol, dll.),  itu akan membantu dalam mencari arti yang lebih spesifik.\n' +
+    '\n' +
+    'Untuk mengetahui arti nama Tio, aku sarankan kamu untuk:\n' +
+    '\n' +
+    '* **Bertanya kepada orang tuamu atau keluarga:** Mereka mungkin tahu asal-usul namamu dan apa artinya bagi mereka.\n' +
+    '* **Mencari di internet:** Gunakan mesin pencari seperti Google untuk mencari "arti nama Tio" dan tambahkan informasi tambahan seperti bahasa asal jika kamu mengetahuinya.  Perhatikan bahwa hasil pencarian mungkin bervariasi.\n' +
+    '\n' +
+    'Semoga ini membantu!\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if there is one, is often considered to be subjective and personal.  Different people find meaning in different things, such as:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if there is one, is often considered to be:\n" +
     '\n' +
-    '* **Relationships:**  Love, family, and community connections.\n' +
-    '* **Contribution:** Making a difference in the world, helping others, leaving a legacy.\n' +
-    '* **Experiences:**  Travel, learning, personal growth, pursuing passions.\n' +
-    '* **Spiritual or religious beliefs:** Finding purpose through faith and connection to something greater than oneself.\n' +
-    '* **Creativity and self-expression:**  Art, music, writing, innovation.\n' +
-    '* **Personal growth and fulfillment:** Achieving goals, overcoming challenges, self-discovery.\n' +
+    "* **Subjective:**  The meaning of life is often what you make it.  Your experiences, values, beliefs, and relationships shape your personal understanding of its purpose.  What gives your life meaning might be different from what gives someone else's life meaning.\n" +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of ongoing exploration and discovery, rather than a destination to be reached.\n"
+    "* **Existential:** Some believe life inherently lacks inherent meaning, and it's up to each individual to create their own. This perspective emphasizes personal responsibility and freedom to define one's own path.\n" +
+    '\n' +
+    '* **Spiritual or Religious:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment or salvation.\n' +
+    '\n' +
+    '* **Purpose-driven:** For some, the meaning of life lies in finding and fulfilling a purpose – contributing to something larger than oneself, making a difference in the world, or leaving a legacy.  This could involve pursuing a career, raising a family, engaging in activism, or pursuing creative endeavors.\n' +
+    '\n' +
+    "* **Experiential:**  The meaning of life might be found in the experiences themselves – the joys, sorrows, challenges, and triumphs that shape our journey.  It's about living fully and appreciating the present moment.\n" +
+    '\n' +
+    '\n' +
+    'Ultimately, the meaning of life is a deeply personal question. There is no right or wrong answer.  The search for meaning itself can be a significant part of the journey.\n'
 }
