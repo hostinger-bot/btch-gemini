@@ -9,67 +9,57 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 d9 00 00 04 00 08 02 00 00 00 bb ce d2 14 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1243426 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 03 33 08 02 00 00 00 b7 36 f7 59 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1265025 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  It's likely a candid shot, perhaps taken during a visit to a park, forest, or other natural setting.  The image doesn't convey any specific event or message beyond showing the president in a relatively informal setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off to his right, with a background of lush green forest.  It's likely a publicity or official photograph, possibly taken during a visit to a forested area in Indonesia.  The context is missing, so a more specific interpretation is not possible without further information.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda.  Sapa lu paurang tua.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagi aku dah. Cepat lupa orang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video clip presents the popular internet meme and prank “Rickrolling”, in which someone is unexpectedly tricked into clicking a disguised hyperlink to the music video of the song “Never Gonna Give You Up” by Rick Astley. It starts with the words “GET RICK ROLLED” superimposed on a close-up shot of Rick Astley, followed by a quick montage of the singer performing the iconic dance moves from the music video. \n' +
+  content: `This short clip is the beginning of Rick Astley's music video for "Never Gonna Give You Up." In what's known as being "Rickrolled," the viewer is tricked into watching this clip when they are expecting to see something else.\n` +
     '\n' +
-    'The audio in the video is the beginning of Rick Astley’s song “Never Gonna Give You Up”. The first few lines are as follows:\n' +
+    `The video clip starts with a closeup of Rick Astley and then transitions to the title of the video: "Get Rick Rolled." Astley is seen dressed in a dark blazer with gold buttons, a striped polo, white pants, and dark shoes. He's singing into a retro microphone and dancing. \n` +
     '\n' +
-    '“Never gonna give you up\n' +
-    'Never gonna let you down\n' +
+    'The lyrics are as follows: \n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down \n' +
     'Never gonna run around and desert you\n' +
     'Never gonna make you cry\n' +
     'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you”'
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya,  saya tidak bisa menjelaskan arti nama Tio secara pasti karena artinya bergantung pada asal-usul dan bahasa nama tersebut.  Tio bisa merupakan kependekan dari nama lain, atau bisa juga sebuah nama dengan arti yang berbeda-beda di berbagai budaya.\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio sendiri bergantung pada asal usulnya dan bagaimana orangtua-mu memilihnya.  Tidak ada satu arti universal untuk nama Tio.  Mungkin:\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat,  kamu perlu memberitahuku:\n' +
+    '* **Singkatan atau bentuk pendek dari nama lain:** Tio bisa jadi singkatan dari nama yang lebih panjang, seperti  Agustinus Tio,  Christian Tio,  atau nama lainnya.  Dalam hal ini, arti namanya akan bergantung pada nama lengkapnya.\n' +
     '\n' +
-    '* **Asal-usul nama Tio:** Apakah nama ini berasal dari bahasa Indonesia, Tionghoa, Spanyol, atau bahasa lainnya?\n' +
-    '* **Konteks pemberian nama:** Apakah ada alasan khusus orangtuamu memberikan nama Tio kepadamu?\n' +
+    '* **Nama panggilan:** Tio juga bisa merupakan nama panggilan yang diberikan tanpa arti khusus selain kemudahan penyebutan.\n' +
     '\n' +
-    'Dengan informasi tambahan tersebut, saya mungkin bisa memberimu penjelasan yang lebih akurat tentang arti namamu.\n'
+    '* **Asal bahasa:**  Tanpa informasi lebih lanjut tentang latar belakang keluarga, sulit untuk menentukan asal bahasa dan arti spesifiknya.  Nama Tio bisa berasal dari berbagai bahasa dan budaya, masing-masing dengan arti yang berbeda.\n' +
+    '\n' +
+    'Untuk mengetahui arti nama Tio yang tepat, kamu perlu menanyakan kepada orangtuamu atau keluarga terdekatmu bagaimana mereka memilih nama tersebut dan apa maknanya bagi mereka.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself is deeply philosophical and has been pondered by thinkers and individuals for millennia.  Different philosophies, religions, and individuals offer diverse perspectives:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
     '\n' +
-    '* **Nihilism:** This viewpoint asserts that life is inherently meaningless.  There is no objective purpose or value.\n' +
+    'Different perspectives include:\n' +
     '\n' +
-    "* **Existentialism:** This philosophy emphasizes individual freedom and responsibility.  Meaning isn't inherent; it's created through choices and actions.  We are free to define our own purpose.\n" +
+    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, emphasizing the importance of human flourishing and contributing to society.\n' +
     '\n' +
-    "* **Absurdism:** This perspective acknowledges the inherent conflict between humanity's search for meaning and the universe's apparent lack of it.  Finding meaning lies in embracing this absurdity.\n" +
-    '\n' +
-    '* **Religious perspectives:** Many religions offer answers centered around a divine plan, serving a higher power, or achieving enlightenment or salvation.  These meanings often involve following specific doctrines and practices.\n' +
-    '\n' +
-    '* **Humanism:** This focuses on human values, reason, ethics, and social justice.  Meaning is found in contributing to human well-being and flourishing.\n' +
-    '\n' +
-    '* **Hedonism:**  This philosophy prioritizes pleasure and happiness as the ultimate goals in life.\n' +
-    '\n' +
-    "Ultimately, the meaning of life is a personal and subjective question.  What gives your life meaning might be different from what gives someone else's meaning.  It's often found in:\n" +
-    '\n' +
-    '* **Relationships:** Connections with loved ones, community, and contributing to society.\n' +
-    "* **Purpose:** Finding something you're passionate about and pursuing it.\n" +
-    '* **Growth:** Continuously learning, developing skills, and expanding your horizons.\n' +
-    '* **Contribution:** Making a positive impact on the world, however small.\n' +
-    '* **Experiences:**  Exploring the world, embracing challenges, and creating memories.\n' +
-    '\n' +
-    'Instead of searching for a single definitive answer, consider exploring what brings you joy, fulfillment, and a sense of purpose.  The meaning of life is not something to be found, but something to be created.\n'
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  What brings you joy, fulfillment, and a sense of purpose?  That might be your answer.\n"
 }
