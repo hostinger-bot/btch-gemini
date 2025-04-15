@@ -6,48 +6,60 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking! How are you today?\n'
+  content: "I'm doing well, thank you for asking!  How are you today?\n"
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1424373 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1616852 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's Joko Widodo, the President of Indonesia.  The image is a portrait-style photograph of him, likely taken outdoors in a natural setting (a forest or park).  It shows him in profile view, looking off into the distance, dressed in a simple white long-sleeved shirt.  The background is blurred, emphasizing the President.\n" +
-    '\n' +
-    "The image likely depicts a moment during an official visit, a casual photo opportunity, or a more informal moment captured during a public appearance.  Without further context, it's difficult to say definitively what the specific occasion was.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile view, outdoors, looking out at a verdant landscape of trees.  The focus is on him, and the background is somewhat blurred, making the trees the primary visual element besides Widodo himself.  It's likely a publicity or official photo, possibly intended to portray him in a contemplative or statesmanlike manner amidst a natural setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerja lembur bagi aku dah. Cepat lupa orang tua.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur bagai kuda. Sape lu paurang duit.\n'
 }
 Testing gemini_video...
-gemini_video Error: Request failed with status code 500
+gemini_video Response: {
+  success: true,
+  content: `The video features the well-known meme, Rickrolling. The music video begins with Rick Astley, the singer of the song "Never Gonna Give You Up," standing before a microphone. He's wearing a dark suit jacket and a striped polo shirt. The text "GET RICKROLLED" appears onscreen. The video consists of a few cuts where he moves in sync with the music he's singing. \n` +
+    '\n' +
+    'The lyrics of this portion of the song are:\n' +
+    '\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you.'
+}
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan konteksnya.  Tidak ada satu arti definitif yang disepakati secara universal.  Namun, beberapa kemungkinan artinya antara lain:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio beragam tergantung asal dan bahasanya.  Tidak ada satu arti yang pasti.  Beberapa kemungkinan artinya antara lain:\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:** Tio bisa menjadi singkatan dari nama-nama seperti  Teodoro,  Christian Tio,  atau nama-nama lain yang memiliki unsur "Tio" di dalamnya.  Jika ini kasusnya, arti namanya akan tergantung pada nama lengkap yang disingkat.\n' +
+    '* **Singkatan/Panggilan:** Tio mungkin merupakan singkatan atau panggilan dari nama yang lebih panjang.  Untuk mengetahui arti yang tepat, kita perlu mengetahui nama lengkapmu.\n' +
     '\n' +
-    '* **Asal dari bahasa Tionghoa:**  Dalam beberapa dialek Tionghoa, mungkin ada nama-nama yang terdengar seperti "Tio" dan memiliki arti tertentu. Namun, perlu konteks lebih lanjut untuk menentukan artinya.\n' +
+    '* **Asal Bahasa Tionghoa:**  Tio bisa jadi berasal dari bahasa Tionghoa dan memiliki arti yang berkaitan dengan sifat atau karakter tertentu.  Namun, tanpa mengetahui karakter Hanzi (huruf Tionghoa) yang membentuk nama tersebut, sulit untuk menentukan artinya dengan pasti.  Banyak nama Tionghoa memiliki beragam arti tergantung pada karakter-karakter penyusunnya.\n' +
     '\n' +
-    '* **Arti simbolik atau personal:**  Beberapa orang memilih nama yang memiliki arti personal bagi mereka atau keluarga mereka.  Arti ini mungkin tidak tertulis dalam kamus atau daftar arti nama, tetapi memiliki makna khusus bagi si pemilik nama.\n' +
+    '* **Asal Bahasa Lain:**  Mungkin juga Tio berasal dari bahasa lain yang tidak saya ketahui.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio *yang spesifik untukmu*,  kamu perlu menanyakan kepada orang tuamu atau keluarga yang memberimu nama tersebut. Mereka akan memiliki informasi yang paling akurat mengenai asal dan makna di balik pemilihan nama Tio untukmu.\n'
+    'Untuk mendapatkan arti nama Tio yang paling akurat,  bagikan informasi tambahan seperti asal-usul namamu atau ejaan lengkapnya jika nama Tio merupakan singkatan.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if any, is often considered to be subjective and personal.  Different people find meaning in different things, such as:\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning, if there is one, is often considered to be subjective and personal.\n" +
     '\n' +
-    '* **Relationships:** Love, family, and connection with others.\n' +
-    '* **Contribution:** Making a difference in the world, helping others, leaving a legacy.\n' +
-    '* **Experiences:** Travel, learning, personal growth, pursuing passions.\n' +
-    '* **Spiritual or religious beliefs:** Finding meaning through faith and a connection to something greater than oneself.\n' +
-    '* **Creativity:** Expressing oneself through art, music, writing, or other creative pursuits.\n' +
-    "* **Self-discovery:**  Understanding oneself, one's values, and one's purpose.\n" +
+    'Different perspectives include:\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a journey of self-discovery and finding what brings you purpose, fulfillment, and happiness.  There's no right or wrong answer, only your own personal interpretation.\n"
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers to the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment or salvation.\n' +
+    '* **Humanism:** Focuses on human values and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
+    '* **Hedonism:**  Finding meaning in pleasure and happiness.\n' +
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal reflection and discovery, and the answer may evolve throughout your life.\n"
 }
