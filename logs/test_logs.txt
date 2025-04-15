@@ -9,50 +9,59 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1982657 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 03 22 00 00 04 00 08 02 00 00 00 92 ec 7a ba 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 771807 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile view, looking out at a landscape of trees.  It's likely a candid shot, rather than a formal portrait.  The context is missing, but the image itself is simply a picture of the Indonesian president.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  The context of the photo is unknown without additional information; it could be from a visit to a park, a nature reserve, or somewhere else with similar surroundings.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lu paurang dua.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur bagai kuda.  Sapa elo pa urang dua?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video appears to be a remix of “Never Gonna Give You Up” by Rick Astley. It was released in 1987 on his debut studio album whenever You Need Somebody. The song has gone through several remixes. \n' +
+  content: 'The video shows singer Rick Astley performing “Never Gonna Give You Up.” The video has been sped up, and the text “Get Rick Rolled” appears over several shots in a stylized font. The audio from this part of the song goes:\n' +
     '\n' +
-    'In the remix, the chorus begins with Astley singing the lines, “Never gonna give you up/Never gonna let you down.” '
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around\n' +
+    'And desert you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan konteksnya.  Tidak ada satu arti yang pasti dan universal.  Beberapa kemungkinan arti nama Tio antara lain:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, arti nama Tio tidak tunggal dan universal.  Artinya bergantung pada asal usul dan bahasanya.  Beberapa kemungkinan arti meliputi:\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek:** Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama seperti  Teodoro,  Antonio,  Tiodorus, atau nama-nama lain yang diawali dengan "Tio".  Jika ini kasusnya, arti nama tersebut akan tergantung pada nama lengkapnya.\n' +
+    '* **Singkatan atau kependekan:** Tio bisa menjadi singkatan dari nama yang lebih panjang.  Tanpa mengetahui nama lengkapmu, sulit untuk memastikan ini.\n' +
     '\n' +
-    '* **Dalam bahasa Tionghoa:**  Mungkin saja Tio adalah transliterasi dari nama Tionghoa, dan artinya akan bergantung pada karakter Hanzi yang digunakan.\n' +
+    '* **Asal Bahasa Tionghoa:**  Dalam bahasa Tionghoa, ada beberapa karakter yang bisa dibaca sebagai "Tio" dan memiliki arti yang berbeda-beda, misalnya bisa berkaitan dengan kata-kata yang berarti "suci," "kebajikan," atau bahkan memiliki arti yang berhubungan dengan alam. Namun,  tanpa mengetahui penulisan karakternya, ini hanya spekulasi.\n' +
     '\n' +
-    '* **Arti simbolik:**  Beberapa orang mungkin memilih nama Tio karena bunyinya yang mudah diingat, atau karena memiliki asosiasi pribadi tertentu.\n' +
+    '* **Asal Bahasa Lain:**  Tio juga mungkin berasal dari bahasa lain, dan artinya bisa sangat bervariasi.\n' +
     '\n' +
-    'Tanpa konteks tambahan tentang asal-usul namamu, saya tidak dapat memberikan arti yang spesifik.  Apakah kamu tahu asal usul namamu atau ada informasi lain yang bisa kamu bagikan?  Itu akan membantuku memberikan penjelasan yang lebih akurat.\n'
+    'Untuk mengetahui arti nama Tio yang tepat,  aku membutuhkan informasi lebih lanjut tentang asal usul namamu.  Apakah namamu berasal dari keluarga,  apakah ada nama keluarga yang berhubungan?  Informasi tambahan akan membantuku menemukan arti yang paling akurat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if there is one, is often considered to be personal and subjective.  \n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, and different individuals and cultures have vastly different perspectives.  Some common approaches include:\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    '* **Nihilism:** The belief that life is inherently meaningless.\n' +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Existentialism:** The belief that life is inherently meaningless, but that we create our own meaning through our choices and actions.\n' +
+    '\n' +
     '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions provide answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Hedonism:** The belief that pleasure and happiness are the ultimate goals of life.\n' +
-    "* **Purpose-driven life:** Finding meaning through contributing to something larger than oneself, whether it's a community, a cause, or a creative endeavor.\n" +
     '\n' +
-    "Ultimately, the meaning of life is what you make it. It's a question of personal reflection and discovery.  What brings you joy? What are your values? What impact do you want to have on the world?  These are questions that can help you define your own meaning.\n"
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a divine purpose, an afterlife, or serving a higher power.  These meanings vary widely depending on the specific belief system.\n' +
+    '\n' +
+    '* **Hedonism:** The pursuit of pleasure and avoidance of pain as the ultimate goal in life.\n' +
+    '\n' +
+    '* **Humanism:**  Focuses on human values, reason, ethics, and social justice as the basis for meaning and purpose.\n' +
+    '\n' +
+    '* **Purpose-driven life:** Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
+    '\n' +
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  There's no right or wrong answer, only the answer that resonates most deeply with you.\n"
 }
