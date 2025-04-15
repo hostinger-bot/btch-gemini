@@ -9,50 +9,63 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1069791 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 03 30 08 02 00 00 00 31 a2 85 f7 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1323859 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  The focus is on him, with the background slightly blurred.  It's likely a publicity or official photo intended to portray him in a positive and contemplative light, perhaps suggesting connection to nature or Indonesian landscapes.\n"
+  content: "That's a picture of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  It's a posed photograph, likely taken for publicity or official purposes, rather than a candid shot.  The background suggests a natural, possibly forested, setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sape lupah urang tua.\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda, sepe lupah urang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video shows clips of Rick Astley’s “Never Gonna Give You Up” music video. It starts by zooming in on Astley’s head before showing his foot tapping and finally his whole body moving. \n' +
+  content: `This is a rickroll. It is a bait-and-switch prank that tricks people into clicking a link that leads to the music video for Rick Astley's 1987 song "Never Gonna Give You Up."\n` +
     '\n' +
+    'The video starts with the singer, Rick Astley, seemingly getting ready to sing a different song, but then the on-screen text "GET RICK ROLLED" appears, and the video transitions into the music video for "Never Gonna Give You Up".\n' +
     '\n' +
-    'The superimposed text reads “GET RICK ROLLED” throughout the entire clip.'
+    '[00:00:06]\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio dengan pasti karena Tio bukanlah nama yang memiliki arti baku yang diterima secara luas di seluruh budaya.  Tio bisa:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio beragam tergantung asal dan bahasanya.  Tidak ada satu arti yang pasti.  Namun, beberapa kemungkinan artinya antara lain:\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:**  Mungkin Tio adalah kependekan dari nama yang lebih panjang, seperti  Tiodorus,  Tiopan, atau nama-nama lain.  Jika kamu tahu nama panjangnya, saya bisa mencoba mencari arti nama lengkapnya.\n' +
-    '* **Nama panggilan:** Tio bisa menjadi nama panggilan yang diberikan kepada seseorang tanpa arti khusus.\n' +
-    '* **Nama unik:** Kemungkinannya juga Tio adalah nama yang diciptakan atau memiliki arti khusus dalam keluarga atau budaya tertentu.\n' +
+    '* **Singkatan atau bentuk pendek:** Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama lain, seperti  Tiodorus,  Teodoro, atau nama-nama lain yang diawali dengan "Tio".  Jika ini kasusnya, arti nama tersebut akan bergantung pada nama lengkapnya.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang sebenarnya, kamu perlu menanyakan kepada orang tuamu atau keluarga terdekatmu.  Mereka adalah sumber informasi terbaik untuk mengetahui asal usul dan arti namamu.\n'
+    '* **Nama panggilan:** Tio bisa juga hanya sekedar nama panggilan, tanpa arti khusus yang melekat padanya.\n' +
+    '\n' +
+    '* **Arti dalam bahasa tertentu:**  Kemungkinan ada bahasa tertentu yang menggunakan "Tio" sebagai nama dengan arti tertentu, namun tanpa konteks lebih lanjut tentang asal-usul namamu, sulit untuk menentukannya.\n' +
+    '\n' +
+    '\n' +
+    'Untuk mengetahui arti nama Tio yang tepat,  kamu perlu mencari tahu asal usul namamu atau bertanya kepada orangtuamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning, if there is one, is often considered to be:\n" +
     '\n' +
-    'Different perspectives include:\n' +
+    '* **Subjective:**  What gives your life meaning is deeply personal and depends on your values, beliefs, experiences, and relationships.  What matters to one person might be meaningless to another.\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that life is inherently meaningless, but that we create our own meaning through our choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Religious and Spiritual Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.  These meanings vary widely depending on the specific faith.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
-    '* **Hedonism:**  Defines the meaning of life as the pursuit of pleasure and avoidance of pain.\n' +
+    "* **Created, not found:** Some believe that meaning isn't something discovered but something we create through our choices, actions, and relationships.  We define our own purpose and find fulfillment in pursuing it.\n" +
     '\n' +
+    '* **A journey, not a destination:**  Life is a process of growth, learning, and evolving. The search for meaning itself can be a significant part of the experience, rather than reaching a final, definitive answer.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a definitive answer, consider what brings you purpose, fulfillment, and joy.  What impact do you want to have on the world?  What kind of person do you want to be?  These are questions that can help you define your own personal meaning of life.\n"
+    'Different perspectives offer various interpretations:\n' +
+    '\n' +
+    '* **Nihilism:**  Believes life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:**  Emphasizes individual freedom and responsibility in creating meaning.\n' +
+    '* **Absurdism:**  Acknowledges the conflict between the human search for meaning and the meaninglessness of the universe, finding meaning in embracing this absurdity.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine plan.\n' +
+    '\n' +
+    'Ultimately, the meaning of life is a question you must answer for yourself.  Consider what brings you joy, fulfillment, and a sense of purpose.  Reflect on your values and what you want to contribute to the world. The journey of self-discovery is often as important as the destination.\n'
 }
