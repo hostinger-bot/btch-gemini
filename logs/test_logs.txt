@@ -9,44 +9,58 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a8 00 00 04 00 08 02 00 00 00 a2 45 3c b2 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1169974 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 914928 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a forested area.  The picture likely depicts a moment during an official visit or a more informal setting.  There's no specific context beyond that provided by the image itself.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a forested area.  The context suggests it might be a publicity photo, perhaps from a visit to a location showcasing Indonesian nature or environmental projects.  It's a posed shot rather than a candid one.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lu pak orang tua?\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sape lupah urang tua.\n'
 }
 Testing gemini_video...
-gemini_video Error: Request failed with status code 500
+gemini_video Response: {
+  success: true,
+  content: 'The video begins with the head and shoulders of a man in profile. Then his feet step into view. He is wearing shiny black shoes, beige slacks, and a dark blazer. He is standing and singing into a retro-style microphone. The words “GET RICK ROLLED” appear across the screen in white, uppercase lettering. As he sings, he bounces his right foot and wiggles his torso to the beat. His undershirt is horizontally striped with alternating white and grey bands. The background behind him changes from a bright white with grid lines, to a cloudy light purple, to a frosty window pane pattern in the same cloudy purple hue. The audio is the beginning of Rick Astley’s song “Never Gonna Give You Up”:\n' +
+    '\n' +
+    '(Music begins)\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you\n' +
+    '\n' +
+    '\n'
+}
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu dengan pasti karena Tio bisa memiliki beberapa arti tergantung dari asal usul dan bahasanya.  \n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio sendiri sebenarnya  tergantung pada asal usul dan bahasanya.  Tidak ada satu arti yang pasti untuk nama Tio.  Bisa jadi:\n' +
     '\n' +
-    'Tio bisa menjadi:\n' +
+    '* **Singkatan atau bentuk pendek dari nama lain:** Tio mungkin merupakan bentuk singkat dari nama yang lebih panjang, seperti  Teodoro,  Mateo,  atau nama-nama lain yang diawali dengan "Ti".  Tanpa mengetahui nama lengkapnya, sulit untuk memastikan.\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:**  Banyak nama yang disingkat menjadi Tio, seperti  Christian Tio,  Leonardo Tio,  dll.  Jadi, artinya tergantung dari nama aslinya.\n' +
-    '* **Nama yang berasal dari bahasa tertentu:**  Mungkin Tio berasal dari bahasa tertentu dan memiliki arti khusus di dalamnya, tetapi saya perlu informasi lebih lanjut untuk mengetahuinya (misalnya, dari mana asal keluarga kamu).\n' +
-    '* **Nama yang dipilih karena suaranya atau maknanya yang disukai:**  Kadang orang memilih nama karena bunyinya yang enak didengar atau karena mereka mengaitkannya dengan suatu makna tertentu, tanpa arti baku.\n' +
+    '* **Asal usul bahasa:**  Tio bisa berasal dari berbagai bahasa dan memiliki arti yang berbeda-beda di setiap bahasa.  Misalnya, bisa jadi  dari bahasa Spanyol, Italia, atau bahasa lainnya.  Untuk mengetahui arti yang spesifik, kita perlu tahu asal usulnya.\n' +
     '\n' +
-    'Jika kamu ingin mengetahui arti nama Tio,  coba cari informasi lebih lanjut mengenai asal usul keluargamu atau tanyakan kepada orangtuamu. Mereka pasti tahu asal usul dan arti nama yang mereka berikan padamu.\n'
+    '* **Arti simbolis:**  Kadang nama juga memiliki arti simbolis yang melekat, meskipun tidak berasal dari kamus nama.  Ini lebih tergantung pada interpretasi orang tua atau orang yang memberikan nama tersebut.\n' +
+    '\n' +
+    'Jadi, untuk mengetahui arti nama Tio yang tepat,  kamu perlu memberikan informasi lebih lanjut mengenai asal usul namamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself has been pondered by philosophers, theologians, and individuals for millennia.  The meaning is often considered deeply personal and subjective, shaped by individual beliefs, experiences, and values.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning is often considered to be subjective and personal, shaped by individual experiences, beliefs, and values.\n" +
     '\n' +
-    'Some perspectives include:\n' +
+    'Some common perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
     '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine purpose.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human connection, creativity, and contribution to society.\n' +
+    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Religious and Spiritual Beliefs:** Many religions and spiritual traditions offer answers to the meaning of life, often involving serving a higher power, achieving enlightenment, or fulfilling a divine purpose.\n' +
+    '* **Hedonism:** The belief that the meaning of life is to pursue pleasure and avoid pain.\n' +
+    '* **Humanism:** The belief that human values and reason are central to understanding the world and creating meaning.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  Consider what brings you joy, fulfillment, and a sense of purpose.  What impact do you want to have on the world?  Reflecting on these questions can help you define your own meaning.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question to be explored and answered personally, through reflection, experience, and connection with others and the world around you.\n"
 }
