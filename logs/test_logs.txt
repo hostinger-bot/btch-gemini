@@ -9,50 +9,51 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 d0 00 00 04 00 08 02 00 00 00 47 db f9 de 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 949817 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1905821 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a forested landscape.  The context suggests it might be a staged publicity photo, showing him in a natural setting, possibly to convey a message about environmental concerns or the country's natural beauty.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of lush green trees.  The setting appears to be outdoors, possibly a park or forested area.  The photo is likely a publicity or official image, showcasing the President in a relaxed but dignified manner.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda.  Sepaih lupah urang tua.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur bagai kuda.  Sapa elo paurang duit.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: "Sure, here's a description and transcript of the audio.\n" +
+  content: 'The video shows a Rickroll meme. The video is short, only six seconds. The background of the clip is a distorted and discolored version of the music video for "Never Gonna Give You Up." The words "GET RICK ROLLED" are superimposed on top of the video. The song plays in the background.\n' +
     '\n' +
-    'This video is a short clip showing the beginning of the song "Never Gonna Give You Up" by Rick Astley. The words "Get Rick Rolled" are superimposed over the image of the singer. This is a popular internet prank.\n' +
-    '\n' +
-    'The audio contains one word, "Never"\n'
+    'The audio is a distorted version of the beginning of the song. It begins with the chorus singing "Never gonna give you up".'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak dapat menjelaskan arti nama Tio karena artinya bergantung pada asal-usul dan bahasa nama tersebut.  Nama Tio bisa berasal dari berbagai bahasa dan budaya, dan masing-masing memiliki arti yang berbeda.  \n' +
+  content: 'Nama Anda adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio secara pasti karena arti nama tersebut bergantung pada asal-usul dan budayanya.  Nama Tio bisa berasal dari berbagai bahasa dan budaya, masing-masing dengan arti yang berbeda.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, kamu perlu memberikan informasi lebih lanjut, seperti:\n' +
+    'Untuk mengetahui arti nama Tio, saya sarankan Anda:\n' +
     '\n' +
-    '* **Asal usul nama:** Apakah nama Tio berasal dari bahasa Indonesia, Tionghoa, Spanyol, atau bahasa lainnya?\n' +
-    '* **Konteks keluarga:**  Apakah ada makna khusus yang diberikan oleh keluargamu pada nama Tio?\n' +
+    '* **Mencari informasi lebih lanjut di internet:**  Coba cari "arti nama Tio" di mesin pencari seperti Google, Bing, atau DuckDuckGo.  Anda mungkin menemukan beberapa kemungkinan asal dan arti.\n' +
+    '* **Bertanya kepada orang tua atau keluarga:** Mereka adalah sumber terbaik untuk mengetahui asal usul dan arti nama Anda.\n' +
     '\n' +
-    'Dengan informasi tambahan ini, saya mungkin bisa membantumu menemukan arti nama Tio.\n'
+    'Semoga informasi ini membantu!\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself is deeply philosophical and personal.  Different individuals and cultures find meaning in various ways, including:\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning, if there is one, is often considered to be:\n" +
     '\n' +
-    '* **Relationships:**  Love, family, friendship, and community provide a sense of belonging and purpose for many.\n' +
-    '* **Contribution:**  Making a positive impact on the world, whether through work, volunteering, or creative pursuits, can imbue life with meaning.\n' +
-    "* **Spiritual or Religious Beliefs:**  Faith and connection to a higher power offer solace, guidance, and a framework for understanding life's purpose.\n" +
-    '* **Personal Growth:**  Learning, developing skills, and striving for self-improvement can be deeply fulfilling.\n' +
-    '* **Experiences:**  Travel, adventure, and pursuing passions can create lasting memories and a sense of accomplishment.\n' +
-    '* **Creativity:**  Expressing oneself through art, music, writing, or other creative endeavors can be a profoundly meaningful experience.\n' +
+    "* **Subjective:**  What gives life meaning is different for each person.  It's deeply personal and can be shaped by individual experiences, beliefs, values, and goals.  One person might find meaning in raising a family, another in pursuing scientific discovery, and another in serving their community.\n" +
+    '\n' +
+    "* **Existential:** Some believe that life inherently lacks intrinsic meaning, and it's up to each individual to create their own meaning and purpose. This perspective emphasizes freedom and responsibility.\n" +
+    '\n' +
+    '* **Spiritual or Religious:** Many religions and spiritual traditions offer answers to the meaning of life, often involving a higher power, a divine plan, or the pursuit of enlightenment or salvation.\n' +
+    '\n' +
+    '* **Nihilistic:**  A nihilistic view suggests that life is inherently meaningless and without purpose.\n' +
+    '\n' +
+    '* **Absurdist:**  Absurdism acknowledges the inherent conflict between the human search for meaning and the meaningless universe, suggesting that embracing this absurdity is key to finding meaning.\n' +
     '\n' +
     '\n' +
-    "Ultimately, the meaning of life is not something to be discovered but something to be created.  It's a personal journey of exploration and self-discovery, with the answer varying from person to person.\n"
+    'In short, the meaning of life is not something to be discovered, but rather something to be created and defined by each individual based on their own values and experiences.\n'
 }
