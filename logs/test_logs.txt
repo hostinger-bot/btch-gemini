@@ -6,54 +6,69 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking!  How are you today?\n'
+  content: "I'm doing well, thank you for asking!  How are you today?\n"
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1905821 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1526121 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of lush green trees.  The setting appears to be outdoors, possibly a park or forested area.  The photo is likely a publicity or official image, showcasing the President in a relaxed but dignified manner.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's likely a publicity or official photo intended to portray him in a relaxed, thoughtful, or possibly contemplative mood amidst a natural setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur bagai kuda.  Sapa elo paurang duit.\n'
+  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda. Sape lupah orang tua?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video shows a Rickroll meme. The video is short, only six seconds. The background of the clip is a distorted and discolored version of the music video for "Never Gonna Give You Up." The words "GET RICK ROLLED" are superimposed on top of the video. The song plays in the background.\n' +
+  content: 'This video features a young Rick Astley performing his 1987 hit, "Never Gonna Give You Up."  The lyrics being played are the opening lines of the song. The visuals are taken from the music video. Words appear at several points in the video, with different effects being used, saying “GET RICK ROLLED.” \n' +
     '\n' +
-    'The audio is a distorted version of the beginning of the song. It begins with the chorus singing "Never gonna give you up".'
+    '\n' +
+    '[Intro]\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio secara pasti karena arti nama tersebut bergantung pada asal-usul dan budayanya.  Nama Tio bisa berasal dari berbagai bahasa dan budaya, masing-masing dengan arti yang berbeda.\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio sendiri agak rumit karena ia bisa memiliki beberapa asal dan arti yang berbeda tergantung konteksnya.  Tidak ada satu arti definitif yang universal.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, saya sarankan Anda:\n' +
+    'Berikut beberapa kemungkinan:\n' +
     '\n' +
-    '* **Mencari informasi lebih lanjut di internet:**  Coba cari "arti nama Tio" di mesin pencari seperti Google, Bing, atau DuckDuckGo.  Anda mungkin menemukan beberapa kemungkinan asal dan arti.\n' +
-    '* **Bertanya kepada orang tua atau keluarga:** Mereka adalah sumber terbaik untuk mengetahui asal usul dan arti nama Anda.\n' +
+    '* **Sebagai singkatan:**  Tio mungkin merupakan singkatan dari nama lain, seperti  Teodoro,  Anthonio, atau  nama-nama lainnya yang dimulai dengan "Ti".  Jika ini kasusnya, arti nama sebenarnya bergantung pada nama lengkap yang disingkat.\n' +
     '\n' +
-    'Semoga informasi ini membantu!\n'
+    '* **Asal Tionghoa:**  Dalam beberapa budaya Tionghoa, nama Tio mungkin memiliki arti, tetapi ini akan bergantung pada karakter Hanzi yang digunakan untuk menuliskannya.  Tanpa mengetahui karakternya, tidak mungkin untuk memberikan arti yang tepat.\n' +
+    '\n' +
+    '* **Asal Indonesia/Malaysia:**  Dalam beberapa konteks di Indonesia atau Malaysia, Tio mungkin digunakan sebagai nama panggilan atau nama pendek yang tidak memiliki arti khusus yang terdefinisi.\n' +
+    '\n' +
+    '* **Asal lain:** Kemungkinan lain adalah Tio memiliki asal usul dari bahasa atau budaya lain yang tidak familiar bagi saya.\n' +
+    '\n' +
+    'Untuk mendapatkan arti nama Tio yang paling akurat, Anda perlu memberikan informasi tambahan, seperti:\n' +
+    '\n' +
+    '* **Nama lengkap Anda:** Jika Tio adalah singkatan.\n' +
+    '* **Asal usul nama:** Dari bahasa/budaya mana nama Tio berasal?\n' +
+    '* **Penulisan nama dalam aksara lain:**  Jika nama Tio ditulis dengan karakter Hanzi (untuk nama Tionghoa), atau dalam aksara lain.\n' +
+    '\n' +
+    'Dengan informasi tambahan tersebut, saya mungkin bisa membantu Anda mencari tahu arti nama Tio.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning, if there is one, is often considered to be:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be something personal and subjective, shaped by individual experiences, beliefs, and values.\n" +
     '\n' +
-    "* **Subjective:**  What gives life meaning is different for each person.  It's deeply personal and can be shaped by individual experiences, beliefs, values, and goals.  One person might find meaning in raising a family, another in pursuing scientific discovery, and another in serving their community.\n" +
+    'Some common perspectives include:\n' +
     '\n' +
-    "* **Existential:** Some believe that life inherently lacks intrinsic meaning, and it's up to each individual to create their own meaning and purpose. This perspective emphasizes freedom and responsibility.\n" +
+    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that this absurdity should be embraced.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, achieving enlightenment, or fulfilling a divine plan.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
     '\n' +
-    '* **Spiritual or Religious:** Many religions and spiritual traditions offer answers to the meaning of life, often involving a higher power, a divine plan, or the pursuit of enlightenment or salvation.\n' +
-    '\n' +
-    '* **Nihilistic:**  A nihilistic view suggests that life is inherently meaningless and without purpose.\n' +
-    '\n' +
-    '* **Absurdist:**  Absurdism acknowledges the inherent conflict between the human search for meaning and the meaningless universe, suggesting that embracing this absurdity is key to finding meaning.\n' +
-    '\n' +
-    '\n' +
-    'In short, the meaning of life is not something to be discovered, but rather something to be created and defined by each individual based on their own values and experiences.\n'
+    "Ultimately, the meaning of life is what you make it.  It's a question to explore and answer for yourself through reflection, experience, and personal growth.\n"
 }
