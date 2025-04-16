@@ -6,69 +6,56 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: "I'm doing well, thank you for asking!  How are you today?\n"
+  content: 'I am doing well, thank you for asking! How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1526121 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 b1 00 00 04 00 08 02 00 00 00 79 fe 96 90 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1169094 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's likely a publicity or official photo intended to portray him in a relaxed, thoughtful, or possibly contemplative mood amidst a natural setting.\n"
+  content: "That's a photograph of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant, forested landscape.  The context suggests it's likely a publicity or official photo, possibly taken during a visit to a location of environmental or natural significance.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda. Sape lupah orang tua?\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sape lu paurang dua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'This video features a young Rick Astley performing his 1987 hit, "Never Gonna Give You Up."  The lyrics being played are the opening lines of the song. The visuals are taken from the music video. Words appear at several points in the video, with different effects being used, saying “GET RICK ROLLED.” \n' +
+  content: 'This is a Rickroll, or a prank or joke in which someone tricks someone into clicking a disguised hyperlink or watching a seemingly unrelated video that leads to the music video for the 1987 Rick Astley song "Never Gonna Give You Up." This is the first three seconds of the official music video.\n' +
     '\n' +
+    'The text “GET RICK ROLLED” is superimposed on the video.\n' +
     '\n' +
-    '[Intro]\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    'Here is the audio:\n' +
+    '\n' +
+    '[Music] Never gonna give you up, never gonna let you…'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sendiri agak rumit karena ia bisa memiliki beberapa asal dan arti yang berbeda tergantung konteksnya.  Tidak ada satu arti definitif yang universal.\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio bergantung pada asal-usul dan konteksnya.  Tidak ada satu arti yang pasti untuk nama Tio.  Berikut beberapa kemungkinan:\n' +
     '\n' +
-    'Berikut beberapa kemungkinan:\n' +
+    '* **Bentuk pendek dari nama lain:** Tio bisa menjadi bentuk pendek dari nama-nama seperti  Teodoro,  Santiago,  atau  nama-nama lain yang memiliki bunyi mirip.  Dalam hal ini, arti nama Tio akan tergantung pada nama lengkapnya.\n' +
     '\n' +
-    '* **Sebagai singkatan:**  Tio mungkin merupakan singkatan dari nama lain, seperti  Teodoro,  Anthonio, atau  nama-nama lainnya yang dimulai dengan "Ti".  Jika ini kasusnya, arti nama sebenarnya bergantung pada nama lengkap yang disingkat.\n' +
+    '* **Arti dalam bahasa tertentu:**  Di beberapa bahasa, Tio bisa memiliki arti spesifik.  Namun, tanpa mengetahui asal usul etnis atau kebudayaan keluarga, sulit untuk menentukan arti spesifiknya.\n' +
     '\n' +
-    '* **Asal Tionghoa:**  Dalam beberapa budaya Tionghoa, nama Tio mungkin memiliki arti, tetapi ini akan bergantung pada karakter Hanzi yang digunakan untuk menuliskannya.  Tanpa mengetahui karakternya, tidak mungkin untuk memberikan arti yang tepat.\n' +
+    '* **Nama panggilan:** Tio juga bisa menjadi nama panggilan yang diberikan tanpa memiliki arti khusus yang terikat padanya.\n' +
     '\n' +
-    '* **Asal Indonesia/Malaysia:**  Dalam beberapa konteks di Indonesia atau Malaysia, Tio mungkin digunakan sebagai nama panggilan atau nama pendek yang tidak memiliki arti khusus yang terdefinisi.\n' +
-    '\n' +
-    '* **Asal lain:** Kemungkinan lain adalah Tio memiliki asal usul dari bahasa atau budaya lain yang tidak familiar bagi saya.\n' +
-    '\n' +
-    'Untuk mendapatkan arti nama Tio yang paling akurat, Anda perlu memberikan informasi tambahan, seperti:\n' +
-    '\n' +
-    '* **Nama lengkap Anda:** Jika Tio adalah singkatan.\n' +
-    '* **Asal usul nama:** Dari bahasa/budaya mana nama Tio berasal?\n' +
-    '* **Penulisan nama dalam aksara lain:**  Jika nama Tio ditulis dengan karakter Hanzi (untuk nama Tionghoa), atau dalam aksara lain.\n' +
-    '\n' +
-    'Dengan informasi tambahan tersebut, saya mungkin bisa membantu Anda mencari tahu arti nama Tio.\n'
+    'Untuk mengetahui arti nama Tio yang spesifik untuk dirimu, cobalah bertanya pada orang tuamu atau keluarga terdekat mengenai asal usul dan makna nama yang mereka berikan padamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be something personal and subjective, shaped by individual experiences, beliefs, and values.\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    'Different perspectives include:\n' +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
+    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
     '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that this absurdity should be embraced.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, achieving enlightenment, or fulfilling a divine plan.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
+    '* **Absurdism:** The recognition of the inherent conflict between the human search for meaning and the meaninglessness of the universe, and the embracing of that conflict.\n' +
+    '* **Religious perspectives:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, and achieving spiritual enlightenment or salvation.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, contributions to society, and personal growth.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question to explore and answer for yourself through reflection, experience, and personal growth.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a definitive answer, many find it more fulfilling to focus on living a meaningful life, pursuing goals that bring them happiness and fulfillment, and contributing positively to the world around them.\n"
 }
