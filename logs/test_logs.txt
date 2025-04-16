@@ -9,63 +9,54 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 03 4a 00 00 04 00 08 02 00 00 00 50 dc 3e 3e 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1286526 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1362822 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  It's likely a publicity or official photo intended to portray him in a contemplative or statesmanlike manner, possibly emphasizing his connection to the Indonesian environment.\n"
+  content: "That's a picture of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a forested landscape.  It's likely a candid shot, perhaps taken during a visit to a natural area or during a break from an official engagement.  The image doesn't convey a specific event or message beyond showing the President in a contemplative moment in a natural setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur bagai kuda, sapailah orang tua.\n'
+  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerjaan lembur bagai kuda. Sape lu pa urang tua?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: `The video depicts Rick Astley singing and dancing in his music video for "Never Gonna Give You Up." The on-screen text reads "GET RICKROLLED." Rickrolling is an internet meme or prank where a link is posted purporting to be something else, but the link opens up the music video for Rick Astley's "Never Gonna Give You Up." The meme gained popularity beginning in 2007 on the 4chan message board where it was known as duckrolling. This meme continues to be used today and has been incorporated into video games, advertising, and other media. \n` +
+  content: 'This short video is a Rick Roll. The text “GET RICK ROLLED” fades in and out, while Rick Astley sings and dances in front of a lit patterned background. He is wearing a striped shirt, tan pants, and a dark blazer. The audio is:\n' +
     '\n' +
-    '\n' +
-    'The audio at the beginning sounds like a snare drum roll, then the lyrics of the song are heard:\n' +
-    '\n' +
-    '(Music)\n' +
+    '[Verse 1]\n' +
     'Never gonna give you up\n' +
     'Never gonna let you down\n' +
     'Never gonna run around and desert you\n' +
     'Never gonna make you cry\n' +
     'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you\n' +
-    '\n' +
-    '\n'
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asal-usul dan bahasanya.  Tidak ada satu arti tunggal yang pasti untuk nama Tio.  Bisa jadi:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio sendiri tidak memiliki satu arti yang pasti dan universal, karena bisa berasal dari berbagai bahasa dan budaya.  Berikut beberapa kemungkinan:\n' +
     '\n' +
-    '* **Singkatan atau kependekan:** Tio bisa menjadi kependekan dari nama lain yang lebih panjang.  Misalnya,  di beberapa budaya, Tio bisa menjadi kependekan dari nama-nama yang dimulai dengan "Tio-" atau "-tio".\n' +
+    '* **Singkatan atau kependekan:** Tio bisa menjadi singkatan dari nama yang lebih panjang, misalnya  Tiodorus,  Tiofanes, atau nama lainnya.  Untuk mengetahui arti yang sebenarnya, perlu diketahui nama lengkapnya.\n' +
     '\n' +
-    '* **Asal bahasa Indonesia:**  Di Indonesia, Tio mungkin merupakan nama panggilan atau nama yang dipilih orang tua tanpa arti khusus yang terikat pada suatu bahasa.\n' +
+    '* **Nama panggilan:** Tio bisa menjadi nama panggilan yang sayang dan akrab.  Arinya akan tergantung konteks penggunaannya dan makna yang diberikan oleh orangtua atau orang yang memberinya nama panggilan tersebut.\n' +
     '\n' +
-    '* **Asal bahasa lain:**  Kemungkinan juga Tio berasal dari bahasa lain dan memiliki arti tertentu dalam bahasa tersebut.  Untuk mengetahui arti yang spesifik, kita perlu tahu asal usul nama Tio yang kamu gunakan.\n' +
+    '* **Asal bahasa:**  Kemungkinannya Tio berasal dari bahasa Indonesia atau bahasa daerah tertentu, namun tanpa konteks lebih lanjut, sulit untuk menentukan asal dan artinya secara pasti.  Bisa juga berasal dari bahasa asing yang diserap ke dalam bahasa Indonesia.\n' +
     '\n' +
-    'Untuk mendapatkan arti nama Tio yang tepat,  tolong beri tahu saya dari mana asal nama tersebut (misalnya, dari keluarga, dari bahasa tertentu, atau pilihan pribadi).  Dengan informasi tambahan tersebut, saya mungkin bisa membantu menemukan arti namamu.\n'
+    'Intinya, tanpa informasi lebih lanjut tentang asal usul nama Tio yang kamu gunakan, sulit untuk memberikan arti yang akurat.  Jika kamu bisa memberikan informasi tambahan, seperti asal-usul keluarga atau bahasa yang digunakan, saya mungkin bisa membantu menjelaskan lebih lanjut.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "The meaning of life is a question that has been pondered by philosophers, theologians, and individuals for centuries.  There's no single, universally accepted answer.  The meaning is often considered to be subjective and personal, varying greatly depending on individual beliefs, values, and experiences.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for millennia.  Different individuals and cultures find meaning in various things, including:\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    '* **Relationships:** Love, family, and friendships provide a sense of belonging and purpose for many.\n' +
+    '* **Contribution to society:**  Making a difference in the world, through work, volunteering, or activism, can imbue life with meaning.\n' +
+    '* **Personal growth:**  Learning, developing skills, and pursuing personal goals can create a sense of accomplishment and fulfillment.\n' +
+    "* **Spiritual or religious beliefs:**  Faith and spirituality provide a framework for understanding life's purpose and meaning for many.\n" +
+    '* **Creativity and self-expression:**  Art, music, writing, and other creative pursuits can be profoundly meaningful.\n' +
+    '* **Experiences and adventures:**  Exploring the world and engaging in new experiences can enrich life and create lasting memories.\n' +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, yet we must continue to search.\n' +
-    '* **Spiritual or Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:** Focusing on human values, reason, and ethics to find meaning and purpose in life.\n' +
-    '* **Hedonism:**  Finding meaning in pleasure and happiness.\n' +
-    '* **Purpose-driven life:** Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
-    '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is not something to be discovered, but something to be created and defined by each individual.  It's a journey of self-discovery and reflection.\n"
+    "Ultimately, the meaning of life is what you make it. It's not something to be discovered, but rather something to be created and defined by your own values, experiences, and choices.  There is no right or wrong answer.\n"
 }
