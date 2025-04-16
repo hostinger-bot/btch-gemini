@@ -9,42 +9,46 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1329236 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1156432 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The context suggests it's a candid shot, possibly taken during a visit to a forested area or park.  There's no specific event or occasion identifiable from the image itself.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo, possibly intended to convey a sense of calm, reflection, or connection to nature.  There's no specific context provided in the image itself, so that's the best I can offer without further information.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagai kuda. Sape lu pa orang tua?\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda, sampai lupa waktu.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: `The video shows Rick Astley's 1987 song "Never Gonna Give You Up", in a format that suggests it's a rickroll. It shows a closeup of Astley singing the song, interspersed with other shots of him singing and dancing against a frosted window effect. The words “GET RICK ROLLED” are superimposed across the screen. \n` +
+  content: 'The video shows Rick Astley performing his song, "Never Gonna Give You Up." This is a popular internet meme called "Rickrolling" where links are disguised to lead to this music video.\n' +
     '\n' +
-    'The audio is the intro to Rick Astley’s "Never Gonna Give You Up".\n' +
+    'The text across the screen reads "GET RICK ROLLED". \n' +
     '\n' +
-    '[Music intro] \n' +
-    '"Never gonna give you up, \n' +
-    'Never gonna let you down,\n' +
-    'Never gonna run around and desert you"'
+    'The audio says:\n' +
+    '[Music starts]\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi dan bergantung pada asal usulnya.  Tidak ada satu arti yang pasti untuk nama Tio.  Namun, beberapa kemungkinan artinya antara lain:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asalnya dan konteksnya.  Tio bukanlah nama yang umum dengan arti yang secara luas disepakati.  \n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek:** Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama lain, seperti  Tiago,  Teodoro,  atau  sejenisnya.  Jika ini kasusnya, arti nama tersebut akan bergantung pada nama lengkap asalnya.\n' +
+    '* **Kemungkinan Arti:**  Bisa jadi Tio adalah sebuah singkatan atau bentuk pendek dari nama lain.  Atau, mungkin merupakan nama keluarga yang telah diadaptasi sebagai nama depan.  Di beberapa budaya, Tio bisa jadi memiliki arti yang spesifik, tetapi tanpa informasi lebih lanjut tentang asal-usul namamu, saya tidak dapat memberikan arti yang tepat.\n' +
     '\n' +
-    '* **Asal bahasa Indonesia:** Dalam bahasa Indonesia, Tio mungkin tidak memiliki arti yang baku dan bisa dianggap sebagai nama yang modern atau pilihan orang tua.\n' +
+    'Untuk mengetahui arti nama Tio yang tepat, ada beberapa hal yang dapat kamu lakukan:\n' +
     '\n' +
-    '* **Asal bahasa lain:** Kemungkinan juga nama Tio berasal dari bahasa lain yang belum disebutkan.  Untuk mengetahui arti yang tepat, perlu diketahui asal usul nama tersebut dari keluarga.\n' +
+    '* **Tanyakan pada orang tuamu atau kerabat dekatmu:** Mereka yang memberi nama padamu kemungkinan besar tahu asal-usul dan arti nama tersebut.\n' +
+    '* **Cari informasi online:** Cobalah mencari "arti nama Tio" di mesin pencari, dan perhatikan berbagai sumber yang menyebutkan kemungkinan arti dan asal-usulnya.  Namun, hati-hati dalam memilih sumber yang terpercaya.\n' +
     '\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, sebaiknya tanyakan pada orang tuamu atau kerabat dekat yang mengetahui asal usul nama tersebut.\n'
+    'Semoga informasi ini membantu!\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
@@ -54,12 +58,12 @@ gemini_prompt Response: {
     'Different perspectives include:\n' +
     '\n' +
     '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
     '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Religious and spiritual beliefs:** Many religions offer answers to the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Hedonism:** The belief that pleasure and happiness are the ultimate goals in life.\n' +
-    '* **Purpose-driven life:**  Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
+    '* **Religious and Spiritual Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, service to others, or an afterlife.\n' +
+    '* **Hedonism:**  The belief that pleasure and happiness are the ultimate goals in life.\n' +
+    '* **Humanism:**  The belief that human values and reason are central to understanding the world and finding meaning.\n' +
     '\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a single, definitive answer, many find fulfillment in exploring their own values and creating a life that feels meaningful and purposeful to them.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a definitive answer, many find meaning in relationships, contributing to society, pursuing personal growth, experiencing joy and beauty, or simply appreciating the wonder of existence.\n"
 }
