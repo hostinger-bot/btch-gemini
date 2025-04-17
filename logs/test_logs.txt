@@ -9,42 +9,53 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1322827 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1461960 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photograph of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off to the side at a lush, green landscape.  It's likely a candid shot, not a formal portrait.  The setting appears to be outdoors, perhaps in a park or forested area.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photograph, possibly taken during a visit to a forested area in Indonesia.  The image focuses on him and his contemplative expression.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagai kuda, sampai lupa orang tua.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Separuh faal orang tua.\n'
 }
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Sayangnya, saya tidak dapat menjelaskan arti nama Tio secara pasti karena artinya bergantung pada asal-usul dan bahasa dari mana nama tersebut berasal.  Tio bisa berasal dari berbagai bahasa dan budaya, dan setiap budaya dapat memiliki makna yang berbeda.\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu dengan pasti karena Tio bisa memiliki beberapa asal dan arti, tergantung dari bahasa dan budaya asalnya.  \n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, Anda perlu memberitahu saya:\n' +
+    'Untuk mengetahui arti nama Tio yang tepat, saya perlu informasi tambahan seperti:\n' +
     '\n' +
-    '* **Asal usul nama Tio:** Apakah nama ini dari bahasa Indonesia, Tionghoa, Spanyol, atau bahasa lainnya?\n' +
-    '* **Konteks keluarga:**  Apakah ada cerita khusus di keluarga Anda tentang asal-usul nama Tio?\n' +
+    '* **Asal nama:** Apakah Tio berasal dari bahasa Indonesia, Tionghoa, Spanyol, atau bahasa lainnya?\n' +
+    '* **Ejaan lengkap:** Apakah ada huruf lain yang menyertainya?  Misalnya,  apakah ejaan lengkapnya Tio, Tío, atau bentuk lainnya?\n' +
     '\n' +
-    'Dengan informasi tambahan ini, saya mungkin dapat membantu Anda menemukan arti nama Tio Anda.\n'
+    'Dengan informasi tambahan tersebut, saya mungkin bisa membantu mencari arti namamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for centuries.  Different people find meaning in different things, including:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning is often considered to be subjective and personal, shaped by individual beliefs, experiences, and values.\n" +
     '\n' +
-    '* **Relationships:**  Love, family, and community are significant sources of meaning for many.\n' +
-    '* **Contribution:**  Making a difference in the world, whether through work, volunteering, or creative pursuits, can provide a sense of purpose.\n' +
-    "* **Growth and learning:**  Continuously expanding one's knowledge, skills, and understanding can be a fulfilling journey.\n" +
-    '* **Spiritual or religious beliefs:**  Faith and connection to something greater than oneself can offer meaning and direction.\n' +
-    '* **Experiences:**  Travel, adventure, and pursuing passions can bring joy and a sense of fulfillment.\n' +
-    '* **Creativity and self-expression:**  Artistic endeavors, writing, music, and other creative outlets can be powerful sources of meaning.\n' +
+    'Some perspectives include:\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question you need to explore and answer for yourself.  There's no right or wrong answer, only your own unique perspective.\n"
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divinely ordained purpose.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, contributions to society, and personal growth.\n' +
+    '* **Hedonism:**  Finding meaning in pleasure and happiness.\n' +
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal discovery and continuous exploration.  Instead of searching for a definitive answer, many find fulfillment by focusing on:\n" +
+    '\n' +
+    '* **Relationships:** Connecting with others and building meaningful bonds.\n' +
+    '* **Contribution:** Making a positive impact on the world, however small.\n' +
+    '* **Growth:** Continuously learning, evolving, and expanding your horizons.\n' +
+    '* **Experiences:** Exploring the world and creating lasting memories.\n' +
+    '* **Purpose:** Identifying something that gives your life direction and motivates you.\n' +
+    '\n' +
+    '\n' +
+    'The journey of discovering your own meaning of life is often more significant than the destination itself.\n'
 }
