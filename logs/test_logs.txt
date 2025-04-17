@@ -6,65 +6,66 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: "I'm doing well, thank you for asking!  How are you today?\n"
+  content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 894893 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1507454 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's a fairly informal portrait, likely taken during a visit to a location in Indonesia.  There's no specific event or context conveyed by the image itself.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant, forested landscape.  The picture likely depicts a moment during an official visit or informal outing, showcasing him in a more relaxed setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lu pak orang tua?\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sape lu pak orang tua?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video features Rick Astley performing the song "Never Gonna Give You Up," overlaid with the text "GET RICK ROLLED."\n' +
+  content: 'This video features the opening moments of the music video for Rick Astley’s 1987 hit “Never Gonna Give You Up.” The song and video are well-known for their use in a popular internet prank known as “rickrolling,” in which people trick others into clicking a link that leads to the video.\n' +
     '\n' +
-    'The audio begins with the opening of "Never Gonna Give You Up," starting at the verse: \n' +
+    'The video features Rick Astley singing and dancing in a suit jacket.  He is wearing a striped shirt and light-colored pants.\n' +
     '\n' +
-    '(Music)\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    'The text at the beginning of the video reads “GET RICK ROLLED.”\n' +
+    '\n' +
+    'Here is the audio transcribed from 0:05–0:07:\n' +
+    '\n' +
+    '[Music]\n' +
+    "We're no strangers to love\n" +
+    'You know the rules and so do I\n' +
+    '\n' +
+    '\n'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sendiri cukup beragam dan bergantung pada asal usul dan bahasanya.  Tidak ada satu arti yang pasti.  Beberapa kemungkinan arti nama Tio antara lain:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, arti nama Tio bergantung pada asalnya dan tidak ada satu arti yang pasti.  Tio bisa menjadi:\n' +
     '\n' +
-    '* **Singkatan atau kependekan:** Tio bisa menjadi singkatan dari nama lain yang lebih panjang.  Kita perlu konteks lebih lanjut untuk mengetahui nama aslinya jika ini kasusnya.\n' +
-    '* **Nama panggilan:**  Tio bisa menjadi nama panggilan atau sebutan akrab.\n' +
-    '* **Nama dari bahasa tertentu:**  Mungkin Tio berasal dari bahasa tertentu dan memiliki arti yang spesifik di dalamnya, tetapi tanpa mengetahui asal-usulnya, sulit untuk menentukan arti pastinya.  Beberapa bahasa mungkin menggunakan Tio sebagai nama dengan arti yang berbeda-beda.\n' +
+    '* **Singkatan atau kependekan:**  Mungkin Tio adalah kependekan dari nama yang lebih panjang, seperti  Tiodorus,  Kristianto, atau nama lainnya.  Tanpa mengetahui nama lengkapnya, sulit menentukan arti aslinya.\n' +
+    '* **Nama panggilan:** Tio bisa juga sebuah nama panggilan yang dipilih karena kesukaan orangtua atau memiliki arti khusus dalam keluarga.\n' +
+    '* **Nama dari berbagai budaya:**  Meskipun tidak umum, Tio bisa berasal dari berbagai bahasa atau budaya dengan arti yang berbeda.\n' +
     '\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, perlu diketahui asal-usul nama tersebut.  Apakah keluarga atau orang tuamu memiliki informasi lebih lanjut tentang asal usul nama Tio?  Jika kamu bisa memberitahu informasi tambahan, mungkin aku bisa membantumu mencari arti yang lebih spesifik.\n'
+    'Untuk mengetahui arti nama Tio secara pasti,  kita perlu informasi tambahan seperti:\n' +
+    '\n' +
+    '* **Nama lengkapmu:**  Ini akan membantu mengidentifikasi asal usul nama Tio.\n' +
+    '* **Asal-usul keluarga:** Mengetahui asal-usul keluarga (misalnya, etnis, negara) dapat membantu mengidentifikasi arti nama tersebut dalam konteks budaya tertentu.\n' +
+    '\n' +
+    '\n' +
+    'Tanpa informasi tambahan, saya hanya bisa memberi penjelasan umum.  Semoga penjelasan ini membantu!\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, and different people find meaning in different things.  Some common perspectives include:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for millennia.  Different people and cultures find meaning in various things, including:\n" +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Relationships:**  Love, family, and connection with others.\n' +
+    '* **Contribution:** Making a positive impact on the world, helping others, leaving a legacy.\n' +
+    '* **Experiences:**  Travel, learning, pursuing passions, and creating memories.\n' +
+    '* **Spiritual or Religious Beliefs:** Finding purpose and meaning through faith and connection to a higher power.\n' +
+    '* **Personal Growth:** Self-discovery, learning, and continuous improvement.\n' +
+    '* **Creativity and Self-Expression:**  Art, music, writing, and other forms of creative expression.\n' +
     '\n' +
-    '* **Existentialism:** The belief that life is inherently meaningless, but we create our own meaning through our choices and actions.  We are responsible for defining our own purpose.\n' +
-    '\n' +
-    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but we should embrace this absurdity and live authentically.\n' +
-    '\n' +
-    '* **Spiritual or Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine plan.  These meanings often involve serving God, following religious principles, and striving for spiritual enlightenment.\n' +
-    '\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the primary goal in life.\n' +
-    '\n' +
-    '* **Humanism:**  A focus on human values, reason, ethics, and social justice.  Meaning is found in contributing to society and improving the human condition.\n' +
-    '\n' +
-    "* **Purpose-driven life:**  Finding meaning through pursuing goals and contributing to something larger than oneself, whether it's a career, a cause, or a relationship.\n" +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal reflection and discovery, not one with a definitive right or wrong answer.\n"
+    "Ultimately, the meaning of life is what *you* make it.  It's a question of self-discovery and creating a life that is meaningful and fulfilling to you.  There's no right or wrong answer, and the answer may evolve over time as you grow and change.\n"
 }
