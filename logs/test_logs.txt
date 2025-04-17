@@ -9,66 +9,54 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a6 08 02 00 00 00 5c ea 7b 1d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1272708 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a8 00 00 04 00 08 02 00 00 00 a2 45 3c b2 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 917098 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a picture of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant, forested landscape.  The focus is on him, but the background emphasizes a natural, possibly rural, setting.  The picture likely depicts a moment during one of his official visits or engagements.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's likely a candid shot, possibly taken during a visit to a location in Indonesia.  The context of where the photo was taken and when it was taken would be needed to say more about its specific meaning or purpose.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagai kuda. Sape lu pa orang tua?\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lu pa orang tua?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: `The video is a short clip of Rick Astley's song "Never Gonna Give You Up".  The text "GET RICK ROLLED" appears at the beginning of the clip. \n` +
+  content: 'The video shows a man performing in front of a light-colored background and a large window with a tree motif. Text reading “GET RICK ROLLED” is superimposed. The man’s hair is short, styled high and slicked back. He wears a dark blazer, a horizontally striped white and gray shirt, and pale pants. His shoes are dark and polished.\n' +
     '\n' +
-    'The audio starts with the instrumental intro.  Then, the clip shows Rick Astley singing the first part of the first verse:\n' +
+    'The singer taps his foot, then steps forward, singing into a microphone stand. \n' +
     '\n' +
-    '(Music)\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you\n'
+    '\n' +
+    'No audio could be transcribed from this video.'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan bahasanya.  Tidak ada satu arti yang pasti.  Berikut beberapa kemungkinan:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan konteksnya.  Tidak ada satu arti pasti untuk nama Tio.  Berikut beberapa kemungkinan:\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek:** Tio bisa jadi singkatan dari nama yang lebih panjang, seperti Teodoro, Horatio, atau nama-nama lain yang berawalan "Ti".  Kita perlu konteks lebih lanjut untuk mengetahui apakah ini kasusnya.\n' +
+    '* **Singkatan atau bentuk pendek:** Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama seperti  Teodoro,  Christian,  Tiodorus, atau nama-nama lain yang diawali dengan "Tio".  Dalam konteks ini, arti nama Tio tergantung pada nama lengkap yang disingkatnya.\n' +
     '\n' +
-    '* **Asal Tionghoa:**  Dalam beberapa dialek Tionghoa, nama-nama yang terdengar mirip dengan "Tio" mungkin ada dan memiliki arti spesifik, tetapi tanpa tahu karakter Hanzi-nya, sulit untuk memastikan artinya.\n' +
+    '* **Nama panggilan:** Tio bisa juga hanya sebuah nama panggilan yang diberikan tanpa memiliki arti khusus.\n' +
     '\n' +
-    '* **Asal lainnya:**  Nama Tio juga mungkin berasal dari bahasa atau budaya lain yang belum saya ketahui.\n' +
+    '* **Asal bahasa:**  Asal usul nama Tio sulit dipastikan karena bisa berasal dari berbagai bahasa dan budaya.  Jika kamu bisa memberitahu asal usul keluargamu, mungkin kita bisa menelusuri asal-usul dan arti nama Tio lebih spesifik.\n' +
     '\n' +
-    '**Singkatnya:**  Untuk mengetahui arti nama Tio yang tepat, saya perlu informasi tambahan seperti:\n' +
-    '\n' +
-    '* **Asal budaya namamu:**  Apakah namamu berasal dari keluarga, bahasa, atau budaya tertentu?\n' +
-    '* **Ejaan lengkap namamu:**  Apakah namamu hanya Tio, atau merupakan bagian dari nama yang lebih panjang?\n' +
-    '* **Arti nama dari keluargamu:** Apakah keluargamu memiliki makna khusus untuk nama Tio?\n' +
-    '\n' +
-    '\n' +
-    'Dengan informasi tambahan tersebut, saya mungkin bisa memberikan penjelasan yang lebih akurat tentang arti namamu.\n'
+    'Untuk mengetahui arti nama Tio secara pasti, kamu perlu menanyakan kepada orang tuamu atau anggota keluarga yang memberikan nama tersebut kepadamu. Mereka akan mengetahui asal-usul dan arti yang mereka maksudkan saat menamai kamu Tio.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
     '\n' +
     'Different perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, yet we should embrace this absurdity.\n' +
-    '* **Religious and Spiritual Beliefs:** Many religions and spiritual traditions offer answers about the meaning of life, often involving a higher power, a divine plan, or an afterlife.\n' +
-    '* **Hedonism:** The belief that the pursuit of pleasure and avoidance of pain is the ultimate goal in life.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, often emphasizing the importance of contributing to society and improving the human condition.\n' +
+    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    '* **Existentialism:** The belief that life is inherently meaningless, but we create our own meaning through our choices and actions.\n' +
+    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but we should embrace this absurdity.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, purpose, and an afterlife.  These meanings vary widely across different faiths.\n' +
+    '* **Humanism:**  Focuses on human values, reason, ethics, and social justice as the basis for meaning and purpose.\n' +
+    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the primary goals in life.\n' +
     '\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  What brings you joy?  What contributes to your sense of fulfillment?  What legacy do you want to leave behind?  Reflecting on these questions can help you define your own personal meaning of life.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  What brings you joy, fulfillment, and a sense of purpose?  That's likely a significant part of your own answer.\n"
 }
