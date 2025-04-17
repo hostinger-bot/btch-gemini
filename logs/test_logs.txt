@@ -9,44 +9,43 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 03 16 08 02 00 00 00 e0 57 63 dc 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 758708 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1455091 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's a posed, publicity-style photograph, likely intended to convey a sense of calm, contemplation, or connection to nature.  The specific context (when and where it was taken) would need more information to determine.\n"
+  content: "That's Joko Widodo, the President of Indonesia.  The image is a portrait-style photograph of him, likely taken outdoors in a natural setting (a forest or wooded area).  It shows him in profile view, looking off into the distance, wearing a simple white long-sleeved shirt.  The background is softly blurred, drawing focus to the President.  The image doesn't convey any specific action or event, but rather presents a contemplative or thoughtful portrait of the Indonesian leader.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda.  Separuh badan tua.\n'
+  content: 'Kosong.  Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sape lu pak orang tua?\n'
 }
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu karena artinya bergantung pada asal usul dan bahasa dari nama tersebut.  Nama Tio bisa berasal dari berbagai bahasa dan memiliki berbagai arti.  \n' +
+  content: 'Nama Anda adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio dengan pasti karena Tio bisa memiliki beberapa asal dan arti yang berbeda tergantung dari kebudayaan dan bahasanya.  \n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, sebaiknya kamu:\n' +
+    'Tio bisa menjadi:\n' +
     '\n' +
-    '* **Mencari di internet:** Cari "arti nama Tio" di mesin pencari seperti Google, Bing, atau lainnya.  Ini akan memberikanmu berbagai kemungkinan asal dan arti.\n' +
-    '* **Bertanya pada keluargamu:** Orang tuamu atau anggota keluargamu yang lebih tua mungkin tahu asal usul dan arti nama Tio yang diberikan padamu.\n' +
+    '* **Singkatan atau bentuk pendek dari nama lain:**  Ini adalah kemungkinan yang sangat umum.  Tio bisa menjadi singkatan dari nama-nama seperti  Agustinus Tio,  Christian Tio,  atau nama lainnya.\n' +
+    '* **Nama dari berbagai budaya:**  Di beberapa budaya, Tio mungkin memiliki arti tertentu, tapi tanpa informasi lebih lanjut tentang asal-usul nama Anda, saya tidak bisa menebak dengan tepat.\n' +
     '\n' +
-    'Semoga informasi ini membantu!\n'
+    'Untuk mengetahui arti nama Tio Anda secara spesifik, Anda perlu mencari tahu asal-usul nama tersebut.  Apakah orang tua Anda memberi tahu Anda dari mana nama tersebut berasal?  Mengetahui asal-usul nama akan membantu menemukan arti yang tepat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning of life is often considered to be a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.  Different people find meaning in different things, such as:\n" +
     '\n' +
-    'Different perspectives include:\n' +
+    '* **Relationships:**  Connecting with others, building strong bonds with family and friends, contributing to a community.\n' +
+    '* **Purpose and Contribution:**  Working towards a goal, making a difference in the world, leaving a legacy.\n' +
+    '* **Experiences and Growth:**  Learning, exploring, pushing personal boundaries, seeking new knowledge and understanding.\n' +
+    '* **Spiritual or Religious Beliefs:**  Finding meaning through faith, connecting with a higher power, following religious principles.\n' +
+    '* **Creativity and Self-Expression:**  Expressing oneself through art, music, writing, or other creative endeavors.\n' +
+    '* **Personal Fulfillment:**  Achieving personal goals, developing skills, pursuing passions.\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that life is inherently meaningless, but we create our own meaning through our choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers to the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
-    '* **Hedonism:**  Finding meaning in pleasure and happiness.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  It's not something to be found, but something to be created and defined for yourself.\n"
+    "Ultimately, the meaning of life is what *you* make it. It's a question you must answer for yourself through reflection, experience, and exploration.  There's no right or wrong answer.\n"
 }
