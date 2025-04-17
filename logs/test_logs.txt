@@ -6,61 +6,73 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking!  How are you today?\n'
+  content: "I'm doing well, thank you for asking!  How are you today?\n"
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 720326 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a7 08 02 00 00 00 97 b6 a8 b8 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1159779 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a distance at a lush, green landscape.  It's likely a candid shot, not a formal portrait.  The context is missing, so it's impossible to know the exact circumstances of the photo being taken (e.g., a visit to a nature preserve, a press event, etc.).\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The context suggests it might be a publicity or official photo, possibly intended to project a sense of calm and connection to nature.  There's no specific event or caption provided to give a more precise context.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lupah orang tua.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lupah urang tua?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'Sure! Here’s the description and transcript of this video:\n' +
+  content: 'The video shows a man with brown hair styled in a short quiff singing and dancing on stage. The man wears a gray-white striped short-sleeved shirt, light-colored pants, and a dark blazer. He sings into a vintage microphone. \n' +
     '\n' +
-    'This video is a “Rickroll” video. In this case, the words “GET RICK ROLLED” are displayed on the screen at the beginning. It features a man with reddish-brown hair and a suit jacket singing and moving to music. \n' +
+    'The beginning of the video plays the intro to Rick Astley’s song, “Never Gonna Give You Up.” This is an example of being rickrolled.\n' +
     '\n' +
-    '[00:00:07] Never gonna give you up\n' +
-    '[00:00:10] Never gonna let you down\n' +
-    '[00:00:13] Never gonna run around and desert you\n' +
-    '[00:00:16] Never gonna make you cry\n' +
-    '[00:00:18] Never gonna say goodbye\n' +
-    '[00:00:21] Never gonna tell a lie and hurt you'
+    'The lyrics from the song are:\n' +
+    '\n' +
+    '(Music)\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asal-usulnya dan tidak ada satu arti yang pasti.  Tio bisa menjadi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu dengan pasti.  Arti nama Tio bergantung pada asal-usulnya dan variasinya.  "Tio" bisa menjadi:\n' +
     '\n' +
-    '* **Singkatan atau kependekan:**  Mungkin Tio adalah kependekan dari nama yang lebih panjang.  Untuk mengetahui artinya, perlu diketahui nama panjangnya.\n' +
+    '* **Singkatan atau kependekan:** dari nama lain, misalnya  sebuah nama lengkap yang disingkat menjadi Tio.\n' +
+    '* **Nama dari bahasa tertentu:**  Tanpa mengetahui bahasa asalnya, saya tidak dapat memastikan artinya.  "Tio" bisa berasal dari bahasa Indonesia, Tionghoa, Portugis, atau bahasa lainnya.  Beberapa budaya memiliki nama-nama yang terdengar serupa tapi dengan arti berbeda.\n' +
     '\n' +
-    '* **Nama dari berbagai budaya:**  Tio bisa menjadi nama dari beberapa budaya, dan artinya bisa berbeda-beda tergantung budaya tersebut.  Misalnya, mungkin ada nama dari bahasa Indonesia, Tionghoa, atau bahasa lainnya yang disingkat menjadi Tio, dengan arti yang berbeda-beda.\n' +
+    'Untuk mengetahui arti nama Tio, sebaiknya kamu:\n' +
     '\n' +
-    '* **Nama modern yang diciptakan:**  Mungkin juga Tio adalah nama yang relatif baru, dibuat tanpa arti khusus dalam bahasa tertentu.\n' +
+    '* **Bertanya kepada orangtuamu atau keluarga:** Mereka adalah sumber informasi terbaik tentang asal usul dan arti namamu.\n' +
+    '* **Mencari di internet:** Cari "arti nama Tio" di mesin pencari seperti Google.  Periksa berbagai sumber untuk mendapatkan gambaran yang lebih lengkap, karena beberapa situs mungkin memberikan interpretasi yang berbeda.  Perhatikan sumber referensinya dan pilih sumber yang kredibel.\n' +
     '\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, perlu diketahui informasi tambahan tentang asal-usul nama tersebut.  Apakah ada nama keluarga yang terkait?  Siapa yang memberi namamu Tio dan apa alasannya?  Informasi tambahan ini akan membantu menentukan arti namamu.\n'
+    'Semoga ini membantu!\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if there is one, is often considered deeply personal and subjective.\n" +
     '\n' +
     'Different perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, yet we must continue to search anyway.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine plan.\n' +
-    '* **Hedonism:**  The belief that the pursuit of pleasure and avoidance of pain is the ultimate goal.\n' +
-    '* **Humanism:**  The belief that human values and reason are central to the meaning of life, emphasizing ethics, compassion, and social justice.\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:**  The recognition that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  What brings you joy, fulfillment, and a sense of purpose?  That's where you might find your own answer.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a definitive answer, many find fulfillment by focusing on:\n" +
+    '\n' +
+    '* **Relationships:** Connecting with others and building meaningful connections.\n' +
+    '* **Purpose:**  Finding something you are passionate about and contributing to something larger than yourself.\n' +
+    '* **Growth:**  Continuously learning, developing, and expanding your horizons.\n' +
+    "* **Experience:**  Embracing life's joys and sorrows and learning from them.\n" +
+    '\n' +
+    '\n' +
+    'The question of the meaning of life is a journey, not a destination.  The process of exploring this question can be as significant as any answer you might find.\n'
 }
