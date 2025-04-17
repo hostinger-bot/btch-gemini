@@ -9,54 +9,59 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 03 31 00 00 04 00 08 02 00 00 00 5e 75 40 51 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1539354 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 d8 00 00 04 00 08 02 00 00 00 54 0c b9 2a 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 897623 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape that appears to be a forested area.  It's a fairly informal portrait, not a staged official photograph.  The focus is on Widodo himself, rather than any specific event or activity.\n"
+  content: "That's a picture of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  It's likely a publicity or official photo intended to portray him in a positive light, possibly emphasizing his connection to nature or the Indonesian landscape.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong.  Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda.  Sape lu paurang tua.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lu pa urang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video shows the face of Rick Astley, whose song “Never Gonna Give You Up” is often used as an internet prank to trick people into listening to the song. Then it cuts to the title card, which reads: "Get Rick Rolled". The rest of the clip shows Rick Astley performing a portion of "Never Gonna Give You Up", while wearing a suit jacket with a striped undershirt.\n' +
+  content: 'The video shows what is called a "Rick Roll" by internet users. The term refers to the action of unexpectedly redirecting someone to the 1987 Rick Astley song, "Never Gonna Give You Up."\n' +
     '\n' +
-    'The audio is from the song "Never Gonna Give You Up":\n' +
+    'The video displays Rick Astley performing in his video for "Never Gonna Give You Up" with the phrase "GET RICK ROLLED" at the top of the frame in a sans-serif font. \n' +
     '\n' +
-    "We're no strangers to love\n" +
-    'You know the rules and so do I\n' +
-    "A full commitment's what I'm thinking of\n" +
-    "You wouldn't get this from any other guy"
+    '[Music begins]\n' +
+    '\n' +
+    'Rick Astley sings:\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak dapat menjelaskan arti nama Tio karena arti nama tersebut bergantung pada asal-usulnya dan tidak ada satu arti universal yang diakui secara luas.  Tio bisa jadi:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio agak sulit ditentukan secara pasti karena Tio bukanlah nama dengan asal-usul etimologi yang tunggal dan jelas.  Artinya bergantung pada konteks dan budaya:\n' +
     '\n' +
-    '* **Singkatan atau kependekan dari nama lain:**  Ini adalah kemungkinan yang paling umum.  Apakah Tio merupakan kependekan dari nama yang lebih panjang?  Jika iya, mengetahui nama lengkapmu akan membantu menjelaskan artinya.\n' +
-    '* **Nama yang berasal dari bahasa tertentu:**  Tio mungkin berasal dari bahasa tertentu, dan artinya akan bervariasi berdasarkan bahasa tersebut.  Misalnya, apakah namamu Tio memiliki asal usul dari bahasa Indonesia, Mandarin, Spanyol, atau bahasa lainnya?\n' +
-    '* **Nama modern atau unik:** Banyak nama yang diciptakan baru-baru ini, atau unik bagi keluarga, tanpa arti khusus yang tercatat.\n' +
+    '* **Sebagai kependekan:** Tio bisa menjadi kependekan dari nama-nama seperti  Teodoro,  Agustinus,  atau nama-nama lain yang diawali dengan "Ti".  Dalam hal ini, arti nama Tio akan bergantung pada nama lengkapnya.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, kamu perlu menanyakan kepada orang tuamu atau menelusuri asal-usul nama tersebut berdasarkan informasi yang kamu miliki tentang keluarga dan latar belakangmu.\n'
+    '* **Sebagai nama panggilan:** Tio mungkin digunakan sebagai nama panggilan yang lucu atau sayang, tanpa arti khusus.\n' +
+    '\n' +
+    '* **Dalam beberapa budaya:**  Dalam beberapa budaya tertentu, Tio mungkin memiliki arti spesifik yang tidak diketahui secara umum.\n' +
+    '\n' +
+    '\n' +
+    'Untuk mengetahui arti yang tepat dari nama Tio yang kamu gunakan, perlu konteks lebih lanjut.  Apakah kamu punya informasi tambahan mengenai asal usul nama Tio yang kamu pakai?  Contohnya, asal daerah keluarga, atau nama lengkap yang disingkat menjadi Tio?\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered subjective and personal, shaped by individual beliefs, experiences, and values.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and has been pondered by humans for millennia.  Different individuals and cultures find meaning in various things, including:\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    '* **Relationships:**  Love, family, friendship, and community provide a sense of belonging and purpose for many.\n' +
+    '* **Contribution:** Making a difference in the world, whether through work, volunteering, or creative endeavors, can give life meaning.\n' +
+    '* **Personal Growth:**  Learning, developing skills, and striving for self-improvement can be a source of fulfillment.\n' +
+    '* **Experiences:** Travel, exploration, and engaging with the world can create rich and meaningful memories.\n' +
+    "* **Spirituality or Religion:** Faith and belief systems often offer a framework for understanding life's purpose and finding meaning.\n" +
+    '* **Creativity and Self-Expression:**  Art, music, writing, and other forms of creative expression can be deeply meaningful ways to connect with oneself and the world.\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions provide answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Hedonism:** The belief that the meaning of life is to pursue pleasure and avoid pain.\n' +
-    '* **Humanism:**  Focuses on human values and ethics, emphasizing reason, compassion, and social justice.  Meaning is found in contributing to humanity and improving the world.\n' +
-    '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  Instead of searching for a definitive answer, consider what brings you fulfillment, joy, and a sense of purpose.  What values guide your actions? What impact do you want to have on the world?  These are questions that can help you define your own personal meaning.\n"
+    "Ultimately, the meaning of life is subjective and personal.  It's not something to be found, but rather something to be created and defined by each individual based on their values, experiences, and beliefs.  The search for meaning itself can be a significant part of a fulfilling life.\n"
 }
