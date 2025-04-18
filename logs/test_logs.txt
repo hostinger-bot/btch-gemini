@@ -3,67 +3,17 @@
 > node test/test.js
 
 Testing gemini_chat...
-[38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
-gemini_chat Response: {
-  success: true,
-  content: 'I am doing well, thank you for asking!  How are you today?\n'
-}
+gemini_chat Error: getaddrinfo ENOTFOUND gemini-api.zone.id
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1035888 more bytes>
+gemini_imgedit getaddrinfo ENOTFOUND gemini-api.zone.id
 Testing gemini_image...
-gemini_image Response: {
-  success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's a relatively informal portrait, likely taken outdoors during a visit or event.  The focus is on the President himself, and the background serves to create a serene and natural setting.\n"
-}
+[38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
+gemini_image Error: getaddrinfo ENOTFOUND gemini-api.zone.id
 Testing gemini_audio...
-gemini_audio Response: {
-  success: true,
-  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagi aku dah.  Sepahtu orang tua.\n'
-}
+gemini_audio Error: getaddrinfo ENOTFOUND gemini-api.zone.id
 Testing gemini_video...
-gemini_video Response: {
-  success: true,
-  content: 'This video is of the opening of a music video for “Never Gonna Give You Up” by Rick Astley. It has text over it that reads "GET RICK ROLLED," which refers to the bait-and-switch internet meme that promises interesting content but instead redirects to the video for this song.\n' +
-    '\n' +
-    `The video starts with Rick Astley's head bobbing in rhythm as the music begins. Then, there's a close up shot of his feet doing a little dance step before cutting to a wider angle of him singing into a vintage microphone while wearing a dark blazer with a white striped shirt and light-colored slacks. He sways to the beat of the music. The text "GET RICK ROLLED" flashes on the screen.\n` +
-    '\n' +
-    'Here is the song’s opening lyric:\n' +
-    '\n' +
-    "“[music begins] We're no strangers to love…”"
-}
+gemini_video Error: getaddrinfo ENOTFOUND gemini-api.zone.id
 Testing gemini_history...
-gemini_history Response: {
-  success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio secara pasti karena Tio bukanlah nama dengan arti yang secara universal disepakati.  Artinya bergantung pada asal-usul dan konteks namanya.  \n' +
-    '\n' +
-    'Tio bisa saja:\n' +
-    '\n' +
-    '* **Singkatan atau panggilan:**  Mungkin Tio adalah singkatan dari nama yang lebih panjang.\n' +
-    '* **Nama keluarga yang disederhanakan:** Di beberapa budaya, nama keluarga dapat disingkat menjadi nama panggilan.\n' +
-    '* **Nama dengan arti spesifik dalam bahasa tertentu:**  Mungkin Tio memiliki arti khusus dalam suatu bahasa tertentu, tetapi tanpa mengetahui latar belakang nama tersebut, sulit untuk menentukannya.\n' +
-    '* **Nama yang modern dan unik:**  Banyak nama modern yang diciptakan tanpa arti khusus yang terikat padanya.\n' +
-    '\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, kamu mungkin perlu:\n' +
-    '\n' +
-    '* **Bertanya kepada orang tuamu atau keluarga:** Mereka paling tahu asal usul dan arti namamu.\n' +
-    '* **Mencari di database nama:** Ada beberapa situs web yang berisi daftar nama dan arti, namun hasilnya mungkin bervariasi.\n' +
-    '\n' +
-    '\n' +
-    'Semoga informasi ini membantu!\n'
-}
+gemini_history Error: getaddrinfo ENOTFOUND gemini-api.zone.id
 Testing gemini_prompt...
-gemini_prompt Response: {
-  success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
-    '\n' +
-    'Different perspectives include:\n' +
-    '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Religious and spiritual beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery, and the answer may evolve throughout your lifetime.\n"
-}
+gemini_prompt Error: getaddrinfo ENOTFOUND gemini-api.zone.id
