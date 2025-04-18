@@ -6,64 +6,60 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking!  How are you today?\n'
+  content: 'I am doing well, thank you for asking! How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1133300 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1494582 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo intended to portray him in a contemplative or statesmanlike manner, possibly connected to an environmental or natural resource initiative.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's a fairly informal portrait, likely taken outdoors during a visit or event.  The image doesn't convey any specific event or message beyond showing the president in a relaxed setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur bagai kuda. Sape lu pa orang tua?\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda, sampai lupa orang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video shows the beginning of the music video for "Never Gonna Give You Up" by Rick Astley. It is one of the most iconic “Rickrolls” on the internet.\n' +
+  content: `This is a short clip of the beginning of the music video for Rick Astley's 1987 song "Never Gonna Give You Up." This video became the centerpiece of an internet meme known as "Rickrolling." The clip shows a man with orange hair in a suit and striped polo shirt. He sings and dances in front of a microphone. The audio is the beginning of his song.\n` +
     '\n' +
-    'The video starts by zooming in on Rick Astley from the top. The words “GET RICK ROLLED” are superimposed in white letters on the screen. As the music starts, Rick Astley lip-syncs and dances slightly.\n' +
+    'The words "GET RICK ROLLED" are superimposed on the screen, and the audio is transcribed below.\n' +
     '\n' +
-    'The music starts and we can hear the following lyrics:\n' +
     '[Music]\n' +
-    '[00:00:06] Never gonna give you up\n' +
-    '[00:00:07] Never gonna let you down\n' +
-    '[00:00:09] Never gonna run around and desert you\n' +
-    '[00:00:12] Never gonna make you cry\n' +
-    '[00:00:14] Never gonna say goodbye\n' +
-    '[00:00:15] Never gonna tell a lie and hurt you'
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sendiri agak kompleks karena tergantung konteks dan bahasa asalnya.  Tidak ada satu arti pasti untuk nama Tio.  Beberapa kemungkinan interpretasinya antara lain:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio beragam dan bergantung pada asalnya dan bagaimana orang tua memilih nama tersebut.  Tidak ada satu arti yang pasti untuk nama Tio.  Berikut beberapa kemungkinan:\n' +
     '\n' +
-    '* **Singkatan/Panggilan:** Tio bisa menjadi singkatan atau panggilan dari nama yang lebih panjang, seperti  Teodoro,  Tiodorus,  Agustinus Tio,  atau nama-nama lain yang diawali dengan "Tio".  Dalam hal ini, arti nama tersebut bergantung pada nama lengkapnya.\n' +
+    '* **Singkatan atau bentuk pendek:** Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama lain, seperti  Tiodorus,  Tiofanes, atau nama-nama lain yang mengandung unsur "tio".  Jika demikian, arti nama tersebut akan bergantung pada nama aslinya.\n' +
     '\n' +
-    '* **Bahasa Indonesia:** Di Indonesia, Tio sering digunakan sebagai nama panggilan atau nama depan yang sederhana dan mudah diingat.  Tidak ada arti khusus yang melekat padanya dalam bahasa Indonesia.\n' +
+    '* **Nama panggilan:** Tio bisa juga hanya sebuah nama panggilan yang diberikan tanpa arti khusus.\n' +
     '\n' +
-    '* **Bahasa Mandarin:**  Ada kemungkinan Tio merupakan adaptasi dari nama Tionghoa, meskipun perlu konteks lebih lanjut untuk menentukan artinya yang tepat.  Banyak nama Tionghoa yang memiliki arti berdasarkan karakter Hanzi penyusunnya.\n' +
+    '* **Asal bahasa:**  Tanpa informasi tambahan tentang latar belakang keluarga atau asal-usul nama, sulit untuk menentukan asal dan artinya secara spesifik.\n' +
     '\n' +
-    '* **Bahasa lain:**  Mungkin juga Tio berasal dari bahasa lain yang belum disebutkan.\n' +
-    '\n' +
-    '**Kesimpulannya:** Untuk mengetahui arti nama Tio secara pasti, perlu informasi tambahan seperti asal-usul nama dan/atau nama lengkap.\n'
+    'Untuk mengetahui arti nama Tio yang spesifik untuk *kamu*,  kamu perlu bertanya kepada orang tuamu atau kerabat dekat yang mengetahui asal usul nama tersebut.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and has been pondered by people across cultures and throughout history.  Different individuals and belief systems offer a wide range of perspectives, including:\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself is deeply philosophical and has been pondered by humans for millennia.  Different individuals and cultures find meaning in various things, including:\n" +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:**  The belief that life is meaningless unless we create our own meaning and purpose.  We are free to choose our values and define our own existence.\n' +
-    '* **Absurdism:** The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.  Finding meaning comes from embracing this absurdity.\n' +
-    '* **Religious and spiritual beliefs:** Many religions provide answers about the meaning of life, often involving serving a higher power, following divine commandments, achieving enlightenment, or finding salvation.\n' +
-    '* **Humanism:**  Focuses on human values, reason, ethics, and social justice.  Meaning is found in contributing to human well-being and flourishing.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
-    '* **Purpose-driven life:**  Finding meaning through setting goals, pursuing passions, and making a positive impact on the world.\n' +
+    '* **Relationships:**  Love, connection, and belonging with family, friends, and community.\n' +
+    '* **Contribution:** Making a difference in the world, leaving a positive impact, helping others.\n' +
+    "* **Growth:** Personal development, learning, expanding one's knowledge and skills.\n" +
+    '* **Experiences:**  Seeking adventure, exploring the world, creating memories.\n' +
+    "* **Purpose:**  Finding a vocation or calling that aligns with one's values and passions.\n" +
+    '* **Spirituality:**  Connecting with something greater than oneself, finding meaning in faith or religion.\n' +
+    '* **Creativity:** Expressing oneself through art, music, writing, or other forms of creative expression.\n' +
     '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is a personal question.  There is no right or wrong answer.  It's a journey of self-discovery, and the answer may evolve over time.\n"
+    "Ultimately, the meaning of life is subjective and personal.  It's not something to be discovered but something to be created and defined by each individual for themselves.  The journey of finding meaning is often as important as the destination.\n"
 }
