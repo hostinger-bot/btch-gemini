@@ -9,63 +9,64 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 939109 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1528305 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a distance at a lush, green landscape.  The setting appears to be outdoors, possibly in a park or forested area.  The photo is likely a candid shot, focusing on the president in a relatively informal setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a forested landscape.  It's likely a publicity or official photo, possibly taken during a visit to a natural area or environmental project.  The context is missing, but the image itself focuses on the President in a contemplative pose amidst nature.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagai kuda.  Sape lu pak orang tua?\n'
+  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda. Sape lupah urang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video shows a man lip syncing into a microphone while performing a choreographed dance to music. He is wearing a dark sport coat, striped polo shirt, and light-colored pants. The background has a stained-glass window appearance. The words "GET RICK ROLLED" are superimposed at various times.\n' +
+  content: 'The video is of Rick Astley’s classic bait-and-switch internet meme, "Never Gonna Give You Up," with the words "Get Rick Rolled" printed across the screen. \n' +
     '\n' +
-    'The lyrics he is mouthing are:\n' +
+    'The audio includes part of the song’s intro:\n' +
     '\n' +
-    '"Never gonna give you up,\n' +
-    'Never gonna let you down,\n' +
-    'Never gonna run around and desert you,\n' +
-    'Never gonna make you cry,\n' +
-    'Never gonna say goodbye,\n' +
-    'Never gonna tell a lie,\n' +
-    'And hurt you"'
+    '(Instrumental intro music) \n' +
+    '\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you\n'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Arti nama Tio sendiri agak kompleks karena tergantung pada asal usulnya.  Tidak ada satu arti tunggal yang universal.  Berikut beberapa kemungkinan:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, arti nama Tio bergantung pada asal-usulnya.  Nama Tio bisa berasal dari berbagai bahasa dan budaya, dan masing-masing memiliki arti yang berbeda.  \n' +
     '\n' +
-    '* **Dalam bahasa Indonesia:**  Tio bukanlah nama yang umum dalam bahasa Indonesia dan tidak memiliki arti yang baku.  Mungkin Tio merupakan nama panggilan, kependekan dari nama lain, atau sebuah nama yang diadopsi.\n' +
+    'Beberapa kemungkinan arti nama Tio meliputi:\n' +
     '\n' +
-    '* **Dalam bahasa Mandarin:**  Meskipun penulisannya berbeda, Tio bisa mirip dengan beberapa nama Mandarin yang memiliki arti beragam.  Tanpa mengetahui penulisan karakter Mandarin-nya, sulit untuk menentukan arti yang tepat.\n' +
+    '* **Singkatan atau bentuk pendek:**  Tio bisa menjadi bentuk pendek dari nama-nama yang lebih panjang, seperti  Tiago (Portugis),  Teodoro (Yunani),  atau bahkan  sebuah nama lain yang memiliki pelafalan serupa.  Tanpa mengetahui asal-usul namamu yang lebih lengkap, sulit untuk menentukan arti yang tepat.\n' +
+    '* **Arti dalam bahasa tertentu:**  Di beberapa bahasa dan budaya, Tio mungkin memiliki arti yang spesifik, misalnya bisa berarti "paman" dalam bahasa Spanyol.  Namun, ini mungkin bukan arti yang dimaksud jika nama Tio diberikan sebagai nama depan.\n' +
     '\n' +
-    '* **Dalam bahasa lain:**  Nama Tio mungkin berasal dari bahasa lain yang sama sekali berbeda.  \n' +
+    'Untuk mengetahui arti nama Tio yang tepat, kamu perlu mengetahui:\n' +
     '\n' +
-    'Untuk dapat mengetahui arti nama Tio yang tepat, perlu informasi tambahan seperti:\n' +
+    '* **Asal-usul nama:** Dari mana nama Tio berasal (bahasa atau budaya apa)?\n' +
+    '* **Nama lengkap (jika ada):** Apakah Tio merupakan singkatan dari nama yang lebih panjang?\n' +
     '\n' +
-    '* **Penulisan nama lengkap Anda:**  Jika Tio adalah kependekan dari nama yang lebih panjang, itu akan membantu dalam menentukan artinya.\n' +
-    '* **Asal usul keluarga:** Mengetahui asal usul keluarga dapat membantu menentukan kemungkinan asal-usul nama Tio.\n' +
-    '\n' +
-    'Singkatnya, tanpa informasi tambahan, sulit untuk menjelaskan arti nama Tio dengan pasti.\n'
+    'Jika kamu bisa memberikan informasi tambahan, aku mungkin bisa memberimu penjelasan yang lebih akurat tentang arti namamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be subjective and personal, varying greatly from person to person.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    'Different perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    '* **Existentialism:** The belief that life is inherently meaningless, but that we create our own meaning through our choices and actions.\n' +
     '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers to the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:**  Focuses on human values, reason, ethics, and social justice, finding meaning in contributing to human flourishing.\n' +
-    '* **Hedonism:**  Finding meaning in pleasure and the pursuit of happiness.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, purpose, and an afterlife.  These meanings vary widely depending on the specific religion.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human connection, contribution to society, and personal growth.\n' +
+    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal discovery and ongoing exploration.  Instead of searching for a definitive answer, consider what brings you fulfillment, joy, and a sense of purpose.  What impact do you want to have on the world?  What values guide your actions?  Reflecting on these questions can help you define your own meaning of life.\n"
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  It's a journey of self-discovery, and the answer may evolve throughout your lifetime.\n"
 }
