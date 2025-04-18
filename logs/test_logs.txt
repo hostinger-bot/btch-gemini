@@ -9,53 +9,56 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 fd 08 02 00 00 00 3a a3 83 29 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1248316 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 03 30 00 00 04 00 08 02 00 00 00 b1 b7 2b 6f 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1012758 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photograph of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo, perhaps taken during a visit to a natural area or during an event related to environmental policy or the Indonesian countryside.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's a fairly typical publicity-style photo; it's likely intended to portray him in a thoughtful, contemplative, and perhaps even statesmanlike manner, connected to the Indonesian environment.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagai kuda, sampai lupa orang tua.\n'
+  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerja lembur bagai kuda, sapay lupah urang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video shows the song "Never Gonna Give You Up" by Rick Astley. This is also called "Rickrolling", an internet meme and prank where a person provides a link that is seemingly relevant to the topic at hand, but actually leads to the music video of this song.\n' +
+  content: 'The video shows a clip of British musician Rick Astley performing the song "Never Gonna Give You Up." This is widely known as "Rickrolling." \n' +
     '\n' +
-    '[Instrumental music]\n' +
-    '(No Lyrics)'
+    'The audio is of Rick Astley beginning the song "Never Gonna Give You Up."\n' +
+    '\n' +
+    '[Music]\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sendiri cukup beragam dan bergantung pada asal-usul dan bahasanya.  Tidak ada arti tunggal yang pasti.  Beberapa kemungkinan arti termasuk:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio dengan pasti karena artinya bergantung pada asal-usul dan budaya.  Nama Tio bisa berasal dari berbagai bahasa dan memiliki arti yang berbeda-beda.  \n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:** Tio bisa menjadi singkatan dari nama-nama seperti  Teodoro,  Antonio,  atau nama-nama lain yang diawali dengan "Ti".  Dalam konteks ini, arti nama Tio akan bergantung pada nama lengkap yang disingkat.\n' +
+    'Untuk mengetahui arti nama Tio yang tepat,  saya perlu informasi tambahan seperti:\n' +
     '\n' +
-    '* **Nama dari bahasa tertentu:** Di beberapa budaya, Tio mungkin merupakan nama yang berdiri sendiri dengan arti tertentu, meskipun informasi ini sulit dikonfirmasi tanpa konteks budaya atau bahasa yang lebih spesifik.\n' +
+    '* **Asal-usul nama:** Apakah nama Tio berasal dari bahasa Indonesia, Mandarin, Jepang, atau bahasa lainnya?\n' +
+    '* **Keluarga:** Apakah ada makna khusus yang diberikan oleh keluarga saat memberi nama Tio?\n' +
     '\n' +
-    '* **Arti simbolis/pribadi:**  Kadang orangtua memberikan nama dengan arti simbolis atau pribadi yang khusus bagi keluarga mereka.  Ini adalah arti yang paling unik dan hanya bisa dijelaskan oleh orangtuamu.\n' +
-    '\n' +
-    '\n' +
-    'Jadi, untuk mengetahui arti nama Tio secara pasti, kamu perlu menanyakan kepada orangtuamu atau mencari informasi lebih lanjut mengenai asal usul nama tersebut.\n'
+    'Dengan informasi tambahan tersebut, saya mungkin bisa membantu menjelaskan arti namamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself is deeply philosophical and personal, with different perspectives offered by religion, philosophy, science, and individual experience.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered subjective and personal, shaped by individual beliefs, experiences, and values.\n" +
     '\n' +
-    'Some common approaches include:\n' +
+    'Some common perspectives include:\n' +
     '\n' +
-    '* **Religious perspectives:** Many religions offer answers centered around serving a higher power, following divine commandments, achieving enlightenment, or finding salvation.  The specific meaning varies greatly depending on the religion.\n' +
+    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The recognition of the conflict between the human search for meaning and the meaninglessness of the universe, embracing the inherent absurdity.\n' +
+    '* **Religious/Spiritual Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values and potential, emphasizing ethics, reason, and social justice.\n' +
     '\n' +
-    "* **Philosophical perspectives:** Philosophers have explored the meaning of life for centuries, proposing ideas like finding happiness, fulfilling one's potential, contributing to society, seeking knowledge, or embracing absurdity.  Nihilism, for example, suggests there's no inherent meaning, while existentialism emphasizes individual responsibility in creating meaning.\n" +
-    '\n' +
-    "* **Scientific perspectives:** Science generally doesn't address the meaning of life directly, focusing instead on understanding the physical world.  Evolutionary biology might suggest that the meaning is survival and reproduction, but this doesn't necessarily satisfy the human desire for a deeper purpose.\n" +
-    '\n' +
-    '* **Personal perspectives:** Ultimately, the meaning of life is often a personal and subjective matter.  Individuals may find meaning in their relationships, their work, their hobbies, their values, or their contributions to the world.\n' +
-    '\n' +
-    'In short, the meaning of life is not something to be discovered, but something to be created and defined by each individual.\n'
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal discovery and ongoing reflection.  Instead of searching for a definitive answer, consider what brings you joy, purpose, and fulfillment.  What impact do you want to have on the world? What kind of person do you want to be?  These questions may help you define your own personal meaning.\n"
 }
