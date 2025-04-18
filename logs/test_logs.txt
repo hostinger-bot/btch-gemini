@@ -3,17 +3,57 @@
 > node test/test.js
 
 Testing gemini_chat...
-gemini_chat Error: getaddrinfo ENOTFOUND gemini-api.zone.id
-Testing gemini_imgedit...
-gemini_imgedit getaddrinfo ENOTFOUND gemini-api.zone.id
-Testing gemini_image...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
-gemini_image Error: getaddrinfo ENOTFOUND gemini-api.zone.id
+gemini_chat Response: {
+  success: true,
+  content: 'I am doing well, thank you for asking!  How are you today?\n'
+}
+Testing gemini_imgedit...
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a8 00 00 04 00 08 02 00 00 00 a2 45 3c b2 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 484319 more bytes>
+Testing gemini_image...
+gemini_image Response: {
+  success: true,
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  The setting appears to be outdoors, possibly in a park or forest.  The photo is a portrait-style shot, focusing on the president.  There's no specific action depicted; it's a contemplative or observational pose.\n"
+}
 Testing gemini_audio...
-gemini_audio Error: getaddrinfo ENOTFOUND gemini-api.zone.id
+gemini_audio Response: {
+  success: true,
+  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerja lembur bagai kuda, sampai lupa ngarang dua.\n'
+}
 Testing gemini_video...
-gemini_video Error: getaddrinfo ENOTFOUND gemini-api.zone.id
+gemini_video Response: {
+  success: true,
+  content: 'The video is a segment from the music video for the Rick Astley song “Never Gonna Give You Up.” It features a young Rick Astley in a striped shirt with a gray pullover under a black suit jacket, and light pants. He is singing and moving gently to the music. The phrase "GET RICK ROLLED" scrolls across the screen.\n' +
+    '\n' +
+    '[Music plays]'
+}
 Testing gemini_history...
-gemini_history Error: getaddrinfo ENOTFOUND gemini-api.zone.id
+gemini_history Response: {
+  success: true,
+  content: 'Nama Anda adalah Tio.  Arti nama Tio bervariasi tergantung asal dan konteksnya.  Tidak ada satu arti tunggal yang universal.  Berikut beberapa kemungkinan:\n' +
+    '\n' +
+    '* **Sebagai singkatan:** Tio bisa menjadi singkatan dari nama-nama yang lebih panjang.  Kita perlu konteks lebih lanjut untuk menentukan ini.\n' +
+    '\n' +
+    '* **Dalam bahasa Tionghoa:**  Ada beberapa karakter Tionghoa yang bisa dibaca sebagai "Tio," dan masing-masing memiliki arti yang berbeda.  Tanpa mengetahui karakter Hanzi-nya, kita tidak dapat menentukan artinya.\n' +
+    '\n' +
+    '* **Dalam bahasa lain:**  "Tio" mungkin juga memiliki arti dalam bahasa lain, tetapi tanpa mengetahui bahasa asalnya, sulit untuk menentukan.\n' +
+    '\n' +
+    '* **Sebagai nama panggilan:**  Bisa jadi Tio adalah nama panggilan atau nama pendek dari nama yang lebih panjang.\n' +
+    '\n' +
+    'Untuk mengetahui arti nama Tio Anda secara spesifik,  silakan beri tahu saya asal usul nama tersebut (bahasa apa, apakah dari nama lengkap yang disingkat, dll.).  Dengan informasi lebih lanjut, saya dapat membantu Anda menemukan artinya.\n'
+}
 Testing gemini_prompt...
-gemini_prompt Error: getaddrinfo ENOTFOUND gemini-api.zone.id
+gemini_prompt Response: {
+  success: true,
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal.  Different people and cultures find meaning in various things, including:\n" +
+    '\n' +
+    '* **Relationships:**  Love, family, friendship, and community provide a sense of belonging and purpose for many.\n' +
+    '* **Contribution:** Making a difference in the world, whether through work, volunteering, or creative pursuits, can be profoundly meaningful.\n' +
+    '* **Experiences:**  Travel, learning, and personal growth contribute to a rich and fulfilling life.\n' +
+    '* **Spirituality:**  Many find meaning through religious or spiritual beliefs and practices.\n' +
+    '* **Personal growth:**  Continuously learning, developing skills, and striving for self-improvement can be a source of meaning.\n' +
+    '* **Creativity:**  Expressing oneself through art, music, writing, or other creative endeavors.\n' +
+    '\n' +
+    '\n' +
+    "Ultimately, the meaning of life is what you make it. It's a question you must answer for yourself through reflection, experience, and exploration.  There's no right or wrong answer; the meaning is subjective and personal.\n"
+}
