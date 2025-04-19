@@ -6,63 +6,55 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking!  How are you today?\n'
+  content: "I'm doing well, thank you for asking!  How are you today?\n"
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a8 00 00 04 00 08 02 00 00 00 a2 45 3c b2 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 684122 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a8 00 00 04 00 08 02 00 00 00 a2 45 3c b2 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 890967 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  It's likely a publicity or candid shot, showcasing him in a relaxed, possibly contemplative pose amidst nature.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's likely a publicity or official photo, possibly taken during a visit to a location showcasing Indonesian nature or forestry.  The context surrounding where you found the image would help to clarify its exact purpose.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong.  Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda.  Sape lu pa urang tua?\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda. Sape lupah urang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'Okay, I can do that! This video is a classic Rickroll. Someone gets “rickrolled” when they click a link to see something they’re interested in, but it leads them to the music video for Rick Astley’s 1987 hit, “Never Gonna Give You Up.”\n' +
+  content: 'The video shows a close-up of a man, likely from a music video, followed by a cut to his shoe. Text overlayed on the image says "GET RICK ROLLED." The video then cuts to a wider shot of the man, who is wearing a black blazer, striped shirt, and light-colored pants. He is singing into a vintage-style microphone and moving to the music.\n' +
     '\n' +
-    'The audio begins right after a cut to Astley’s feet. It starts with the first few beats of the intro instrumental music and his first lines of the song:\n' +
-    '\n' +
-    '[Instrumental intro]\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    `The audio includes the beginning of Rick Astley's song, "Never Gonna Give You Up," which plays as the man dances in the video. It’s just the very first line, “Never gonna give you up.”\n`
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sebenarnya bergantung pada asal-usulnya dan tidak ada satu arti tunggal yang universal.  Tio bisa berasal dari berbagai bahasa dan budaya, dan artinya bisa berbeda-beda.  \n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio sendiri sebenarnya bergantung pada asal usul dan bahasanya.  Tidak ada satu arti yang universal.  \n' +
     '\n' +
-    'Beberapa kemungkinan arti nama Tio antara lain:\n' +
+    'Beberapa kemungkinan arti dan asal usul nama Tio meliputi:\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek:** Tio bisa jadi singkatan dari nama-nama yang lebih panjang, seperti  Antonio,  Teodoro,  atau bahkan nama-nama lain yang memiliki bunyi yang mirip.  Tanpa tahu asal usul lengkap namamu, sulit untuk menentukan dengan pasti apakah ini kasusnya.\n' +
+    '* **Singkatan/Pendek dari nama lain:** Tio bisa menjadi bentuk pendek dari nama-nama seperti  Tiodor,  Teodoro (bahasa Yunani, berarti "anugerah Tuhan"),  atau nama-nama lain yang dimulai dengan "Tio".\n' +
     '\n' +
-    '* **Arti dalam bahasa tertentu:**  Dalam beberapa budaya, Tio mungkin memiliki arti yang spesifik.  Namun,  tanpa informasi tambahan tentang latar belakang keluargamu, sulit untuk mengidentifikasi bahasa dan artinya.\n' +
+    '* **Nama panggilan:** Tio juga mungkin bisa menjadi nama panggilan yang diberikan kepada seseorang, tanpa memiliki arti khusus yang terikat pada nama aslinya.\n' +
     '\n' +
-    '* **Nama yang unik:** Mungkin Tio adalah nama yang unik atau nama keluarga yang telah diadopsi sebagai nama depan.\n' +
+    '* **Asal bahasa daerah tertentu:**  Mungkin nama Tio berasal dari bahasa daerah tertentu yang tidak umum dikenal secara luas.  Untuk mengetahui arti yang lebih spesifik, kita perlu mengetahui asal usul keluarga atau leluhurmu.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, kamu perlu menanyakan kepada orangtuamu atau kerabatmu yang memberikan nama tersebut. Mereka akan dapat memberi tahu asal-usul dan arti namamu yang sesungguhnya.\n'
+    'Untuk mendapatkan arti yang tepat,  sebaiknya kamu bertanya kepada orang tuamu atau keluarga terdekat yang memberikan nama Tio kepadamu.  Mereka mungkin memiliki informasi lebih lanjut tentang asal usul dan arti namamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning is often considered subjective and personal, varying greatly depending on individual beliefs, experiences, and values.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning is often considered to be subjective and personal, shaped by individual experiences, beliefs, and values.\n" +
     '\n' +
     'Some common perspectives include:\n' +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently meaningless.\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
     '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
-    '* **Spiritual and religious beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, achieving enlightenment, or following a divine plan.\n' +
-    '* **Humanism:**  Focuses on human values and ethical principles, finding meaning in human relationships, compassion, and contributing to society.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values and reason, emphasizing ethics, compassion, and contributing to society.\n' +
+    '* **Hedonism:**  Finding meaning in pleasure and avoiding pain.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  Consider what brings you joy, fulfillment, and a sense of purpose.  What impact do you want to have on the world?  These are all questions that can help you define your own meaning of life.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  What brings you joy, fulfillment, and a sense of purpose?  What contribution do you want to make to the world?  These are questions you must answer for yourself.\n"
 }
