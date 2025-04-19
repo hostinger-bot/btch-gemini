@@ -9,43 +9,49 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 d8 00 00 04 00 08 02 00 00 00 54 0c b9 2a 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 905074 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 fe 00 00 04 00 08 02 00 00 00 16 4f ca bd 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1039363 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a candid shot, possibly taken during a visit to a location featuring a forested area.  There's no specific event or context provided in just the image itself.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape, likely a forested area.  The photo likely captures a moment during an official visit or a personal trip.  It's a portrait-style image focusing on the President, but the background emphasizes a natural setting, suggesting a possible focus on environmental issues or his connection to the Indonesian landscape.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lu pa orang tua?\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sapa lu pah awrang tua?\n'
 }
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu dengan pasti.  Arti nama Tio bergantung pada asal-usulnya dan bisa memiliki beberapa arti berbeda.  Nama Tio bisa menjadi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu secara pasti karena Tio bisa memiliki beberapa asal dan arti yang berbeda tergantung latar belakang budaya dan bahasa.  \n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek dari nama lain:**  Banyak nama yang disingkat menjadi Tio, jadi arti sebenarnya bergantung pada nama lengkap asalnya.  Contohnya,  bisa menjadi singkatan dari  Teodoro,  Atio, atau nama-nama lain.\n' +
+    'Tio bisa:\n' +
     '\n' +
-    '* **Nama dengan asal-usul yang tidak jelas:** Beberapa nama memiliki asal-usul yang sulit dilacak, dan arti pastinya tidak diketahui dengan pasti.\n' +
+    '* **Singkatan atau bentuk pendek dari nama lain:**  Banyak nama yang disingkat menjadi Tio, jadi tanpa mengetahui nama lengkapmu, sulit untuk menentukan artinya.\n' +
+    '* **Nama dengan asal usul yang beragam:**  Bisa jadi Tio berasal dari bahasa Indonesia, Tionghoa, atau bahasa lainnya, masing-masing dengan kemungkinan arti yang berbeda.  Beberapa kemungkinan (tapi tidak pasti!) termasuk  referensi pada sesuatu yang bersifat kecil, singkat, atau cepat.\n' +
     '\n' +
-    '* **Nama dengan arti yang berbeda di berbagai budaya:**  Arti nama bisa berbeda tergantung budaya atau bahasa.\n' +
+    'Untuk mengetahui arti nama Tio yang tepat, aku butuh informasi tambahan, seperti:\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, kamu perlu menelusuri asal-usulnya.  Apakah kamu tahu dari mana asal nama Tio-mu?  Mengetahui informasi seperti itu akan sangat membantu dalam menemukan artinya.\n'
+    '* **Nama lengkapmu:** Ini akan membantuku menentukan apakah Tio adalah singkatan atau bagian dari nama yang lebih panjang.\n' +
+    '* **Latar belakang keluargamu:** Mengetahui asal usul keluargamu (misalnya, etnis, budaya) dapat membantu mempersempit kemungkinan arti nama tersebut.\n' +
+    '\n' +
+    '\n' +
+    'Jika kamu bisa memberikan informasi tambahan tersebut, aku mungkin bisa membantumu menemukan arti nama Tio yang tepat untukmu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
   content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for centuries.  Different individuals and cultures find meaning in various things, including:\n" +
     '\n' +
-    '* **Relationships:**  Love, family, and friendships provide a sense of belonging and purpose for many.\n' +
-    '* **Contribution:** Making a difference in the world, whether through work, volunteering, or creative expression, can be a source of meaning.\n' +
-    '* **Personal Growth:**  The pursuit of knowledge, skills, and self-improvement can be a fulfilling journey.\n' +
-    "* **Spiritual Beliefs:**  Religion and spirituality often offer frameworks for understanding life's purpose and finding meaning.\n" +
-    '* **Experiences:**  Travel, adventure, and new experiences can broaden perspectives and create lasting memories.\n' +
-    '* **Creativity:**  Expressing oneself through art, music, writing, or other creative outlets can be deeply satisfying.\n' +
+    '* **Relationships:**  Love, connection, and belonging with family, friends, and community.\n' +
+    '* **Purpose and contribution:** Making a difference in the world, leaving a legacy, or pursuing a calling.\n' +
+    '* **Experiences:**  Seeking knowledge, adventure, growth, and self-discovery.\n' +
+    '* **Spiritual beliefs:**  Finding meaning in a higher power, faith, or religious practices.\n' +
+    "* **Personal values:**  Living in accordance with one's own principles and beliefs.\n" +
+    '* **Creativity and expression:**  Creating art, music, writing, or other forms of self-expression.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it. It's a question of self-discovery and personal interpretation.  There's no right or wrong answer, only your own answer.\n"
+    '\n' +
+    "Ultimately, the meaning of life is not something to be discovered, but rather something to be *created*.  It's a question each person must answer for themselves through their choices, actions, and experiences.\n"
 }
