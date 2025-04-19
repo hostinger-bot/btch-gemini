@@ -9,59 +9,72 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 c1 08 02 00 00 00 49 1b 44 ff 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1071616 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1907411 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photograph of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a distance at a lush green landscape.  The setting appears to be outdoors, possibly in a park or natural area.  The photo is likely a publicity shot or a still from a larger event.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photograph, perhaps intended to portray him in a thoughtful or contemplative mood, connected to nature.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerjaan lembur bagai kuda. Sape lu pa orang tua?\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lupah urang dua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video appears to be Rickrolling the viewer. Rickrolling is an Internet prank and meme involving an unexpected appearance of the music video for the 1987 Rick Astley song "Never Gonna Give You Up". The clip shown here plays the beginning of the song and video. \n' +
+  content: 'This video shows Rick Astley singing his hit song “Never Gonna Give You Up” while dancing in a gray-blue suit with a striped shirt. In front of the video are the words “Get Rick Rolled”.\n' +
     '\n' +
-    'The video shows Rick Astley singing the song, wearing a black blazer with gold buttons, over a striped shirt and gray slacks. White text flashes across the screen: “GET RICK ROLLED”.\n' +
     '\n' +
-    'The audio is as follows:\n' +
-    '[Music]\n' +
+    "The audio begins with some drums and guitar, then Rick Astley's voice:\n" +
+    '\n' +
+    '\n' +
+    '(Music)\n' +
+    '\n' +
+    "We're no strangers to love\n" +
+    'You know the rules and so do I\n' +
+    "A full commitment's what I'm thinking of\n" +
+    "You wouldn't get this from any other guy\n" +
+    '\n' +
+    '\n' +
+    "I just wanna tell you how I'm feeling\n" +
+    'Gotta make you understand\n' +
+    '\n' +
+    '\n' +
     'Never gonna give you up\n' +
     'Never gonna let you down\n' +
-    'Never gonna run around\n' +
-    'And desert you\n' +
+    'Never gonna run around and desert you\n' +
     'Never gonna make you cry\n' +
     'Never gonna say goodbye\n' +
-    'Never gonna tell a lie\n' +
-    'And hurt you'
+    'Never gonna tell a lie and hurt you\n'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio  tidak memiliki arti yang baku dan universal seperti nama-nama dalam bahasa tertentu (misalnya, nama-nama Yunani atau Latin).  Tio bisa jadi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asal-usulnya dan tidak ada satu arti yang pasti.  Nama Tio bisa berasal dari beberapa bahasa dan budaya yang berbeda, masing-masing dengan arti yang mungkin berbeda.\n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek:**  Bisa jadi Tio merupakan bentuk pendek dari nama yang lebih panjang, seperti  Teodoro,  Santiago,  atau nama lainnya.  Untuk mengetahui arti sebenarnya, perlu diketahui nama lengkap asalnya.\n' +
-    '* **Nama panggilan:** Mungkin saja Tio adalah nama panggilan yang diberikan dan tidak memiliki arti khusus.\n' +
-    '* **Nama dari suatu bahasa atau budaya tertentu:**  Mungkin Tio adalah nama dari suatu bahasa atau budaya tertentu yang saya belum memiliki data di basis pengetahuan saya.\n' +
+    'Beberapa kemungkinan asal dan arti nama Tio termasuk:\n' +
     '\n' +
-    'Jadi, tanpa informasi lebih lanjut tentang asal-usul nama Tio milikmu, saya tidak bisa memberikan arti yang pasti.  Jika kamu bisa memberitahu lebih banyak tentang asal usul namamu, saya mungkin bisa membantumu menemukan artinya.\n'
+    '* **Singkatan atau bentuk pendek:** Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama lain, seperti  Teodoro,  Timothy,  atau nama-nama lain yang mengandung "tio" sebagai bagiannya.  Dalam hal ini, arti nama akan bergantung pada nama asalnya.\n' +
+    '* **Asal bahasa Indonesia:** Di Indonesia, Tio mungkin merupakan nama yang populer tetapi tidak memiliki arti yang baku dan tercatat dalam kamus bahasa Indonesia.  Bisa jadi merupakan nama panggilan yang unik atau nama keluarga.\n' +
+    '* **Asal bahasa lain:**  Nama Tio juga mungkin berasal dari bahasa lain yang belum kita ketahui.\n' +
+    '\n' +
+    'Untuk mengetahui arti nama Tio yang tepat, perlu informasi lebih lanjut tentang latar belakang keluarga dan asal-usul nama tersebut.  Apakah kamu bisa memberi tahu saya lebih banyak tentang asal-usul namamu?\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "The meaning of life is a question that has been pondered by philosophers, theologians, and individuals for centuries.  There's no single, universally accepted answer.  The meaning is often considered to be subjective and personal, varying greatly from person to person.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    'Different perspectives include:\n' +
     '\n' +
     '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Religious beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, and achieving spiritual enlightenment or salvation.\n' +
-    '* **Humanism:**  Focuses on human values, reason, ethics, and social justice, finding meaning in contributing to human flourishing.\n' +
-    '* **Hedonism:**  Finding meaning in pleasure and happiness.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers to the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Hedonism:**  The belief that the pursuit of pleasure and avoidance of pain is the ultimate goal.\n' +
+    '* **Humanism:**  A focus on human values, reason, and ethics, emphasizing the importance of human relationships and contributing to society.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery, rather than a definitive answer.  Consider what brings you joy, fulfillment, and a sense of purpose.  What impact do you want to have on the world?  These questions might help you define your own personal meaning.\n"
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  What brings you fulfillment, joy, and a sense of purpose? That might be your answer.\n"
 }
