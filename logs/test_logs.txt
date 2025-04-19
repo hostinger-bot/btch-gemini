@@ -9,50 +9,43 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 03 56 08 02 00 00 00 ef 0f 69 b0 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1151318 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1338949 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a forested landscape.  The context of the photo is not provided in the image itself, so it's impossible to say precisely what specific event or activity it depicts.  It could be from a press event, a visit to a location, or a more informal moment.\n"
+  content: "That's a photograph of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's a fairly informal, candid-style photo, not a posed official portrait.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur, bagai kuda. Sapa lu paurang duit.\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagi aku dah. Cepat lupa orang tua.\n'
 }
 Testing gemini_video...
-gemini_video Error: Request failed with status code 500
+gemini_video Response: {
+  success: true,
+  content: "This video is of Rick Astley, in his Never Gonna Give You Up music video, singing and dancing. The video's background features a stained-glass effect and also text which reads: “GET RICK ROLLED”.\n" +
+    '\n' +
+    'The video opens with Astley singing the beginning of his song. However, the audio has been obscured, making it hard to hear the lyrics. Here is what he sings:\n' +
+    "“We're no strangers to love. You know the rules, and so do I.”"
+}
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Arti nama Tio sendiri sebenarnya bergantung pada asal usulnya dan konteksnya.  Tidak ada satu arti yang pasti dan universal.  Nama Tio bisa menjadi:\n' +
-    '\n' +
-    '* **Bentuk singkat/panggilan dari nama lain:**  Mungkin Tio adalah kependekan dari nama yang lebih panjang seperti  Tiodorus,  Teodoro,  Kristiyanto,  atau nama-nama lain yang memiliki suku kata "tio" di dalamnya.  Dalam hal ini, arti nama Tio akan tergantung pada arti nama aslinya.\n' +
-    '\n' +
-    '* **Nama panggilan:** Tio mungkin hanya sebuah nama panggilan yang diberikan tanpa arti khusus selain menjadi panggilan yang mudah dan akrab.\n' +
-    '\n' +
-    '* **Nama dengan asal-usul tertentu:**  Jika Tio berasal dari bahasa tertentu (misalnya, bahasa Indonesia, Portugis, Spanyol, dll.),  maka mungkin memiliki arti dalam bahasa tersebut.  Namun, tanpa informasi lebih lanjut mengenai asal-usul nama Tio Anda, sulit untuk menentukan arti spesifiknya.\n' +
-    '\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio Anda dengan lebih tepat,  Anda perlu memberikan informasi tambahan, seperti:\n' +
-    '\n' +
-    '* **Nama lengkap Anda:**  Jika Tio adalah bagian dari nama lengkap Anda, memberikan nama lengkap akan membantu menentukan asal usul dan arti yang lebih mungkin.\n' +
-    '* **Asal usul keluarga Anda:** Mengetahui asal-usul etnis keluarga Anda akan membantu menentukan kemungkinan arti nama Tio.\n' +
-    '\n' +
-    '\n' +
-    'Tanpa informasi tambahan tersebut,  sayangnya saya tidak bisa memberikan arti nama Tio Anda.\n'
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu secara pasti karena Tio bisa berasal dari berbagai bahasa dan budaya, dan memiliki beberapa arti yang mungkin.  Untuk mengetahui arti nama Tio yang tepat, perlu diketahui asal-usulnya.  Apakah kamu tahu dari bahasa atau budaya mana nama Tio berasal?  Jika kamu memberikan informasi lebih lanjut, saya mungkin bisa membantumu mencari artinya.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for millennia.  Different individuals and cultures find meaning in various things, including:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and has been pondered by humans for millennia.  Different individuals and cultures have vastly different perspectives, often shaped by:\n" +
     '\n' +
-    '* **Relationships:**  Love, family, and friendships provide a sense of belonging and purpose for many.\n' +
-    '* **Contribution:**  Making a difference in the world, whether through work, volunteering, or creative endeavors, can imbue life with significance.\n' +
-    '* **Spiritual Beliefs:**  Many find meaning through their faith and connection to a higher power.\n' +
-    '* **Personal Growth:**  The pursuit of knowledge, self-improvement, and overcoming challenges can be deeply fulfilling.\n' +
-    '* **Experiences:**  Travel, adventure, and exploring new things can bring joy and a sense of wonder.\n' +
-    '* **Creativity:**  Expressing oneself through art, music, writing, or other creative outlets can be incredibly meaningful.\n' +
+    '* **Religion and Spirituality:** Many religions offer answers, often centered around serving a higher power, achieving enlightenment, or fulfilling a divine purpose.  These answers often provide a sense of purpose and meaning within a larger cosmic framework.\n' +
     '\n' +
-    "Ultimately, the meaning of life is not something to be discovered, but rather something to be created.  It's a journey of self-discovery, and the meaning you find will likely evolve throughout your life.  There's no right or wrong answer; the most important thing is to find what resonates with you and gives your life purpose.\n"
+    "* **Philosophy:** Philosophers have explored various perspectives, from nihilism (life is inherently meaningless) to existentialism (meaning is created through individual choices and actions) to absurdism (life's inherent meaninglessness should be embraced).\n" +
+    '\n' +
+    '* **Personal Values and Experiences:**  Many find meaning in relationships, pursuing passions, contributing to society, personal growth, or experiencing joy and connection.  What gives life meaning is often deeply personal and subjective.\n' +
+    '\n' +
+    "* **Science:** Science doesn't directly address the meaning of life, but it provides understanding of our place in the universe and the processes that shape our existence.  This knowledge can inform individual perspectives on meaning.\n" +
+    '\n' +
+    '\n' +
+    "In short, the meaning of life is not something to be discovered, but rather something to be *created* or *defined* for oneself. It's a continuous process of exploration, reflection, and experience.\n"
 }
