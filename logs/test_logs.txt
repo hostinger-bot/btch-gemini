@@ -6,53 +6,44 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking! How are you today?\n'
+  content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1375039 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1384342 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The background suggests a forested or park-like area.  The picture likely captures a moment during one of his official engagements or visits, though the specific context isn't provided in the image itself.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's a fairly informal portrait, likely taken during a visit to a location outside of a formal setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lupah urang tua.\n'
+  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerja lembur bagai kuda. Sape lupah urang tua?\n'
 }
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Sayangnya, saya tidak memiliki akses ke basis data yang berisi arti nama secara komprehensif.  Arti nama Tio bervariasi tergantung pada asal-usulnya dan bahasanya.  Beberapa kemungkinan termasuk:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asal usulnya.  Nama Tio bisa berasal dari berbagai bahasa dan budaya, dan memiliki arti yang berbeda-beda.  \n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek:** Tio bisa jadi singkatan dari nama lain yang lebih panjang.  Contohnya, di beberapa budaya, mungkin merupakan singkatan dari nama-nama yang dimulai dengan "Tio-".\n' +
+    'Untuk dapat menjelaskan arti nama Tio, saya perlu tahu dari bahasa mana nama itu berasal.  Apakah Tio adalah kependekan dari nama lain? Apakah ada informasi lain mengenai asal usul nama tersebut?  \n' +
     '\n' +
-    '* **Asal Bahasa:** Tanpa mengetahui asal-usul nama Tio, sulit untuk menentukan arti spesifiknya.  Bisa jadi berasal dari bahasa Indonesia, Spanyol, atau bahasa lainnya.  Di Spanyol, "Tío" berarti "paman".  Namun, penting untuk dicatat bahwa ini bukan nama depan yang umum.\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, Anda bisa:\n' +
-    '\n' +
-    '* **Menanyakan orang tua atau keluarga:** Mereka akan menjadi sumber informasi terbaik tentang asal-usul dan makna nama Anda.\n' +
-    '* **Melakukan pencarian online:** Cari "arti nama Tio" di mesin pencari seperti Google. Akan muncul berbagai kemungkinan arti, tetapi perhatikan sumbernya dan keandalan informasinya.\n' +
-    '\n' +
-    '\n' +
-    'Semoga ini membantu!\n'
+    'Jika kamu bisa memberikan informasi tambahan, saya akan mencoba membantu menjelaskan arti namamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "The meaning of life is a question that has been pondered by philosophers, theologians, and individuals for centuries. There's no single, universally accepted answer.  The meaning is often considered subjective and personal, varying greatly from person to person and across cultures.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered subjective and personal, shaped by individual beliefs, experiences, and values.\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    'Some perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
     '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, and achieving enlightenment or salvation.\n' +
-    '* **Hedonism:** The pursuit of pleasure and avoidance of pain as the primary goal in life.\n' +
-    '* **Humanism:**  Focusing on human values, reason, ethics, and social justice.\n' +
-    '* **Purpose-driven life:** Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
+    '* **Absurdism:** The recognition that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Spiritual and religious beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values, reason, ethics, and social justice, finding meaning in contributing to human flourishing.\n' +
+    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the primary goal in life.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal reflection and discovery.  What brings you fulfillment? What values guide your actions?  What legacy do you wish to leave behind?  The answers to these questions may help you define your own meaning of life.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal discovery and ongoing reflection, rather than a simple answer.\n"
 }
