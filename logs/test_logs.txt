@@ -9,39 +9,52 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 d8 08 02 00 00 00 6d c2 17 ac 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1109193 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 03 61 00 00 04 00 08 02 00 00 00 e7 61 c6 19 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1339092 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a verdant landscape.  It's likely a publicity or official photo intended to portray him in a positive light, perhaps suggesting connection to nature or Indonesian landscapes.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo, possibly taken during a visit to a location showcasing Indonesia's natural beauty.  The context is missing, so a more precise description isn't possible without additional information.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sape lu pak orang tua?\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur bagai kuda. Sape lu pa orang tua?\n'
 }
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak punya akses ke basis data yang menyimpan arti nama-nama dari berbagai budaya dan bahasa.  Arti nama Tio bisa beragam tergantung asal-usulnya.  \n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak dapat menjelaskan arti namamu dengan pasti karena Tio bisa memiliki beberapa asal dan arti yang berbeda tergantung kebudayaan dan bahasanya.  \n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio,  saya sarankan kamu mencari informasi di internet dengan mengetik "arti nama Tio" di mesin pencari favoritmu.  Kamu mungkin akan menemukan beberapa kemungkinan arti, tergantung dari bahasa dan budaya mana nama tersebut berasal.\n'
+    'Untuk mengetahui arti nama Tio yang tepat, saya butuh informasi tambahan:\n' +
+    '\n' +
+    '* **Asal nama Tio:** Apakah nama Tio berasal dari bahasa Indonesia, Tionghoa, Portugis, atau bahasa lain?  Mengetahui asal-usulnya akan membantu menentukan arti yang paling akurat.\n' +
+    '* **Ejaan lengkap nama Tio:**  Adakah ejaan lain atau nama lengkap yang terkait dengan nama Tio? Misalnya, apakah Tio merupakan singkatan dari nama lain?\n' +
+    '\n' +
+    'Dengan informasi tambahan tersebut, saya mungkin bisa membantu menemukan arti nama Tio yang sesuai.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered to be a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
     '\n' +
     'Different perspectives include:\n' +
     '\n' +
     '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
     '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Religious and spiritual beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the primary goal in life.\n' +
+    '* **Absurdism:**  The recognition that the search for meaning in a meaningless universe is inherently absurd, yet we must continue to search.\n' +
+    '* **Religious and spiritual beliefs:** Many religions offer answers about the meaning of life, often involving a divine purpose, serving a higher power, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values, reason, ethics, and social justice, finding meaning in human connection and contribution.\n' +
+    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  What brings you fulfillment, joy, and a sense of purpose?  That's likely a significant part of your own answer.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a definitive answer, many find meaning in:\n" +
+    '\n' +
+    '* **Relationships:**  Connecting with loved ones and building strong bonds.\n' +
+    '* **Contribution:**  Making a positive impact on the world, however small.\n' +
+    '* **Growth and learning:**  Continuously expanding your knowledge and skills.\n' +
+    '* **Experiences:**  Exploring the world and engaging in activities that bring joy and fulfillment.\n' +
+    "* **Purpose:**  Finding something you're passionate about and dedicating yourself to it.\n" +
+    '\n' +
+    'The journey of discovering the meaning of life is often more significant than arriving at a specific answer.\n'
 }
