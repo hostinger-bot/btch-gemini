@@ -6,46 +6,33 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking!  How are you today?\n'
+  content: "I'm doing well, thank you for asking!  How are you today?\n"
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 c9 00 00 04 00 08 02 00 00 00 9c 60 53 fc 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 974368 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1688201 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant, forested landscape.  The image likely depicts a moment during one of his official visits or engagements, possibly related to environmental issues or infrastructure projects given the background.  It's a fairly typical publicity or news photo showcasing the president in a seemingly contemplative or observant mood within a natural setting.\n"
+  content: "That's a photograph of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape of trees.  The setting appears to be outdoors, possibly in a park or forested area.  The focus is on the President himself, with the background blurred to emphasize him.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerjaan lembur bagai kuda. Sape lu paurang dua.\n'
+  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerjaan lembur bagai kuda.  Sape lu pa orang tua?\n'
 }
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu secara pasti karena Tio bukanlah nama dengan etimologi (asal usul) yang jelas dan umum.  Nama Tio bisa jadi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak dapat menjelaskan arti nama Tio dengan pasti karena artinya bergantung pada asal-usul dan budaya.  Nama Tio bisa berasal dari berbagai bahasa dan memiliki arti yang berbeda-beda.\n' +
     '\n' +
-    '* **Singkatan atau kependekan:** dari nama lain yang lebih panjang.  Apakah nama lengkapmu menggunakan Tio sebagai singkatan?\n' +
-    '* **Nama panggilan:**  Mungkin nama panggilan dari nama lengkapmu.\n' +
-    '* **Nama unik:**  Bisa jadi nama yang dibuat-buat atau nama keluarga yang tidak umum.\n' +
-    '* **Nama dari bahasa tertentu yang tidak saya ketahui:**  Mungkin Tio berasal dari bahasa atau budaya tertentu yang tidak tercatat dalam basis data saya.\n' +
+    'Untuk mengetahui arti nama Tio yang tepat,  saya perlu informasi tambahan seperti:\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, saya butuh informasi tambahan. Apakah kamu tahu dari mana asal namamu?  Atau mungkin nama lengkapmu?  Informasi tambahan ini akan membantu saya menemukan arti namanya, jika ada.\n'
+    '* **Asal bahasa:** Apakah Tio berasal dari bahasa Indonesia, Tionghoa, Spanyol, Portugis, atau bahasa lain?\n' +
+    '* **Penulisan nama:** Apakah ada variasi penulisan nama Tio (misalnya, Tyo, Theo)?\n' +
+    '\n' +
+    'Dengan informasi tambahan ini, saya mungkin bisa memberikan penjelasan yang lebih akurat mengenai arti namamu.\n'
 }
 Testing gemini_prompt...
-gemini_prompt Response: {
-  success: true,
-  content: "The meaning of life is a question that has been pondered by philosophers, theologians, and individuals for centuries.  There's no single, universally accepted answer.  The meaning is often considered to be subjective and personal, varying from person to person and culture to culture.\n" +
-    '\n' +
-    'Some common perspectives include:\n' +
-    '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment or salvation.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contribution to society.\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  What brings you joy, fulfillment, and a sense of purpose?  That could be considered your meaning.\n"
-}
+gemini_prompt Error: socket hang up
