@@ -9,61 +9,52 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1020535 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a8 00 00 04 00 08 02 00 00 00 a2 45 3c b2 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 968707 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a picture of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  It's likely a candid shot, possibly taken during a visit to a natural area or during a break from official duties.  The image doesn't convey a specific message beyond showing the president in a relatively informal setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's a fairly informal, candid-style portrait.  There's no specific event or context evident from the image itself.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerjaan lembur bagai kuda. Sapaelu paurang dua.\n'
+  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda. Sape lu faham orang tua?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: `The video shows part of the music video for "Never Gonna Give You Up" by Rick Astley.  It's a very famous video since the song is commonly used as part of an internet prank called "Rickrolling."\n` +
+  content: 'The video features Rick Astley performing "Never Gonna Give You Up". The beginning of the clip shows “Get Rick Rolled” text overlayed on top of the performer, indicating the classic Rickroll.\n' +
     '\n' +
-    `The video begins with the phrase "GET RICK ROLLED" in white letters. Then, it shows Rick Astley singing and dancing to the song in front of a light-colored, patterned backdrop.  He is wearing a dark suit jacket, a light striped shirt, and light-colored pants. The background is blurry, and the video's resolution is not very sharp.\n` +
-    '\n' +
-    'Here are the lyrics of the song segment from this video:\n' +
-    '\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    'Audio: [Music begins]'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sendiri bergantung pada asalnya dan bagaimana orangtua memilihnya.  Tidak ada arti tunggal yang baku untuk nama Tio.  Namun, beberapa kemungkinan interpretasi meliputi:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio sendiri cukup beragam dan bergantung pada asal-usulnya.  Tidak ada arti tunggal yang pasti.  Beberapa kemungkinan arti antara lain:\n' +
     '\n' +
-    '* **Singkatan/Pendek dari nama lain:** Tio bisa jadi singkatan dari nama-nama yang lebih panjang, seperti  Teodoro,  Christian Tio, atau nama-nama lain yang diawali dengan "Ti".  Dalam hal ini, arti nama Tio akan bergantung pada nama lengkapnya.\n' +
+    '* **Sebagai bentuk singkat:** Tio bisa menjadi bentuk singkat dari beberapa nama, seperti  Teodoro (dari bahasa Yunani, berarti "karunia Tuhan"),  Tiodorus,  atau  selainnya tergantung budaya dan bahasa daerah.  Tanpa konteks lebih lanjut, sulit menentukan nama panjang yang disingkat menjadi Tio.\n' +
     '\n' +
-    '* **Nama panggilan:**  Tio bisa jadi nama panggilan yang sudah lama digunakan dan tidak memiliki arti khusus selain menjadi identifikasi pribadi.\n' +
+    '* **Arti simbolik:**  Dalam beberapa konteks, Tio bisa diartikan secara simbolik,  misalnya menggambarkan seseorang yang ramah,  cerdas,  atau  berjiwa pemimpin.  Namun, ini hanya interpretasi  dan bukan arti etimologis yang pasti.\n' +
     '\n' +
-    '* **Asal bahasa:**  Kemungkinan besar, Tio berasal dari bahasa Indonesia atau Tionghoa.  Di bahasa Tionghoa, mungkin ada nama-nama yang diucapkan mirip "Tio" dengan arti tertentu, namun tanpa mengetahui karakter Hanzi-nya, sulit untuk memastikan.\n' +
+    'Untuk mengetahui arti yang paling tepat untuk namamu, perlu informasi tambahan seperti:\n' +
     '\n' +
+    '* **Asal-usul namamu:** Dari bahasa apa nama Tio berasal? Apakah ada nama keluarga yang mungkin berhubungan?\n' +
+    '* **Nama panjangmu (jika ada):**  Jika Tio adalah kependekan, mengetahui nama panjangnya akan memberikan arti yang lebih akurat.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, sebaiknya tanyakan kepada orangtuamu atau keluarga dekatmu yang memberi nama tersebut. Mereka adalah yang paling tahu asal usul dan makna di balik pemberian nama Tio kepadamu.\n'
+    'Dengan informasi tambahan ini, saya bisa memberikan penjelasan arti namamu yang lebih tepat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning is often considered to be subjective and personal, shaped by individual experiences, beliefs, and values.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning, if any, is often considered to be subjective and deeply personal.\n" +
     '\n' +
-    'Some perspectives include:\n' +
+    'Some common perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the primary purpose of life.\n' +
-    '* **Humanism:**  Focusing on human values, reason, and ethics, emphasizing compassion and improving the human condition.\n' +
+    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions provide answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment or salvation.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
     '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  What brings you joy, fulfillment, and a sense of purpose?  That could be considered your answer.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a single definitive answer, consider what brings you fulfillment, joy, and a sense of purpose.  What impact do you want to have on the world?  What kind of life do you want to live?  These are questions that can help you define your own meaning.\n"
 }
