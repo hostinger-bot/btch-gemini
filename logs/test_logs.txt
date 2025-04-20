@@ -6,33 +6,47 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: "I'm doing well, thank you for asking!  How are you today?\n"
+  content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1688201 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1146052 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photograph of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape of trees.  The setting appears to be outdoors, possibly in a park or forested area.  The focus is on the President himself, with the background blurred to emphasize him.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a forested landscape.  It's likely a publicity or official photo, possibly intended to convey a sense of him connecting with nature or the Indonesian environment.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerjaan lembur bagai kuda.  Sape lu pa orang tua?\n'
+  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerja lembur bagi aku dah.  Saya lupa barang dua.\n'
 }
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak dapat menjelaskan arti nama Tio dengan pasti karena artinya bergantung pada asal-usul dan budaya.  Nama Tio bisa berasal dari berbagai bahasa dan memiliki arti yang berbeda-beda.\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung dari asal dan konteksnya.  Tidak ada arti tunggal yang pasti untuk nama Tio.  Namun, beberapa kemungkinan artinya antara lain:\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat,  saya perlu informasi tambahan seperti:\n' +
+    '* **Singkatan/Pendek dari nama lain:** Tio bisa menjadi singkatan dari nama-nama seperti  Christian,  Teodoro,  atau nama-nama lain yang diawali dengan "Ti".\n' +
     '\n' +
-    '* **Asal bahasa:** Apakah Tio berasal dari bahasa Indonesia, Tionghoa, Spanyol, Portugis, atau bahasa lain?\n' +
-    '* **Penulisan nama:** Apakah ada variasi penulisan nama Tio (misalnya, Tyo, Theo)?\n' +
+    '* **Asal dari bahasa Tionghoa:**  Dalam bahasa Tionghoa,  ada beberapa karakter yang bisa dibaca sebagai "Tio" dan memiliki arti yang berbeda-beda, tergantung pada karakter spesifiknya.  Tanpa tahu karakter aslinya,  mustahil untuk menentukan artinya.\n' +
     '\n' +
-    'Dengan informasi tambahan ini, saya mungkin bisa memberikan penjelasan yang lebih akurat mengenai arti namamu.\n'
+    '* **Arti modern:** Di beberapa budaya, Tio mungkin digunakan sebagai nama modern yang dipilih karena bunyinya yang mudah diingat dan enak didengar, tanpa arti khusus yang melekat.\n' +
+    '\n' +
+    '\n' +
+    'Untuk mengetahui arti nama Tio yang spesifik untuk dirimu, sebaiknya kamu menanyakan kepada orang tuamu atau kerabat yang memberikan nama tersebut. Mereka akan dapat memberimu informasi yang paling akurat.\n'
 }
 Testing gemini_prompt...
-gemini_prompt Error: socket hang up
+gemini_prompt Response: {
+  success: true,
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself is deeply philosophical and has been pondered by humans for millennia.  Different individuals and cultures find meaning in various aspects of life, including:\n" +
+    '\n' +
+    '* **Relationships:**  Connecting with others, building loving relationships with family and friends, and contributing to community.\n' +
+    '* **Purpose and contribution:**  Finding a vocation or passion that allows you to contribute meaningfully to the world, whether through work, art, activism, or service.\n' +
+    '* **Personal growth:**  Continuously learning, developing skills, and striving for self-improvement.\n' +
+    '* **Experiences:**  Seeking out new adventures, challenges, and opportunities for growth and exploration.\n' +
+    '* **Spiritual beliefs:**  Finding meaning and purpose through faith, religion, or spiritual practices.\n' +
+    '* **Creativity and expression:**  Creating art, music, writing, or other forms of self-expression.\n' +
+    '\n' +
+    "Ultimately, the meaning of life is subjective and personal.  It's not something to be discovered, but rather something to be created and defined by each individual based on their values, beliefs, and experiences.  The search for meaning itself can be a fulfilling journey.\n"
+}
