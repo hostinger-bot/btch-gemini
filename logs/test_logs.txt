@@ -9,64 +9,52 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1053953 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 2114479 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or news photo, possibly taken during a visit to a location in Indonesia.  The context (where the photo was published or shared) would provide more specific information about the image's purpose.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's likely a candid shot, taken outdoors, possibly during a visit to a location with forested areas.  The image doesn't convey any specific event or message beyond showing the president in a relaxed setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda.  Sapa lu paurang tua?\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur, bagi-bagi kode, sampai lupa orang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'This video is a montage of clips from Rick Astley’s “Never Gonna Give You Up” music video. The text "Get Rick Rolled" appears in the beginning. \n' +
+  content: `This video is a Rickroll. The Rickroll is an internet meme where someone clicks on a link expecting one thing, but instead, they are linked to Rick Astley's 1987 music video for his song, "Never Gonna Give You Up."\n` +
     '\n' +
-    'The beginning of the song plays and the lyrics are as follows:\n' +
+    `The video begins with a shot of Rick Astley's face, then switches to a quick shot of his feet, then back to him again. The text, "GET RICK ROLLED" flashes on the screen repeatedly. The video then shifts to Rick Astley singing in front of a large window, with the light coming in, highlighting him. The window pane has a frosted design with branches on it. The video is grainy, like a VHS tape.\n` +
     '\n' +
-    '"Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you"'
+    'The audio from 0:00 - 0:07 is an instrumental intro.  The first lyrics are heard at 0:07: "Never gonna give you up..."'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asalnya dan konteks penggunaannya.  Tidak ada satu arti baku yang universal untuk nama Tio.  Beberapa kemungkinan arti meliputi:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio sebenarnya bergantung pada asalnya dan bagaimana nama itu digunakan dalam budaya tertentu.  Tidak ada satu arti yang universal untuk nama Tio.\n' +
     '\n' +
-    '* **Singkatan/Pendek dari nama lain:** Tio bisa menjadi bentuk singkat dari nama-nama seperti  Teodoro,  Kristiantio,  atau nama lain yang mengandung suku kata "tio".  Ini adalah kemungkinan yang paling umum.\n' +
+    'Namun, beberapa kemungkinan interpretasi meliputi:\n' +
     '\n' +
-    '* **Arti dalam bahasa tertentu:**  Di beberapa budaya atau bahasa tertentu, Tio mungkin memiliki arti khusus.  Namun, tanpa mengetahui latar belakang nama tersebut, sulit untuk menentukan arti yang tepat.\n' +
+    '* **Singkatan atau bentuk pendek dari nama lain:** Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama seperti  Teodoro,  Diogenes,  Santiago,  atau nama-nama lain yang dimulai dengan "Ti-".  Jika ini kasusnya, arti nama akan bergantung pada nama lengkapnya.\n' +
     '\n' +
-    '* **Nama panggilan:** Tio juga mungkin merupakan nama panggilan yang diberikan secara informal, tanpa memiliki arti spesifik.\n' +
+    '* **Nama dengan asal bahasa tertentu:**  Mungkin Tio berasal dari bahasa tertentu yang tidak saya ketahui.  Jika Anda bisa memberitahu saya asal usul nama Anda (misalnya, bahasa Indonesia, Cina, Spanyol, dll), saya mungkin bisa membantu mencari arti yang lebih spesifik.\n' +
+    '\n' +
+    '* **Nama dengan arti unik:**  Bisa juga Tio merupakan nama dengan arti unik yang diberikan oleh orangtua Anda, tanpa terikat pada arti tradisional dari nama-nama yang ada.  Dalam kasus ini, hanya orangtua atau keluarga Anda yang tahu arti sebenarnya.\n' +
     '\n' +
     '\n' +
-    'Untuk mengetahui arti yang paling tepat dari nama Tio *untukmu*,  kamu perlu bertanya kepada orang tuamu atau keluarga yang memberimu nama tersebut. Mereka adalah sumber informasi yang paling akurat.\n'
+    'Untuk mengetahui arti spesifik nama Tio yang Anda miliki, sebaiknya Anda tanyakan kepada orangtua atau keluarga Anda. Mereka yang paling tahu asal usul dan arti nama yang mereka berikan kepada Anda.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself is deeply philosophical and personal.  Different individuals and cultures have vastly different perspectives, often shaped by their beliefs, values, and experiences.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is philosophical and deeply personal.  Different people, cultures, and religions offer vastly different perspectives.  Some common approaches include:\n" +
     '\n' +
-    'Some common approaches to understanding the meaning of life include:\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Religious perspectives:** Many religions provide answers based on faith, divine purpose, and an afterlife.  These answers vary widely depending on the specific religion.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
     '\n' +
-    '* **Nihilism:**  This philosophy asserts that life is inherently without meaning or purpose.\n' +
-    '\n' +
-    "* **Existentialism:** This emphasizes individual freedom and responsibility in creating one's own meaning and purpose.  It suggests that meaning isn't inherent but is something we actively construct through our choices and actions.\n" +
-    '\n' +
-    '* **Absurdism:** This acknowledges the inherent conflict between the human search for meaning and the meaningless universe, finding meaning in embracing this absurdity.\n' +
-    '\n' +
-    '* **Religious and Spiritual Beliefs:** Many religions and spiritual traditions provide answers to the meaning of life, often involving serving a higher power, achieving enlightenment, or fulfilling a divine purpose.\n' +
-    '\n' +
-    '* **Humanism:**  This focuses on human values, reason, and ethics, finding meaning in human relationships, contributions to society, and the pursuit of knowledge and happiness.\n' +
-    '\n' +
-    '* **Hedonism:** This emphasizes pleasure and happiness as the ultimate goals in life.\n' +
-    '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery, not a problem with a single, definitive solution.  Consider what brings you joy, fulfillment, and a sense of purpose.  These things might contribute to your personal understanding of the meaning of life.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal reflection and discovery, not a problem to be solved with a single answer.\n"
 }
