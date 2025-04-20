@@ -9,48 +9,46 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 aa 08 02 00 00 00 2b 28 bb 66 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 642297 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1318481 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's Joko Widodo, the President of Indonesia.  The image is a portrait-style photograph of him, likely taken outdoors in a natural setting (a forest or wooded area).  It shows him in profile, looking off to the side with a thoughtful or contemplative expression.  He's wearing a simple, light-colored long-sleeved shirt.\n" +
-    '\n' +
-    "The image doesn't convey a specific event or message beyond a formal portrait of the president.  It could be used in news articles, biographical pieces, or on official Indonesian government websites.\n"
+  content: `That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a distance at a forested area.  The context suggests it might be a publicity still or a photo taken during an official visit or event.  There's nothing inherently "about" the image beyond showing the President in a contemplative pose in a natural setting.\n`
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda.  Sepahtu orang tua.\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda.  Sape lu pa orang tua?\n'
 }
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, arti nama Tio bergantung pada asal usulnya dan tidak ada satu arti yang pasti.  Tio bisa menjadi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke basis data yang berisi arti semua nama, terutama nama-nama yang bisa memiliki beragam asal dan makna.  \n' +
     '\n' +
-    '* **Singkatan atau kependekan:**  Mungkin Tio adalah singkatan dari nama yang lebih panjang.  Untuk mengetahui artinya, kita perlu tahu nama lengkap yang disingkat menjadi Tio.\n' +
+    'Arti nama Tio bisa bervariasi tergantung pada asal usulnya.  Beberapa kemungkinan termasuk:\n' +
     '\n' +
-    '* **Nama panggilan:** Tio bisa menjadi nama panggilan yang populer di beberapa budaya, tanpa arti khusus yang melekat padanya.\n' +
+    '* **Singkatan atau bentuk pendek dari nama lain:**  Tio bisa menjadi singkatan dari nama-nama seperti  Antonio, Sebastian,  atau nama-nama lain yang dimulai dengan "Ti-".\n' +
     '\n' +
-    '* **Nama dengan asal usul tertentu:**  Ada kemungkinan Tio berasal dari bahasa tertentu, tetapi tanpa informasi lebih lanjut tentang latar belakang keluarga atau asal-usul nama tersebut, sulit untuk menentukan artinya dengan pasti.\n' +
+    '* **Asal bahasa:**  Tanpa mengetahui latar belakang keluarga, sulit untuk memastikan asal dan arti pastinya.  Bisa jadi dari bahasa Indonesia, Cina, Spanyol, atau bahasa lainnya.\n' +
     '\n' +
-    'Jika kamu bisa memberikan informasi lebih lanjut tentang asal-usul namamu, aku mungkin bisa memberimu informasi yang lebih spesifik tentang artinya.\n'
+    'Jika kamu ingin mengetahui arti nama Tio secara spesifik, kamu bisa mencoba mencari informasi lebih lanjut di internet dengan memasukkan "arti nama Tio" di mesin pencari, atau mencari informasi dari anggota keluarga yang mungkin mengetahuinya.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, with different perspectives offered by religion, philosophy, science, and individual experience.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    'Different perspectives include:\n' +
     '\n' +
-    '* **Religious viewpoints:** Many religions provide answers centered around serving a god or higher power, following divine commandments, achieving enlightenment, or finding salvation.  The specific meaning varies greatly depending on the religion.\n' +
+    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Religious and spiritual beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, a divine plan, or an afterlife.  These meanings vary widely depending on the specific belief system.\n' +
+    '* **Humanism:**  Focuses on human values, reason, ethics, and social justice, finding meaning in contributing to human flourishing.\n' +
+    '* **Hedonism:**  Finding meaning in pleasure and happiness.\n' +
     '\n' +
-    "* **Philosophical viewpoints:** Philosophers have explored the meaning of life for centuries, proposing ideas like finding happiness, pursuing knowledge, achieving self-actualization, or contributing to something larger than oneself.  Nihilism, on the other hand, suggests there is no inherent meaning.  Existentialism emphasizes individual freedom and responsibility in creating one's own meaning.\n" +
     '\n' +
-    "* **Scientific viewpoints:** Science focuses on understanding the physical world, and doesn't directly address the meaning of life as a philosophical question.  However, evolutionary biology suggests that the meaning of life from a biological perspective is survival and reproduction.\n" +
-    '\n' +
-    "* **Personal viewpoints:** Ultimately, the meaning of life is often a deeply personal and subjective experience.  What gives your life meaning might be different from what gives someone else's meaning.  It could be relationships, pursuing a passion, making a difference in the world, or simply experiencing the beauty of life.\n" +
-    '\n' +
-    'Therefore, instead of a definitive answer, the question of the meaning of life encourages introspection and exploration. The meaning is not something to be found, but something to be created and defined by each individual.\n'
+    "Ultimately, the meaning of life is what you make it.  It's a question you must answer for yourself through reflection, experience, and your own values.\n"
 }
