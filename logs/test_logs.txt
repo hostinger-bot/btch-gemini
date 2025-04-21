@@ -6,48 +6,51 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking!  How are you today?\n'
+  content: "I'm doing well, thank you for asking!  How are you today?\n"
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1163764 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 695792 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's likely a publicity or press photo, possibly taken during a visit to a location within Indonesia.  The image focuses on him and his contemplative expression against a backdrop of nature.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo, possibly meant to portray him in a thoughtful or contemplative mood, perhaps connected to environmental issues given the background.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sapa lu paurang duit.\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda. Sapailu paurang dua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video begins with the caption "GET RICKROLLED" over a video of Rick Astley. The caption is written in white letters over the man’s head. Rick appears to be singing into a retro microphone. He wears a suit jacket over a gray, striped shirt. His pants are white. \n' +
+  content: 'The video shows the artist Rick Astley singing “Never Gonna Give You Up.” It has been edited to include the words “Get Rick Rolled” at the beginning. \n' +
     '\n' +
-    'Rick is singing "Never Gonna Give You Up", and this is the audio transcription for the first few seconds:\n' +
+    'Here is a transcription of the audio heard from [00:00:06 to 00:00:10]:\n' +
     '\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you '
+    'We’re no strangers to love\n' +
+    'You know the rules and so do I\n' +
+    'A full commitment’s what I’m thinking of\n' +
+    'You wouldn’t get this from any other guy'
 }
 Testing gemini_history...
-gemini_history Error: Request failed with status code 500
+gemini_history Response: {
+  success: true,
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio karena arti nama itu bergantung pada asal-usul dan bahasanya.  Tio bisa berasal dari berbagai bahasa dan memiliki arti yang berbeda-beda.\n' +
+    '\n' +
+    'Untuk mengetahui arti nama Tio, saya sarankan kamu mencarinya di internet dengan mesin pencari seperti Google, atau mencari di situs web yang khusus menjelaskan arti nama.  Cobalah mencari "arti nama Tio" atau "origin of the name Tio".  Hasil pencarian akan memberikan informasi yang lebih akurat.\n'
+}
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often deeply personal and subjective, shaped by individual experiences, beliefs, and values.\n" +
-    '\n' +
-    'Some common perspectives include:\n' +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and has been pondered by humans for millennia.  Different individuals, cultures, and religions offer diverse perspectives.  Some common viewpoints include:\n" +
     '\n' +
     '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
     '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The recognition that the search for meaning in a meaningless universe is inherently absurd, yet we should embrace this absurdity.\n' +
-    '* **Spiritual or Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divinely ordained purpose.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, contributions to society, and personal growth.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Religious beliefs:** Many religions provide answers about the meaning of life, often involving serving a higher power, following divine commandments, and achieving enlightenment or salvation.\n' +
+    '* **Hedonism:** The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
+    '* **Humanism:**  Focus on human values, reason, ethics, and social justice, finding meaning in contributing to human flourishing.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of ongoing exploration and self-discovery.  Instead of searching for a definitive answer, consider what brings you fulfillment, joy, and a sense of purpose.  What impact do you want to have on the world? What kind of person do you want to be?  These questions may help you define your own personal meaning.\n"
+    '\n' +
+    "Ultimately, the meaning of life is a personal and subjective question.  What gives your life meaning might be different from what gives someone else's life meaning.  It's a question worth exploring and reflecting upon throughout your life.\n"
 }
