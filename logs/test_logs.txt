@@ -9,64 +9,66 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1034083 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1722288 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo, perhaps taken during a visit to a location in Indonesia.  The background suggests a forested area, possibly a park or nature reserve.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a candid shot, possibly taken during a visit to a forested area or park in Indonesia.  The image doesn't convey any specific event or message beyond showing the President in a relaxed setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerja lembur bagai kuda. Sape lupah urang tua?\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda.  Sepe lu paurang duaa.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video begins with a vintage video clip of Rick Astley, standing in front of a microphone. The background appears to be stained glass or a frosted pane in shades of pale pink. \n' +
+  content: 'This video is the "Never Gonna Give You Up" music video by Rick Astley. The title card superimposed on the video reads "Get Rick Rolled." The audio consists of the first few lyrics of the song:\n' +
     '\n' +
-    '\n' +
-    'Text appears over the video, reading “GET RICK ROLLED.”\n' +
-    '\n' +
-    '\n' +
-    'Astley is wearing a dark blazer, a light grey-striped top, and cream trousers. His hair is short, with some volume on the top, and styled with an upward wave. \n' +
-    '\n' +
-    '\n' +
-    'The audio is the first few seconds of the chorus of the song "Never Gonna Give You Up" by Rick Astley. The audio heard is: \n' +
-    '\n' +
-    '\n' +
-    '[Chorus]\n' +
-    'Never gonna give you up\n' +
+    '"Never gonna give you up\n' +
     'Never gonna let you down\n' +
     'Never gonna run around and desert you\n' +
-    '\n'
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you"\n' +
+    '\n' +
+    'The video is often used as an internet prank, sometimes called "Rickrolling," where someone provides a link ostensibly to something else, which actually leads to this video.'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio secara pasti karena asal-usul dan artinya bergantung pada konteks budaya dan bahasa.  Tio bisa berasal dari berbagai bahasa dan memiliki arti yang berbeda-beda.\n' +
+  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asal usulnya dan tidak ada satu arti yang universal.  Tio bisa menjadi:\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, saya butuh informasi tambahan:\n' +
+    '* **Singkatan atau kependekan:**  Mungkin Tio adalah kependekan dari nama yang lebih panjang, seperti  Teodoro,  Cristiano,  atau nama lainnya.  Untuk mengetahui arti sebenarnya, perlu tahu nama lengkap aslinya.\n' +
     '\n' +
-    '* **Dari bahasa apa nama Tio berasal?** (Contoh: Indonesia, Cina, Spanyol, dll.)  Mengetahui asal bahasa akan sangat membantu dalam mencari arti yang tepat.\n' +
-    '* **Apakah ada ejaan lain dari nama tersebut?** (Terkadang, perbedaan ejaan sedikit saja dapat mengubah arti.)\n' +
-    '* **Apakah ada kisah khusus di balik pemberian nama Tio?** (Informasi ini bisa membantu menentukan arti yang dimaksud oleh orangtua/keluarga.)\n' +
+    '* **Nama dari berbagai bahasa:**  Tio bisa berasal dari berbagai bahasa dan budaya, dan artinya bisa sangat berbeda-beda.  Tanpa konteks asal-usulnya, sulit untuk menentukan arti yang tepat.\n' +
     '\n' +
-    'Jika Anda bisa memberikan informasi tambahan ini, saya mungkin bisa membantu mencari tahu arti nama Tio untuk Anda.\n'
+    '* **Nama modern/pilihan orang tua:**  Nama Tio juga bisa menjadi nama yang dipilih orangtua tanpa arti khusus yang terikat pada bahasa atau budaya tertentu.\n' +
+    '\n' +
+    'Untuk mengetahui arti nama Tio, saya perlu informasi tambahan mengenai asal-usul nama tersebut atau nama lengkapmu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be subjective and personal, shaped by individual experiences, beliefs, and values.\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning of life is often considered to be a deeply personal and subjective matter.\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    'Different perspectives include:\n' +
     '\n' +
     '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The recognition that the search for meaning in a meaningless universe is inherently absurd, but that this absurdity should be embraced.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions provide answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
-    '* **Humanism:**  Focusing on human values, reason, and ethics to find meaning.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that this absurdity should be embraced.\n' +
+    '* **Religious and spiritual beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Humanism:**  Focusing on human values, reason, and ethics to find meaning and purpose.\n' +
+    '* **Hedonism:**  Finding meaning in pleasure and happiness.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal discovery and ongoing reflection.  Consider what brings you fulfillment, joy, and a sense of purpose.  What impact do you want to have on the world?  These are questions that can help you define your own meaning.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a definitive answer, many find fulfillment by focusing on:\n" +
+    '\n' +
+    '* **Relationships:**  Connecting with others and building meaningful bonds.\n' +
+    '* **Contribution:**  Making a positive impact on the world.\n' +
+    '* **Growth and learning:**  Continuously expanding your knowledge and skills.\n' +
+    '* **Experiences:**  Seeking out new adventures and challenges.\n' +
+    '* **Purpose:**  Finding something that gives your life direction and significance.\n' +
+    '\n' +
+    '\n' +
+    'The journey of discovering your own meaning is often more important than finding a single, definitive answer.\n'
 }
