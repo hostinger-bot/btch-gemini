@@ -6,62 +6,54 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking!  How are you today?\n'
+  content: "I'm doing well, thank you for asking!  How are you today?\n"
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1130299 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 823323 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile view, standing outdoors in what appears to be a park or forested area.  The background is blurred but shows lush green vegetation.  The photo is likely a candid shot, not a formal portrait.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  It's likely a publicity or official photo, possibly intended to portray him in a relaxed yet thoughtful manner, connected to the natural environment of Indonesia.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong.  Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur bagai kuda.  Sape lu pa orang tua?\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sepe lu paurang dua.\n'
 }
 Testing gemini_video...
-gemini_video Response: {
-  success: true,
-  content: 'This video is an example of the popular "Rickroll" internet meme, where someone provides a disguised link or video that, when clicked, redirects the viewer to Rick Astley’s 1987 music video for the song "Never Gonna Give You Up." The video shows brief, out-of-order clips from the video, including a close-up of Rick Astley’s face and feet, a clip of him dancing, and clips of him singing into a microphone. The words “GET RICK ROLLED” are superimposed over the video. \n' +
-    '\n' +
-    'The audio contains a few short lines from the beginning of the song "Never Gonna Give You Up." The lyrics are:\n' +
-    '\n' +
-    '(Music intro)\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
-}
+gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sendiri bergantung pada asal dan bahasa  di mana nama tersebut berasal.  Tidak ada arti tunggal yang pasti.  Namun, beberapa kemungkinan arti dan asal usulnya antara lain:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asal-usulnya dan tidak ada arti yang tunggal dan universal.  Tio bisa:\n' +
     '\n' +
-    '* **Singkatan atau kependekan:** Tio mungkin merupakan singkatan dari nama yang lebih panjang.  Tanpa informasi lebih lanjut, sulit untuk menentukan nama aslinya.\n' +
+    '* **Singkatan atau bentuk pendek dari nama lain:**  Mungkin Tio adalah singkatan dari nama yang lebih panjang, seperti  Tiodorus,  Tiofano, atau nama lain yang dimulai dengan "Tio".  Tanpa mengetahui nama lengkapnya, sulit untuk menentukan asal usulnya.\n' +
     '\n' +
-    '* **Asal Tionghoa:**  Dalam beberapa dialek Tionghoa,  ada nama-nama yang memiliki bunyi mirip "Tio" dan mungkin memiliki arti terkait dengan kebajikan, keberuntungan, atau sifat-sifat positif lainnya.  Namun, tanpa mengetahui karakter Hanzi-nya, sulit untuk memberikan arti yang spesifik.\n' +
+    '* **Nama dari berbagai budaya:**  Di beberapa budaya, Tio mungkin memiliki arti yang spesifik, tetapi informasi tersebut membutuhkan konteks lebih lanjut.  \n' +
     '\n' +
-    '* **Asal lain:**  Nama Tio juga mungkin berasal dari bahasa atau budaya lain.\n' +
+    'Untuk mengetahui arti nama Tio yang tepat, perlu informasi tambahan seperti:\n' +
     '\n' +
+    '* **Asal budaya keluarga:** Apakah keluarga memiliki asal usul tertentu (misalnya, Indonesia, Spanyol, Portugis, dll.)?  Mengetahui asal-usul keluarga akan membantu mempersempit kemungkinan arti.\n' +
+    '* **Nama lengkap:**  Jika Tio adalah singkatan, mengetahui nama lengkap akan menjelaskan artinya.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, perlu diketahui bagaimana nama tersebut diberikan dan dari mana asal usulnya.  Apakah orang tuamu yang memberimu nama itu? Apakah ada makna khusus di balik pemberian nama itu?  Informasi tambahan ini akan membantu menentukan arti yang sesungguhnya.\n'
+    'Jika Anda dapat memberikan informasi tambahan ini, saya mungkin dapat membantu menemukan arti nama Tio Anda.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, and different individuals and cultures have arrived at vastly different conclusions. Some common perspectives include:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and has been pondered by thinkers and individuals for millennia.  Different philosophies, religions, and individuals offer diverse perspectives:\n" +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine purpose.  These answers vary widely depending on the specific religion.\n' +
-    '* **Hedonism:** The belief that pleasure and happiness are the ultimate goals of life.\n' +
-    '* **Utilitarianism:** The belief that the meaning of life is to maximize happiness and well-being for the greatest number of people.\n' +
-    '* **Purpose-driven life:**  Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
+    "* **Nihilism:** This philosophy asserts that life is inherently meaningless.  There's no objective purpose or value.\n" +
     '\n' +
+    "* **Existentialism:**  This emphasizes individual freedom and responsibility.  Meaning isn't inherent; it's something we create through our choices and actions.\n" +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal reflection and exploration.  There's no right or wrong answer, only the answer that resonates most deeply with you.\n"
+    '* **Absurdism:** This acknowledges the conflict between our search for meaning and the meaninglessness of the universe.  The meaning we find is subjective and often in defiance of the absurd.\n' +
+    '\n' +
+    '* **Hedonism:** This focuses on pleasure and happiness as the ultimate goals.  Meaning is found in maximizing pleasure and minimizing pain.\n' +
+    '\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions provide answers centered around a divine being, purpose, and afterlife.  Meaning is often found in serving God, following religious principles, and achieving spiritual enlightenment.\n' +
+    '\n' +
+    '* **Humanism:**  This emphasizes human reason, ethics, and social justice. Meaning is found in contributing to human flourishing and creating a better world.\n' +
+    '\n' +
+    'Ultimately, the meaning of life is a personal question.  What gives *your* life meaning is something you must determine for yourself.  It might be found in relationships, work, creativity, helping others, personal growth, or a combination of these and other things.  There is no right or wrong answer.\n'
 }
