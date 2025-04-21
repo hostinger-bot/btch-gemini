@@ -9,49 +9,48 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1530266 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1522619 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photograph of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush, green landscape.  It's likely a candid shot, possibly taken during a visit to a location showcasing Indonesia's natural beauty.  The image conveys a sense of calm and contemplation.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  It's likely a publicity or news photo, possibly taken during a visit to a location showcasing Indonesia's natural beauty or a project related to the environment.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda. Cepat lupa orang tua.\n'
+  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda, sampai lupa waktu.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video is a “Rickroll.” It begins with the singer, Rick Astley, approaching a microphone on a brightly lit set. The words “GET RICK ROLLED” appear on the screen. The singer is wearing a black jacket, striped sweater and light colored pants. \n' +
+  content: 'The video shows a man singing “Never Gonna Give You Up” by Rick Astley.  He is wearing a black jacket, striped shirt, light colored trousers, and dark shoes. The background is a stained glass window that looks like tree branches. The caption reads, “GET RICK ROLLED”. \n' +
     '\n' +
-    '\n' +
-    'The audio is the beginning of the song “Never Gonna Give You Up”:\n' +
-    '\n' +
-    '(Music Intro)\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    'The audio from 0:00 - 0:07 is an instrumental intro. '
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke database nama dan artinya.  Arti nama Tio bisa bervariasi tergantung asal usul dan bahasa.  Untuk mengetahui arti nama Tio, saya sarankan kamu mencari di internet melalui mesin pencari seperti Google dengan kata kunci "arti nama Tio".  Kamu mungkin akan menemukan beberapa kemungkinan arti, tergantung dari latar belakang nama tersebut.\n'
+  content: 'Nama Anda adalah Tio.  Arti nama Tio sendiri bergantung pada asal-usulnya, karena Tio bisa berasal dari berbagai bahasa dan budaya.  Tidak ada satu arti yang pasti.  Beberapa kemungkinan asal dan arti meliputi:\n' +
+    '\n' +
+    '* **Singkatan atau nama panggilan:**  Tio bisa menjadi singkatan atau nama panggilan dari nama lain, seperti  Teodoro,  Antonio, atau  sejenisnya.  Dalam hal ini, arti namanya akan tergantung pada nama lengkapnya.\n' +
+    '\n' +
+    '* **Bahasa Tionghoa:**  Dalam beberapa dialek Tionghoa, ada nama-nama yang mungkin diucapkan sebagai "Tio" meskipun ejaan Hanzi-nya berbeda.  Arinya akan bervariasi tergantung pada karakter-karakter Hanzi yang digunakan.\n' +
+    '\n' +
+    '* **Bahasa Indonesia/Malaysia:**  Tio dalam bahasa ini bisa dianggap sebagai nama yang pendek dan sederhana tanpa arti khusus yang terdefinisi.\n' +
+    '\n' +
+    'Untuk mengetahui arti nama Tio yang tepat untuk Anda,  saya perlu informasi lebih lanjut tentang asal-usul nama tersebut.  Apakah Anda tahu dari mana nama tersebut berasal?  Atau ada nama lengkap yang lebih panjang yang disingkat menjadi Tio?\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself is deeply philosophical and personal.  Different people and cultures find meaning in various things, including:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for centuries.  Different individuals and cultures find meaning in various things, including:\n" +
     '\n' +
     '* **Relationships:**  Love, family, and friendships provide a sense of belonging and purpose for many.\n' +
-    '* **Contribution:**  Making a positive impact on the world, whether through work, volunteering, or creative pursuits, can be profoundly meaningful.\n' +
-    "* **Growth and learning:**  Continuously expanding one's knowledge, skills, and understanding can bring a sense of fulfillment.\n" +
-    "* **Spiritual beliefs:**  Religion and spirituality often offer frameworks for understanding life's purpose and finding meaning.\n" +
-    '* **Experiences:**  Travel, adventure, and engaging with the world can create lasting memories and a sense of wonder.\n' +
-    '* **Creativity and self-expression:**  Expressing oneself through art, music, writing, or other creative outlets can be deeply satisfying.\n' +
+    '* **Contribution:**  Making a positive impact on the world, whether through work, volunteering, or acts of kindness, can give life meaning.\n' +
+    '* **Experiences:**  Travel, learning, and pursuing hobbies can enrich life and create lasting memories.\n' +
+    '* **Spiritual Beliefs:**  Many find meaning in their faith and connection to something greater than themselves.\n' +
+    '* **Personal Growth:**  Continuously learning, developing skills, and striving for self-improvement can be a source of fulfillment.\n' +
+    '* **Creativity:**  Expressing oneself through art, music, writing, or other creative pursuits can be deeply meaningful.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question to be explored and answered personally, through reflection, experience, and interaction with the world.  There is no right or wrong answer.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a journey of self-discovery, and the answer may evolve over time.  There's no right or wrong answer, and the most important thing is to find what brings you purpose and fulfillment.\n"
 }
