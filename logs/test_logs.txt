@@ -9,53 +9,43 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 e1 00 00 04 00 08 02 00 00 00 c0 ea 10 d8 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1279779 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 03 30 08 02 00 00 00 31 a2 85 f7 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1291836 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  The background suggests he might be in a forest or park.  The photo itself doesn't convey any specific event or message beyond a portrait-style image of the president.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The setting appears to be outdoors, possibly in a forest or park.  There's no specific event or context provided in the image itself, just a portrait of the President in a relaxed pose.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerjaan lembur bagai kuda.  Sape lu paurang duit.\n'
+  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerja lembur bagi aku dah. Cepat lupa orang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'This video shows clips of Rick Astley performing "Never Gonna Give You Up". The overlaid text reads, "GET RICK ROLLED." This refers to the meme and internet prank of unexpectedly sharing this music video.\n' +
+  content: 'The video is a “Rick Roll.” It features a clip of the 1987 music video for Rick Astley’s pop song, “Never Gonna Give You Up.” Astley stands behind a microphone, singing and dancing.  The video is tinted with a purple hue.\n' +
     '\n' +
-    'The lyrics during this clip:\n' +
-    '\n' +
-    '(Music)\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    'The audio is an instrumental intro to the song, “Never Gonna Give You Up.”  There are no lyrics in this clip.'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke basis data yang menyimpan arti nama-nama di seluruh dunia dan budaya.  Arti dari nama Tio bisa bervariasi tergantung dari asal-usul dan bahasanya.\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke informasi tentang arti nama-nama dari berbagai budaya.  Arti dari nama Tio bisa bervariasi tergantung pada asalnya (bahasa apa, budaya apa).\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio, saya sarankan kamu melakukan pencarian di internet.  Coba cari "arti nama Tio" di mesin pencari seperti Google, Bing, atau lainnya.  Kamu mungkin akan menemukan beberapa kemungkinan arti, tergantung dari budaya dan bahasa yang dimaksud.\n'
+    'Untuk mengetahui arti nama Tio, aku sarankan kamu mencarinya di internet.  Coba cari di mesin pencari seperti Google dengan kata kunci "arti nama Tio" atau "asal usul nama Tio".  Kamu mungkin akan menemukan beberapa penjelasan yang berbeda, tergantung pada asal usul yang dianggap.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often deeply personal and subjective, varying greatly from person to person.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning, if there is one, is often considered to be something personal and subjective, shaped by individual experiences, beliefs, and values.\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    'Some perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that life is meaningless unless we create our own meaning through our choices and actions.\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
     '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, yet we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
+    '* **Spiritual and religious beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment or salvation.\n' +
     '* **Humanism:**  Focuses on human values and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
     '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal reflection and discovery, not a problem to be solved with a definitive answer.  Consider what brings you purpose, joy, and fulfillment, and that might be a starting point for your own understanding of the meaning of life.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question you need to explore and answer for yourself.\n"
 }
