@@ -9,58 +9,57 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1996949 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 a8 00 00 04 00 08 02 00 00 00 a2 45 3c b2 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1180539 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  It's likely a candid shot, perhaps taken during a visit to a location showcasing Indonesian nature or forestry.  The image itself doesn't convey a specific message beyond showing the President in a relaxed, contemplative setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a forested landscape.  It's likely a candid shot, possibly taken during a visit to a location related to environmental matters or a public appearance.  The image itself doesn't convey a specific message beyond showing the president in a contemplative or observational moment.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lu paurang duit?\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerja lembur bagai kuda. Sape lupah urang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'Okay, this video is a Rickroll! Rickrolling is an internet meme and prank. It involves unexpectedly rickrolling someone by tricking them into clicking on a disguised hyperlink that leads to the music video of Rick Astley’s 1987 hit song, “Never Gonna Give You Up”. \n' +
+  content: "Sure, here's a description of the video and the transcription:\n" +
     '\n' +
-    'The audio is the beginning of the song "Never Gonna Give You Up" by Rick Astley:\n' +
+    'This is an example of a “Rickroll.” The video begins with a close-up of a man with short brown hair, then cuts away and displays the words, “GET RICK ROLLED.” The shot shifts to show a slightly wider angle of the same man, dressed in a dark blazer, striped shirt, and light-colored pants, performing what appears to be the song “Never Gonna Give You Up” by Rick Astley. He is standing before a microphone, moving to the music and occasionally mouthing the words. Behind him, a patterned wall or backdrop is faintly visible. The quality of the video suggests it may be older footage or stylized in a retro fashion.\n' +
     '\n' +
-    '(Music)\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    '[00:00:06] Never gonna give you up\n' +
+    '[00:00:08] Never gonna let you down\n' +
+    '[00:00:10] Never gonna run around and desert you\n' +
+    '[00:00:13] Never gonna make you cry\n' +
+    '[00:00:15] Never gonna say goodbye\n' +
+    '[00:00:17] Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio bervariasi tergantung asal dan konteksnya.  Tidak ada satu arti yang pasti.  Beberapa kemungkinan arti meliputi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, arti nama Tio bervariasi tergantung asal dan bahasanya.  Tidak ada arti tunggal yang universal.  \n' +
     '\n' +
-    '* **Singkatan/Pendek dari nama lain:**  Tio bisa jadi merupakan singkatan atau bentuk pendek dari nama yang lebih panjang, seperti  Teodoro,  Antonio, atau nama-nama lain yang diawali dengan "Ti".  Untuk mengetahui arti yang tepat, perlu diketahui nama lengkap atau asal usul nama tersebut.\n' +
+    'Beberapa kemungkinan arti Tio, bergantung pada konteks budaya dan bahasa:\n' +
     '\n' +
-    '* **Asal bahasa:**  Karena Tio cukup umum dan singkat, sulit untuk melacak asal bahasa yang pasti.  Mungkin berasal dari bahasa Indonesia, Spanyol, Portugis, atau bahasa lain.\n' +
+    '* **Sebagai singkatan:** Tio bisa menjadi singkatan dari nama yang lebih panjang.\n' +
+    '* **Dalam bahasa Spanyol:** Tio berarti "paman".\n' +
+    '* **Dalam bahasa Tionghoa:**  Ada banyak nama Tionghoa yang bisa disingkat menjadi Tio, masing-masing dengan arti yang berbeda.  Tanpa tahu karakter Hanzi-nya, mustahil untuk menentukan artinya.\n' +
+    '* **Sebagai nama panggilan:**  Bisa jadi Tio hanyalah sebuah nama panggilan yang diberikan tanpa arti khusus.\n' +
     '\n' +
-    '* **Arti simbolik:**  Tanpa konteks lebih lanjut,  Tio mungkin memiliki arti simbolik yang personal bagi keluargamu atau yang memberimu nama tersebut.\n' +
-    '\n' +
-    'Untuk mendapatkan arti nama Tio yang lebih spesifik,  saya membutuhkan informasi tambahan mengenai asal usul namamu.  Apakah kamu tahu dari mana nama Tio berasal?\n'
+    'Untuk mengetahui arti nama Tio *sebenarnya*, perlu informasi lebih lanjut tentang asal-usul nama tersebut. Apakah nama keluarga Anda memiliki asal usul tertentu?  Apakah nama tersebut merupakan warisan keluarga?  Informasi ini akan membantu menentukan arti sebenarnya dari nama Anda.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself has been pondered by philosophers, theologians, and individuals for millennia, with a vast range of perspectives offered.  \n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself is deeply philosophical and has been pondered by humans for millennia.  Different individuals and cultures find meaning in various things:\n" +
     '\n' +
-    'Some common viewpoints include:\n' +
+    '* **Relationships:**  Love, family, and community are major sources of meaning for many.\n' +
+    '* **Contribution:**  Making a positive impact on the world, whether through work, volunteering, or creative endeavors.\n' +
+    '* **Personal Growth:**  Learning, self-discovery, and striving for self-improvement.\n' +
+    '* **Spirituality:**  Connecting with something larger than oneself, be it a religion, nature, or a higher power.\n' +
+    '* **Experiences:**  Seeking adventure, pursuing passions, and creating lasting memories.\n' +
+    '* **Purpose:**  Finding a calling or mission that gives life direction and significance.\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The recognition of the inherent conflict between the human search for meaning and the meaninglessness of the universe, embracing the absurdity of existence.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the primary goal in life.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, and achieving enlightenment or salvation.\n' +
-    '* **Humanism:**  Focus on human values, reason, ethics, and social justice as the basis for meaning.\n' +
     '\n' +
-    "Ultimately, the meaning of life is a deeply personal question.  What gives *your* life meaning is something you must discover for yourself through reflection, experience, and engagement with the world around you.  It's a journey, not a destination.\n"
+    "Ultimately, the meaning of life is subjective.  It's not something to be found, but rather something to be created and defined by each individual based on their values, beliefs, and experiences.  The search for meaning is often a lifelong journey of exploration and self-discovery.\n"
 }
