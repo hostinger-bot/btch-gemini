@@ -9,44 +9,60 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 864939 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1436707 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's a fairly informal portrait, likely taken outside during an event or visit.  The background suggests a natural setting, perhaps a park or forested area.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape, likely a forest or plantation.  The photo appears to be a candid shot, rather than a formal portrait.  It doesn't convey any specific event or message beyond showing the president in a relaxed setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahalazim! Astagfirullahalazim! Kerjaan lembur bagai kuda. Sape lu pak orang tua?\n'
+  content: 'Kosong.  Astagfirullahaladzim. Astagfirullahaladzim. Kerjaa lembur bagai kuda. Sape lu pa orang tua?\n'
 }
 Testing gemini_video...
-gemini_video Error: Request failed with status code 500
+gemini_video Response: {
+  success: true,
+  content: 'This video shows the singer Rick Astley performing the first lines of his 1987 song, "Never Gonna Give You Up." The video has the look and feel of an older video recording, possibly from an MTV or other televised performance.\n' +
+    '\n' +
+    'The superimposed text on the screen states "GET RICK ROLLED." \n' +
+    '\n' +
+    'Rick Astley’s lyrics, from the song, are as follows:\n' +
+    '\n' +
+    '(Music)\n' +
+    'Never gonna give you up\n' +
+    'Never gonna let you down\n' +
+    'Never gonna run around and desert you\n' +
+    'Never gonna make you cry\n' +
+    'Never gonna say goodbye\n' +
+    'Never gonna tell a lie and hurt you'
+}
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu secara pasti.  Arti nama Tio bergantung pada asal usulnya dan bisa memiliki beberapa makna.  Untuk mengetahui arti nama Tio yang tepat, saya butuh informasi tambahan:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, asal-usul dan arti nama Tio agak rumit karena tergantung konteksnya.  Tio bisa menjadi:\n' +
     '\n' +
-    '* **Asal usul nama:** Apakah nama Tio berasal dari bahasa Indonesia, Cina, Jepang, atau bahasa lainnya?\n' +
-    '* **Ejaan lain:** Apakah ada ejaan lain untuk nama Tio (misalnya, Theo, Tijo)?\n' +
+    '* **Singkatan atau bentuk pendek:**  Bisa jadi singkatan dari nama lain, seperti  Tiago,  Tristian,  di Indonesia mungkin juga  sebuah singkatan dari nama yang lebih panjang.  Tanpa tahu nama lengkapmu, sulit menentukan artinya dari singkatan ini.\n' +
     '\n' +
-    'Dengan informasi tambahan tersebut, saya bisa mencoba mencari arti nama Tio yang lebih akurat.\n'
+    '* **Nama sendiri:** Di beberapa budaya, Tio mungkin merupakan nama yang berdiri sendiri.  Namun, tanpa mengetahui asal usul budaya atau bahasa spesifik, tidak mungkin untuk memberikan arti yang pasti.  Kemungkinan besar,  arti namanya akan bervariasi tergantung budaya dan bahasa yang menjadi sumbernya.\n' +
+    '\n' +
+    '\n' +
+    'Untuk mengetahui arti nama Tio secara pasti,  aku butuh informasi tambahan.  Apakah kamu tahu asal-usul namamu?  Apakah ada nama lengkap yang lebih panjang?  Mengetahui hal ini akan membantuku menjelaskan arti namamu dengan lebih akurat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be subjective and personal, shaped by individual beliefs, experiences, and values.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, with different perspectives offered by religion, philosophy, science, and individual experience.\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    'Some common viewpoints include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that life is inherently meaningless, but we create our own meaning through our choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, a divine plan, or an afterlife.  These meanings often center around serving God, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
-    '* **Hedonism:**  Finding meaning in pleasure and happiness.\n' +
-    '* **Purpose-driven life:**  Finding meaning through pursuing goals, making a difference, and contributing to something larger than oneself.\n' +
+    '* **Religious perspectives:** Many religions offer answers centered around serving a higher power, following divine commandments, achieving enlightenment, or reaching a spiritual goal like heaven or nirvana.  The meaning often involves finding purpose through faith and community.\n' +
     '\n' +
+    '* **Philosophical perspectives:** Philosophers have explored the meaning of life for centuries, proposing ideas ranging from nihilism (life is inherently meaningless) to existentialism (we create our own meaning) to absurdism (the search for meaning is inherently futile but we should embrace the absurdity).\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of self-discovery and personal reflection.  What brings you joy? What values are important to you?  What impact do you want to have on the world?  The answers to these questions can help you define your own personal meaning of life.\n"
+    "* **Scientific perspectives:** Science generally doesn't address the meaning of life directly.  It focuses on understanding the physical world, including the origins and evolution of life.  However, scientific understanding can inform our personal search for meaning by providing a framework for understanding our place in the universe.\n" +
+    '\n' +
+    '* **Personal perspectives:** Ultimately, the meaning of life is often a deeply personal and subjective matter.  Individuals may find meaning in relationships, work, creativity, contributing to society, personal growth, or simply experiencing the world.\n' +
+    '\n' +
+    "In short, there's no right or wrong answer.  The search for meaning is a journey of self-discovery, and the answer is likely unique to each individual.\n"
 }
