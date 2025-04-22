@@ -9,52 +9,48 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1164621 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 fe 00 00 04 00 08 02 00 00 00 16 4f ca bd 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 947826 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a forested area.  It's a posed, fairly formal portrait, likely taken during a public appearance or official visit.  There's no specific event or context conveyed by the image itself, but it's clearly meant to present him in a positive and somewhat contemplative light.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's likely a publicity or official photo intended to portray him in a positive light, possibly emphasizing his connection to the Indonesian environment or countryside.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: "Kosong.  Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda. Sape lu pa' orang tua?\n"
+  content: 'Kosong.  Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda. Sape lu paurang dua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video shows someone getting “rickrolled.” The first few seconds show the singer from Rick Astley’s music video, “Never Gonna Give You Up.” The words “GET RICK ROLLED” are superimposed over the frames. \n' +
+  content: 'This video clip is a brief, fast-paced preview of the famous “Rickroll.” It begins with the text, “GET RICK ROLLED,” and shows the singer Rick Astley briefly singing and tapping his feet to the music. \n' +
     '\n' +
-    'The song begins, but the music is replaced with a sped-up chiptune version.\n' +
-    '\n' +
-    '[Music starts]\n' +
-    '(Lyrics are sped up and incomprehensible)\n'
+    'The only audio in the clip is a musical drum roll intro.'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sendiri agak rumit karena tergantung dari asal-usul dan bahasanya.  Tidak ada satu arti yang pasti untuk nama Tio.  Bisa jadi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, arti nama Tio tergantung pada asal-usulnya dan tidak ada satu arti yang pasti.  Tio bisa berasal dari berbagai bahasa dan budaya, dan masing-masing memiliki arti yang berbeda.  \n' +
     '\n' +
-    '* **Singkatan atau kependekan:** Tio bisa menjadi singkatan dari nama yang lebih panjang.  Contohnya,  di beberapa budaya, Tio bisa menjadi kependekan dari nama-nama yang dimulai dengan "Tio—" atau  "Teo-".  Untuk mengetahui artinya, kita perlu tahu nama lengkapnya.\n' +
+    'Untuk mengetahui arti nama Tio yang tepat, kita perlu tahu:\n' +
     '\n' +
-    '* **Nama panggilan:**  Tio mungkin juga merupakan nama panggilan (nickname) yang diberikan kepada seseorang.  Dalam hal ini, arti nama  bergantung pada konteks dan siapa yang memberinya nama panggilan tersebut.\n' +
+    '* **Asal usul nama Tio:** Apakah nama Tio berasal dari bahasa Indonesia, Tionghoa, Spanyol, atau bahasa lainnya?\n' +
+    '* **Penulisan nama Tio:** Apakah ada ejaan lain yang mungkin? (Misalnya, Teo)\n' +
     '\n' +
-    '* **Nama dari berbagai bahasa:**  Mungkin saja Tio merupakan nama dari bahasa tertentu yang belum saya ketahui artinya.  Jika kamu bisa memberi tahu asal-usul namamu (misalnya, bahasa Indonesia, Tionghoa, Spanyol, dll.), saya mungkin bisa mencarinya untukmu.\n' +
     '\n' +
-    'Singkatnya, tanpa konteks lebih lanjut tentang asal usul nama Tio-mu, sulit untuk menentukan arti pastinya.\n'
+    'Tanpa informasi tambahan tersebut, saya tidak dapat memberikan arti yang akurat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for centuries.  Different people find meaning in different things, including:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for millennia.  Different individuals and cultures find meaning in various things, including:\n" +
     '\n' +
-    '* **Relationships:**  Love, family, and friendships provide a sense of belonging and purpose for many.\n' +
-    '* **Contribution to society:** Making a difference in the world, through work, volunteering, or activism, can be a source of meaning.\n' +
-    "* **Personal growth:**  Learning, exploring, and developing one's talents and potential can be deeply fulfilling.\n" +
-    '* **Spiritual or religious beliefs:**  Faith and connection to something greater than oneself can provide meaning and direction.\n' +
-    '* **Experiences:** Travel, adventure, and pursuing passions can bring a sense of fulfillment.\n' +
+    '* **Relationships:**  Connecting with loved ones, building community, and experiencing love and belonging.\n' +
+    '* **Contribution:** Making a positive impact on the world, helping others, and leaving a legacy.\n' +
+    "* **Growth and learning:**  Continuously expanding one's knowledge, skills, and understanding of oneself and the world.\n" +
+    '* **Experiences:**  Seeking out new adventures, appreciating beauty, and engaging in activities that bring joy and fulfillment.\n' +
+    '* **Spirituality:**  Connecting with something larger than oneself, finding purpose through faith or belief.\n' +
     '* **Creativity:**  Expressing oneself through art, music, writing, or other creative endeavors.\n' +
     '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is not something to be discovered, but something to be *created*.  It's a question you must answer for yourself, based on your values, beliefs, and experiences.  There is no right or wrong answer.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question you must answer for yourself through your experiences, values, and beliefs. There's no right or wrong answer.\n"
 }
