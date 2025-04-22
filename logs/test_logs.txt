@@ -9,50 +9,52 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 03 21 00 00 04 00 08 02 00 00 00 79 db c1 b9 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1236730 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1164621 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  The photo appears to be a candid shot, rather than a formal portrait.  It likely depicts him during a visit to some location in Indonesia.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a forested area.  It's a posed, fairly formal portrait, likely taken during a public appearance or official visit.  There's no specific event or context conveyed by the image itself, but it's clearly meant to present him in a positive and somewhat contemplative light.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sape lu pak orang tua?\n'
+  content: "Kosong.  Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda. Sape lu pa' orang tua?\n"
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video shows a montage of clips from Rick Astley’s music video for the song “Never Gonna Give You Up,” punctuated by the text overlay “Get Rick Rolled.” Rick Astley is seen singing the song, while the music video alternates between closeups and wider shots. \n' +
+  content: 'The video shows someone getting “rickrolled.” The first few seconds show the singer from Rick Astley’s music video, “Never Gonna Give You Up.” The words “GET RICK ROLLED” are superimposed over the frames. \n' +
     '\n' +
-    'The audio, including the song’s introductory instrumental music, starts right as the video begins.'
+    'The song begins, but the music is replaced with a sped-up chiptune version.\n' +
+    '\n' +
+    '[Music starts]\n' +
+    '(Lyrics are sped up and incomprehensible)\n'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio  bervariasi tergantung asal dan bahasanya.  Tidak ada satu arti yang pasti.  Berikut beberapa kemungkinan:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio sendiri agak rumit karena tergantung dari asal-usul dan bahasanya.  Tidak ada satu arti yang pasti untuk nama Tio.  Bisa jadi:\n' +
     '\n' +
-    '* **Singkatan/Pendek dari nama lain:** Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama seperti  Teodoro,  Christian,  Antonio,  atau nama-nama lain.  Jika kamu tahu nama lengkapmu, kita bisa mencoba mencari arti nama lengkapmu.\n' +
+    '* **Singkatan atau kependekan:** Tio bisa menjadi singkatan dari nama yang lebih panjang.  Contohnya,  di beberapa budaya, Tio bisa menjadi kependekan dari nama-nama yang dimulai dengan "Tio—" atau  "Teo-".  Untuk mengetahui artinya, kita perlu tahu nama lengkapnya.\n' +
     '\n' +
-    '* **Asal bahasa Tionghoa:** Dalam beberapa dialek Tionghoa,  ada nama-nama yang diucapkan mirip "Tio" yang mungkin memiliki arti yang berhubungan dengan alam atau karakteristik pribadi. Namun, tanpa mengetahui karakter Hanzi (huruf Tionghoa) yang tepat, sulit untuk memberikan arti yang spesifik.\n' +
+    '* **Nama panggilan:**  Tio mungkin juga merupakan nama panggilan (nickname) yang diberikan kepada seseorang.  Dalam hal ini, arti nama  bergantung pada konteks dan siapa yang memberinya nama panggilan tersebut.\n' +
     '\n' +
-    '* **Nama modern/unik:**  Bisa jadi Tio merupakan nama modern yang dipilih orang tuamu tanpa arti khusus yang terikat pada bahasa atau budaya tertentu.\n' +
+    '* **Nama dari berbagai bahasa:**  Mungkin saja Tio merupakan nama dari bahasa tertentu yang belum saya ketahui artinya.  Jika kamu bisa memberi tahu asal-usul namamu (misalnya, bahasa Indonesia, Tionghoa, Spanyol, dll.), saya mungkin bisa mencarinya untukmu.\n' +
     '\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio yang paling tepat untuk dirimu,  bagikan informasi lebih lanjut seperti asal usul namamu atau nama lengkapmu jika ada.\n'
+    'Singkatnya, tanpa konteks lebih lanjut tentang asal usul nama Tio-mu, sulit untuk menentukan arti pastinya.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself is philosophical, and different people and cultures have vastly different perspectives.  Some common approaches include:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The meaning of life is a deeply personal and philosophical question that has been pondered by humans for centuries.  Different people find meaning in different things, including:\n" +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:**  The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine plan.  These meanings vary widely depending on the specific religion.\n' +
-    '* **Hedonism:**  The belief that pleasure and happiness are the ultimate goals of life.\n' +
-    '* **Purpose-driven approaches:**  Finding meaning through contributing to something larger than oneself, such as family, community, or a cause.\n' +
+    '* **Relationships:**  Love, family, and friendships provide a sense of belonging and purpose for many.\n' +
+    '* **Contribution to society:** Making a difference in the world, through work, volunteering, or activism, can be a source of meaning.\n' +
+    "* **Personal growth:**  Learning, exploring, and developing one's talents and potential can be deeply fulfilling.\n" +
+    '* **Spiritual or religious beliefs:**  Faith and connection to something greater than oneself can provide meaning and direction.\n' +
+    '* **Experiences:** Travel, adventure, and pursuing passions can bring a sense of fulfillment.\n' +
+    '* **Creativity:**  Expressing oneself through art, music, writing, or other creative endeavors.\n' +
     '\n' +
     '\n' +
-    "Ultimately, the meaning of life is a deeply personal question.  What gives your life meaning is up to you to define.  It's a question of ongoing exploration and reflection, rather than a single answer.\n"
+    "Ultimately, the meaning of life is not something to be discovered, but something to be *created*.  It's a question you must answer for yourself, based on your values, beliefs, and experiences.  There is no right or wrong answer.\n"
 }
