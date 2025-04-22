@@ -9,50 +9,44 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1560516 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 e7 00 00 04 00 08 02 00 00 00 cd f4 60 9f 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1202709 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The context of the photo is not apparent from the image itself; it could be from a press release, a news story, or a personal social media post.  It likely depicts him in a relaxed, possibly informal setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile view, appearing to be looking out at a landscape of trees.  The context of the photo isn't provided in the image itself; it could be from a news article, a personal social media post, or an official presidential photo release.  Without more information, it's impossible to say exactly what the image is *about* beyond simply showing the President in a particular location.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong.  Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda. Sape lu paurang tua?\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur bagai kuda. Sape lu paurang duit.\n'
 }
 Testing gemini_video...
 gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti nama Tio dengan pasti.  Arti nama Tio bergantung pada asal-usulnya dan budaya yang terkait.  Tio bisa berasal dari berbagai bahasa dan memiliki arti yang berbeda.  Untuk mengetahui arti nama Tio yang tepat, saya membutuhkan informasi tambahan seperti:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya,  arti nama Tio bergantung pada asal usulnya.  Tio bukanlah nama yang memiliki arti tunggal yang universal.  Bisa jadi:\n' +
     '\n' +
-    '* **Asal-usul nama:** Apakah nama Tio berasal dari bahasa Indonesia, Tionghoa, Portugis, atau bahasa lain?\n' +
-    '* **Keluarga:** Apakah ada makna khusus yang diberikan oleh keluarga Anda pada nama Tio?\n' +
+    '* **Singkatan atau kependekan:**  Tio bisa menjadi singkatan dari nama lain,  seperti  Christian,  Timothy,  atau nama lainnya.  Untuk mengetahui artinya, perlu diketahui nama lengkap yang disingkat menjadi Tio.\n' +
     '\n' +
-    'Jika Anda bisa memberikan informasi ini, saya mungkin bisa membantu Anda menemukan arti nama Tio yang sesuai.\n'
+    '* **Nama dari bahasa tertentu:**  Mungkin Tio berasal dari suatu bahasa dan memiliki arti khusus dalam bahasa tersebut.  Untuk mengetahui artinya, perlu diketahui asal bahasa nama tersebut (misalnya, bahasa Indonesia, Tionghoa, Spanyol, dll).\n' +
+    '\n' +
+    '* **Nama panggilan:**  Tio juga bisa menjadi nama panggilan (nickname) yang tidak memiliki arti khusus selain sebagai sapaan akrab.\n' +
+    '\n' +
+    'Jika kamu bisa memberikan informasi lebih lanjut tentang asal usul namamu, saya mungkin bisa membantu menjelaskan artinya.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning of life is often considered a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often considered to be a personal and subjective matter, shaped by individual experiences, beliefs, and values.\n" +
     '\n' +
-    'Different perspectives include:\n' +
+    'Some common perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that embracing this absurdity is key to finding fulfillment.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a divine purpose, afterlife, or serving a higher power.\n' +
-    '* **Humanism:**  Focuses on human values, reason, ethics, and social justice, finding meaning in human relationships and contributions to society.\n' +
-    '* **Hedonism:**  The belief that pleasure and happiness are the ultimate goals in life.\n' +
+    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Spiritual/Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine purpose.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, contributions to society, and personal growth.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a single definitive answer, many find fulfillment by focusing on:\n" +
-    '\n' +
-    '* **Relationships:**  Connecting with loved ones and building meaningful connections.\n' +
-    '* **Contribution:**  Making a positive impact on the world, however small.\n' +
-    "* **Growth:**  Continuously learning, developing, and expanding one's horizons.\n" +
-    '* **Experiences:**  Embracing new challenges and creating lasting memories.\n' +
-    '* **Purpose:** Identifying something that gives your life direction and significance.\n' +
-    '\n' +
-    'The journey of discovering the meaning of *your* life is a lifelong process of exploration and self-discovery.\n'
+    "Ultimately, the meaning of life is what you make it. It's a question you must answer for yourself through reflection, experience, and the choices you make.\n"
 }
