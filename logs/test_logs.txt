@@ -9,64 +9,54 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 d1 00 00 04 00 08 02 00 00 00 a8 19 92 e0 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1066323 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 2086407 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  It's likely a candid shot, possibly taken during a visit to a location showcasing Indonesian natural beauty or a development project.  The context is missing, so it's impossible to say for sure what specific event or occasion the photo documents.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking off into a distance at a lush green landscape.  It's a posed portrait, likely taken for official or publicity purposes,  and showcases him in a calm, contemplative demeanor.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerjaan lembur bagai kuda. Sape lu paurang dua.\n'
+  content: 'Kosong. Astaghfirullahalazim. Astaghfirullahalazim. Kerja lembur bagai kuda.  Sepe lu pa aorang tua.\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'The video is an excerpt from Rick Astley’s “Never Gonna Give You Up” music video. This video shows Rick Astley singing and dancing while wearing a black blazer, gray striped polo shirt, and light-colored slacks. The background includes a white wall with a geometric grid overlaid in light blue. The words "GET RICK ROLLED" flash across the screen. The audio is a short clip from the beginning of the song.\n' +
+  content: 'The video shows a man singing into a vintage microphone. In the background are light, frosted windowpanes. The words "GET RICK ROLLED" appear on the screen, centered above the singer. The singer’s name is Rick Astley. \n' +
     '\n' +
-    '[Music begins with a snare drum rhythm, and synth pad plays a chord]\n' +
     '\n' +
-    '(Singing)\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    'The video has been altered to have a vintage VHS feel. The resolution is poor, and the colors are hazy. The singer’s hair is combed in a style typical of the 1980s.\n' +
+    '\n' +
+    'The audio contains instrumental music but no singing.'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak memiliki akses ke database nama dan artinya yang komprehensif untuk memberikan arti nama Tio secara pasti. Arti nama Tio bisa bervariasi tergantung budaya dan asal-usulnya.\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu secara pasti.  Arti nama Tio sangat bergantung pada asal-usulnya dan budaya yang menggunakan nama tersebut.  \n' +
     '\n' +
-    'Beberapa kemungkinan arti nama Tio, yang perlu dikonfirmasi lebih lanjut berdasarkan asal-usulnya, antara lain:\n' +
+    '"Tio" bisa menjadi:\n' +
     '\n' +
-    '* **Singkatan atau kependekan:** Tio bisa menjadi singkatan dari nama yang lebih panjang.\n' +
-    '* **Nama panggilan:**  Mungkin Tio adalah nama panggilan yang diberikan berdasarkan kepribadian atau karakteristik tertentu.\n' +
-    '* **Asal bahasa tertentu:**  Jika Anda tahu asal usul nama Tio (misalnya, Tionghoa, Spanyol, Portugis, dll.), pencarian dengan informasi tambahan itu bisa memberikan hasil yang lebih akurat.\n' +
+    '* **Singkatan atau kependekan:**  Mungkin Tio adalah kependekan dari nama yang lebih panjang.  Untuk mengetahui artinya, kita perlu tahu nama lengkap asalnya.\n' +
+    '* **Nama dengan asal usul beragam:** Nama Tio bisa berasal dari berbagai bahasa dan budaya, masing-masing dengan arti yang berbeda.  Misalnya, bisa saja berasal dari bahasa Indonesia, Tionghoa, atau bahasa lainnya.\n' +
+    '* **Nama tanpa arti baku:** Mungkin Tio adalah nama yang dipilih karena bunyinya yang bagus atau mudah diingat, tanpa arti khusus yang melekat padanya.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat,  saya sarankan Anda untuk:\n' +
     '\n' +
-    '* **Bertanya kepada orang tua atau keluarga:** Mereka yang memberi Anda nama Tio pasti tahu asal usul dan artinya.\n' +
-    '* **Mencari di internet:** Lakukan pencarian online dengan frasa "arti nama Tio" beserta informasi tambahan seperti asal usul etnis keluarga Anda.  Periksa beberapa sumber untuk memastikan akurasi informasi.\n' +
-    '\n' +
-    'Semoga ini membantu!\n'
+    'Untuk mengetahui arti nama Tio yang tepat, sebaiknya kamu mencari informasi lebih lanjut dengan melihat silsilah keluarga atau menanyakan kepada orang tuamu tentang asal usul namamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning of life is often considered to be a deeply personal and subjective matter.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, with different perspectives offered by religion, philosophy, science, and individual experience.\n" +
     '\n' +
     'Some common perspectives include:\n' +
     '\n' +
-    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that life is inherently meaningless, but that we create our own meaning through our choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, a divine plan, or an afterlife.  These meanings often center around serving God, following religious tenets, and achieving spiritual enlightenment.\n' +
-    '* **Hedonism:** The belief that the meaning of life is to maximize pleasure and minimize pain.\n' +
-    '* **Purpose-driven life:** Finding meaning through contributing to something larger than oneself, such as a cause, community, or family.\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
+    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:**  The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
+    '* **Religious views:** Many religions provide answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving spiritual enlightenment.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
+    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the primary goal in life.\n' +
     '\n' +
-    '\n' +
-    "Ultimately, the meaning of life is what you make it. It's a question you must answer for yourself through reflection, experience, and the choices you make.\n"
+    "Ultimately, the meaning of life is what you make it. It's a question of personal reflection and discovery, and the answer may evolve throughout your lifetime.  There's no right or wrong answer, only the answer that resonates most deeply with you.\n"
 }
