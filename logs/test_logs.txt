@@ -9,49 +9,45 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 925934 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1213965 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape.  It's likely a publicity or official photo, possibly from a visit to a forested area within Indonesia.  The image focuses on him, conveying a sense of calm and contemplation.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  It's likely a candid shot, possibly taken during a visit to a location with significant forestry or environmental aspects.  The image doesn't convey a specific message beyond showing the President in a seemingly relaxed setting.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong.  Astagfirullahalazim! Astagfirullahalazim! Kerjaan lembur bagai kuda.  Sape lu paurang dua?\n'
+  content: 'Kosong.  Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur, bagai kuda. Sape lu pa urang tua.\n'
 }
 Testing gemini_video...
-gemini_video Response: {
-  success: true,
-  content: 'The video depicts a scene of Rick Astley, singer of “Never Gonna Give You Up,” performing at a concert with a microphone. The text “GET RICKROLLED” appears over the video. \n' +
-    '\n' +
-    '\n' +
-    'The song lyrics are as follows:\n' +
-    '\n' +
-    '[Music]\n' +
-    'Never gonna give you up,\n' +
-    'never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry,\n' +
-    'never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
-}
+gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, saya tidak bisa menjelaskan arti namamu secara pasti karena Tio bisa berasal dari berbagai bahasa dan memiliki arti yang berbeda-beda.  Untuk mengetahui arti nama Tio yang tepat, saya perlu tahu asal usulnya.  Apakah Tio berasal dari bahasa Indonesia, Tionghoa, Portugis, atau bahasa lainnya?  Jika kamu bisa memberitahukan asal usulnya, saya mungkin bisa membantumu mencari artinya.\n'
+  content: 'Nama Anda adalah Tio.  Arti nama Tio bervariasi tergantung dari asal dan bahasanya.  Tidak ada satu arti yang pasti.  Berikut beberapa kemungkinan:\n' +
+    '\n' +
+    '* **Dalam bahasa Indonesia:** Tio sering digunakan sebagai nama panggilan atau nama pendek, dan tidak memiliki arti yang spesifik secara leksikal.  Artinya lebih kepada nama yang mudah diingat dan diucapkan.\n' +
+    '\n' +
+    '* **Dalam bahasa Tionghoa:**  Tio bisa jadi merupakan transliterasi dari nama Tionghoa, dan artinya akan tergantung pada karakter Tionghoa yang digunakan.  Tanpa mengetahui karakter aslinya, tidak mungkin menentukan artinya.\n' +
+    '\n' +
+    '* **Dalam bahasa lain:**  Kemungkinan juga Tio merupakan variasi dari nama-nama di bahasa lain.  Sekali lagi, tanpa informasi lebih lanjut, sulit untuk menentukan artinya.\n' +
+    '\n' +
+    'Jadi, untuk mengetahui arti nama Tio secara pasti, Anda perlu memberikan informasi lebih detail tentang asal-usul nama tersebut.  Apakah Anda tahu dari bahasa mana nama itu berasal, atau mungkin ada cerita atau sejarah di balik nama tersebut?\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself is deeply philosophical and has been pondered by people across cultures and throughout history.  Different perspectives include:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if any, is often considered to be subjective and personal.\n" +
+    '\n' +
+    'Some common perspectives include:\n' +
     '\n' +
     '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
-    "* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.  There's no pre-ordained meaning.\n" +
-    '* **Absurdism:**  Acknowledges the conflict between the human search for meaning and the meaninglessness of the universe.  Finding meaning involves embracing this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment or salvation.\n' +
-    '* **Hedonism:** The pursuit of pleasure and avoidance of pain as the primary goal of life.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, contributions to society, and personal growth.\n' +
+    '* **Existentialism:**  The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
+    '* **Religious and Spiritual Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment or salvation.\n' +
+    '* **Humanism:** Focuses on human values, reason, and ethics, suggesting meaning is found in human connection, contribution, and self-improvement.\n' +
+    '* **Hedonism:**  The belief that pleasure and happiness are the ultimate goals of life.\n' +
     '\n' +
-    "Ultimately, the meaning of life is a deeply personal question.  What gives your life meaning might be different from what gives someone else's life meaning.  It's often something discovered through experiences, reflection, and the choices you make.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal reflection and discovery, and the answer may evolve throughout your life.\n"
 }
