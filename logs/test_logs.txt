@@ -6,63 +6,59 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: 'I am doing well, thank you for asking!  How are you today?\n'
+  content: 'I am doing well, thank you for asking! How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1436707 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 e0 08 02 00 00 00 85 eb 92 6c 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1253070 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a lush green landscape, likely a forest or plantation.  The photo appears to be a candid shot, rather than a formal portrait.  It doesn't convey any specific event or message beyond showing the president in a relaxed setting.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The context suggests it's likely a candid shot taken during a visit or event, possibly showcasing his connection to the Indonesian natural environment.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong.  Astagfirullahaladzim. Astagfirullahaladzim. Kerjaa lembur bagai kuda. Sape lu pa orang tua?\n'
+  content: 'Kosong. Astagfirullahalazim. Astagfirullahalazim. Kerjaan lembur bagai kuda. Sape lu pa orang tua?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'This video shows the singer Rick Astley performing the first lines of his 1987 song, "Never Gonna Give You Up." The video has the look and feel of an older video recording, possibly from an MTV or other televised performance.\n' +
+  content: 'This video is a typical Rickroll, featuring Rick Astley singing and dancing to his 1987 hit, “Never Gonna Give You Up.” The words “GET RICKROLLED” are superimposed over the footage. The original “Never Gonna Give You Up” music video is shown, and the music begins at [00:00:06].\n' +
     '\n' +
-    'The superimposed text on the screen states "GET RICK ROLLED." \n' +
-    '\n' +
-    'Rick Astley’s lyrics, from the song, are as follows:\n' +
-    '\n' +
-    '(Music)\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you'
+    '[00:00:06] Never gonna give you up\n' +
+    '[00:00:08] Never gonna let you down\n' +
+    '[00:00:10] Never gonna run around and desert you\n' +
+    '[00:00:13] Never gonna make you cry\n' +
+    '[00:00:14] Never gonna say goodbye\n' +
+    '[00:00:16] Never gonna tell a lie and hurt you'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Sayangnya, asal-usul dan arti nama Tio agak rumit karena tergantung konteksnya.  Tio bisa menjadi:\n' +
+  content: 'Namamu adalah Tio.  Sayangnya, asal-usul dan arti nama Tio agak rumit karena bisa memiliki beberapa sumber dan interpretasi berbeda tergantung budaya dan bahasa.  \n' +
     '\n' +
-    '* **Singkatan atau bentuk pendek:**  Bisa jadi singkatan dari nama lain, seperti  Tiago,  Tristian,  di Indonesia mungkin juga  sebuah singkatan dari nama yang lebih panjang.  Tanpa tahu nama lengkapmu, sulit menentukan artinya dari singkatan ini.\n' +
+    '* **Di Indonesia,** Tio seringkali digunakan sebagai nama pendek atau panggilan sayang, dan tidak memiliki arti khusus yang terdefinisi dengan baik.  Ia bisa merupakan kependekan dari nama lain atau sekadar nama yang dipilih karena bunyinya yang enak didengar.\n' +
     '\n' +
-    '* **Nama sendiri:** Di beberapa budaya, Tio mungkin merupakan nama yang berdiri sendiri.  Namun, tanpa mengetahui asal usul budaya atau bahasa spesifik, tidak mungkin untuk memberikan arti yang pasti.  Kemungkinan besar,  arti namanya akan bervariasi tergantung budaya dan bahasa yang menjadi sumbernya.\n' +
+    '* **Di beberapa budaya lain,**  Tio bisa menjadi variasi dari nama-nama lain yang memiliki arti berbeda.  Misalnya, bisa jadi terkait dengan nama-nama yang berarti "orang yang kuat," "pemberani," atau "bijaksana," tetapi tanpa konteks lebih lanjut, sulit untuk memastikannya.\n' +
     '\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio secara pasti,  aku butuh informasi tambahan.  Apakah kamu tahu asal-usul namamu?  Apakah ada nama lengkap yang lebih panjang?  Mengetahui hal ini akan membantuku menjelaskan arti namamu dengan lebih akurat.\n'
+    'Intinya, tanpa informasi tambahan mengenai latar belakang keluarga atau asal-usul namamu,  arti spesifik nama Tio sulit untuk ditentukan.  Nama Tio lebih cenderung  memiliki makna personal yang diberikan oleh orang tuamu.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, with different perspectives offered by religion, philosophy, science, and individual experience.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal.  Different people and cultures find meaning in various things, including:\n" +
     '\n' +
-    'Some common viewpoints include:\n' +
+    '* **Relationships:** Love, family, friendship, community.  The connections we share with others can provide a profound sense of purpose and belonging.\n' +
     '\n' +
-    '* **Religious perspectives:** Many religions offer answers centered around serving a higher power, following divine commandments, achieving enlightenment, or reaching a spiritual goal like heaven or nirvana.  The meaning often involves finding purpose through faith and community.\n' +
+    '* **Contribution:** Making a difference in the world, whether through work, volunteering, creativity, or simply acts of kindness. Leaving a positive impact on others or society.\n' +
     '\n' +
-    '* **Philosophical perspectives:** Philosophers have explored the meaning of life for centuries, proposing ideas ranging from nihilism (life is inherently meaningless) to existentialism (we create our own meaning) to absurdism (the search for meaning is inherently futile but we should embrace the absurdity).\n' +
+    '* **Experiences:**  Travel, learning, personal growth, pursuing passions and hobbies.  The accumulation of life experiences can shape our understanding of ourselves and the world.\n' +
     '\n' +
-    "* **Scientific perspectives:** Science generally doesn't address the meaning of life directly.  It focuses on understanding the physical world, including the origins and evolution of life.  However, scientific understanding can inform our personal search for meaning by providing a framework for understanding our place in the universe.\n" +
+    '* **Spirituality or Religion:**  Finding meaning and purpose through faith, belief in a higher power, and connection to something greater than oneself.\n' +
     '\n' +
-    '* **Personal perspectives:** Ultimately, the meaning of life is often a deeply personal and subjective matter.  Individuals may find meaning in relationships, work, creativity, contributing to society, personal growth, or simply experiencing the world.\n' +
+    "* **Self-discovery:**  Understanding one's values, strengths, and weaknesses; pursuing personal goals and striving for self-actualization.\n" +
     '\n' +
-    "In short, there's no right or wrong answer.  The search for meaning is a journey of self-discovery, and the answer is likely unique to each individual.\n"
+    '* **Creativity:** Expressing oneself through art, music, writing, or other creative pursuits.\n' +
+    '\n' +
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal reflection and ongoing exploration. There's no right or wrong answer; the meaning is subjective and can evolve throughout your life.\n"
 }
