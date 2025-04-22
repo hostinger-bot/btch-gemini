@@ -9,53 +9,41 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1938450 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1212743 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a forested landscape.  The context of the photo is unknown without more information; it could be from a press release, a news article, or simply a personal photograph.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a landscape of trees.  The context is missing, so it's impossible to say more about the specific event or situation the photo depicts.  It could be from a press event, a visit to a location, or simply a posed photograph.\n"
 }
 Testing gemini_audio...
-gemini_audio Response: {
-  success: true,
-  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerjaan lembur bagai kuda. Sapaelu paurang dua.\n'
-}
+gemini_audio Error: Request failed with status code 502
 Testing gemini_video...
-gemini_video Response: {
-  success: true,
-  content: 'The video shows a brief segment of the music video for Rick Astley’s song "Never Gonna Give You Up". The lyrics at the beginning are not present in the original song, but are added in the edit to emphasize that this video is a "Rickroll".\n' +
-    '\n' +
-    'The audio begins with three drum beats and the text “Get Rick Rolled”. The music then fades in with the beginning of the song “Never Gonna Give You Up”.'
-}
+gemini_video Error: Request failed with status code 500
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Namamu adalah Tio.  Arti nama Tio sendiri agak rumit karena tergantung dari asal dan konteksnya.  Tidak ada satu arti pasti untuk nama Tio.  Bisa jadi:\n' +
+  content: 'Nama Anda adalah Tio.  Sayangnya, saya tidak memiliki akses ke basis data nama dan artinya yang komprehensif.  Arti nama Tio bisa bervariasi tergantung dari asal dan budayanya.  \n' +
     '\n' +
-    '* **Singkatan atau kependekan:**  Tio bisa menjadi singkatan dari nama yang lebih panjang.  Tanpa mengetahui nama lengkapmu, ini sulit untuk dipastikan.\n' +
+    'Untuk mengetahui arti nama Tio, saya sarankan Anda:\n' +
     '\n' +
-    '* **Nama panggilan:**  Mungkin Tio adalah nama panggilan (nickname) yang diberikan kepadamu dan bukan nama resmi.\n' +
+    '* **Mencari di internet:** Gunakan mesin pencari seperti Google dengan kata kunci "arti nama Tio" atau "asal usul nama Tio".  Anda akan menemukan berbagai sumber yang mungkin memberikan penjelasan yang berbeda-beda.\n' +
+    '* **Bertanya kepada keluarga:** Orang tua atau kerabat Anda mungkin tahu asal usul dan arti nama Tio yang diberikan kepada Anda.\n' +
     '\n' +
-    '* **Asal bahasa yang beragam:**  Nama Tio dapat berasal dari berbagai bahasa dan budaya, masing-masing dengan kemungkinan arti yang berbeda.  Beberapa kemungkinan (meski tidak pasti) meliputi:\n' +
-    '\n' +
-    '    * **Bahasa Indonesia:**  Bisa jadi merupakan variasi dari nama lain atau sebuah nama yang unik.\n' +
-    '    * **Bahasa Tionghoa:** Kemungkinan ada nama-nama Tionghoa yang disingkat menjadi Tio.  Namun, tanpa mengetahui karakter Tionghoa-nya, ini hanya spekulasi.\n' +
-    '    * **Bahasa lain:**  Kemungkinannya terbuka lebar karena Tio adalah nama yang cukup pendek dan bisa muncul dalam berbagai bahasa.\n' +
-    '\n' +
-    'Untuk mengetahui arti nama Tio yang tepat, kamu perlu memberikan informasi lebih lanjut, seperti asal usul nama tersebut atau nama lengkapmu.\n'
+    'Semoga informasi ini membantu!\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally agreed-upon answer to the meaning of life.  The question itself is deeply philosophical and has been pondered by thinkers and individuals for millennia.  Different perspectives exist, including:\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning, if any, is often considered to be subjective and personal, shaped by individual experiences, beliefs, and values.\n" +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently meaningless.\n' +
-    '* **Existentialism:** The belief that life is inherently meaningless, but that we create our own meaning and purpose through our choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Religious and spiritual beliefs:** Many religions and spiritual practices offer answers about the meaning of life, often involving a divine purpose, afterlife, or service to a higher power.\n' +
-    '* **Hedonism:** The belief that the meaning of life is to pursue pleasure and avoid pain.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, emphasizing the importance of human flourishing and contributing to society.\n' +
+    'Some common perspectives include:\n' +
     '\n' +
+    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
+    '* **Absurdism:** The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving a higher power, an afterlife, and a divine purpose.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contributing to society.\n' +
+    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
     '\n' +
-    'Ultimately, the meaning of life is a personal question.  What gives *your* life meaning is something you must determine for yourself.  Consider what brings you joy, fulfillment, and a sense of purpose.  It might be relationships, creativity, contributing to something larger than yourself, personal growth, or a combination of these and other factors.\n'
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal exploration and discovery.  Instead of searching for a definitive answer, consider what brings you fulfillment, joy, and a sense of purpose.  What values are important to you? What impact do you want to have on the world?  These are the questions that can guide you towards your own personal meaning.\n"
 }
