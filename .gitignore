@@ -1,30 +1,44 @@
-# Node modules
 node_modules/
-
-# Logs
+.yarn/
+dist/
+test/
+build/
+out/
+docs/
+examples/
+coverage/
+.nyc_output/
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Environment variables
+pnpm-debug.log*
+*.gz
+*.zip
+*.map
 .env
-
-# System files
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
 .DS_Store
 Thumbs.db
-
-# Temporary files
 *.tmp
 *.temp
-
-# IDE-specific files
+*.cache
+.eslintcache
+.prettiercache
 .vscode/
 .idea/
 *.iml
-
-# Test coverage
-coverage/
-.nyc_output/
-
-# Exclude personal directories
+*.tsbuildinfo
+.github/
+.gitignore
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
 /sdcard/npm-gemini/.cache
+*.bak
+*.swp
+*.swo
