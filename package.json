@@ -1,4 +1,4 @@
-{
+ {
   "name": "btch-gemini",
   "version": "5.0.0",
   "description": "A package for communicating with the Gemini API for chat and image processing.",
@@ -12,13 +12,13 @@
       "types": "./dist/src/cjs/types/src/index.d.ts"
     }
   },
-"scripts": {
-  "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json && node -e \"require('fs').mkdirSync('dist/esm', {recursive: true})\" && node -e \"if(require('fs').existsSync('dist/cjs/index.js')) require('fs').copyFileSync('dist/cjs/index.js', 'dist/index.js')\" && node -e \"if(require('fs').existsSync('dist/esm/index.mjs')) require('fs').copyFileSync('dist/esm/index.mjs', 'dist/index.mjs')\" && node -e \"if(require('fs').existsSync('dist/cjs/index.d.ts')) require('fs').copyFileSync('dist/cjs/index.d.ts', 'dist/index.d.ts')\" && node -e \"if(require('fs').existsSync('dist/cjs/version.js')) require('fs').copyFileSync('dist/cjs/version.js', 'dist/version.js')\" && node -e \"if(require('fs').existsSync('dist/cjs/version.d.ts')) require('fs').copyFileSync('dist/cjs/version.d.ts', 'dist/version.d.ts')\"",
-  "start": "node dist/index.js",
-  "test": "jest",
-  "prepublishOnly": "npm run build",
-  "prepare": "npm run build"
-},
+  "scripts": {
+    "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json && node -e \"require('fs').mkdirSync('dist/esm', {recursive: true})\" && node -e \"if(require('fs').existsSync('dist/cjs/index.js')) require('fs').copyFileSync('dist/cjs/index.js', 'dist/index.js')\" && node -e \"if(require('fs').existsSync('dist/esm/index.mjs')) require('fs').copyFileSync('dist/esm/index.mjs', 'dist/index.mjs')\" && node -e \"if(require('fs').existsSync('dist/cjs/index.d.ts')) require('fs').copyFileSync('dist/cjs/index.d.ts', 'dist/index.d.ts')\" && node -e \"if(require('fs').existsSync('dist/cjs/version.js')) require('fs').copyFileSync('dist/cjs/version.js', 'dist/version.js')\" && node -e \"if(require('fs').existsSync('dist/cjs/version.d.ts')) require('fs').copyFileSync('dist/cjs/version.d.ts', 'dist/version.d.ts')\"",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
+  },
   "files": [
     "dist/",
     "README.md",
@@ -69,10 +69,18 @@
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",
-    "testMatch": ["**/test/*.ts", "**/test/**/*.ts"],
-    "moduleFileExtensions": ["ts", "js"],
+    "testMatch": ["**/test/**/*.test.ts"],
+    "moduleFileExtensions": ["ts", "js", "json"],
+    "roots": ["<rootDir>/test", "<rootDir>"],
     "transform": {
-      "^.+\\.ts$": "ts-jest"
-    }
+      "^.+\\.ts$": ["ts-jest", { "tsconfig": "tsconfig.cjs.json" }]
+    },
+    "moduleNameMapper": {
+      "^.+\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    },
+    "haste": {
+      "forceNodeFilesystemAPI": true
+    },
+    "modulePathIgnorePatterns": ["<rootDir>/dist/"]
   }
 }
