@@ -1,6 +1,5 @@
 node_modules/
 .yarn/
-test/
 build/
 out/
 docs/
