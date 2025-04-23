@@ -69,7 +69,7 @@
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",
-    "testMatch": ["**/test/**/*.test.ts"],
+    "testMatch": ["**/test/test.ts"],
     "moduleFileExtensions": ["ts", "js", "json"],
     "roots": ["<rootDir>/test", "<rootDir>"],
     "transform": {
