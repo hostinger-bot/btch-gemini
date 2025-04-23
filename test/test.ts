@@ -6,7 +6,7 @@ import {
   gemini_history,
   gemini_imgedit,
   gemini_prompt,
-} from '../index';
+} from '../src/index';
 
 // Define the Message interface to match src/main.ts
 interface Message {
