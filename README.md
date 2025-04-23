@@ -1,14 +1,15 @@
+
 # btch-gemini Unofficial Module
 
 ## Description
 
-**btch-gemini** is a lightweight Node.js package for seamlessly interacting with the Gemini API. It provides simple, efficient methods for sending chat prompts, processing image descriptions, and handling various media types like audio and video with robust error handling.
+**btch-gemini** is a lightweight, TypeScript-based Node.js package for interacting with the Gemini API. It provides simple, efficient methods for sending chat prompts, processing images, audio, and video, editing images, managing conversation history, and handling system prompts. Built with robust error handling and dual-module support (CommonJS and ESM), it’s ideal for modern JavaScript and TypeScript projects.
 
 ## Prerequisites
 
 - Node.js version 16 or higher
 - An active internet connection
-- API access to the Gemini service
+- API access to the Gemini service (ensure `https://gemini-api.zone.id` is accessible)
 
 ## Installation
 
@@ -21,162 +22,229 @@ npm install btch-gemini
 ## Features
 
 - 🤖 `gemini_chat`: Send text prompts to the Gemini chat API
-- 🖼️ `gemini_image`: Process image descriptions using text prompts and image URLs
-- 🎨 `gemini_imgedit`: Edit image descriptions using text prompts and image URLs
+- 🖼️ `gemini_image`: Analyze images using text prompts and image URLs
+- 🎨 `gemini_imgedit`: Edit images using text prompts and image URLs
 - 🎵 `gemini_audio`: Process audio files from URLs
 - 🎥 `gemini_video`: Analyze video files from URLs
-- 🧠 `gemini_history`: Retrieve past interactions to continue conversations
+- 🧠 `gemini_history`: Continue conversations using past interactions
+- 📜 `gemini_prompt`: Execute system prompts with queries
 - 🔐 Comprehensive input validation
-- 🚀 Easy-to-use asynchronous methods
+- 🚀 Asynchronous methods with TypeScript support
+- ⚙️ Dual-module support (CommonJS and ESM)
 
 ## Usage
 
 ### Import the Package
 
+#### CommonJS (CJS)
+
 ```javascript
-const Gemini = require('btch-gemini');
+const { gemini_chat, gemini_image, gemini_imgedit, gemini_audio, gemini_video, gemini_history, gemini_prompt } = require('btch-gemini');
 ```
 
-### ESM
+#### ECMAScript Modules (ESM)
+
 ```javascript
-import pkg from 'btch-gemini';
-const Gemini = pkg;
+import { gemini_chat, gemini_image, gemini_imgedit, gemini_audio, gemini_video, gemini_history, gemini_prompt } from 'btch-gemini';
+```
+
+#### TypeScript
+
+```typescript
+import { gemini_chat, gemini_image, gemini_imgedit, gemini_audio, gemini_video, gemini_history, gemini_prompt } from 'btch-gemini';
+```
+
+**Note**: The package provides TypeScript declaration files (`.d.ts`) in the `dist/` directory, ensuring full type safety.
+
+### Sample ESM/CJS Code
+
+#### CommonJS Example
+
+```javascript
+const { gemini_chat, gemini_image, gemini_imgedit, gemini_audio, gemini_video, gemini_history, gemini_prompt } = require('btch-gemini');
+
+async function runExamples() {
+  // Chat Interaction
+  try {
+    console.log('Testing gemini_chat...');
+    const prompt = 'Hello, how are you?';
+    const response = await gemini_chat(prompt);
+    console.log('gemini_chat Response:', response);
+  } catch (error) {
+    console.error('Chat Error:', error.message);
+  }
+
+  // Other examples (image, audio, etc.) follow the same pattern
+}
+
+runExamples();
+```
+
+#### ESM Example
+
+```javascript
+import { gemini_chat, gemini_image, gemini_imgedit, gemini_audio, gemini_video, gemini_history, gemini_prompt } from 'btch-gemini';
+
+async function runExamples() {
+  // Chat Interaction
+  try {
+    console.log('Testing gemini_chat...');
+    const prompt = 'Hello, how are you?';
+    const response = await gemini_chat(prompt);
+    console.log('gemini_chat Response:', response);
+  } catch (error) {
+    console.error('Chat Error:', error.message);
+  }
+
+  // Other examples (image, audio, etc.) follow the same pattern
+}
+
+runExamples();
 ```
 
 ### Chat Interaction
 
 ```javascript
 async function chatExample() {
-    try {
-        const prompt = "Hello, how are you?";
-        const response = await Gemini.gemini_chat(prompt);
-        console.log(response);
-    } catch (error) {
-        console.error('Chat Error:', error.message);
-    }
+  try {
+    const prompt = 'Hello, how are you?';
+    const response = await gemini_chat(prompt);
+    console.log('Response:', response);
+  } catch (error) {
+    console.error('Chat Error:', error.message);
+  }
 }
+chatExample();
 ```
 
 ### Image Processing
 
 ```javascript
 async function imageExample() {
-    try {
-        const prompt = "What is this image about?";
-        const imageUrl = "https://files.catbox.moe/a13ppy.jpg";
-        const response = await Gemini.gemini_image(prompt, imageUrl);
-        console.log(response);
-    } catch (error) {
-        console.error('Image Processing Error:', error.message);
-    }
+  try {
+    const prompt = 'What is this image about?';
+    const imageUrl = 'https://files.catbox.moe/a13ppy.jpg';
+    const response = await gemini_image(prompt, imageUrl);
+    console.log('Response:', response);
+  } catch (error) {
+    console.error('Image Processing Error:', error.message);
+  }
 }
+imageExample();
 ```
-### Image Edit
+
+### Image Editing
 
 ```javascript
-async function imageeditExample() {
-    try {
-        const prompt = "Transform this into a watercolor painting";
-        const imageUrl = "https://files.catbox.moe/a13ppy.jpg";
-        const response = await Gemini.gemini_imgedit(prompt, imageUrl);
-        console.log(response); // image buffer 
-    } catch (error) {
-        console.error('Edit Image Error:', error.message);
-    }
+async function imageEditExample() {
+  try {
+    const prompt = 'Transform this into a watercolor painting';
+    const imageUrl = 'https://files.catbox.moe/a13ppy.jpg';
+    const response = await gemini_imgedit(prompt, imageUrl);
+    console.log('Response:', `<Buffer ${response.toString('hex', 0, 50)} ... ${response.length - 50} more bytes>`);
+  } catch (error) {
+    console.error('Image Edit Error:', error.message);
+  }
 }
+imageEditExample();
 ```
-
 
 ### Audio Processing
 
 ```javascript
 async function audioExample() {
-    try {
-        const audioUrl = "https://files.catbox.moe/pj7g2g.opus"; // URL AUDIO
-        let prompt = "Please transcribe this audio"
-        const response = await Gemini.gemini_audio(audioUrl, prompt);
-        console.log(response);
-    } catch (error) {
-        console.error('Audio Processing Error:', error.message);
-    }
+  try {
+    const audioUrl = 'https://files.catbox.moe/pj7g2g.opus';
+    const prompt = 'Please transcribe this audio';
+    const response = await gemini_audio(audioUrl, prompt);
+    console.log('Response:', response);
+  } catch (error) {
+    console.error('Audio Processing Error:', error.message);
+  }
 }
+audioExample();
 ```
 
 ### Video Processing
 
 ```javascript
 async function videoExample() {
-    try {
-        const videoUrl = "https://files.catbox.moe/4fozd2.mp4";
-       let prompt = "Please describe this video and transcribe the audio"
-        const response = await Gemini.gemini_video(videoUrl, prompt)
-        console.log(response);
-    } catch (error) {
-        console.error('Video Processing Error:', error.message);
-    }
+  try {
+    const videoUrl = 'https://files.catbox.moe/4fozd2.mp4';
+    const prompt = 'Please describe this video and transcribe the audio';
+    const response = await gemini_video(videoUrl, prompt);
+    console.log('Response:', response);
+  } catch (error) {
+    console.error('Video Processing Error:', error.message);
+  }
 }
+videoExample();
 ```
 
 ### History Interaction
 
 ```javascript
 async function historyExample() {
-    try {
-        const history = [
-            { role: "user", content: "Hai! Nama saya Tio" },
-            { role: "assistant", content: "Halo Tio, Senang bertemu dengan mu." },
-            { role: "user", content: "Siapa nama saya yah jelaskan arti nama saya" }
-        ];
-        const response = await Gemini.gemini_history(history);
-        console.log(response);
-    } catch (error) {
-        console.error('History Interaction Error:', error.message);
-    }
+  try {
+    const history = [
+      { role: 'user', content: 'Hai! Nama saya Tio' },
+      { role: 'assistant', content: 'Halo Tio, Senang bertemu dengan mu.' },
+      { role: 'user', content: 'Siapa nama saya yah jelaskan arti nama saya' }
+    ];
+    const response = await gemini_history(history);
+    console.log('Response:', response);
+  } catch (error) {
+    console.error('History Interaction Error:', error.message);
+  }
 }
+historyExample();
 ```
 
 ### System Prompt and Query
 
 ```javascript
 async function promptExample() {
-    try {
-        const systemPrompt = "This is a system instruction";
-        const query = "What is the meaning of life?";
-        const response = await Gemini.gemini_prompt(systemPrompt, query);
-        console.log(response);
-    } catch (error) {
-        console.error('Prompt Interaction Error:', error.message);
-    }
+  try {
+    const systemPrompt = 'This is a system instruction';
+    const query = 'What is the meaning of life?';
+    const response = await gemini_prompt(systemPrompt, query);
+    console.log('Response:', response);
+  } catch (error) {
+    console.error('Prompt Interaction Error:', error.message);
+  }
 }
+promptExample();
 ```
 
 ## Error Handling
 
-The package provides detailed error messages:
+The package includes robust input validation with detailed error messages:
 
-- `gemini_chat`: Validates prompt input
-- `gemini_image`: Validates both prompt and image URL
-- `gemini_audio`: Validates audio URL
-- `gemini_video`: Validates video URL
-- `gemini_history`: Ensures valid message structure
-- `gemini_prompt`: Validates prompt and query
+- `gemini_chat`: Ensures prompt is a non-empty string
+- `gemini_image`: Validates prompt and image URL
+- `gemini_imgedit`: Validates prompt and image URL, returns a Buffer
+- `gemini_audio`: Validates audio URL and optional prompt
+- `gemini_video`: Validates video URL and optional prompt
+- `gemini_history`: Ensures valid message array with correct role and content
+- `gemini_prompt`: Validates system prompt and query
 - Errors are thrown for invalid inputs or API communication issues
-- `gemini_imgedit`: Validates both prompt and image URL
 
 ## API Endpoints
 
-- Chat API: `https://gemini-api.zone.id/gemini/chat`
-- Image API: `https://gemini-api.zone.id/gemini/image`
-- Audio API: `https://gemini-api.zone.id/gemini/audio`
-- Video API: `https://gemini-api.zone.id/gemini/video`
-- Edit API: `https://gemini-api.zone.id/gemini/imgedit`
-- History API: `https://gemini-api.zone.id/gemini/history`
-- Prompt API: `https://gemini-api.zone.id/gemini/prompt`
+The package interacts with the following Gemini API endpoints:
+
+- Chat: `https://gemini-api.zone.id/gemini/chat`
+- Image: `https://gemini-api.zone.id/gemini/image`
+- Image Edit: `https://gemini-api.zone.id/gemini/imgedit`
+- Audio: `https://gemini-api.zone.id/gemini/audio`
+- Video: `https://gemini-api.zone.id/gemini/video`
+- History: `https://gemini-api.zone.id/gemini/history`
+- Prompt: `https://gemini-api.zone.id/gemini/prompt`
 
 ## Support
 
-If you encounter any issues or have questions, please [open an issue](https://github.com/hostinger-bot/btch-gemini/issues) on GitHub.
+For issues or questions, please [open an issue](https://github.com/hostinger-bot/btch-gemini/issues) on GitHub.
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the [MIT License](LICENSE). See the `LICENSE` file for more information.
