@@ -19,8 +19,7 @@
   "prepublishOnly": "npm run build",
   "prepare": "npm run build",
   "postinstall": "npm run build"
-}
-,
+},
   "files": [
     "dist/",
     "README.md",
