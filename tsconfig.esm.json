@@ -14,7 +14,7 @@
   },
   "include": [
     "src/**/*",
-    "version.ts"
+    "package.json"
   ],
   "exclude": [
     "node_modules",
