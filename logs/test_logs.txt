@@ -9,54 +9,63 @@ gemini_chat Response: {
   content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 d8 00 00 04 00 08 02 00 00 00 54 0c b9 2a 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 744955 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 02 a8 08 02 00 00 00 66 e0 1a 6d 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 984874 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant, forested landscape.  The picture likely aims to portray him in a contemplative or thoughtful mood, possibly connected to environmental issues or the natural beauty of Indonesia.  It could be part of a larger series of photos showing his activities or travels.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  It's a posed portrait, likely taken for official purposes or media.  The context is missing, so more specifics about the situation aren't possible from just the image itself.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong. Astagfirullahaladzim. Astagfirullahaladzim. Kerja lembur bagai kuda. Sape lu paurang duit.\n'
+  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerja lembur bagai kuda. Sape lupah urang tua?\n'
 }
 Testing gemini_video...
 gemini_video Response: {
   success: true,
-  content: 'Okay, here’s a description and transcription of the audio in this video:\n' +
+  content: 'This video begins by showing a short clip of a man singing, followed by a short message indicating what is about to occur. Then the music video for Rick Astley’s song “Never Gonna Give You Up” begins. The singer is performing in front of a stained glass window effect. He is wearing a black blazer, white and dark gray striped long-sleeved shirt, and light-colored pants.\n' +
     '\n' +
-    'The video begins with a vintage film effect overlaid. It shows a young man, presumably British pop singer Rick Astley, singing and dancing to the opening of his song "Never Gonna Give You Up.” There’s a classic microphone in front of him, the kind that Elvis would have used. The artist is wearing an oversized jacket and pleated pants. His hair is styled in a wave. Throughout the short video, text graphics are superimposed with the words “GET RICK ROLLED.” \n' +
     '\n' +
-    '[00:00:06] Never gonna give you up\n' +
-    '[00:00:08] Never gonna let you down\n' +
-    '[00:00:10] Never gonna run around and desert you\n' +
-    '[00:00:13] Never gonna make you cry\n' +
-    '[00:00:15] Never gonna say goodbye\n' +
-    '[00:00:16] Never gonna tell a lie and hurt you'
+    'The audio for the first six seconds is as follows: \n' +
+    '\n' +
+    '(Music) Never gonna give you up,\n' +
+    'Never gonna let you down,\n' +
+    'Never gonna run around and desert you,\n' +
+    'Never gonna make you cry,\n' +
+    'Never gonna say goodbye,\n' +
+    'Never gonna tell a lie and hurt you.'
 }
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Arti nama Tio sendiri bergantung pada asal dan bahasanya.  Tidak ada satu arti universal yang pasti.  Namun, beberapa kemungkinan interpretasi meliputi:\n' +
+  content: 'Nama Anda adalah Tio.  Arti nama Tio sendiri cukup beragam dan bergantung pada asal-usulnya.  Tidak ada satu arti yang pasti.  Berikut beberapa kemungkinan:\n' +
     '\n' +
-    '* **Sebagai bentuk pendek dari nama-nama lain:** Tio bisa menjadi kependekan dari nama-nama seperti  Tiago,  Antonio,  atau  nama-nama lain yang dimulai dengan "Tio".  Dalam hal ini, arti nama Tio akan bergantung pada nama lengkap yang disingkatnya.\n' +
+    '* **Singkatan atau bentuk pendek:** Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama seperti  Teodoro,  Teofilo,  atau nama-nama lain yang dimulai dengan "Tio".  Dalam hal ini, artinya akan bergantung pada nama lengkap yang disingkat.\n' +
     '\n' +
-    '* **Arti dalam bahasa tertentu:** Mungkin ada bahasa atau budaya tertentu di mana Tio memiliki arti khusus.  Jika Anda tahu asal usul nama Anda, itu akan membantu menentukan artinya.  Misalnya, dalam beberapa budaya, Tio bisa berarti "paman"\n' +
+    '* **Asal Bahasa Tionghoa:**  Di beberapa budaya Tionghoa, Tio mungkin merupakan bagian dari nama keluarga atau nama panggilan, dan artinya akan bergantung pada karakter Hanzi yang digunakan.  Tanpa mengetahui karakter tersebut, tidak mungkin menentukan artinya.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang spesifik bagi Anda, Anda perlu memberikan informasi lebih lanjut tentang asal-usul nama Anda.  Dari mana nama Tio berasal dalam keluarga Anda?\n'
+    '* **Asal Bahasa Lain:**  Mungkin juga Tio berasal dari bahasa lain yang belum disebutkan, dan artinya bisa berbeda-beda.\n' +
+    '\n' +
+    'Untuk mengetahui arti nama Tio secara pasti, Anda perlu memberikan informasi lebih lanjut seperti:\n' +
+    '\n' +
+    '* **Nama lengkap Anda:** Jika Tio adalah singkatan, maka nama lengkap akan membantu menentukan artinya.\n' +
+    '* **Asal-usul nama:**  Apakah nama ini berasal dari keluarga, budaya, atau bahasa tertentu?\n' +
+    '\n' +
+    'Dengan informasi tambahan ini, saya bisa mencoba membantu Anda menemukan arti nama Tio yang lebih akurat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for millennia.  The meaning is often considered deeply personal and subjective, shaped by individual experiences, beliefs, and values.\n" +
+  content: "There's no single, universally agreed-upon answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning is often deeply personal and subjective.\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    'Different perspectives include:\n' +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
+    '* **Nihilism:**  The belief that life is inherently without meaning or purpose.\n' +
     '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Spiritual and Religious Beliefs:** Many religions offer answers to the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.\n' +
-    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human relationships, creativity, and contribution to society.\n' +
+    '* **Absurdism:** The acceptance of the inherent conflict between the human search for meaning and the meaninglessness of the universe.\n' +
+    '* **Spiritual and Religious Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, achieving enlightenment, or fulfilling a divine purpose.\n' +
+    '* **Hedonism:** The pursuit of pleasure and avoidance of pain as the ultimate goal.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human connection, creativity, and contribution to society.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it. It's a question of self-discovery and personal reflection.  Consider what brings you joy, fulfillment, and a sense of purpose. What impact do you want to have on the world?  These are questions that can help you define your own meaning.\n"
+    "Ultimately, the meaning of life is what you make it.  It's a question of personal values, beliefs, and experiences.  Instead of searching for a definitive answer, many find fulfillment in exploring their own values, building relationships, contributing to something larger than themselves, and experiencing the world around them.\n"
 }
