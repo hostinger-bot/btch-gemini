@@ -13,7 +13,11 @@
     }
   },
 "scripts": {
-  "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json && mkdir -p dist/esm && [ -f dist/cjs/index.js ] && mv dist/cjs/index.js dist/index.js && [ -f dist/esm/index.mjs ] && mv dist/esm/index.mjs dist/index.mjs && [ -f dist/cjs/index.d.ts ] && mv dist/cjs/index.d.ts dist/index.d.ts",
+  "clean": "rimraf dist",
+  "build:cjs": "tsc -p tsconfig.cjs.json",
+  "build:esm": "tsc -p tsconfig.esm.json",
+  "copy:files": "node scripts/copy-files.js",
+  "build": "npm run clean && npm run build:cjs && npm run build:esm && npm run copy:files",
   "start": "node dist/index.js",
   "test": "jest",
   "prepublishOnly": "npm run build",
