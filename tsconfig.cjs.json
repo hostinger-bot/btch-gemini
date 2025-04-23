@@ -5,21 +5,15 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "declaration": true,
+    "declarationDir": "./dist/cjs/types",
     "strict": true,
     "outDir": "./dist/cjs",
-    "rootDir": ".",
+    "rootDir": "./src",
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "composite": true
   },
-  "include": [
-    "src/**/*",
-    "index.ts",
-    "version.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    "test"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "test"]
 }

@@ -14,7 +14,6 @@
   },
   "include": [
     "src/**/*",
-    "index.ts",
     "version.ts"
   ],
   "exclude": [

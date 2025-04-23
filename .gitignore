@@ -41,3 +41,4 @@ Thumbs.db
 *.bak
 *.swp
 *.swo
+dist/
