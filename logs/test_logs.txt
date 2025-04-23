@@ -6,48 +6,62 @@ Testing gemini_chat...
 [38;5;119mYou are using the Latest Version (4.0.90-alpha) of btch-gemini.[0m
 gemini_chat Response: {
   success: true,
-  content: "I'm doing well, thank you for asking!  How are you today?\n"
+  content: 'I am doing well, thank you for asking!  How are you today?\n'
 }
 Testing gemini_imgedit...
-gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 01 b9 00 00 04 00 08 02 00 00 00 f3 cb b0 65 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 505219 more bytes>
+gemini_imgedit Response: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 04 00 00 00 04 00 08 02 00 00 00 f0 7f bc d4 00 00 00 89 7a 54 58 74 52 61 77 20 70 72 6f 66 69 ... 1674502 more bytes>
 Testing gemini_image...
 gemini_image Response: {
   success: true,
-  content: "That's a picture of Joko Widodo, the President of Indonesia.  The image shows him in profile view, looking out at a forested area.  It's a relatively informal, candid shot, not a formal portrait.  The context of the image (where it was taken, when, etc.) would be needed to determine the specific subject matter of the image beyond just showing the President.\n"
+  content: "That's a photo of Joko Widodo, the President of Indonesia.  The image shows him in profile, looking out at a verdant landscape.  The context is lacking, so it's impossible to say precisely what the image is *about* beyond simply being a picture of the Indonesian president.  It could be from a news article, a personal website, or any number of sources.\n"
 }
 Testing gemini_audio...
 gemini_audio Response: {
   success: true,
-  content: 'Kosong.  Astagfirullahaladzim. Astagfirullahaladzim. Kerjaan lembur bagai kuda.  Sapa eluh paurang duaa.\n'
+  content: 'Kosong. Astaghfirullahaladzim. Astaghfirullahaladzim. Kerja lembur bagai kuda. Sape lu pa orang tua?\n'
 }
 Testing gemini_video...
-gemini_video Error: Request failed with status code 500
+gemini_video Response: {
+  success: true,
+  content: "Sure, here's the description and transcription:\n" +
+    '\n' +
+    'The video shows the singer Rick Astley performing his song “Never Gonna Give You Up” in what looks to be a music video. He is dressed in a dark suit jacket, a white polo shirt with horizontal stripes, and tan pants. He’s also wearing black shoes. He’s dancing in front of an off-white background that has a faint texture.\n' +
+    '\n' +
+    'The song starts, and he’s performing into a stand-up microphone. The words “Get Rick Rolled” are superimposed over the video, which is a reference to the internet prank where someone clicks on a link only to be redirected to this music video.\n' +
+    '\n' +
+    '[00:00:06] Never gonna give you up\n' +
+    '[00:00:08] Never gonna let you down\n' +
+    '[00:00:11] Never gonna run around and desert you\n' +
+    '[00:00:15] Never gonna make you cry\n' +
+    '[00:00:17] Never gonna say goodbye\n' +
+    '[00:00:20] Never gonna tell a lie and hurt you'
+}
 Testing gemini_history...
 gemini_history Response: {
   success: true,
-  content: 'Nama Anda adalah Tio.  Sayangnya, saya tidak memiliki akses ke basis data nama dan artinya secara komprehensif.  Arti nama Tio bervariasi tergantung budaya dan bahasa asalnya.  Beberapa kemungkinan:\n' +
+  content: 'Namamu adalah Tio.  Arti nama Tio beragam tergantung asal dan bahasanya.  Tidak ada satu arti yang pasti.  Berikut beberapa kemungkinan:\n' +
     '\n' +
-    '* **Bisa jadi singkatan atau kependekan dari nama lain:**  Banyak nama memiliki kependekan yang populer.  Jika Tio adalah kependekan, kita perlu mengetahui nama aslinya untuk mengetahui artinya.\n' +
+    '* **Singkatan atau bentuk pendek:**  Tio bisa menjadi singkatan atau bentuk pendek dari nama-nama seperti  Teodoro,  Christian Tio,  atau nama lain yang memiliki awalan "Tio".  Dalam hal ini, artinya akan bergantung pada nama lengkapnya.\n' +
     '\n' +
-    '* **Asal usul Tionghoa:**  Dalam beberapa budaya Tionghoa, Tio bisa menjadi bagian dari nama keluarga atau nama pribadi, tetapi arti spesifiknya bergantung pada karakter Hanzi yang digunakan.\n' +
+    '* **Asal dari Bahasa Indonesia:**  Dalam bahasa Indonesia, Tio bisa diartikan sebagai "paman" (dalam konteks keluarga).  Namun, ini lebih merupakan sebutan daripada nama depan.\n' +
     '\n' +
-    '* **Asal usul lain:**  Mungkin saja Tio berasal dari bahasa atau budaya lain, dan artinya bisa sangat beragam.\n' +
+    '* **Asal dari bahasa lain:**  Tio juga mungkin berasal dari bahasa lain dengan arti yang berbeda.  Tanpa informasi lebih lanjut tentang asal usul namamu, sulit untuk menentukan arti yang tepat.\n' +
     '\n' +
-    'Untuk mengetahui arti nama Tio yang spesifik untuk Anda, mungkin Anda bisa menanyakan kepada orang tua atau keluarga Anda. Mereka akan menjadi sumber informasi terbaik mengenai asal usul dan makna nama Anda.\n'
+    'Untuk mengetahui arti nama Tio yang tepat,  lebih baik bertanya kepada orang tuamu atau kerabat yang memberikan nama tersebut. Mereka akan dapat memberimu informasi yang paling akurat.\n'
 }
 Testing gemini_prompt...
 gemini_prompt Response: {
   success: true,
-  content: "There's no single, universally accepted answer to the meaning of life.  It's a question that has been pondered by philosophers, theologians, and individuals for centuries.  The meaning, if there is one, is often considered to be something personal and subjective, shaped by individual experiences, beliefs, and values.\n" +
+  content: "There's no single, universally accepted answer to the meaning of life.  The question itself is deeply philosophical and personal, and the answer varies greatly depending on individual beliefs, values, and experiences.  Some common perspectives include:\n" +
     '\n' +
-    'Some common perspectives include:\n' +
+    '* **Nihilism:**  The belief that life is inherently meaningless.\n' +
+    '* **Existentialism:** The belief that life is meaningless unless we create our own meaning through our choices and actions.\n' +
+    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, yet we must continue to search nonetheless.\n' +
+    '* **Religious and Spiritual Beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment.  These meanings vary widely across different faiths.\n' +
+    '* **Humanism:**  Focuses on human values, reason, and ethics, finding meaning in human connection, creativity, and contribution to society.\n' +
+    '* **Hedonism:**  Finding meaning in pleasure and happiness.\n' +
+    '* **Purpose-driven life:**  Finding meaning in pursuing goals and contributing to something larger than oneself.\n' +
     '\n' +
-    '* **Nihilism:** The belief that life is inherently without meaning or purpose.\n' +
-    '* **Existentialism:** The belief that individuals create their own meaning and purpose through their choices and actions.\n' +
-    '* **Absurdism:** The belief that the search for meaning in a meaningless universe is inherently absurd, but that we should embrace this absurdity.\n' +
-    '* **Religious and spiritual beliefs:** Many religions offer answers about the meaning of life, often involving serving a higher power, following divine commandments, or achieving enlightenment or salvation.\n' +
-    '* **Humanism:**  Focuses on human values and reason, emphasizing ethical behavior, social justice, and personal fulfillment.\n' +
-    '* **Hedonism:**  The pursuit of pleasure and avoidance of pain as the primary goal in life.\n' +
     '\n' +
-    "Ultimately, the meaning of life is what you make it.  It's a question you need to explore and answer for yourself.  Consider what brings you joy, fulfillment, and purpose. What impact do you want to have on the world?  What kind of person do you want to be?  Reflecting on these questions can help you discover your own personal meaning.\n"
+    "Ultimately, the meaning of life is what you make it. It's a question you must answer for yourself through introspection, reflection, and experience.  There's no right or wrong answer.\n"
 }
