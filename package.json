@@ -1,78 +1,78 @@
 {
-    "name": "btch-gemini",
-    "version": "5.0.0",
-    "description": "A package for communicating with the Gemini API for chat and image processing.",
-    "main": "./dist/cjs/src/index.js",
-    "module": "./dist/esm/src/index.js",
-    "types": "./dist/src/cjs/types/src/index.d.ts",
-    "exports": {
-        ".": {
-            "import": "./dist/index.mjs",
-            "require": "./dist/index.js",
-            "types": "./dist/index.d.ts"
-        }
-    },
-    "scripts": {
-        "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json && node -e \"require('fs').mkdirSync('dist/esm', {recursive: true})\" && node -e \"if(require('fs').existsSync('dist/cjs/index.js')) require('fs').copyFileSync('dist/cjs/index.js', 'dist/index.js')\" && node -e \"if(require('fs').existsSync('dist/esm/index.mjs')) require('fs').copyFileSync('dist/esm/index.mjs', 'dist/index.mjs')\" && node -e \"if(require('fs').existsSync('dist/cjs/index.d.ts')) require('fs').copyFileSync('dist/cjs/index.d.ts', 'dist/index.d.ts')\" && node -e \"if(require('fs').existsSync('dist/cjs/version.js')) require('fs').copyFileSync('dist/cjs/version.js', 'dist/version.js')\" && node -e \"if(require('fs').existsSync('dist/cjs/version.d.ts')) require('fs').copyFileSync('dist/cjs/version.d.ts', 'dist/version.d.ts')\"",
-        "start": "node dist/index.js",
-        "test": "jest",
-        "prepublishOnly": "npm run build",
-        "prepare": "npm run build"
-    },
-    "files": [
-        "dist/",
-        "README.md",
-        "LICENSE"
-    ],
-    "config": {
-        "baseUrl": "https://gemini-api.zone.id",
-        "description": "A package for communicating with the Gemini API for chat and image processing."
-    },
-    "keywords": [
-        "gemini",
-        "chat",
-        "image-processing",
-        "video-processing",
-        "audio-processing",
-        "image-editing",
-        "api",
-        "typescript"
-    ],
-    "author": "BOTCAHX",
-    "license": "MIT",
-    "dependencies": {
-        "axios": "^1.8.2"
-    },
-    "devDependencies": {
-        "@types/jest": "^29.5.0",
-        "@types/node": "^20.0.0",
-        "jest": "^29.5.0",
-        "ts-jest": "^29.1.0",
-        "typescript": "^5.0.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/hostinger-bot/btch-gemini.git"
-    },
-    "bugs": {
-        "url": "https://github.com/hostinger-bot/btch-gemini/issues"
-    },
-    "homepage": "https://github.com/hostinger-bot/btch-gemini#readme",
-    "directories": {
-        "src": "src",
-        "test": "test"
-    },
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org/"
-    },
-    "readme": "README.md",
-    "jest": {
-        "preset": "ts-jest",
-        "testEnvironment": "node",
-        "testMatch": ["**/test/*.ts", "**/test/**/*.ts"],
-        "moduleFileExtensions": ["ts", "js"],
-        "transform": {
-            "^.+\\.ts$": "ts-jest"
-        }
+  "name": "btch-gemini",
+  "version": "5.0.0",
+  "description": "A package for communicating with the Gemini API for chat and image processing.",
+  "main": "./dist/cjs/src/index.js",
+  "module": "./dist/esm/src/index.js",
+  "types": "./dist/src/cjs/types/src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/src/index.js",
+      "require": "./dist/cjs/src/index.js",
+      "types": "./dist/src/cjs/types/src/index.d.ts"
     }
+  },
+"scripts": {
+  "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json && node -e \"require('fs').mkdirSync('dist/esm', {recursive: true})\" && node -e \"if(require('fs').existsSync('dist/cjs/index.js')) require('fs').copyFileSync('dist/cjs/index.js', 'dist/index.js')\" && node -e \"if(require('fs').existsSync('dist/esm/index.mjs')) require('fs').copyFileSync('dist/esm/index.mjs', 'dist/index.mjs')\" && node -e \"if(require('fs').existsSync('dist/cjs/index.d.ts')) require('fs').copyFileSync('dist/cjs/index.d.ts', 'dist/index.d.ts')\" && node -e \"if(require('fs').existsSync('dist/cjs/version.js')) require('fs').copyFileSync('dist/cjs/version.js', 'dist/version.js')\" && node -e \"if(require('fs').existsSync('dist/cjs/version.d.ts')) require('fs').copyFileSync('dist/cjs/version.d.ts', 'dist/version.d.ts')\"",
+  "start": "node dist/index.js",
+  "test": "jest",
+  "prepublishOnly": "npm run build",
+  "prepare": "npm run build"
+},
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "config": {
+    "baseUrl": "https://gemini-api.zone.id",
+    "description": "A package for communicating with the Gemini API for chat and image processing."
+  },
+  "keywords": [
+    "gemini",
+    "chat",
+    "image-processing",
+    "video-processing",
+    "audio-processing",
+    "image-editing",
+    "api",
+    "typescript"
+  ],
+  "author": "BOTCAHX",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hostinger-bot/btch-gemini.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hostinger-bot/btch-gemini/issues"
+  },
+  "homepage": "https://github.com/hostinger-bot/btch-gemini#readme",
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "readme": "README.md",
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": ["**/test/*.ts", "**/test/**/*.ts"],
+    "moduleFileExtensions": ["ts", "js"],
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    }
+  }
 }
