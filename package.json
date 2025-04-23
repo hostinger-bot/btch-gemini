@@ -13,7 +13,7 @@
     }
   },
   "scripts": {
-    "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json",
+    "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json && cp dist/cjs/index.js dist/index.js && cp dist/esm/index.mjs dist/index.mjs && cp dist/cjs/index.d.ts dist/index.d.ts",
     "start": "node dist/index.js",
     "test": "jest",
     "prepublishOnly": "npm run build",
