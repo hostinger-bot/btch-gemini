@@ -1,50 +1,80 @@
-*.ts
+# Source code
 src/
 test/
-version.ts
 index.ts
-node_modules/
-.yarn/
+version.ts
+*.ts
+
+# Build outputs (jangan abaikan dist/)
 build/
 out/
+*.map
+*.tsbuildinfo
+
+# Output yang perlu disimpan
+# dist/ <- Jangan di-ignore agar bisa di-push
+
+# Docs & examples
 docs/
 examples/
+
+# Coverage & test output
 coverage/
 .nyc_output/
+
+# Logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# Archives
 *.gz
 *.zip
-*.map
+
+# Env files
 .env
 .env.*
 .env.local
 .env.development
 .env.test
 .env.production
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# Editor & tooling files
+.vscode/
+.idea/
+*.iml
 *.tmp
 *.temp
 *.cache
 .eslintcache
 .prettiercache
-.vscode/
-.idea/
-*.iml
-*.tsbuildinfo
+
+# GitHub metadata
 .github/
-.gitignore
-.npmignore
+
+# Package managers
+node_modules/
+.yarn/
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
+
+# Lokal spesifik
 /sdcard/npm-gemini/.cache
+
+# Swap & backup
 *.bak
 *.swp
 *.swo
+
+# Config yang tidak perlu di-push
 tsconfig.json
 CNAME
+.npmignore
+.gitignore
