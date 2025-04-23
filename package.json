@@ -1,9 +1,9 @@
 {
     "name": "btch-gemini",
     "version": "4.0.90-alpha",
+    "description": "A package for communicating with the Gemini API for chat and image processing.",
     "config": {
-        "baseUrl": "https://gemini-api.zone.id",
-        "description": "A package for communicating with the Gemini API for chat and image processing."
+        "baseUrl": "https://gemini-api.zone.id"
     },
     "main": "index.js",
     "scripts": {
